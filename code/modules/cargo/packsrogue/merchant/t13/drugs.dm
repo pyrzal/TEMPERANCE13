@@ -4,7 +4,7 @@
 	crate_type = /obj/structure/closet/crate/chest/merchant
 
 /datum/supply_pack/rogue/drugs/heroin
-	name = "Heroine [LQ] (x3)"
+	name = "Heroine (x3)"
 	cost = 32
 	contains = list(/obj/item/reagent_containers/glass/bottle/alchemical/heroin,
 	/obj/item/reagent_containers/glass/bottle/alchemical/heroin,
