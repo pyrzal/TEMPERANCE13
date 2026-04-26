@@ -39,6 +39,7 @@
 		"Armor (Light)",
 		"FORTIFICATIONS",
 		"FIREARMS",
+		"MEDICINE"
 	)
 	categories_gamer = list()
 	icon_state = "ammovend_s"

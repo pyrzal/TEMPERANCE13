@@ -20,6 +20,6 @@
 /datum/supply_pack/rogue/grenades/highexplosive
 	name = "High-Explosive Grenades (x3)"
 	cost = 65
-	contains = list(/obj/item/grenade, 
-	/obj/item/grenade, 
-	/obj/item/grenade)
+	contains = list(/obj/item/grenade/frag, 
+	/obj/item/grenade/frag, 
+	/obj/item/grenade/frag)

@@ -1268,6 +1268,7 @@
 #include "code\modules\cargo\packsrogue\merchant\armor\merch_armor_light.dm"
 #include "code\modules\cargo\packsrogue\merchant\armor\merch_armor_steel.dm"
 #include "code\modules\cargo\packsrogue\merchant\t13\ammunition.dm"
+#include "code\modules\cargo\packsrogue\merchant\t13\drugs.dm"
 #include "code\modules\cargo\packsrogue\merchant\t13\fortifications.dm"
 #include "code\modules\cargo\packsrogue\merchant\t13\grenades.dm"
 #include "code\modules\cargo\packsrogue\merchant\t13\guns.dm"
