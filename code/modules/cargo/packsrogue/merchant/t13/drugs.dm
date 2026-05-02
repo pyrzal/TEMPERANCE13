@@ -16,9 +16,3 @@
 	contains = list(/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 	/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 	/obj/item/reagent_containers/glass/bottle/alchemical/meth)
-
-/datum/supply_pack/rogue/drugs/wife
-	name = "Wife Pacifier"
-	cost = 450
-	contains = list(/obj/item/dildo/gold)
-
