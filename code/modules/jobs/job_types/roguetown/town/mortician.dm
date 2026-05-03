@@ -3,13 +3,14 @@
 	flag = MORTICIAN
 	department_flag = KINGSROW
 	faction = "Station"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 1
+	spawn_positions = 1
 
 	allowed_races = RACES_TEMPERANCE_NONCOMBATANT
 	allowed_sexes = list(MALE, FEMALE)
-	tutorial = "You're one of the few intelligent enough to understand the new gifts of medicine provided by the MACHINES. \
-				Your job is to handle the dead and wounded of your town - or whoever happens to pay for your services."
+	tutorial = "You are the loyal servant of the former owner's bloodline and the estate. \
+				You have been granted leave to serve foreigners and are expected to tend to the Hierarch while they are still living. \
+				Loyalty is a fickle thing, and is up for you to decide between the Hierarch and their Bulwarks or the Displaced Heir."
 
 	outfit = /datum/outfit/job/roguetown/mortician
 	display_order = JDO_MORTICIAN
