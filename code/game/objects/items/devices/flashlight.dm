@@ -301,7 +301,7 @@
 	light_outer_range = 5
 	on = FALSE
 	flags_1 = CONDUCT_1
-	slot_flags = ITEM_SLOT_HIP
+	slot_flags = ITEM_SLOT_HIP | ITEM_SLOT_NECK
 	obj_flags = CAN_BE_HIT
 	force = 1
 	on_damage = 5
@@ -401,7 +401,7 @@
 	desc = "A simple and cheap lantern."
 	on = FALSE
 	flags_1 = CONDUCT_1
-	slot_flags = ITEM_SLOT_HIP
+	slot_flags = ITEM_SLOT_HIP | ITEM_SLOT_NECK
 	force = 1
 	on_damage = 5
 	fuel = 120 MINUTES
