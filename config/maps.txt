@@ -27,3 +27,7 @@ map temperance
 	default
 	votable
 endmap
+
+map kingsworld
+	votable
+endmap

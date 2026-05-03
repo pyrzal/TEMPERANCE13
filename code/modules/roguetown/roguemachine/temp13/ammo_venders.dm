@@ -1,11 +1,10 @@
 /obj/structure/roguemachine/goldface/public/katarina
 	name = "KATARINA"
-	desc = "Grab your ammo, and kill those filthy Knights."
+	desc = "Grab your gear, and kill those filthy Knights."
 	extra_fee = 0.8
 	is_public = TRUE
 	locked = FALSE
 	categories = list(
-		"AMMUNITION",
 		"FORTIFICATIONS",
 		"GRENADES",
 	)
@@ -14,12 +13,11 @@
 
 /obj/structure/roguemachine/goldface/public/grace
 	name = "GRACE"
-	desc = "Grab your ammo, and kill those filthy Zigs."
+	desc = "Grab your gear, and kill those filthy Zigs."
 	extra_fee = 0.8
 	is_public = TRUE
 	locked = FALSE
 	categories = list(
-		"AMMUNITION",
 		"FORTIFICATIONS",
 		"GRENADES",
 	)

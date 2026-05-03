@@ -100,6 +100,10 @@
 			else
 				. += span_notice("A noble!")
 
+		// Knotted effect message
+		if(has_status_effect(/datum/status_effect/knot_tied))
+			. += span_warning("A knot is locked inside [p_them()].")
+			
 		if (HAS_TRAIT(src, TRAIT_OUTLANDER) && !HAS_TRAIT(user, TRAIT_OUTLANDER)) 
 			. += span_phobia("A foreigner...")
 
@@ -169,9 +173,9 @@
 						. += span_nicegreen("[m1] privy to the dangers of all these strangers around us. [m1] just as afraid as I am.")
 					else
 						. += span_nicegreen("[m1] one of the good ones. [m1] just as afraid as I am.")
-			if(has_flaw(/datum/charflaw/masochist) && user.has_flaw(/datum/charflaw/addiction/sadist))
+			if(has_flaw(/datum/charflaw/addiction/masochist) && user.has_flaw(/datum/charflaw/addiction/sadist))
 				. += span_secradio("[m1] marked by scars inflicted for pleasure. A delectable target for my urges.")
-			if(has_flaw(/datum/charflaw/addiction/sadist) && user.has_flaw(/datum/charflaw/masochist))
+			if(has_flaw(/datum/charflaw/addiction/sadist) && user.has_flaw(/datum/charflaw/addiction/masochist))
 				. += span_secradio("[m1] looking with eyes filled with a desire to inflict pain. So exciting.")
 			if(HAS_TRAIT(user, TRAIT_EMPATH) && HAS_TRAIT(src, TRAIT_PERMAMUTE))
 				. += span_notice("[m1] lacks a voice. [m1] is a mute!")

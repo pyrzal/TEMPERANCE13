@@ -120,7 +120,7 @@
 	name = "dynamite"
 	desc = "A curious concotion of explosive powders packed into a tight container. Has a wide variety of uses when considering the destructive capability, though it's pretty easy to avoid on it's own."
 	icon_state = "tnt_stick"
-	devastation_r = 1
+	devastation_r = 2
 	heavy_r = 2
 	light_r = 2
 	explosion_sound = BIGBOOM
@@ -142,5 +142,5 @@
 	explosion_sound = BIGBOOM
 
 /obj/item/bomb/satchel/Initialize()
-	fuze = rand(80, 160)
+	fuze = rand(60, 80)
 	. = ..()

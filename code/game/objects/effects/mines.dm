@@ -42,6 +42,7 @@
 	mine_light.plane = 19
 	mine_light.layer = 19
 	add_overlay(mine_light)
+	.=..()
 
 /obj/effect/mine/explosive/mineEffect(mob/victim)
 	explosion(src, devastation_range = 1, heavy_impact_range = 1, light_impact_range = 1, flash_range = 0, smoke = FALSE, soundin = pick('sound/misc/explode/arty1.ogg','sound/misc/explode/arty2.ogg','sound/misc/explode/arty3.ogg','sound/misc/explode/arty4.ogg','sound/misc/explode/arty5.ogg','sound/misc/explode/arty6.ogg'))

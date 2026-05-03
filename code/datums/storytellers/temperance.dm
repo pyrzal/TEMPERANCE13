@@ -1,5 +1,4 @@
-/// Divine pantheon storytellers
-#define DIVINE_STORYTELLERS list( \
+#define TEMPERANCE_STORYTELLERS list( \
 	/datum/storyteller/standard, \
 	/datum/storyteller/evil, \
 )

@@ -66,6 +66,22 @@
 	update_icon()
 
 /obj/structure/handcart/container_resist(mob/living/user)
+	var/mob/living/carbon/resister = user
+	if(istype(resister))
+		if(resister.handcuffed)
+			resister.changeNext_move(CLICK_CD_BREAKOUT)
+			to_chat(resister, span_notice("I start trying to break free of [src]..."))
+			visible_message(span_warning("[src] rattles and shakes from something within!"), vision_distance = 4)
+			var/resist_timer = 60 SECONDS
+			if(resister.legcuffed)
+				to_chat(resister, "My leg bindings are making it more difficult.")
+				resist_timer = 2 MINUTES
+			if(!do_after(resister, resist_timer, needhand = FALSE, target = src))
+				to_chat(resister, span_warning("My resistance is interrupted!"))
+				return FALSE
+		resister.visible_message(span_warning("[resister] struggles out of [src]!"), \
+								span_warning("I struggle out of [src]!"), vision_distance = 4)
+
 	var/atom/L = drop_location()
 	for(var/atom/movable/AM in stuff_shit)
 		if(AM == user)
@@ -105,11 +121,20 @@
 		return
 	//only these intents should be able to move objects into handcarts
 	if(user.used_intent.type == INTENT_HELP || user.used_intent.type == /datum/intent/grab/move)
+		var/is_living = FALSE
 		if(isliving(O))
+			is_living = TRUE
+			var/move_time = 2 SECONDS
+			if(iscarbon(O))
+				var/mob/living/carbon/C = O
+				if(C.handcuffed && !C.compliance)
+					move_time = 4 SECONDS
 			var/list/targets = list(O, src)
-			if(!do_after_mob(user, targets, 20))
+			if(!do_after_mob(user, targets, move_time))
 				return FALSE
 		if(put_in(O))
+			if(is_living)
+				user.visible_message(span_warning("[user] puts [O] in [src]."), span_smallnotice("I put [O] in [src]."))
 			playsound(loc, 'sound/foley/cartadd.ogg', 100, FALSE, -1)
 		return TRUE
 

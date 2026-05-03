@@ -38,6 +38,7 @@
 	internal_magazine = TRUE 
 	semi_auto = FALSE
 	dry_fire_sound = 'sound/combat/ranged/gun_empty.ogg'
+	longarm = TRUE
 
 /obj/item/gun/ballistic/rifle/process_chamber(mob/living/user, empty_chamber = 0)
 	return ..() //changed argument value
@@ -193,7 +194,7 @@
 	spread = 0.5
 	slamfire = TRUE
 	pump_sound = 'sound/combat/ranged/leveractioncock.ogg'
-	fire_sound = REVOLVERSHOT
+	fire_sound = LEVERCHESTERSHOT
 	load_sound = 'sound/combat/ranged/leveractioninsert.ogg'
 	recoil = 0.15
 	sellprice = 42
@@ -209,7 +210,7 @@
 	spread = 0.5
 	slamfire = TRUE
 	pump_sound = 'sound/combat/ranged/leveractioncock.ogg'
-	fire_sound = REVOLVERSHOT
+	fire_sound = LEVERCHESTERSHOT
 	load_sound = 'sound/combat/ranged/leveractioninsert.ogg'
 	recoil = 0.15
 	sellprice = 26

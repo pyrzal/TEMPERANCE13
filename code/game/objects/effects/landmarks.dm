@@ -373,8 +373,14 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/barkeeper
-	name = "Innkeeper"
+	name = "Barkeeper"
 	icon_state = "arrow"
+
+/obj/effect/landmark/start/barkeeperlate
+	name = "Barkeeper"
+	icon_state = "arrow"
+	jobspawn_override = list("Innkeeper")
+	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/adventurer
 	name = "Adventurer"
@@ -459,13 +465,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/warpriest
-	name = "War Priest"
+	name = "Field Bishop"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/warpriestlate
-	name = "War Priest"
+	name = "Field Bishop"
 	icon_state = "arrow"
-	jobspawn_override = list("War Priest")
+	jobspawn_override = list("Field Bishop")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/knightcommander
@@ -489,13 +495,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/jaeger
-	name = "Jaeger"
+	name = "Blackguard"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/jaegerlate
-	name = "Jaeger"
+	name = "Blackguard"
 	icon_state = "arrow"
-	jobspawn_override = list("Jaeger")
+	jobspawn_override = list("Blackguard")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/rook
@@ -740,6 +746,28 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Townerlate"
 	icon_state = "arrow"
 	jobspawn_override = list("Towner")
+	delete_after_roundstart = FALSE
+
+//Shocktroop spawns
+
+/obj/effect/landmark/start/flamsoldato
+	name = "Flamsoldato"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/flamsoldatolate
+	name = "Flamsoldato"
+	icon_state = "arrow"
+	jobspawn_override = list("Flamsoldato")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/radiotrooper
+	name = "Radio Officer"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/radiotrooperlate
+	name = "Radio Officer"
+	icon_state = "arrow"
+	jobspawn_override = list("Radio Officer")
 	delete_after_roundstart = FALSE
 
 //Antagonist spawns

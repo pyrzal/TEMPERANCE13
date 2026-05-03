@@ -3,8 +3,8 @@
 	flag = VETERANO
 	department_flag = RISVON
 	faction = "Station"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	allowed_races = RACES_CONSCRIPT
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
@@ -76,10 +76,10 @@
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/risholdingweak)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/risaimweak)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/rischargeweak)
-	H.change_stat("strength", 1) // roid rage mfs on them 24/7 percs
+	H.change_stat("strength", 1)
 	H.change_stat("constitution", 1)
 	H.change_stat("endurance", 1)
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 2)
-	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_LONGSTRIDER, TRAIT_GENERIC)

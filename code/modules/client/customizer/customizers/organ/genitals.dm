@@ -52,47 +52,87 @@
 	var/functional = TRUE
 
 /datum/customizer/organ/penis/human
-	customizer_choices = list(/datum/customizer_choice/organ/penis/human)
+	customizer_choices = list(
+		/datum/customizer_choice/organ/penis/human,
+		/datum/customizer_choice/organ/penis/human_alt,
+		)
 
 /datum/customizer/organ/penis/anthro
 	customizer_choices = list(
 		/datum/customizer_choice/organ/penis/human_anthro,
+		/datum/customizer_choice/organ/penis/human_anthro_alt,
 		/datum/customizer_choice/organ/penis/knotted,
+		/datum/customizer_choice/organ/penis/knotted_alt,
 		/datum/customizer_choice/organ/penis/equine,
+		/datum/customizer_choice/organ/penis/equine_alt,
+		/datum/customizer_choice/organ/penis/equine_knotted,
+		/datum/customizer_choice/organ/penis/equine_knotted_alt,
 		/datum/customizer_choice/organ/penis/tapered_mammal,
+		/datum/customizer_choice/organ/penis/tapered_mammal_alt,
+		/datum/customizer_choice/organ/penis/tapered_double_mammal,
+		/datum/customizer_choice/organ/penis/tapered_double_mammal_alt,
 		/datum/customizer_choice/organ/penis/tapered,
+		/datum/customizer_choice/organ/penis/tapered_alt,
+		/datum/customizer_choice/organ/penis/tapered_knot,
+		/datum/customizer_choice/organ/penis/tapered_knot_alt,
+		/datum/customizer_choice/organ/penis/tapered_knot_mammal,
+		/datum/customizer_choice/organ/penis/tapered_knot_mammal_alt,
 		/datum/customizer_choice/organ/penis/tapered_double,
+		/datum/customizer_choice/organ/penis/tapered_double_alt,
 		/datum/customizer_choice/organ/penis/tapered_double_knot,
+		/datum/customizer_choice/organ/penis/tapered_double_knot_alt,
+		/datum/customizer_choice/organ/penis/tapered_double_knot_mammal,
+		/datum/customizer_choice/organ/penis/tapered_double_knot_mammal_alt,
 		/datum/customizer_choice/organ/penis/barbed,
+		/datum/customizer_choice/organ/penis/barbed_alt,
 		/datum/customizer_choice/organ/penis/barbed_knotted,
+		/datum/customizer_choice/organ/penis/barbed_knotted_alt,
 		/datum/customizer_choice/organ/penis/tentacle,
+		/datum/customizer_choice/organ/penis/tentacle_alt,
 		)
 
 /datum/customizer/organ/penis/canine
 	customizer_choices = list(
 		/datum/customizer_choice/organ/penis/human_anthro,
+		/datum/customizer_choice/organ/penis/human_anthro_alt,
 		/datum/customizer_choice/organ/penis/knotted,
+		/datum/customizer_choice/organ/penis/knotted_alt,
+		/datum/customizer_choice/organ/penis/tapered_knot_mammal,
+		/datum/customizer_choice/organ/penis/tapered_knot_mammal_alt,
 		)
 
 /datum/customizer/organ/penis/feline
 	customizer_choices = list(
 		/datum/customizer_choice/organ/penis/human_anthro,
+		/datum/customizer_choice/organ/penis/human_anthro_alt,
 		/datum/customizer_choice/organ/penis/barbed,
+		/datum/customizer_choice/organ/penis/barbed_alt,
 		/datum/customizer_choice/organ/penis/barbed_knotted,
+		/datum/customizer_choice/organ/penis/barbed_knotted_alt,
 		)
 
 /datum/customizer/organ/penis/lizard
 	customizer_choices = list(
 		/datum/customizer_choice/organ/penis/human_anthro,
+		/datum/customizer_choice/organ/penis/human_anthro_alt,
 		/datum/customizer_choice/organ/penis/tapered,
+		/datum/customizer_choice/organ/penis/tapered_alt,
+		/datum/customizer_choice/organ/penis/tapered_knot,
+		/datum/customizer_choice/organ/penis/tapered_knot_alt,
 		/datum/customizer_choice/organ/penis/tapered_double,
+		/datum/customizer_choice/organ/penis/tapered_double_alt,
 		/datum/customizer_choice/organ/penis/tapered_double_knot,
+		/datum/customizer_choice/organ/penis/tapered_double_knot_alt,
 		)
 
 /datum/customizer/organ/penis/equine
 	customizer_choices = list(
 		/datum/customizer_choice/organ/penis/human_anthro,
+		/datum/customizer_choice/organ/penis/human_anthro_alt,
 		/datum/customizer_choice/organ/penis/equine,
+		/datum/customizer_choice/organ/penis/equine_alt,
+		/datum/customizer_choice/organ/penis/equine_knotted,
+		/datum/customizer_choice/organ/penis/equine_knotted_alt,
 		)
 
 /datum/customizer_choice/organ/penis/human
@@ -101,10 +141,22 @@
 	sprite_accessories = list(/datum/sprite_accessory/penis/human)
 	allows_accessory_color_customization = FALSE
 
+/datum/customizer_choice/organ/penis/human_alt
+	name = "Plain Penis (ALT)"
+	organ_type = /obj/item/organ/penis
+	sprite_accessories = list(/datum/sprite_accessory/penis/human_alt)
+	allows_accessory_color_customization = FALSE
+
 /datum/customizer_choice/organ/penis/human_anthro
 	name = "Plain Penis"
 	organ_type = /obj/item/organ/penis
 	sprite_accessories = list(/datum/sprite_accessory/penis/human)
+	allows_accessory_color_customization = TRUE
+
+/datum/customizer_choice/organ/penis/human_anthro_alt
+	name = "Plain Penis (ALT)"
+	organ_type = /obj/item/organ/penis
+	sprite_accessories = list(/datum/sprite_accessory/penis/human_alt)
 	allows_accessory_color_customization = TRUE
 
 /datum/customizer_choice/organ/penis/knotted
@@ -112,7 +164,13 @@
 	organ_type = /obj/item/organ/penis/knotted
 	sprite_accessories = list(
 		/datum/sprite_accessory/penis/knotted,
-		/datum/sprite_accessory/penis/knotted2,
+		)
+
+/datum/customizer_choice/organ/penis/knotted_alt
+	name = "Knotted Penis (ALT)"
+	organ_type = /obj/item/organ/penis/knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/knotted_alt,
 		)
 
 /datum/customizer_choice/organ/penis/equine
@@ -122,11 +180,39 @@
 		/datum/sprite_accessory/penis/flared,
 		)
 
+/datum/customizer_choice/organ/penis/equine_alt
+	name = "Equine Penis (ALT)"
+	organ_type = /obj/item/organ/penis/equine
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/flared_alt,
+		)
+
+/datum/customizer_choice/organ/penis/equine_knotted
+	name = "Equine Knotted Penis"
+	organ_type = /obj/item/organ/penis/equine_knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/flared_knotted,
+		)
+
+/datum/customizer_choice/organ/penis/equine_knotted_alt
+	name = "Equine Knotted Penis (ALT)"
+	organ_type = /obj/item/organ/penis/equine_knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/flared_knotted_alt,
+		)
+
 /datum/customizer_choice/organ/penis/tapered_mammal
 	name = "Tapered Penis (Mammal)"
 	organ_type = /obj/item/organ/penis/tapered_mammal
 	sprite_accessories = list(
 		/datum/sprite_accessory/penis/tapered_mammal,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_mammal_alt
+	name = "Tapered Penis (Mammal) (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/tapered_mammal_alt,
 		)
 
 /datum/customizer_choice/organ/penis/tapered
@@ -136,18 +222,95 @@
 		/datum/sprite_accessory/penis/tapered,
 		)
 
+/datum/customizer_choice/organ/penis/tapered_alt
+	name = "Tapered Penis (ALT)"
+	organ_type = /obj/item/organ/penis/tapered
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/tapered_alt,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_knot
+	name = "Knotted Tapered Penis"
+	organ_type = /obj/item/organ/penis/tapered_knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/taperedknot,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_knot_alt
+	name = "Knotted Tapered Penis (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/taperedknot_alt,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_knot_mammal
+	name = "Knotted Tapered Penis (Mammal)"
+	organ_type = /obj/item/organ/penis/tapered_knotted_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/taperedknot_mammal,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_knot_mammal_alt
+	name = "Knotted Tapered Penis (Mammal) (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_knotted_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/taperedknot_mammal_alt,
+		)
+
 /datum/customizer_choice/organ/penis/tapered_double
 	name = "Hemi Tapered Penis"
-	organ_type = /obj/item/organ/penis/tapered
+	organ_type = /obj/item/organ/penis/tapered_double
 	sprite_accessories = list(
 		/datum/sprite_accessory/penis/hemi,
 		)
 
+/datum/customizer_choice/organ/penis/tapered_double_alt
+	name = "Hemi Tapered Penis (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_double
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/hemi_alt,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_double_mammal
+	name = "Hemi Tapered Penis (Mammal)"
+	organ_type = /obj/item/organ/penis/tapered_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/hemi_mammal,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_double_mammal_alt
+	name = "Hemi Tapered Penis (Mammal) (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/hemi_mammal_alt,
+		)
+
 /datum/customizer_choice/organ/penis/tapered_double_knot
 	name = "Knotted Hemi Tapered Penis"
-	organ_type = /obj/item/organ/penis/tapered
+	organ_type = /obj/item/organ/penis/tapered_double_knotted
 	sprite_accessories = list(
 		/datum/sprite_accessory/penis/hemiknot,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_double_knot_alt
+	name = "Knotted Hemi Tapered Penis (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_double_knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/hemiknot_alt,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_double_knot_mammal
+	name = "Knotted Hemi Tapered Penis (mammal)"
+	organ_type = /obj/item/organ/penis/tapered_double_knotted_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/hemiknot,
+		)
+
+/datum/customizer_choice/organ/penis/tapered_double_knot_mammal_alt
+	name = "Knotted Hemi Tapered Penis (mammal) (ALT)"
+	organ_type = /obj/item/organ/penis/tapered_double_knotted_mammal
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/hemiknot_alt,
 		)
 
 /datum/customizer_choice/organ/penis/barbed
@@ -157,6 +320,13 @@
 		/datum/sprite_accessory/penis/barbknot,
 		)
 
+/datum/customizer_choice/organ/penis/barbed_alt
+	name = "Barbed Penis (ALT)"
+	organ_type = /obj/item/organ/penis/barbed
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/barbknot_alt,
+		)
+
 /datum/customizer_choice/organ/penis/barbed_knotted
 	name = "Barbed Knotted Penis"
 	organ_type = /obj/item/organ/penis/barbed_knotted
@@ -164,11 +334,25 @@
 		/datum/sprite_accessory/penis/barbknot,
 		)
 
+/datum/customizer_choice/organ/penis/barbed_knotted_alt
+	name = "Barbed Knotted Penis (ALT)"
+	organ_type = /obj/item/organ/penis/barbed_knotted
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/barbknot_alt,
+		)
+
 /datum/customizer_choice/organ/penis/tentacle
 	name = "Tentacle Penis"
 	organ_type = /obj/item/organ/penis/tentacle
 	sprite_accessories = list(
 		/datum/sprite_accessory/penis/tentacle,
+		)
+
+/datum/customizer_choice/organ/penis/tentacle_alt
+	name = "Tentacle Penis (ALT)"
+	organ_type = /obj/item/organ/penis/tentacle
+	sprite_accessories = list(
+		/datum/sprite_accessory/penis/tentacle_alt,
 		)
 
 /datum/customizer/organ/testicles
@@ -365,7 +549,7 @@
 	switch(href_list["customizer_task"])
 		if("fertile")
 			vagina_entry.fertility = !vagina_entry.fertility
-			
+
 
 /datum/customizer/organ/vagina/human
 	customizer_choices = list(/datum/customizer_choice/organ/vagina/human)
@@ -375,6 +559,7 @@
 		/datum/sprite_accessory/vagina/human,
 		/datum/sprite_accessory/vagina/gaping,
 		/datum/sprite_accessory/vagina/hairy,
+		/datum/sprite_accessory/vagina/trimmed,
 		)
 	allows_accessory_color_customization = FALSE
 
@@ -386,6 +571,7 @@
 		/datum/sprite_accessory/vagina/human,
 		/datum/sprite_accessory/vagina/gaping,
 		/datum/sprite_accessory/vagina/hairy,
+		/datum/sprite_accessory/vagina/trimmed,
 		)
 	allows_accessory_color_customization = TRUE
 
@@ -397,6 +583,7 @@
 		/datum/sprite_accessory/vagina/human,
 		/datum/sprite_accessory/vagina/gaping,
 		/datum/sprite_accessory/vagina/hairy,
+		/datum/sprite_accessory/vagina/trimmed,
 		/datum/sprite_accessory/vagina/spade,
 		/datum/sprite_accessory/vagina/furred,
 		)
@@ -409,6 +596,7 @@
 		/datum/sprite_accessory/vagina/human,
 		/datum/sprite_accessory/vagina/gaping,
 		/datum/sprite_accessory/vagina/hairy,
+		/datum/sprite_accessory/vagina/trimmed,
 		/datum/sprite_accessory/vagina/spade,
 		/datum/sprite_accessory/vagina/furred,
 		/datum/sprite_accessory/vagina/cloaca,

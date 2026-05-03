@@ -17,9 +17,19 @@
 	var/require_grab = FALSE
 	/// If a grab is required, this is the required state of it
 	var/required_grab_state = GRAB_AGGRESSIVE
+	/// Set the menu category for the action
+	var/category = SEX_CATEGORY_MISC
+	/// Set which part/oriface the user will be using
+	var/user_sex_part = SEX_PART_NULL
+	/// Set which part/oriface the target will be using
+	var/target_sex_part = SEX_PART_NULL
+	/// Only allow select actions to be done subtly
+	var/subtle_supported = FALSE
+	/// Only allow select actions to end with a knot-tie
+	var/knot_on_finish = FALSE
 
 /datum/sex_action/proc/can_perform(mob/living/carbon/human/user, mob/living/carbon/human/target)
-	return TRUE
+	return FALSE
 
 /datum/sex_action/proc/on_start(mob/living/carbon/human/user, mob/living/carbon/human/target)
 	return
@@ -34,4 +44,4 @@
 	return FALSE
 
 /datum/sex_action/proc/shows_on_menu(mob/living/carbon/human/user, mob/living/carbon/human/target)
-	return TRUE
+	return FALSE

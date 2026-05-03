@@ -126,8 +126,8 @@
 /obj/item/clothing/suit/roguetown/armor/leather/heavy/radio
 	name = "imperial coat"
 	desc = "Semi-formal wear, standard issue for radio officers."
-	icon_state = "officerguard"
-	item_state = "officerguard"
+	icon_state = "northprotector"
+	item_state = "northprotector"
 	body_parts_covered = COVERAGE_FULL
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
 	equip_delay_self = 40
@@ -167,3 +167,19 @@
 	item_state = "flamercoat"
 	body_parts_covered = COVERAGE_FULL
 	armor = list("blunt" = 100, "slash" = 70, "stab" = 50, "piercing" = 50, "fire" = 100, "acid" = 0)
+
+/obj/item/clothing/suit/roguetown/armor/plate/hauberk
+	name = "plated hauberk"
+	icon_state = "cuirasshauberk"
+	desc = "A thick iron breastplate over a sturdy hauberk. Difficult to take off."
+	smeltresult = /obj/item/ingot/iron
+	armor = ARMOR_CUIRASS
+	allowed_race = ALL_RACES_TYPES
+	prevent_crits = list(BCLASS_TWIST)
+	equip_delay_self = 2.5 SECONDS
+	unequip_delay_self = 2.5 SECONDS
+	equip_delay_other = 0.5 SECONDS
+	strip_delay = 1 SECONDS
+	smelt_bar_num = 2
+	max_integrity = ARMOR_INT_CHEST_PLATE_IRON
+	body_parts_covered = CHEST | GROIN | VITALS | LEGS | ARMS | NECK
