@@ -1,6 +1,7 @@
 /datum/intent/shoot/heavy_mg
 	chargedrain = 0
-	no_early_release = TRUE
+	chargetime = 0
+	no_early_release = FALSE
 
 /////////////////////////////
 ////Basic heavy MG///////////
@@ -34,6 +35,11 @@
 	var/mob/used_by_mob = null
 	var/obj/item/mg_disassembled/disassembled = null
 	var/obj/item/mg_tripod/tripod = null
+
+// Deployed MGs bypass the charge-based accuracy system entirely; they're stationary
+// emplacements and shouldn't be punished for not "aiming" the way a handheld gun is.
+/obj/item/gun/ballistic/heavy_mg/get_effective_spread(mob/living/user)
+	return max(0, spread)
 
 /obj/item/gun/ballistic/heavy_mg/process_chamber(mob/living/user, empty_chamber = 0)
 	return ..() //changed argument value
