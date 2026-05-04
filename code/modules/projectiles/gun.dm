@@ -1,5 +1,6 @@
 
 #define DUALWIELD_PENALTY_EXTRA_MULTIPLIER 1.4
+#define GUN_MAX_INACCURACY_DEG 40
 
 /obj/item/gun
 	name = "gun"
@@ -149,13 +150,21 @@
 	return
 
 
+/obj/item/gun/proc/get_effective_spread(mob/living/user)
+	var/charge_penalty = 0
+	if(user?.client)
+		var/prog = clamp(user.client.chargedprog, 0, 100)
+		charge_penalty = ((100 - prog) / 100) * GUN_MAX_INACCURACY_DEG
+	return max(0, spread + charge_penalty)
+
 /obj/item/gun/proc/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
 	add_fingerprint(user)
 
 	var/sprd = 0
 	var/randomized_gun_spread = 0
-	if(spread)
-		randomized_gun_spread =	rand(0,spread)
+	var/eff_spread = get_effective_spread(user)
+	if(eff_spread)
+		randomized_gun_spread = rand(0, eff_spread)
 	var/randomized_bonus_spread = rand(0, bonus_spread)
 
 	if(chambered)

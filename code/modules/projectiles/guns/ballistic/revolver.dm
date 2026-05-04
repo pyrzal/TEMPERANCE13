@@ -45,17 +45,21 @@
 
 /datum/intent/shoot/revolver
 	chargedrain = 0
-	no_early_release = TRUE
+	no_early_release = FALSE
 
 /datum/intent/shoot/revolver/get_chargetime()
-	if(!mastermob || !chargetime)
+	if(mastermob && chargetime)
 		var/newtime = 0
 		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/revolvers) * (4)))
 		if(strength_check == TRUE)
 			newtime = ((newtime + 10) - (mastermob.STASTR / 2))
-		else
-			newtime = newtime 
 		newtime = ((newtime + 20) - (mastermob.STAPER))
+		if(newtime > 1)
+			return newtime
+		else
+			return 1
+	else
+		return chargetime
 
 /datum/intent/arc/revolver
 	chargetime = 1
