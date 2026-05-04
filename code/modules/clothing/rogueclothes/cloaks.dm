@@ -1853,7 +1853,7 @@
 	icon_state = "risofficer"
 	item_state = "risofficer"
 	body_parts_covered = CHEST|GROIN|VITALS|ARMS
-	boobed = false
+	boobed = FALSE
 	slot_flags = ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
 
