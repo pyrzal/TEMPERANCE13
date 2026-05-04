@@ -1846,3 +1846,25 @@
 		var/list/things = STR.contents()
 		for(var/obj/item/I in things)
 			STR.remove_from_storage(I, get_turf(src))
+
+/obj/item/clothing/cloak/veteranocoat
+	name = "risvonian officer's trenchcoat"
+	desc = "A green-brown trench coat with a scarlet mantle, worn by those who have achieved a rank of merit in the Dictate's armed forces. A mantle of volf-fur protects from wind and grants the wearer a sense of <i>gravitas.</i>
+	icon_state = "risofficer"
+	item_state = "risofficer"
+	body_parts_covered = CHEST|GROIN|VITALS|ARMS
+	boobed = false
+	slot_flags = ITEM_SLOT_CLOAK
+	flags_inv = HIDECROTCH|HIDEBOOB
+
+/obj/item/clothing/cloak/blackguard/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
+
+/obj/item/clothing/cloak/veteranocoat/dropped(mob/living/carbon/human/user)
+	..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	if(STR)
+		var/list/things = STR.contents()
+		for(var/obj/item/I in things)
+			STR.remove_from_storage(I, get_turf(src))
