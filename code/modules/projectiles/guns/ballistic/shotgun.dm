@@ -98,12 +98,9 @@
 		if(strength_check == TRUE)
 			newtime = ((newtime + 10) - (mastermob.STASTR / 2))
 		newtime = ((newtime + 20) - (mastermob.STAPER))
-		if(newtime > 3)
-			return newtime
-		else
-			return 3
+		return max(GUN_AIM_FLOOR_SHOTGUN, newtime) * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_SHOTGUN
 	else
-		return chargetime
+		return chargetime * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_SHOTGUN
 
 /datum/intent/arc/shotgun
 	chargetime = 1

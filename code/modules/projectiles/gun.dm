@@ -1,6 +1,26 @@
 
 #define DUALWIELD_PENALTY_EXTRA_MULTIPLIER 1.4
+
+
+// This determines the inherent inaccuracy of guns at 0 charge
 #define GUN_MAX_INACCURACY_DEG 40
+
+// Final get_chargetime() = max(<floor>, computed) * GUN_AIM_TIME_MULT * <per-weapon mult>
+// Lower numbers = faster aim.
+// the floor determines the absolute minimum it can go to, good for balancing high skill/perception
+// so u can tweak these numbers as you wish in order to achieve whatever vision u desire
+
+#define GUN_AIM_TIME_MULT 0.75
+
+#define GUN_AIM_FLOOR_RIFLE     1
+#define GUN_AIM_FLOOR_PISTOL    1
+#define GUN_AIM_FLOOR_REVOLVER  1
+#define GUN_AIM_FLOOR_SHOTGUN   3
+
+#define GUN_AIM_TIME_MULT_RIFLE     1
+#define GUN_AIM_TIME_MULT_PISTOL    1
+#define GUN_AIM_TIME_MULT_REVOLVER  1
+#define GUN_AIM_TIME_MULT_SHOTGUN   1
 
 /obj/item/gun
 	name = "gun"
