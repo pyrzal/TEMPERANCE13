@@ -1849,7 +1849,7 @@
 
 /obj/item/clothing/cloak/risofficer
 	name = "risvonian officer's trenchcoat"
-	desc = "A green-brown trench coat with a scarlet mantle, worn by those who have achieved a rank of merit in the Dictate's armed forces. A mantle of volf-fur protects from wind and grants the wearer a sense of <i>gravitas.</i>
+	desc = "A green-brown trench coat with a scarlet mantle, worn by those who have achieved a rank of merit in the Dictate's armed forces. A mantle of volf-fur protects from wind and grants the wearer a sense of <i>gravitas.</i>"
 	icon_state = "risofficer"
 	item_state = "risofficer"
 	body_parts_covered = CHEST|GROIN|VITALS|ARMS
