@@ -10,7 +10,7 @@
 // the floor determines the absolute minimum it can go to, good for balancing high skill/perception
 // so u can tweak these numbers as you wish in order to achieve whatever vision u desire
 
-#define GUN_AIM_TIME_MULT 0.75
+#define GUN_AIM_TIME_MULT 0.2
 
 #define GUN_AIM_FLOOR_RIFLE     1
 #define GUN_AIM_FLOOR_PISTOL    1
@@ -21,6 +21,11 @@
 #define GUN_AIM_TIME_MULT_PISTOL    1
 #define GUN_AIM_TIME_MULT_REVOLVER  1
 #define GUN_AIM_TIME_MULT_SHOTGUN   1
+
+// How much weapon skill reduces aim time. 0 = skill irrelevant, 1 = current, 2 = double effect.
+#define GUN_AIM_SKILL_INFLUENCE 0
+// How much perception reduces aim time. 0 = perception irrelevant, 1 = current, 2 = double effect.
+#define GUN_AIM_PER_INFLUENCE   0
 
 /obj/item/gun
 	name = "gun"

@@ -105,10 +105,10 @@
 /datum/intent/shoot/rifle/get_chargetime()
 	if(mastermob && chargetime)
 		var/newtime = 0
-		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/rifles) * (2.3)))
+		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/rifles) * 2.3 * GUN_AIM_SKILL_INFLUENCE))
 		if(strength_check == TRUE)
 			newtime = ((newtime + 10) - (mastermob.STASTR / 2))
-		newtime = ((newtime + 20) - (mastermob.STAPER))
+		newtime = ((newtime + 20) - (mastermob.STAPER * GUN_AIM_PER_INFLUENCE))
 		return max(GUN_AIM_FLOOR_RIFLE, newtime) * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_RIFLE
 	else
 		return chargetime * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_RIFLE
