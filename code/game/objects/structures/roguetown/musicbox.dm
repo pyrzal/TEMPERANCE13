@@ -10,7 +10,7 @@
 	"Dictate's Simplified Anthem" = 'sound/music/jukeboxes/gen/countdown.ogg',\
 	"Simplified Imperial Anthem" = 'sound/music/jukeboxes/gen/home.ogg',\
 	"Imperial Ballroom" = 'sound/music/jukeboxes/gen/ballroom.ogg',\
-	"Unidentified Origin" = 'sound/music/jukeboxes/gen/static.ogg',\
+	"Unidentified Location" = 'sound/music/jukeboxes/gen/static.ogg',\
 )
 #define MUSIC_TAVCAT_MACHINE list(\
 	"Toxic" = 'sound/music/jukeboxes/machine/machinetoxic.ogg',\
