@@ -18,7 +18,7 @@
 	is_public = TRUE
 	locked = FALSE
 	categories = list(
-		"FORTIFICATIONS",
+		"IMPERIAL FORTIFICATIONS",
 		"GRENADES",
 	)
 	categories_gamer = list()
