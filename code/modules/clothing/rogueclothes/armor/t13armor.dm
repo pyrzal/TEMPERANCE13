@@ -167,3 +167,44 @@
 	item_state = "flamercoat"
 	body_parts_covered = COVERAGE_FULL
 	armor = list("blunt" = 100, "slash" = 70, "stab" = 50, "piercing" = 50, "fire" = 100, "acid" = 0)
+
+/obj/item/clothing/suit/roguetown/armor/leather/heavy/coat/displaced
+	name = "tattered coat"
+	desc = "A coat worn by the Displaced Heir. It's seen better days."
+	icon = 'icons/roguetown/clothing/special/displaced.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/displaced.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/displaced.dmi'
+	icon_state = "handgambeson"
+	item_state = "handgambeson"
+	body_parts_covered = COVERAGE_FULL
+
+/obj/item/clothing/suit/roguetown/armor/leather/heavy/coat/butler
+	name = "buttoned coat"
+	desc = "It's been a while."
+	icon_state = "butlercoat"
+	item_state = "butlercoat"
+	body_parts_covered = COVERAGE_FULL
+	icon = 'icons/roguetown/clothing/special/housekeeper.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
+
+/obj/item/clothing/suit/roguetown/armor/leather/heavy/coat/nelly
+	name = "sewn dress"
+	desc = "..For fear of losing the small power I still retained."
+	icon_state = "maiddressfancy"
+	item_state = "maiddressfancy"
+	body_parts_covered = COVERAGE_FULL
+	icon = 'icons/roguetown/clothing/special/housekeeper.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
+
+
+/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/maid
+	name = "sweet dress"
+	desc = "I really thought them not vindictive, I was deceived completely."
+	slot_flags = ITEM_SLOT_SHIRT
+	icon_state = "maiddress"
+	item_state = "maiddress"
+	icon = 'icons/roguetown/clothing/special/maids.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/maids.dmi'
