@@ -14,12 +14,12 @@
 
 #define GUN_AIM_FLOOR_RIFLE     1
 #define GUN_AIM_FLOOR_PISTOL    1
-#define GUN_AIM_FLOOR_REVOLVER  1
+#define GUN_AIM_FLOOR_REVOLVER  0
 #define GUN_AIM_FLOOR_SHOTGUN   3
 
 #define GUN_AIM_TIME_MULT_RIFLE     1
 #define GUN_AIM_TIME_MULT_PISTOL    1
-#define GUN_AIM_TIME_MULT_REVOLVER  1
+#define GUN_AIM_TIME_MULT_REVOLVER  0
 #define GUN_AIM_TIME_MULT_SHOTGUN   1
 
 // How much weapon skill reduces aim time. 0 = skill irrelevant, 1 = current, 2 = double effect.
