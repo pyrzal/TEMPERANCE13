@@ -106,6 +106,14 @@
 	icon_state = "clothsash"
 	item_state = "clothsash"
 
+/obj/item/storage/belt/rogue/leather/sash/maid
+	name = "cloth sash"
+	desc = "For the manor."
+	item_state = "maidsash"
+	icon_state = "maidsash"
+	icon = 'icons/roguetown/clothing/special/maids.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
+
 /obj/item/storage/belt/rogue/pouch
 	name = "pouch"
 	desc = "A small sack with a drawstring that allows it to be worn around the neck. Or at the hips, provided you have a belt."

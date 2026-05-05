@@ -20,3 +20,12 @@
 	drop_sound = 'sound/foley/dropsound/cloth_drop.ogg'
 	resistance_flags = FIRE_PROOF
 	armor_class = ARMOR_CLASS_LIGHT
+
+/obj/item/clothing/under/roguetown/tights/manor
+	name = "black pants"
+	desc = "The stitching's almost seamless."
+	icon_state = "butlerpants"
+	item_state = "butlerpants"
+	icon = 'icons/roguetown/clothing/special/housekeeper.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
