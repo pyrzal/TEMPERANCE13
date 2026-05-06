@@ -2597,7 +2597,6 @@
 #include "modular_azurepeak\statpacks\wildcard.dm"
 #include "modular_azurepeak\virtues\items.dm"
 #include "modular_azurepeak\virtues\movement.dm"
-#include "modular_azurepeak\virtues\thief.dm"
 #include "modular_azurepeak\virtues\utility.dm"
 #include "modular_hearthstone\code\datums\accents.dm"
 #include "modular_hearthstone\code\game\objects\effects\track.dm"
