@@ -1713,8 +1713,8 @@
 	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
 
 /obj/item/clothing/cloak/forrestercloak/snow
-	name = "snow cloak"
-	desc = "A cloak meant to keep one's body warm in the cold of the mountains as well as the dampness of Azuria."
+	name = "shortcloak"
+	desc = "A cloak meant to keep one's body warm in the cold of the mountains as well as the dampness of TEMPERANCE."
 	icon_state = "snowcloak"
 
 //eastern update
