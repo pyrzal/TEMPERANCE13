@@ -24,10 +24,9 @@ map dun_world
 endmap
 
 map temperance
-	default
-	votable
 endmap
 
 map kingsworld
+	default
 	votable
 endmap

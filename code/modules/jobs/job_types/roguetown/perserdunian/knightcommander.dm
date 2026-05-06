@@ -11,7 +11,7 @@
 
 	tutorial = "You're a low-ranking officer, gifted with your own squad of Armsmen. \
 				Your main goal is to keep your Armsmen together and alive, while also killing the enemy. \
-				Typically, Commanders are promoted after they graduate a certain type of training. Some are promoted Armsmen." 
+				Typically, Commanders are promoted after they graduate a certain type of training. Some are promoted Armsmen."
 
 	outfit = /datum/outfit/job/roguetown/knightcommander
 	display_order = JDO_KNIGHTCOMMANDER
@@ -38,10 +38,10 @@
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/lord
 	shoes = /obj/item/clothing/shoes/roguetown/boots
 	beltl = /obj/item/flashlight/flare/torch/lantern
-	armor = /obj/item/clothing/suit/roguetown/armor/plate/half/fluted
+	armor = /obj/item/clothing/suit/roguetown/armor/plate/hauberk
 	cloak = /obj/item/clothing/cloak/perserduntabard
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
-	head = /obj/item/clothing/head/roguetown/helmet/heavy/knight/iron
+	head = /obj/item/clothing/head/roguetown/helmet/heavy/barbute/visor
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
@@ -80,4 +80,4 @@
 	H.change_stat("endurance", 2)
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 1)
-	ADD_TRAIT(H, TRAIT_MEDIUMARMOR, TRAIT_GENERIC)
+	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)

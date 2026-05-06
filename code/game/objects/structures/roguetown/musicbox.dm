@@ -8,6 +8,9 @@
 #define MUSIC_TAVCAT_RADIO list(\
 	"Risvonian Talkshow" = 'sound/music/jukeboxes/gen/talkshow.ogg',\
 	"Dictate's Simplified Anthem" = 'sound/music/jukeboxes/gen/countdown.ogg',\
+	"Simplified Imperial Anthem" = 'sound/music/jukeboxes/gen/home.ogg',\
+	"Imperial Ballroom" = 'sound/music/jukeboxes/gen/ballroom.ogg',\
+	"Unidentified Location" = 'sound/music/jukeboxes/gen/static.ogg',\
 )
 #define MUSIC_TAVCAT_MACHINE list(\
 	"Toxic" = 'sound/music/jukeboxes/machine/machinetoxic.ogg',\
@@ -22,10 +25,9 @@
 	"Void" = 'sound/music/jukeboxes/machine/machinevoid.ogg',\
 	"Need" = 'sound/music/jukeboxes/machine/machineneed.ogg',\
 	"Escape" = 'sound/music/jukeboxes/machine/machineescape.ogg',\
-	"Judas" = 'sound/music/jukeboxes/machine/machinejudas.ogg',\
-	"Jane" = 'sound/music/jukeboxes/machine/machinejane.ogg',\
 	"Juliet" = 'sound/music/jukeboxes/machine/machinejuliet.ogg',\
 	"Underground" = 'sound/music/jukeboxes/machine/machineunderground.ogg',\
+	"Rave" = 'sound/music/jukeboxes/machine/machinerave.ogg',\
 ) // POP MUSIC ONLY FOR THE MACHINE -- NO CHUDMUSIC ALLOWED
 
 /datum/looping_sound/radios
