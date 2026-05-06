@@ -64,3 +64,5 @@
 		shirt = /obj/item/clothing/suit/roguetown/shirt/hierarchess
 		pants = /obj/item/clothing/under/roguetown/heavy_leather_pants
 		gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
+//to do: add spell that does a globalref to spawn in guns at the machine when they abuse the displaced and/or someone from the manor
+//also - maybe a nuke

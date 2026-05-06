@@ -244,6 +244,7 @@
 #define KINGSROW (1<<14)
 
 #define HIERARCH (1<<0)
+#define DISPLACEDHIER (1<<1)
 #define BULWARK (1<<2)
 #define PROVISIONER (1<<3)
 #define MORTICIAN (1<<4)
@@ -305,8 +306,9 @@
 
 // KINGSROW
 #define JDO_HIERARCH 3
-#define JDO_BULWARK 3.1
-#define JDO_PROVISIONER 3.2
+#define JDO_DISPLACEDHIER 3.1
+#define JDO_BULWARK 3.2
+#define JDO_PROVISIONER 3.21 //redo these later
 #define JDO_MORTICIAN 3.3
 #define JDO_BARKEEP 3.4
 #define JDO_TOWNER 3.5
@@ -344,6 +346,7 @@
 
 #define KINGSROW_ROLES \
 	/datum/job/roguetown/hierarch,\
+	/datum/job/roguetown/displacedhier,\
 	/datum/job/roguetown/bulwark,\
 	/datum/job/roguetown/provisioner,\
 	/datum/job/roguetown/mortician,\
