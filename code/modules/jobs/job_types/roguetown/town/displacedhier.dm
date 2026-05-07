@@ -26,17 +26,17 @@
 	..()
 	shoes = /obj/item/clothing/shoes/roguetown/boots/nobleboot
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
-	beltl = /obj/item/flashlight/flare/torch/lantern
+	beltl = /obj/item/rogueweapon/sword/sabre/dec/displacedhier
 	beltr = /obj/item/storage/keyring/royal //change this in a bit
 	id = /obj/item/clothing/ring/gold
 	backl = /obj/item/storage/backpack/rogue/satchel
-	wrists = /obj/item/scomstone/kingsrow
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/coat/displaced
 	pants = /obj/item/clothing/under/roguetown/tights/manor
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/heavy
 	backpack_contents = list(
 		/obj/item/rogueweapon/huntingknife/idagger/steel = 1,
-		/obj/item/storage/belt/rogue/pouch/stim = 1,	
+		/obj/item/storage/belt/rogue/pouch/stim = 1,
+		/obj/item/flashlight/flare/torch/lantern = 1,	
 		)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
@@ -47,6 +47,8 @@
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/pistols, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/revolvers, 4, TRUE)
 	H.change_stat("intelligence", 2)
 	H.change_stat("constitution", 1)
 	H.change_stat("endurance", 1)

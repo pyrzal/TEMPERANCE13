@@ -215,6 +215,9 @@ GLOBAL_LIST_INIT(risvon_positions, list(
 
 GLOBAL_LIST_INIT(kingsrow_positions, list(
 	"Hierarch",
+	"Displaced Inheritor",
+	"Head Housekeeper",
+	"Manor Servant",
 	"Bulwark",
 	"Provisioner",
 	"Barkeeper",

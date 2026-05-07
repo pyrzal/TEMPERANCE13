@@ -250,6 +250,8 @@
 #define MORTICIAN (1<<4)
 #define TOWNER (1<<5)
 #define BARKEEP (1<<6)
+#define HOUSEKEEPER (1<<6)
+#define MANORSERVANT (1<<8)
 
 #define UNAFFILIATED (1<<15)
 
@@ -307,6 +309,8 @@
 // KINGSROW
 #define JDO_HIERARCH 3
 #define JDO_DISPLACEDHIER 3.1
+#define JDO_HOUSEKEEPER 3.11
+#define JDO_SERVANT 3.12
 #define JDO_BULWARK 3.2
 #define JDO_PROVISIONER 3.21 //redo these later
 #define JDO_MORTICIAN 3.3
@@ -347,6 +351,8 @@
 #define KINGSROW_ROLES \
 	/datum/job/roguetown/hierarch,\
 	/datum/job/roguetown/displacedhier,\
+	/datum/job/roguetown/manorservant,\
+	/datum/job/roguetown/housekeeper, \
 	/datum/job/roguetown/bulwark,\
 	/datum/job/roguetown/provisioner,\
 	/datum/job/roguetown/mortician,\

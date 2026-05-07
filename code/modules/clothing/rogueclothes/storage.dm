@@ -58,6 +58,12 @@
 		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
 	)
 
+/obj/item/storage/belt/rogue/leather/black/butler
+	populate_contents = list(
+		/obj/item/rogueweapon/huntingknife/chefknife,
+		/obj/item/reagent_containers/glass/bottle/rogue/healthpot,
+	)
+
 /obj/item/storage/belt/rogue/leather/plaquesilver
 	name = "plaque belt"
 	icon_state = "silverplaque"
@@ -113,7 +119,11 @@
 	icon_state = "maidsash"
 	icon = 'icons/roguetown/clothing/special/maids.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
-
+	populate_contents = list(
+		/obj/item/rogueweapon/huntingknife/chefknife,
+		/obj/item/reagent_containers/glass/bottle/rogue/healthpot,
+	)
+	
 /obj/item/storage/belt/rogue/pouch
 	name = "pouch"
 	desc = "A small sack with a drawstring that allows it to be worn around the neck. Or at the hips, provided you have a belt."

@@ -208,6 +208,18 @@
 	icon = 'icons/roguetown/clothing/special/maids.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/maids.dmi'
+	color = "#ffffff"
+
+/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/butler
+	name = "sleek waistcoat"
+	desc = "I implore you not to touch a single thing, even furniture, in this manor without my explicit permission."
+	slot_flags = ITEM_SLOT_SHIRT
+	icon_state = "artishirt"
+	item_state = "artishirt"
+	icon = 'icons/roguetown/clothing/shirts.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/shirts.dmi'
+	sleeved = 'icons/roguetown/clothing/onmob/shirts.dmi'
+	color = "#ffffff"
 
 /obj/item/clothing/suit/roguetown/armor/plate/hauberk
 	name = "plated hauberk"
