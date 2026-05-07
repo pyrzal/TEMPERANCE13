@@ -469,6 +469,9 @@
 	icon_state = "ammo"
 	lootcount = 4
 	loot = list(
+		/obj/item/ammo_box/handfuls/leveraction = 2,
+		/obj/item/ammo_box/clip/pistol = 2,
+		/obj/item/ammo_box/handfuls/rifle = 2,
 		/obj/item/ammo_box/clip/mondragon = 2,
 		/obj/item/ammo_box/handfuls/riflelp = 2,
 		/obj/item/ammo_box/handfuls/mercy = 2,
@@ -548,6 +551,7 @@
 	icon_state = "ammo"
 	lootcount = 3
 	loot = list(
+		/obj/item/ammo_box/handfuls/rifle = 2,
 		/obj/item/ammo_box/clip/pistol = 2,
 		/obj/item/ammo_box/handfuls/shotgun/buckshot = 2,
 		/obj/item/ammo_box/magazine/jackal = 2,
