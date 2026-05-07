@@ -18,7 +18,7 @@
 "dn" = (/obj/structure/bars/grille,/obj/machinery/light/rogue/wallfire/candle/weak,/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
 "dv" = (/obj/structure/fluff/railing/sandbag{layer = 2.92; dir = 1},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "dw" = (/obj/structure/fluff/pillow/red{pixel_y = 4; pixel_x = -7; dir = 1},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
-"dF" = (/obj/structure/table/wood/perserdunsmall,/obj/effect/decal/carpet/square{dir = 1},/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
+"dF" = (/obj/structure/table/wood/perserdunsmall,/obj/effect/decal/carpet/square{dir = 1},/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/machinery/light/rogue/wallfire/candle,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "dK" = (/turf/open/water/swamp/deep,/turf/closed/wall/mineral/rogue/risvon/outercorner/dir4,/area/rogue/indoors/risvonbase)
 "dP" = (/obj/machinery/light/rogue/wallfire/candle/blue{pixel_y = -32},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "ek" = (/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
@@ -61,7 +61,7 @@
 "jo" = (/obj/effect/decal/cleanable/blood/gibs/limb,/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir4,/area/rogue/indoors/perserdunbase)
 "jp" = (/obj/structure/mineral_door/wood/wardoor{lockid = "risvontag"; name = "SURGERY"},/turf/open/floor/rogue/med,/area/rogue/indoors/perserdunbase)
 "js" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
-"jw" = (/turf/open/water/swamp/deep,/area/rogue/indoors/shelter/town)
+"jw" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/gun/ballistic/rifle/repeater/springfield,/obj/item/gun/ballistic/rifle/repeater/springfield{pixel_y = 8},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -8},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -14},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -8},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "jD" = (/obj/machinery/light/rogue/wallfire/candle/weak{pixel_y = -32},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "jF" = (/obj/structure/bed/rogue{dir = 8},/obj/structure/closet/crate/drawer/random{pixel_y = 11; layer = 2.8; density = 0},/obj/structure/curtain/red,/obj/effect/landmark/start/bastionolate,/obj/effect/landmark/start/bastiono,/turf/open/floor/carpet/royalblack,/area/rogue/indoors/risvonbase)
 "jG" = (/obj/structure/fluff/clock,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
@@ -111,7 +111,7 @@
 "pb" = (/obj/structure/fluff/littlebanners,/turf/open/floor/rogue/risvon,/area/rogue/outdoors/risvon)
 "pg" = (/obj/structure/fluff/walldeco/bigpainting{pixel_x = 0; pixel_y = -32},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "pl" = (/obj/effect/decal/cleanable/blood/gibs/down,/turf/open/floor/rogue/concrete,/area/rogue/indoors/perserdunbase)
-"pE" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/gun/ballistic/rifle/repeater/springfield,/obj/item/gun/ballistic/rifle/repeater/springfield{pixel_y = 8},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -8},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
+"pE" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/gun/ballistic/rifle/repeater/springfield,/obj/item/gun/ballistic/rifle/repeater/springfield{pixel_y = 8},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -8},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -8},/obj/item/gun/ballistic/rifle/repeater/pistol{pixel_y = -14},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "pP" = (/obj/structure/mineral_door/wood/wardoor{lockid = "risvontag"; name = "STORAGE"},/turf/open/floor/rogue/church,/area/rogue/indoors/risvonbase)
 "qe" = (/obj/item/needle{pixel_x = 2; pixel_y = 5},/obj/structure/table/wood/metal2,/turf/open/floor/rogue/med,/area/rogue/indoors/perserdunbase)
 "ql" = (/obj/machinery/light/rogue/wallfire/candle/weak/r,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
@@ -120,6 +120,7 @@
 "qE" = (/obj/structure/mineral_door/wood{lockid = "risvontag"; name = "COMMANDANT"},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "qI" = (/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "qJ" = (/obj/structure/bed/rogue/inn/wool{dir = 8},/obj/item/bedsheet/rogue/wool{dir = 8},/obj/effect/landmark/start/oficiro,/obj/effect/landmark/start/oficirolate,/turf/open/floor/carpet/royalblack,/area/rogue/indoors/risvonbase)
+"qN" = (/obj/structure/fluff/railing/stonehedge{dir = 4},/turf/open/floor/rogue/perdun,/area/rogue/outdoors/exposed/perserdunbase)
 "qQ" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = -7; pixel_x = -7},/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = 12; pixel_x = -7},/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = 12; pixel_x = 7},/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = -7; pixel_x = 7},/obj/machinery/light/rogue/wallfire/candle{pixel_y = -32},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "qV" = (/turf/closed/wall/mineral/rogue/perserdun/tshape,/area/rogue/indoors/perserdunbase)
 "qZ" = (/obj/structure/stairs{dir = 8},/turf/open/floor/rogue/grime,/area/rogue/indoors/risvonbase)
@@ -151,7 +152,7 @@
 "ul" = (/turf/open/floor/rogue/metal/barograte/open,/area/rogue/indoors/perserdunbase)
 "ux" = (/turf/open/transparent/openspace,/area/rogue/indoors/shelter/town)
 "uz" = (/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/exposed/perserdunbase)
-"uA" = (/turf/open/water/swamp/deep,/area/rogue/outdoors/beach/forest/south)
+"uA" = (/obj/structure/fluff/railing/wood/west,/turf/open/floor/rogue/risvon,/area/rogue/outdoors/exposed/risvonbase)
 "uJ" = (/obj/effect/decal/cobbleedge{dir = 10; icon_state = "cobbleedge-n"},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/perserdun)
 "uY" = (/obj/structure/chair/wood/rogue/generic2{dir = 8},/obj/effect/decal/carpet{dir = 8; pixel_x = -19},/obj/effect/landmark/start/commandant,/obj/effect/landmark/start/commandantlate,/obj/structure/fluff/wallclock/r,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "uZ" = (/obj/structure/fluff/railing/border{pixel_y = -8},/turf/open/floor/rogue/med,/area/rogue/indoors/perserdunbase)
@@ -193,7 +194,7 @@
 "yx" = (/turf/closed/wall/mineral/rogue/perserdun/tshape/dir1,/area/rogue/indoors/perserdunbase)
 "yP" = (/obj/structure/fluff/railing/corner{pixel_x = -4; layer = 4},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "yQ" = (/obj/structure/stairs/d{dir = 1},/obj/machinery/light/rogue/wallfire/candle/weak/l,/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
-"yU" = (/obj/machinery/light/rogue/wallfire/candle/weak{pixel_y = -32},/turf/open/water/swamp/deep,/area/rogue/outdoors/beach/forest/south)
+"yU" = (/obj/machinery/light/rogue/wallfire/candle/weak{pixel_y = -32},/turf/open/water/pond,/area/rogue/outdoors/beach/forest/south)
 "yZ" = (/obj/machinery/light/rogue/wallfire/candle/weak{pixel_y = -32},/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "zd" = (/obj/effect/turf_decal/weather/dirt{name = "tire tracks"},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/risvon)
 "zi" = (/obj/machinery/light/rogue/wallfire/candle/weak/l,/turf/open/floor/rogue/grime,/area/rogue/indoors/risvonbase)
@@ -399,9 +400,10 @@
 "VG" = (/obj/structure/bars/shop,/obj/structure/table/wood/poor,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "VW" = (/obj/effect/decal/cobbleedge{icon_state = "cobbleedge-sread"},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/perserdun)
 "Wf" = (/obj/structure/rack/rogue,/obj/item/needle{pixel_y = 1; pixel_x = 10},/obj/item/needle{pixel_y = 5; pixel_x = 2},/obj/item/needle{pixel_y = 1; pixel_x = -8},/obj/machinery/light/rogue/wallfire/candle/l,/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
-"Wo" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/water/swamp/deep,/area/rogue/outdoors/beach/forest/south)
+"Wo" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/water/pond,/area/rogue/outdoors/beach/forest/south)
 "Ws" = (/obj/structure/stairs{dir = 4},/turf/open/water/sewer,/area/rogue/indoors/risvonbase)
 "WD" = (/turf/closed/wall/mineral/rogue/risvon/outercorner,/area/rogue/indoors/risvonbase)
+"WI" = (/obj/effect/landmark/observer_start,/turf/open/floor/rogue/ruinedwood/turned,/area/rogue/indoors/shelter/town)
 "WJ" = (/obj/machinery/light/rogue/wallfire/candle/blue{light_color = "#505f7a"; pixel_y = -32},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
 "Xh" = (/obj/structure/stairs/stone{dir = 8},/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
 "Xn" = (/obj/structure/fluff/railing/wood/north{dir = 8; pixel_y = 0; pixel_x = -11},/obj/structure/fluff/railing/border{dir = 8; pixel_x = -11},/turf/open/floor/rogue/ruinedwood/turned,/area/rogue/indoors/shelter/town)
@@ -480,15 +482,15 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYSoeueuBFHzHzHzHzHzzkJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYeueueusYkQkQkQkQkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQkQkQkQkQsYeueueusYkQkQkQkQkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKOXBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSawHzHzHzHzzkeueueuEwHzHzHzHzYUBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSNJuAWouAuAotjwjwjwotuAuAWouANJBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryuAuAuAuAjwjwjwjwjwuAuAuAuAryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryuAuAuAuAjwjwjwjwjwuAuAuAuAryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgGuAuAuAuAjwjwjwjwjwuAuAuAuAgGBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgGuAuAuAuAotjwjwjwotuAuAuAuAgGBSheheheheheheheheheheheheheBSrZJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgGuAuAuAuAjwjwjwjwjwuAuAuAuAgGBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryuAuAuAuAjwjwjwjwjwuAuAuAuAryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryuAuAuAuAjwjwjwjwjwuAuAuAuAryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgWuAyUuAuAotjwjwjwotuAuAyUuAgWBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSNJBSWoBSBSotgGgGgGotBSBSWoBSNJBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSgGgGgGgGgGBSBSBSBSgGBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSotgGgGgGotBSBSBSBSgGBSheheheheheheheheheheheheheBSrZJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSgGgGgGgGgGBSBSBSBSgGBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgWBSyUBSBSotgGgGgGotBSBSyUBSgWBSheheheheheheheheheheheheheBSBSJKJK
 JKJKOXBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSUmKqKqKqKqklhBhBhBWDKqKqKqKqOeBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSASASASASArXhBhBhBrXSASASASASAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSASASASASArXhBhBhBrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -574,13 +576,13 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgsYsYIXIXsYJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgEwyxHzHzInJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYOjYgPnVwVwVwsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgPnVwVwVwsYBFHzHzHzHzHzHzHzFVJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzHzHzHzHzzksYYgYgKBIPndndndsYJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzHzHzHzHzzksYYgYgqNIPndndndsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzHzHzHzHzHzHzHzHzzkYgYgKBKBKBKBaJsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYzmYgYgYgYgYgYgYgYgYgYgYgYgYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYzmYgYgYgYgYgYgdPYgYgYgYgYgYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwFVYgYgBFHzHzHzHzHzHzHzHzFVYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYYgOrsYkQkQkQkQkQkQkQkQsYYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYYgYgsYkQkQkQkQkQkQkQkQsYOjYgKBkLKBKBKBsYJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYYgYgsYkQkQkQkQkQkQkQkQsYOjYgqNkLKBKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzqVHzzkYgYgEwHzHzHzHzHzHzHzHzzkYgYgBFHzHzHzHzzkJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKsYbOVwEXcEAhYgYgYgYgYgYgvxYgYgYgYgYgYgYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKsYbTJOJOTtYgYgYgYgYgYgYgYgYgYgYgYgYgYgYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -599,7 +601,7 @@ kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWotwmMChyotkWkWkWkWPjkWkWkWkWkWkWkW
 kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWuxXnMCmuuxkWkWkWkWPjkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
 kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWuxXnMCmuuxkWkWkWkWPjkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
 kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWuxXnMCmuuxkWkWkWkWPjkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
-kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWRakWkWkWkWotwmMChyotkWkWkWkWDQkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
+kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWRakWkWkWkWotwmWIhyotkWkWkWkWDQkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
 kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWuxXnMCmuuxkWkWkWkWPjkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
 kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWuxXnMCmuuxkWkWkWkWPjkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
 kWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWPjkWkWkWkWuxXnMCmuuxkWkWkWkWPjkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkWkW
@@ -618,13 +620,13 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRjRrRrRrtCKqKqKqKqKqKqKqKqKqklJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRrRrRrRrRrRrRrRrRrRrnOBpBpUOrXJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRrRrCfRrRrRrRrRrRrxYGwfFOIOtrXJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKWDKqKqKqKqyhRrRrWDKqKqKqKqKqKqKqKqklRrRrWDKqlLKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKrXXMXMXMQtXMRrivrXSASASASASASASASArXRrRrrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKrXXMXMXMQtuARrivrXSASASASASASASASArXRrRrrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrrXSASASASASASASASArXUQRrrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrtCKqKqKqKqKqKqKqKqyhRrRrtCklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrRrRrRrRrRrmwRrRrRrRrRrRrjsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrRrRrRrRrRrRrRrRrRrRrRrRrjsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXRDycycycXMRrRrWDKqKqKqKqKqKqKqKqKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKrXSaSaSagsXMRrRrrXWDKqKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKrXSaSaSagsuARrRrrXWDKqKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKtCKqKqKqKqKqKqKqyhrXOIOIOIDPRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXOIOIOIDPRrivrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKlrKqKqEzklRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -727,7 +729,7 @@ mUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUxYVGItItxYmUmUmUmUmUmUmUmUmUmUmUmU
 mUmUmUmUmUmUmUmUmUmUmUmUmUJKJKJKJKJKWDKqOefKfKrXdvdvdvrXfKfKUmKqKqKqklmUmUmUmUmUmUmUmUmUmUmUmUmUmUmUmU
 mUmUmUmUmUmUmUmUmUmUmUJKJKJKJKJKWDKqyhKsfKfKfKRjfKfKjaRjfKfKfKfKfKfKrXJKJKJKJKJKJKJKmUmUmUmUmUmUmUmUmU
 mUmUmUmUmUWDKqKqKqKqKqKqklJKJKJKrXfKfKfKfKfKfKfKfKjDfKfKfKfKfKfKfKqlrXJKJKJKJKJKJKJKJKJKmUmUmUmUmUmUmU
-WDKqKqECKqyhFCdFpEpEJRtUtCKqKqEzyhfKUmKqKqKqKqEzKqKqKqEzKqKqklfKfKfKrXJKJKJKJKJKJKJKJKJKJKJKJKJKmUmUmU
+WDKqKqECKqyhFCdFjwpEJRtUtCKqKqEzyhfKUmKqKqKqKqEzKqKqKqEzKqKqklfKfKfKrXJKJKJKJKJKJKJKJKJKJKJKJKJKmUmUmU
 rXddNGVxddNGBTfKfKfKfKfKfKfKgdRjfKfKfKfKfKfKqlrXXEdnXErXSASArXKFKFWDyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 rXMhMhwHMhMhyPfKfKfKfKfKfKfKfKILfKfKfKfKfKfKfKrXfKOIfKtCKqKqyhfKfKrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 rXfKfKfKfKfKfKfKfKfKfKfKfKfKfKILfKfKfKfKfKfKfKRjfKfKfKfKfKKFfKfKfKlrKqKqKqKqKqKqKqKqEzKqKqKqklJKJKJKJK
