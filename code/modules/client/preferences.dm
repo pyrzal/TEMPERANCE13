@@ -1518,7 +1518,7 @@ Slots: [job.spawn_positions] [job.round_contrib_points ? "RCP: +[job.round_contr
 					var/voicepack_input = input(user, "Choose your character's emote voice pack", "VOICE PACK") as null|anything in GLOB.voice_packs_list
 					if(voicepack_input)
 						voice_pack = voicepack_input
-						if(voicepack_input != "Default")s
+						if(voicepack_input != "Default")
 							to_chat(user, span_red("<font color='red'>Your character will now audibly emote with a [lowertext(voicepack_input)] affect.") + span_notice("<br>This will take precedence over both your Voice Identity and Class-specific voice packs.</font>"))
 						else
 							to_chat(user, "<font color='red'>Your character will now audibly emote in accordance to their Voice Identity and any Racial / Class-specific voice packs.</font>")
