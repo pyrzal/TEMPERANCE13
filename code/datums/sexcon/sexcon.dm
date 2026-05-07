@@ -1150,7 +1150,9 @@
 		if(SEX_MANUAL_AROUSAL_FULL)
 			return "<font color='#d146f5'>FULLY ERECT</font>"
 
-/datum/sex_controller/proc/get_generic_force_adjective()
+/datum/sex_controller/proc/get_generic_force_adjective(is_stealth = FALSE)
+	if(is_stealth)
+		return pick(list("subtly","sneakily","covertly","stealthily","quietly"))
 	switch(force)
 		if(SEX_FORCE_LOW)
 			return pick(list("gently", "carefully", "tenderly", "gingerly", "delicately", "lazily"))
