@@ -1856,6 +1856,7 @@
 	boobed = FALSE
 	slot_flags = ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
+	var/overarmor = TRUE
 
 /obj/item/clothing/cloak/risofficer/ComponentInitialize()
 	. = ..()
