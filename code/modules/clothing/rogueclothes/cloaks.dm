@@ -1878,3 +1878,35 @@
 	else
 		alternate_worn_layer = UNDER_ARMOR_LAYER
 	user.update_inv_cloak()
+
+/obj/item/clothing/cloak/rismedtabard
+	name = "risvonian duty-cloak"
+	desc = "A green-brown tabard with a red sash affix't to the belt, worn by those who do not forfeit violence for healing."
+	icon_state = "rismedtabard"
+	item_state = "rismedtabard"
+	body_parts_covered = CHEST|GROIN|VITALS|ARMS
+	boobed = FALSE
+	slot_flags = ITEM_SLOT_CLOAK
+	flags_inv = HIDECROTCH|HIDEBOOB
+	var/overarmor = TRUE
+
+/obj/item/clothing/cloak/rismedtabard/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
+
+/obj/item/clothing/cloak/rismedtabard/dropped(mob/living/carbon/human/user)
+	..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	if(STR)
+		var/list/things = STR.contents()
+		for(var/obj/item/I in things)
+			STR.remove_from_storage(I, get_turf(src))
+
+/obj/item/clothing/cloak/rismedtabard/MiddleClick(mob/user)
+	overarmor = !overarmor
+	to_chat(user, span_info("I [overarmor ? "wear the tabard over my armor" : "wear the tabard under my armor"]."))
+	if(overarmor)
+		alternate_worn_layer = TABARD_LAYER
+	else
+		alternate_worn_layer = UNDER_ARMOR_LAYER
+	user.update_inv_cloak()
