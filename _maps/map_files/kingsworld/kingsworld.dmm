@@ -3672,9 +3672,9 @@
 /area/rogue/under/cave/warmachine)
 "dgB" = (
 /obj/structure/closet/crate/roguecloset/inn/chest,
-/obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
-/obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
 /obj/effect/spawner/lootdrop/medicines,
+/obj/item/roguegem/random,
+/obj/item/roguegem/random,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/shelter/town/sargoth)
 "dhc" = (
@@ -8740,7 +8740,7 @@
 /area/rogue/indoors/perserdunbase)
 "hQi" = (
 /obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/cheap_jewelry_spawner,
+/obj/item/roguegem/random,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors)
 "hQA" = (
@@ -8790,12 +8790,6 @@
 /obj/structure/flora/roguegrass/water,
 /turf/open/water/cleanshallow,
 /area/rogue/outdoors/risvon)
-"hST" = (
-/obj/structure/machine/spawner/delay{
-	pixel_x = -1
-	},
-/turf/open/transparent/openspace,
-/area/rogue/outdoors)
 "hSX" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/effect/spawner/lootdrop/ammo,
@@ -10250,12 +10244,6 @@
 /obj/effect/decal/cleanable/dirt/grime,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
-"jmF" = (
-/mob/living/carbon/human/species/human/northern/deranged_knight{
-	preset = "hedgeknight"
-	},
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/outdoors/perserdun)
 "jmN" = (
 /obj/structure/closet/crate/roguecloset/dark{
 	pixel_y = -1;
@@ -13088,7 +13076,7 @@
 	pixel_x = 20;
 	pixel_y = 5
 	},
-/obj/item/reagent_containers/glass/bottle/rogue/beer/avarmead,
+/obj/item/reagent_containers/glass/bottle/rogue/beer,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors/shelter/town/sargoth)
 "lTq" = (
@@ -294303,7 +294291,7 @@ sPK
 sPK
 vdB
 vdB
-jmF
+vdB
 vdB
 vdB
 vdB
@@ -396041,7 +396029,7 @@ myK
 myK
 myK
 myK
-hST
+myK
 myK
 myK
 myK
