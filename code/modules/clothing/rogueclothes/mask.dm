@@ -414,6 +414,18 @@
 	desc = "The Perserdunian Standard. Still dogshit."
 	icon_state = "fullgas"
 
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap
+	name = "strapped gas mask"
+	desc = "A variant of the standard Perserdunian gas mask, it uses straps to keep it attached to your face. The straps have seen much better days."
+	icon_state = "strapmask"
+	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
+
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth
+	name = "cloth half mask"
+	desc = "A cloth mask with a small rebreather behind it, dyed in a deep Perserdunian blue."
+	icon_state = "halfmask"
+	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
+
 /obj/item/clothing/mask/rogue/gasmask/sgmask
 	name = "safety mask"
 	desc = "A filter-ready, generation three gas mask produced by the WAR MACHINE."
