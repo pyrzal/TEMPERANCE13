@@ -11,15 +11,14 @@
 // so u can tweak these numbers as you wish in order to achieve whatever vision u desire
 
 #define GUN_AIM_TIME_MULT 0.2
-
-#define GUN_AIM_FLOOR_RIFLE     1
-#define GUN_AIM_FLOOR_PISTOL    1
-#define GUN_AIM_FLOOR_REVOLVER  0
+#define GUN_AIM_FLOOR_RIFLE     0.5
+#define GUN_AIM_FLOOR_PISTOL    0.5
+#define GUN_AIM_FLOOR_REVOLVER  0.1
 #define GUN_AIM_FLOOR_SHOTGUN   3
 
-#define GUN_AIM_TIME_MULT_RIFLE     1
-#define GUN_AIM_TIME_MULT_PISTOL    1
-#define GUN_AIM_TIME_MULT_REVOLVER  0
+#define GUN_AIM_TIME_MULT_RIFLE     0.66
+#define GUN_AIM_TIME_MULT_PISTOL    1.25
+#define GUN_AIM_TIME_MULT_REVOLVER  0.1
 #define GUN_AIM_TIME_MULT_SHOTGUN   1
 
 // How much weapon skill reduces aim time. 0 = skill irrelevant, 1 = current, 2 = double effect.

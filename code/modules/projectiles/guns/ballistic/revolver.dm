@@ -14,6 +14,7 @@
 	tac_reloads = FALSE
 	var/spin_delay = 10
 	var/recent_spin = 0
+	spread = 0
 	bolt_wording = "primer"
 	dry_fire_sound = 'sound/combat/ranged/revolver_dryfire.ogg'
 	slot_flags = ITEM_SLOT_HIP
@@ -97,7 +98,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/revolver
 	force = 10
-	spread = 4
+	spread = 0
 	icon_state = "revolver"
 	item_state = "revolver"
 	slowdown = 0.15
@@ -115,7 +116,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/revolver
 	force = 10
-	spread = 6
+	spread = 0
 	icon_state = "pace"
 	item_state = "pace"
 	slowdown = 0.15
@@ -132,7 +133,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/revolver
 	force = 10
-	spread = 6
+	spread = 0
 	icon_state = "webley"
 	item_state = "webley"
 	dry_fire_sound = 'sound/combat/ranged/revhammer.ogg'
@@ -150,7 +151,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/snubby
 	force = 9 // haha tiny gun bad
-	spread = 8 // with what barrel yo?
+	spread = 0 // with what barrel yo?
 	icon_state = "snubnose"
 	item_state = "snubnose"
 	dry_fire_sound = 'sound/combat/ranged/revhammer.ogg'
@@ -170,7 +171,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/risvon
 	force = 30
-	spread = 0.5
+	spread = 0
 	icon_state = "dshotgun"
 	item_state = "dshotgun"
 	slowdown = 0.15
@@ -190,7 +191,7 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/sawedoff
 	force = 20
 	throwforce = 40
-	spread = 0.8 // the fuck you think you're gonna hit with that barrel?
+	spread = 0 // the fuck you think you're gonna hit with that barrel?
 	icon_state = "singlebarrel"
 	item_state = "singlebarrel"
 	slowdown = 0.15
@@ -209,7 +210,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/judge
 	force = 30 //fat stock
-	spread = 2 // cut in half cuz much longer barrel
+	spread = 0 // cut in half cuz much longer barrel
 	icon = 'icons/roguetown/weapons/64guns.dmi'
 	icon_state = "revolvingrifle"
 	item_state = "revolvingrifle"
@@ -231,7 +232,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mercy
 	force = 10
-	spread = 6
+	spread = 0
 	icon_state = "mercy"
 	item_state = "mercy"
 	slowdown = 0.15
