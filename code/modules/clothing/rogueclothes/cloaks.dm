@@ -1846,3 +1846,20 @@
 		var/list/things = STR.contents()
 		for(var/obj/item/I in things)
 			STR.remove_from_storage(I, get_turf(src))
+
+/obj/item/clothing/cloak/perserduntrenchcoat/voltigeur
+	name = "voltigeur trenchcoat"
+	desc = "A shorter variant of the standard Perserdunian trenchcoat for the illustrious Voltigeurs of their ranks. Adorned with golden buttons."
+	color = null
+	icon_state = "voltigeur"
+	item_state = "voltigeur"
+	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_armor.dmi'
+	sleevetype = "voltigeur"
+
+/obj/item/clothing/cloak/perserduntrenchcoat/leech
+	name = "leech's apron"
+	desc = "A sterile apron made of latex to keep the blood away from your clothes, dyed in a deep Perserdunian blue."
+	icon_state = "leech"
+	item_state = "leech"
+	sleeved = null
+	sleevetype = null
