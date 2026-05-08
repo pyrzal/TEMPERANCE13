@@ -16183,7 +16183,7 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "oyk" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/wolf_undead,
+/mob/living/simple_animal/hostile/retaliate/rogue/wolf,
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cave)
 "oym" = (
@@ -24570,7 +24570,7 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/perserdun)
 "wey" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/wolf_undead,
+/mob/living/simple_animal/hostile/retaliate/rogue/wolf,
 /turf/open/floor/rogue/dirt,
 /area/rogue/under/cave)
 "weA" = (
