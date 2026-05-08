@@ -10,7 +10,6 @@
 				They *might* hold resentment towards the current Hierarch, yet are still forced to continue their work. \
 				Due to your easy access to MACHINE products, you are a highly valued ally."
 
-
 	outfit = /datum/outfit/job/roguetown/provisioner
 	display_order = JDO_PROVISIONER
 	give_bank_account = TRUE
