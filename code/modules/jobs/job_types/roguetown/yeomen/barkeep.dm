@@ -1,5 +1,5 @@
 /datum/job/roguetown/barkeep
-	title = "Barkeeper"
+	title = "Vineyard Keeper"
 	flag = BARKEEP
 	department_flag = KINGSROW
 	faction = "Station"
@@ -8,14 +8,16 @@
 
 	allowed_races = RACES_ALL_KINDS
 
-	tutorial = "Adventurers, soldiers - even the regular townsfolk. You're both the bartender and the cook. So, let's make some money."
+	tutorial = "You've been the main source of food for the manor for quite some time, now. \
+				You start in a cellar with some ale and a decent amount of wine. \
+				You also have a small farm attached to your vineyard. Make sure to use it for meat. \
+				Otherwise - you decide upon your opinion of the current Hierarch."
 
 	outfit = /datum/outfit/job/roguetown/barkeep
 	display_order = JDO_BARKEEP
 	give_bank_account = 43
 	min_pq = -4
 	max_pq = null
-	round_contrib_points = 3
 	cmode_music = 'sound/music/cmode/towner/combat_retired.ogg'
 
 /datum/outfit/job/roguetown/barkeep/pre_equip(mob/living/carbon/human/H)

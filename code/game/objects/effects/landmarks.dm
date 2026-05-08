@@ -719,13 +719,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/provisioner
-	name = "Provisioner"
+	name = "Chamberlain"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/provisionerlate
-	name = "Provisioner"
+	name = "Chamberlain"
 	icon_state = "arrow"
-	jobspawn_override = list("Provisioner")
+	jobspawn_override = list("Chamberlain")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/mortician
@@ -736,6 +736,16 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Mortician"
 	icon_state = "arrow"
 	jobspawn_override = list("Mortician")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/displaced
+	name = "Displaced Heir"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/displacedlate
+	name = "Displaced Heir"
+	icon_state = "arrow"
+	jobspawn_override = list("Displaced Heir")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/villager
