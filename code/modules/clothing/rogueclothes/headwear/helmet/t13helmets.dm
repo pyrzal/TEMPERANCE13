@@ -109,7 +109,7 @@
 /obj/item/clothing/head/roguetown/helmet/leather/leech
 	name = "leech's softcap"
 	desc = "A softcap with a bad denoting the wearer as a leech of the Perserdunian forces, it slightly droops on the head."
-		icon_state = "leechcap"
+	icon_state = "leechcap"
 	item_state = "leechcap"
 	experimental_inhand = FALSE
 	experimental_onhip = FALSE

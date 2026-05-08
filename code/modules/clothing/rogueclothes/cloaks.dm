@@ -1856,10 +1856,27 @@
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_armor.dmi'
 	sleevetype = "voltigeur"
 
-/obj/item/clothing/cloak/perserduntrenchcoat/leech
+/obj/item/clothing/cloak/leech
 	name = "leech's apron"
 	desc = "A sterile apron made of latex to keep the blood away from your clothes, dyed in a deep Perserdunian blue."
+	color = null
 	icon_state = "leech"
 	item_state = "leech"
-	sleeved = null
-	sleevetype = null
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
+	alternate_worn_layer = TABARD_LAYER
+	body_parts_covered = CHEST|GROIN
+	boobed = TRUE
+	slot_flags = ITEM_SLOT_SHIRT|ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
+	flags_inv = HIDECROTCH|HIDEBOOB
+	var/open_wear = FALSE
+	var/overarmor = TRUE
+	. = ..()
+	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
+
+/obj/item/clothing/cloak/leech/dropped(mob/living/carbon/human/user)
+	..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	if(STR)
+		var/list/things = STR.contents()
+		for(var/obj/item/I in things)
+			STR.remove_from_storage(I, get_turf(src))
