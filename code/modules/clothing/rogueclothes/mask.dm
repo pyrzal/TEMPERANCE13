@@ -416,13 +416,13 @@
 
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap
 	name = "strapped gas mask"
-	desc = "A variant of the standard Perserdunian gas mask, it uses straps to keep it attached to your face. The straps have seen much better days."
+	desc = "A variant of the standard Perserdunian gas mask, still pretty shit."
 	icon_state = "strapmask"
 	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
 
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth
 	name = "cloth half mask"
-	desc = "A cloth mask with a small rebreather behind it, dyed in a deep Perserdunian blue."
+	desc = "A cloth mask with a small rebreather behind it, It'll keep you safe enough."
 	icon_state = "halfmask"
 	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
 
