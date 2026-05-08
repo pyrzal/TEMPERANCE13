@@ -552,9 +552,3 @@
 /obj/structure/fluff/walldeco/vent/vent3
 	desc = "It's broken."
 	icon_state = "vent3"
-
-/obj/structure/fluff/walldeco/soldato
-	name = "YOUR ENEMY"
-	desc = "Shoot this guy."
-	icon_state = "soldato_id"
-	layer = ABOVE_MOB_LAYER
