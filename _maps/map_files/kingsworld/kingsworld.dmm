@@ -595,6 +595,19 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/exposed/risvonbase)
+"aEt" = (
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/gun/ballistic/rifle/repeater/perserdun{
+	pixel_y = 9
+	},
+/obj/item/gun/ballistic/rifle/repeater/perserdun{
+	pixel_y = -2
+	},
+/obj/structure/fluff/walldeco/soldato{
+	pixel_x = -32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "aEK" = (
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /turf/open/floor/rogue/metal/barograte/open,
@@ -3292,7 +3305,7 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "dwO" = (
-/obj/structure/fluff/walldeco/happy{
+/obj/structure/fluff/walldeco/soldato{
 	pixel_x = 32
 	},
 /turf/open/floor/rogue/perdun,
@@ -6753,6 +6766,16 @@
 	},
 /turf/open/floor/rogue/grime,
 /area/rogue/under/cave/warmachine)
+"hAJ" = (
+/obj/structure/bed/rogue,
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
+/obj/structure/fluff/walldeco/soldato{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "hBd" = (
 /obj/structure/table/optable,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -16813,6 +16836,17 @@
 /obj/effect/spawner/lootdrop/general_loot_low,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"sWs" = (
+/obj/structure/bed/rogue,
+/obj/effect/landmark/start/armsman,
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
+/obj/effect/landmark/start/armsmanlate,
+/obj/structure/fluff/walldeco/soldato{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "sWu" = (
 /obj/structure/mineral_door/wood{
 	lockid = "risvontag"
@@ -17925,6 +17959,24 @@
 /obj/structure/flora/roguetree/pine,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/beach/forest/south)
+"udE" = (
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/storage/belt/rogue/pouch/ammobag{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/storage/belt/rogue/pouch/ammobag{
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/item/storage/belt/rogue/pouch/ammobag{
+	pixel_y = -7
+	},
+/obj/structure/fluff/walldeco/soldato{
+	pixel_x = 32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "udT" = (
 /obj/structure/fluff/railing/border/north{
 	dir = 4
@@ -160595,7 +160647,7 @@ kyT
 fRT
 wEu
 fKf
-wEu
+aEt
 iDa
 wEu
 iTj
@@ -161803,7 +161855,7 @@ kyT
 iWR
 fRM
 iWR
-fRM
+udE
 cAv
 fRM
 iWR
@@ -316444,7 +316496,7 @@ tPP
 tPP
 tPP
 hUj
-mnl
+sWs
 oAG
 hyS
 kyT
@@ -318260,7 +318312,7 @@ kGb
 oAG
 oMH
 kyT
-kGb
+hAJ
 oAG
 oMH
 kyT
