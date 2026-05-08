@@ -13076,7 +13076,7 @@
 	pixel_x = 20;
 	pixel_y = 5
 	},
-/obj/item/reagent_containers/glass/bottle/rogue/beer,
+/obj/item/reagent_containers/glass/bottle/rogue/redwine,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors/shelter/town/sargoth)
 "lTq" = (
@@ -14754,10 +14754,7 @@
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "now" = (
-/obj/item/reagent_containers/glass/bottle/rogue/wine{
-	pixel_x = 7;
-	pixel_y = 13
-	},
+/obj/item/reagent_containers/glass/bottle/rogue/redwine,
 /obj/item/cooking/platter{
 	pixel_x = -4;
 	pixel_y = -6
