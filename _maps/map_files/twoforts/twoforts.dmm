@@ -6,6 +6,7 @@
 "aJ" = (/obj/structure/stairs/stone{dir = 1},/turf/open/floor/rogue/perdun,/area/rogue/outdoors/exposed/perserdunbase)
 "aP" = (/obj/machinery/light/rogue/wallfire/candle/blue,/obj/effect/landmark/start/voltigeur,/obj/effect/landmark/start/voltigeurlate,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "bm" = (/obj/structure/bed/rogue/inn/double{pixel_y = 3},/obj/item/bedsheet/rogue/double_pelt{pixel_y = 4},/obj/effect/decal/carpet{layer = 2.9; pixel_y = -4},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"br" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 8},/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
 "bu" = (/obj/effect/landmark/start/radiotrooper,/obj/effect/landmark/start/radiotrooperlate,/obj/effect/landmark/start/voltigeur,/obj/effect/landmark/start/voltigeurlate,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "by" = (/obj/machinery/light/rogue/wallfire/candle/weak/l,/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "bF" = (/turf/open/water/bloody{desc = "Comforting to some."},/area/rogue/indoors/perserdunbase)
@@ -18,13 +19,16 @@
 "cE" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/rogue/blocks/bluestone,/area/rogue/indoors/perserdunbase)
 "cR" = (/obj/structure/fluff/railing/corner/south_east{pixel_x = 4; layer = 4},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "dd" = (/obj/machinery/light/rogue/smelter/hiron,/turf/open/floor/rogue/metal/barograte,/area/rogue/indoors/risvonbase)
+"di" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 4},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/outdoors/exposed/risvonbase)
 "dn" = (/obj/structure/bars/grille,/obj/machinery/light/rogue/wallfire/candle/weak,/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
 "dv" = (/obj/structure/fluff/railing/sandbag{layer = 2.92; dir = 1},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "dw" = (/obj/structure/fluff/pillow/red{pixel_y = 4; pixel_x = -7; dir = 1},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"dy" = (/obj/structure/far_travel,/obj/structure/far_travel{icon = 'icons/roguetown/underworld/enigma_carriage.dmi'; icon_state = "carriage_lit"; pixel_x = -85; layer = 4},/turf/open/floor/rogue/underworld/road,/area/rogue)
 "dD" = (/obj/effect/landmark/start/pafanto,/obj/effect/landmark/start/pafantolate,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "dF" = (/obj/structure/table/wood/perserdunsmall,/obj/effect/decal/carpet/square{dir = 1},/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/item/ammo_box/handfuls/rifle,/obj/machinery/light/rogue/wallfire/candle,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/obj/item/ammo_box/clip/pistol,/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "dK" = (/turf/open/water/swamp/deep,/turf/closed/wall/mineral/rogue/risvon/outercorner/dir4,/area/rogue/indoors/risvonbase)
 "dP" = (/obj/machinery/light/rogue/wallfire/candle/blue{pixel_y = -32},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
+"dY" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "ek" = (/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "er" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/grenade/frag,/obj/item/grenade/frag,/obj/item/grenade/frag,/obj/item/grenade/frag,/obj/item/grenade/frag,/obj/machinery/light/rogue/wallfire/candle{pixel_y = -32},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "eu" = (/turf/open/water/sewer,/area/rogue/indoors/perserdunbase)
@@ -106,9 +110,12 @@
 "mZ" = (/obj/structure/fireaxecabinet{pixel_y = -29},/obj/item/gun/ballistic/rifle/repeater/patience{name = "gutted AMR 'Patience'"; desc = "Recovered from one of the local Outlets. The internals were sent to Vos Arderla to justify Perserdunian presence within the region."; pixel_x = 16; pixel_y = -25; anchored = 1},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
 "nd" = (/turf/open/floor/rogue/church,/area/rogue/outdoors/exposed/perserdunbase)
 "nn" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = -7; pixel_x = -7},/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = 12; pixel_x = -7},/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = 12; pixel_x = 7},/obj/item/clothing/mask/rogue/gasmask/risvonmask{pixel_y = -7; pixel_x = 7},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
-"nO" = (/obj/structure/fluff/railing/corner/south_east,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/risvonbase)
+"nt" = (/turf/open/floor/rogue/underworld/road,/area/rogue)
+"nA" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 4},/turf/open/floor/rogue/risvon,/area/rogue/outdoors/exposed/risvonbase)
+"nO" = (/obj/structure/fluff/railing/corner/south_east,/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 8},/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/risvonbase)
 "nR" = (/obj/machinery/light/rogue/wallfire/candle/weak,/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "oa" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/clothing/mask/rogue/gasmask/perserdunmask{pixel_x = -8; pixel_y = 10},/obj/item/clothing/mask/rogue/gasmask/perserdunmask{pixel_x = 7; pixel_y = -5},/obj/item/clothing/mask/rogue/gasmask/perserdunmask{pixel_x = 7; pixel_y = 10},/obj/item/clothing/mask/rogue/gasmask/perserdunmask{pixel_x = -8; pixel_y = -5},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
+"ok" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 8},/turf/open/floor/rogue/church,/area/rogue/outdoors/exposed/perserdunbase)
 "ot" = (/turf/closed/wall/mineral/rogue/wooddark,/area/rogue/indoors/shelter/town)
 "oB" = (/obj/structure/table/wood/metal3,/obj/item/storage/pill_bottle/dice,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "oE" = (/obj/structure/mineral_door/wood/wardoor{lockid = "risvontag"; name = "ORGANS"},/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
@@ -131,15 +138,18 @@
 "qV" = (/turf/closed/wall/mineral/rogue/perserdun/tshape,/area/rogue/indoors/perserdunbase)
 "qZ" = (/obj/structure/stairs{dir = 8},/turf/open/floor/rogue/grime,/area/rogue/indoors/risvonbase)
 "rj" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/rogue/grime,/area/rogue/indoors/perserdunbase)
+"rs" = (/obj/structure/far_travel,/obj/machinery/light/rogue/firebowl/standing/blue{pixel_x = -8},/turf/open/floor/rogue/underworld/space,/area/rogue)
 "ry" = (/turf/closed/wall/mineral/rogue/warmachine/long,/area/rogue/indoors/shelter/town)
 "rI" = (/obj/structure/table/wood/perserdunsmall,/obj/item/storage/belt/rogue/surgery_bag/full{pixel_y = 4},/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "rJ" = (/obj/structure/closet/crate/roguecloset/metal{pixel_x = -10},/turf/open/floor/rogue/metal/barograte,/area/rogue/indoors/risvonbase)
+"rW" = (/obj/structure/far_travel,/turf/open/floor/rogue/underworld/road,/area/rogue)
 "rX" = (/turf/closed/wall/mineral/rogue/risvon/long,/area/rogue/indoors/risvonbase)
-"rZ" = (/obj/effect/landmark/latejoin,/turf/open/water/pond,/area/rogue/outdoors/beach/forest/south)
+"rZ" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 4},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "sr" = (/obj/machinery/light/rogue/wallfire/candle{pixel_y = -32},/obj/effect/landmark/start/bastiono,/obj/effect/landmark/start/bastionolate,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "st" = (/obj/mblock,/obj/structure/bars/chainlink,/obj/machinery/light/roguestreet{dir = 1; pixel_x = -15},/turf/open/floor/rogue/perdun,/area/rogue/outdoors/perserdun)
 "sz" = (/obj/structure/fluff/railing/wood,/turf/open/water/sewer,/area/rogue/indoors/risvonbase)
 "sN" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
+"sP" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 1},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "sY" = (/turf/closed/wall/mineral/rogue/perserdun/long,/area/rogue/indoors/perserdunbase)
 "tc" = (/obj/structure/bookcase,/obj/item/book/rogue/regulationszig,/obj/item/book/rogue/regulationszig,/obj/item/book/rogue/regulationszig,/obj/item/book/rogue/regulationszig,/obj/item/book/rogue/regulationszig,/obj/item/book/rogue/regulationszig,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "tj" = (/obj/structure/mineral_door/wood{lockid = "risvontag"; name = "OFICIRO BARRACKS"},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
@@ -159,10 +169,12 @@
 "ux" = (/turf/open/transparent/openspace,/area/rogue/indoors/shelter/town)
 "uz" = (/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/exposed/perserdunbase)
 "uA" = (/obj/effect/landmark/start/soldato,/obj/effect/landmark/start/soldatolate,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"uF" = (/obj/structure/far_travel,/turf/open/floor/rogue/underworld/space,/area/rogue)
 "uJ" = (/obj/effect/decal/cobbleedge{dir = 10; icon_state = "cobbleedge-n"},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/perserdun)
 "uY" = (/obj/structure/chair/wood/rogue/generic2{dir = 8},/obj/effect/decal/carpet{dir = 8; pixel_x = -19},/obj/effect/landmark/start/commandant,/obj/effect/landmark/start/commandantlate,/obj/structure/fluff/wallclock/r,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "uZ" = (/obj/structure/fluff/railing/border{pixel_y = -8},/turf/open/floor/rogue/med,/area/rogue/indoors/perserdunbase)
 "vn" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/sandbag{pixel_y = 6},/obj/item/sandbag{pixel_y = 6},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
+"vo" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 8},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "vp" = (/obj/structure/stairs/stone/d{dir = 8},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "vr" = (/obj/structure/table/wood/perserdunsmall{pixel_y = -1},/obj/item/frogmine{pixel_x = 8; pixel_y = 11},/obj/item/frogmine{pixel_x = -8; pixel_y = 10},/obj/item/landmine,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "vv" = (/obj/effect/decal/cleanable/blood/tracks{dir = 10},/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
@@ -171,6 +183,7 @@
 "vX" = (/obj/effect/decal/remains/bear{pixel_y = -3; pixel_x = 9; name = "trophy"},/obj/structure/fluff/walldeco/bigpainting/lake{pixel_x = 0},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "wm" = (/obj/structure/fluff/railing/wood/north{dir = 8; pixel_y = 0; pixel_x = -11},/turf/open/floor/rogue/ruinedwood/turned,/area/rogue/indoors/shelter/town)
 "wo" = (/obj/structure/mineral_door/wood{lockid = "risvontag"; name = "PHYSICIANS QUARTERS"},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
+"wp" = (/obj/effect/landmark/latejoin,/turf/open/floor/rogue/underworld/road,/area/rogue)
 "wr" = (/obj/structure/fluff/railing/border/west,/turf/open/floor/rogue/grime,/area/rogue/indoors/perserdunbase)
 "ws" = (/obj/structure/roguemachine/goldface/public/grace{pixel_y = 8},/obj/structure/table/wood/perserdunsmall{pixel_y = -1},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "wx" = (/obj/structure/closet/crate/roguecloset/dark{pixel_x = 7; pixel_y = 0},/turf/open/floor/carpet/royalblack,/area/rogue/indoors/perserdunbase)
@@ -210,7 +223,9 @@
 "zl" = (/obj/structure/closet/crate/roguecloset/metal{pixel_x = -10},/obj/structure/fluff/walldeco/compromise{pixel_x = -32},/turf/open/floor/rogue/metal/barograte,/area/rogue/indoors/risvonbase)
 "zm" = (/obj/structure/stairs/stone{dir = 8},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "zy" = (/obj/effect/turf_decal/weather/dirt{dir = 1; name = "tire tracks"},/obj/effect/turf_decal/weather/dirt{name = "tire tracks"},/turf/open/floor/rogue/sand,/area/rogue/outdoors/risvon)
+"zA" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 1},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "zD" = (/obj/structure/roguemachine/mail/l{mailtag = "RISVON COMMANDANT"; pixel_y = 32; pixel_x = 0},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"zE" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 8},/turf/open/floor/rogue/perdun,/area/rogue/outdoors/exposed/perserdunbase)
 "zX" = (/obj/structure/fluff/railing/corner{pixel_x = -4; pixel_y = 4; layer = 4},/obj/structure/fluff/railing/corner/north_east{pixel_x = 4; pixel_y = 4; layer = 2.7},/turf/closed/wall/mineral/rogue/perserdun/long/east_west,/area/rogue/indoors/perserdunbase)
 "zY" = (/obj/effect/decal/carpet/square/black{dir = 4; pixel_x = -8},/obj/structure/chair/wood/rogue/chair3{dir = 8},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
 "Af" = (/turf/open/water/cleanshallow,/area/rogue/indoors/perserdunbase)
@@ -229,6 +244,7 @@
 "Bp" = (/obj/structure/fluff/railing/border,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/risvonbase)
 "Bt" = (/obj/structure/fluff/walldeco/bigpainting/lake{pixel_x = 0},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "BB" = (/obj/structure/table/wood/perserdunsmall,/obj/item/rogueweapon/hammer/iron{pixel_y = 9},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_x = 3; pixel_y = -3},/obj/item/rogueweapon/hammer/iron{pixel_y = 9},/obj/item/rogueweapon/hammer/iron{pixel_y = 9},/obj/item/rogueweapon/hammer/iron{pixel_y = 9},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_x = 3; pixel_y = -3},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_x = 3; pixel_y = -3},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_x = 3; pixel_y = -3},/obj/structure/fluff/railing/border/west{pixel_x = -4},/obj/structure/fluff/railing/border/east{pixel_x = 4; layer = 4.11},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
+"BE" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 4},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "BF" = (/turf/closed/wall/mineral/rogue/perserdun/outercorner,/area/rogue/indoors/perserdunbase)
 "BS" = (/turf/open/water/pond,/area/rogue/outdoors/beach/forest/south)
 "BT" = (/obj/structure/fluff/railing/border/west{pixel_x = -4; pixel_y = -4},/obj/effect/landmark/start/veterano,/obj/effect/landmark/start/veteranolate,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
@@ -242,9 +258,12 @@
 "Co" = (/obj/structure/bed/rogue/inn/double{dir = 1},/obj/item/bedsheet/rogue/fabric_double{dir = 8},/turf/open/floor/carpet/red,/area/rogue/indoors/perserdunbase)
 "Cs" = (/obj/structure/table/optable,/obj/structure/roguemachine/goldface/public/organmachine{pixel_y = 4},/obj/structure/fluff/walldeco/med5{pixel_x = 31},/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "Cy" = (/obj/effect/landmark/start/curacisto,/obj/structure/bed/rogue/inn/wool{dir = 8},/obj/item/bedsheet/rogue/cloth{dir = 2; pixel_x = 10},/obj/effect/landmark/start/curacistolate,/turf/open/floor/carpet/royalblack,/area/rogue/indoors/risvonbase)
+"CB" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/outdoors/exposed/risvonbase)
 "CI" = (/obj/effect/decal/cleanable/blood{icon_state = "floor6-old"},/turf/open/floor/rogue/metal/barograte/open,/area/rogue/indoors/perserdunbase)
 "CN" = (/obj/structure/globe,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
+"CR" = (/obj/mblock,/turf/open/floor/rogue/underworld/road,/area/rogue)
 "CU" = (/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
+"Df" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 1},/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
 "Du" = (/obj/item/roguebin/water,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "Dz" = (/obj/structure/fluff/nest,/obj/effect/spawner/lootdrop/ammo,/obj/effect/spawner/lootdrop/ammo,/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
 "DB" = (/obj/structure/closet/crate/roguecloset/dark{pixel_x = 1; pixel_y = 0},/turf/open/floor/carpet/royalblack,/area/rogue/indoors/perserdunbase)
@@ -253,6 +272,7 @@
 "DK" = (/obj/machinery/light/rogue/wallfire/candle/floorcandle{pixel_y = 3; pixel_x = -1},/turf/open/floor/rogue/concrete,/area/rogue/indoors/perserdunbase)
 "DP" = (/obj/structure/stairs/d{dir = 4},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "DQ" = (/obj/mblock,/obj/structure/bars/chainlink,/obj/machinery/light/roguestreet{dir = 1; pixel_x = -15},/turf/open/floor/rogue/warmetal,/area/rogue/outdoors/beach/forest/south)
+"DW" = (/obj/structure/far_travel,/obj/structure/underworld/carriageman{density = 0; pixel_y = 59; pixel_x = -5},/turf/open/floor/rogue/underworld/road,/area/rogue)
 "Ef" = (/obj/structure/closet/crate/roguecloset/dark{pixel_y = 17},/obj/item/rogueweapon/sword/sabre/dec{desc = "A ceremonial sabre. Hasn't seen much use."},/obj/item/rogueweapon/scabbard/sword,/turf/open/floor/carpet/red,/area/rogue/indoors/perserdunbase)
 "Eh" = (/obj/structure/rack/rogue,/obj/item/natural/bundle/cloth,/obj/item/natural/bundle/cloth,/obj/item/natural/bundle/cloth,/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "Em" = (/turf/open/floor/carpet/red,/area/rogue/indoors/perserdunbase)
@@ -274,6 +294,7 @@
 "FI" = (/obj/structure/mineral_door/wood/wardoor{lockid = "risvontag"; name = "SURGERY"},/obj/effect/decal/cleanable/blood/tracks{dir = 4},/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "FV" = (/turf/closed/wall/mineral/rogue/perserdun/outercorner/dir1,/area/rogue/indoors/perserdunbase)
 "Gg" = (/obj/effect/landmark/start/jaeger,/obj/effect/landmark/start/jaegerlate,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
+"Gk" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"},/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
 "Gw" = (/obj/machinery/light/rogue/wallfire/candle/weak/l,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue/indoors/risvonbase)
 "Gx" = (/obj/structure/fluff/railing/border/north,/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "GB" = (/obj/effect/turf_decal/weather/dirt{dir = 1; name = "tire tracks"},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/risvon)
@@ -288,6 +309,7 @@
 "Ig" = (/obj/effect/decal/cleanable/blood/gibs/up,/turf/open/floor/rogue/metal{icon_state = "plating2"; dir = 1},/area/rogue/indoors/perserdunbase)
 "In" = (/turf/closed/wall/mineral/rogue/perserdun/tshape/dir8,/area/rogue/indoors/perserdunbase)
 "It" = (/obj/structure/table/wood/poor,/obj/structure/bars/shop,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"Iu" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"},/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "IC" = (/obj/structure/stairs/stone/d,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "II" = (/obj/structure/mineral_door/wood{lockid = "risvontag"; name = "ASSISTANTS QUARTERS"},/turf/open/floor/rogue/risvon,/area/rogue/indoors/risvonbase)
 "IL" = (/obj/structure/mineral_door/wood{lockid = "risvontag"; name = "ARMORY"},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
@@ -329,6 +351,7 @@
 "MC" = (/turf/open/floor/rogue/ruinedwood/turned,/area/rogue/indoors/shelter/town)
 "MI" = (/turf/open/floor/rogue/rooftop/west{dir = 4},/area/rogue/outdoors/beach/forest/south)
 "Nb" = (/obj/structure/globe,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"Nd" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 8},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "Nq" = (/obj/structure/chair/bench/cavethrone{name = "la sangre"},/turf/open/floor/rogue/concrete,/area/rogue/indoors/perserdunbase)
 "Nx" = (/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/exposed/risvonbase)
 "NB" = (/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
@@ -350,6 +373,7 @@
 "OI" = (/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
 "OJ" = (/obj/structure/fluff/railing/border/north,/obj/effect/landmark/start/campfollower,/obj/effect/landmark/start/campfollowerlate,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "ON" = (/obj/machinery/light/rogue/wallfire/candle/weak,/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
+"OR" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "OW" = (/obj/machinery/anvil/crafted{pixel_x = -3},/turf/open/floor/rogue/metal/barograte/open,/area/rogue/indoors/perserdunbase)
 "OX" = (/obj/structure/far_travel,/turf/open/water/pond,/area/rogue/outdoors/beach/forest/south)
 "Pc" = (/obj/effect/turf_decal/weather/dirt{dir = 1; name = "tire tracks"},/turf/open/floor/rogue/sand,/area/rogue/outdoors/risvon)
@@ -357,11 +381,13 @@
 "Pj" = (/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/warmetal,/area/rogue/outdoors/beach/forest/south)
 "Pn" = (/obj/structure/stairs/stone/d{dir = 8},/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "Pt" = (/obj/machinery/light/rogue/wallfire/candle/blue/l,/turf/open/floor/rogue/tile/bath,/area/rogue/indoors/perserdunbase)
+"PD" = (/obj/structure/far_travel,/obj/machinery/light/rogue/firebowl/standing/blue{pixel_x = 10},/turf/open/floor/rogue/underworld/space,/area/rogue)
 "PE" = (/obj/structure/mineral_door/wood/wardoor{lockid = "risvontag"; name = "MEDICAL"},/turf/open/floor/rogue/church,/area/rogue/indoors/risvonbase)
 "PM" = (/obj/structure/mineral_door/wood/wardoor{lockid = "risvontag"; name = "ORGANS"},/turf/open/floor/rogue/med,/area/rogue/indoors/perserdunbase)
 "PU" = (/obj/structure/rogue/trophy/deer,/obj/structure/chair/bench/couchablack,/obj/effect/decal/carpet/kover_darkred{pixel_x = 15; pixel_y = -14},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/perserdunbase)
 "PW" = (/obj/machinery/light/rogue/wallfire/candle/weak/r,/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "PY" = (/obj/machinery/light/rogue/wallfire{pixel_x = 32},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"Qh" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 1},/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "Qt" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/risvon,/area/rogue/outdoors/exposed/risvonbase)
 "Qv" = (/turf/open/floor/rogue/perdun,/area/rogue/outdoors/perserdun)
 "Qy" = (/obj/structure/stairs/stone/d,/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
@@ -392,7 +418,7 @@
 "Tj" = (/turf/open/transparent/openspace,/area/rogue/outdoors/exposed/perserdunbase)
 "Tm" = (/obj/structure/bed/rogue/inn{dir = 8},/obj/effect/landmark/start/chirurgeon,/obj/effect/landmark/start/chirurgeonlate,/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "To" = (/turf/open/floor/rogue/rooftop/west,/area/rogue/outdoors/beach/forest/south)
-"Tt" = (/obj/structure/fluff/railing/corner,/turf/open/floor/rogue/blocks/bluestone,/area/rogue/indoors/perserdunbase)
+"Tt" = (/obj/structure/fluff/railing/corner,/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 4},/turf/open/floor/rogue/blocks/bluestone,/area/rogue/indoors/perserdunbase)
 "Tu" = (/obj/structure/table/wood/perserdunsmall{pixel_y = -1},/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/obj/item/rogueweapon/shovel/small/etool,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "TI" = (/obj/structure/mineral_door/wood/violet{lockid = "perserdun"; name = "SANCTUM"},/turf/open/floor/rogue/metal/barograte/open,/area/rogue/indoors/perserdunbase)
 "TR" = (/turf/open/floor/rogue/rooftop,/area/rogue/outdoors/beach/forest/south)
@@ -411,6 +437,7 @@
 "Vx" = (/obj/structure/fluff/railing/border/west{pixel_x = -4; pixel_y = -4},/obj/structure/fluff/railing/border/east{pixel_x = 4; pixel_y = 2; layer = 4.11},/obj/structure/fluff/railing/border/east{pixel_x = 4; pixel_y = -4; layer = 4.11},/obj/structure/fluff/walldeco/happy{pixel_y = 31},/obj/structure/closet/crate/roguecloset/metal,/obj/item/rogueweapon/hammer/iron{pixel_y = 9; pixel_x = -6},/obj/item/rogueweapon/hammer/iron{pixel_y = 9; pixel_x = -6},/obj/item/rogueweapon/hammer/iron{pixel_y = 9; pixel_x = -6},/obj/item/rogueweapon/hammer/iron{pixel_y = 9; pixel_x = -6},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_y = -3; pixel_x = -4},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_y = -3; pixel_x = -4},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_y = -3; pixel_x = -4},/obj/item/rogueweapon/tongs/stone{name = "tongs"; pixel_y = -3; pixel_x = -4},/turf/open/floor/rogue/metal/barograte,/area/rogue/indoors/risvonbase)
 "Vy" = (/obj/effect/spawner/lootdrop/ammo,/obj/effect/spawner/lootdrop/ammo,/obj/structure/fluff/nest,/turf/open/floor/rogue/grime,/area/rogue/indoors/perserdunbase)
 "VG" = (/obj/structure/bars/shop,/obj/structure/table/wood/poor,/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
+"VQ" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 1},/turf/open/floor/rogue/warquad,/area/rogue/outdoors/exposed/perserdunbase)
 "VW" = (/obj/effect/decal/cobbleedge{icon_state = "cobbleedge-sread"},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/sand,/area/rogue/outdoors/perserdun)
 "Wf" = (/obj/structure/rack/rogue,/obj/item/needle{pixel_y = 1; pixel_x = 10},/obj/item/needle{pixel_y = 5; pixel_x = 2},/obj/item/needle{pixel_y = 1; pixel_x = -8},/obj/machinery/light/rogue/wallfire/candle/l,/turf/open/floor/rogue/med,/area/rogue/indoors/risvonbase)
 "Wo" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/water/pond,/area/rogue/outdoors/beach/forest/south)
@@ -431,6 +458,7 @@
 "Yh" = (/obj/structure/closet/crate/roguecloset/metal/metal2,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "Yk" = (/obj/structure/mineral_door/perserdoor,/turf/open/floor/rogue/perdun,/area/rogue/indoors/perserdunbase)
 "YE" = (/obj/structure/fluff/walldeco/church/line{name = "train tracks"},/obj/structure/fluff/walldeco/church/line{name = "train tracks"; dir = 1},/obj/mblock,/obj/structure/bars/chainlink,/turf/open/floor/rogue/cobble,/area/rogue/outdoors/perserdun)
+"YF" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 4},/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "YO" = (/obj/structure/mineral_door/wood{lockid = "risvontag"; name = "VETERANO QUARTERS"},/turf/open/floor/rogue/ruinedwood/spiral,/area/rogue/indoors/risvonbase)
 "YP" = (/obj/effect/decal/cobbleedge{icon_state = "cobbleedge-sread"},/turf/open/floor/rogue/sand,/area/rogue/outdoors/perserdun)
 "YR" = (/obj/structure/fluff/littlebanners/bluewhite{pixel_y = -32},/turf/open/floor/rogue/perdun,/area/rogue/outdoors/perserdun)
@@ -459,15 +487,15 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzFVRwRwOcxgYg
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKAhCUCUEwHzHzHzzkJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzHzHzFVBdBdBdBdBdBdBdCUCUBdBdBdBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYEfNBPUODNBjGEwHzHzHzFVBdCUCUCUCUCUCUCUBdJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYEmNBlvQWNBNBBaCUCUCUsYBdCUCUCUCUCUCUCUBdJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYEmNBlvQWNBNBBaCUCUCUsYBdGkCUCUCUCUCUCUBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYCoNBNBNBNBNBBFHzFVCUlaYUKLBFHzHzFVPtCUBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYEVNBNBNBNBmJsYkQsYCUsYCUCUsYkQkQsYLtLtBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYmlSCNBNBNBNBsYkQsYCUAhCUCUsYkQkQlaYUBdBdJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYIaCmzYNBNBZTsYkQsYCUCUCUBFzkkQkQsYJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYIaCmzYNBNBZTsYkQsYDfCUCUBFzkkQkQsYJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYmRMiWJNBmZCNsYkQsYCUCUCUsYkQkQkQAhJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzFVBaBFHzzkkQsYCUCUCUsYkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYCUEwHzHzHzzkCUCUKLsYkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYCUJfCUCUCUCUCUCUCUsYkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYCUJfCUCUCUCUbrCUCUsYkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzHzHzHzFVCUCUCUsYkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYCUCUKKsYkQkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFHzzkCUCUDzEwYUkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -493,17 +521,17 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYeueueueueueueueueusYJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYSoeueuBFHzHzHzHzHzzkJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYeueueusYkQkQkQkQkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQkQkQkQkQsYeueueusYkQkQkQkQkQJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKOXBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSawHzHzHzHzzkeueueuEwHzHzHzHzYUBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSNJBSWoBSBSotgGgGgGotBSBSWoBSNJBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSgGgGgGgGgGBSBSBSBSgGBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSotgGgGgGotBSBSBSBSgGBSheheheheheheheheheheheheheBSrZJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSgGgGgGgGgGBSBSBSBSgGBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSheheheheheheheheheheheheheBSgWBSyUBSBSotgGgGgGotBSBSyUBSgWBSheheheheheheheheheheheheheBSBSJKJK
-JKJKOXBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSUmKqKqKqKqklhBhBhBWDKqKqKqKqOeBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSJKJK
+JKJKOXBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSawHzHzHzHzzkeueueuEwHzHzHzHzYUBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSNJBSWoBSBSotgGgGgGotBSBSWoBSNJBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSgGgGgGgGgGBSBSBSBSgGBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSotgGgGgGotBSBSBSBSgGBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgGBSBSBSBSgGgGgGgGgGBSBSBSBSgGBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSryBSBSBSBSgGgGgGgGgGBSBSBSBSryBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSheheheheheheheheheheheheheBSgWBSyUBSBSotgGgGgGotBSBSyUBSgWBSheheheheheheheheheheheheheBSOXJKJK
+JKJKOXBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSUmKqKqKqKqklhBhBhBWDKqKqKqKqOeBSBSBSBSBSBSBSBSBSBSBSBSBSBSBSOXJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSASASASASArXhBhBhBrXSASASASASAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSASASASASArXhBhBhBrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKWDKqKqKqKqKqyhhBhBxmrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -529,15 +557,15 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKKwzjzjkZxnrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSAUmklDFzjzjWDKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSASArXlEzjzjrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSArXzjzjzjtCKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSArXzjzjzjzjzjzjzjnRzjrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSArXzjzjYFzjzjzjzjnRzjrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSArXbyzjzjWDKqKqKqklzjrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKSArXzjzjzjrXSAWDKqyhqEtCKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKxYSASASArXzjzjzjrXSArXBtqIfKzDvXbmrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKrXSASAWDyhzjzjzjrXSArXNbfKfKfKfKyprXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKrXSASAWDyhzjzjIurXSArXNbfKfKfKfKyprXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwKwUmtSSASArXzjzjxYzjrXSArXtcfKtHdwfKPYrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwEJEJrXSASArXzjzjrXzjrXSArXtcfKfKfKJhfKrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwzjPWtCKqKqyhbyUmtSbydKKqyhfKfKfKfKYfZXrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKKwzjzjzjzjzjzjzjKwrXzjzjzjqEfKfKfKfKGRuYrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKKwzjzjzjzjzjzjQhKwrXzjzjzjqEfKfKfKfKGRuYrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwzjzjzjzjzjzjzjKwtCKqKqKqkllpAVpgfKhUEUrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwKwKwKwzjzjKwKwKwJKJKJKJKtCKqKqKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKWDKqKqKqklzjzjxYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -547,11 +575,11 @@ JKJKJKJKJKJKJKJKJKrXhbRrHpxYexexexxYvvugrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKlrKqKqKqtSFaexKJlrKqKqtSJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKrXEhjTxcRjexexexRjTZkOrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKrXWfggGxpPexexexoEekCsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKrXmoekSSxYexLJexxYyZAWrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKlrKqKqKqtSexexKJlrKqKqtSJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKrXCyRrHpRjexexexRjekugrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKrXEIRrRrwoexexexLfekrIrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKrXCyRrHpWDKqKqKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKrXmoekSSxYexLJexxYyZAWrXJKJKJKJKJKJKJKJKJKJKntntntntntntntntntntntntntntntntntJKJKJK
+JKJKJKJKJKJKJKJKJKlrKqKqKqtSexexKJlrKqKqtSJKJKJKJKJKJKJKJKJKJKntntntntntntntCRCRCRntntntntntntntJKJKJK
+JKJKJKJKJKJKJKJKJKrXCyRrHpRjexexexRjekugrXJKJKJKJKJKJKJKJKJKJKntntntntntntCRDWdyrWCRntntntntntntJKJKJK
+JKJKJKJKJKJKJKJKJKrXEIRrRrwoexexexLfekrIrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKuFwpuFJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKrXCyRrHpWDKqKqKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrsuFPDJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKtCKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -579,27 +607,27 @@ JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYVwVw
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYVwVwBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYctctBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzHzHzFVJKJKJKJKJKsYYgYgBdJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgYgYgYgYgsYJKJKJKJKJKsYOjYgBdJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYOjYgYgYgYgOrsYJKJKJKJKJKsYYgYgBdJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgYgYgNdYgsYJKJKJKJKJKsYOjYgBdJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYOjYgYgYgNdOrsYJKJKJKJKJKsYYgYgBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgBFFVYgYgsYJKJKJKJKJKsYIXIXBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgsYsYYgYgsYJKJKJKJKJKEwYUBdBdJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgsYsYYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgsYsYIXIXsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgEwyxHzHzInJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYOjYgPnVwVwVwsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgYgPnVwVwVwsYBFHzHzHzHzHzHzHzFVJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzHzHzHzHzzksYYgYgvAIPndndndsYJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYOjrZPnVwVwVwsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYYgrZPnVwVwVwsYBFHzHzHzHzHzHzHzFVJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzHzHzHzHzzksYYgYgvAIPokndndsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzHzHzHzHzHzHzHzHzzkYgYgKBKBKBKBaJsYJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYzmYgYgYgYgYgYgYgYgYgYgYgYgYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYzmYgYgYgYgYgYgdPYgYgYgYgYgYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYzmYgrZYgYgYgYgYgYgYgYgYgYgYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYzmYgrZYgYgYgYgdPYgYgYgYgYgYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKEwFVYgYgBFHzHzHzHzHzHzHzHzFVYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYYgOrsYkQkQkQkQkQkQkQkQsYYgYgKBKBKBKBKBsYJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYYgYgsYkQkQkQkQkQkQkQkQsYOjYgvAkLKBKBKBsYJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQsYYgYgsYkQkQkQkQkQkQkQkQsYOjYgvAkLzEKBKBsYJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzqVHzzkYgYgEwHzHzHzHzHzHzHzHzzkYgYgBFHzHzHzHzzkJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKsYbOVwEXcEAhYgYgYgYgYgYgvxYgYgYgYgYgYgYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKsYbOVwEXcEAhYgYgYgYgYgYgvxYgYgYgYgYgYgYgsPsPsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKsYbTJOJOTtYgYgYgYgYgYgYgYgYgYgYgYgYgYgYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKEwHzHzHzHzHzHzHzHzHzFVYgYgYgOcYgYgYgYgYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-kokoJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQkQkQkQkQsYYgYgYgsYYgYgYgdPYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKko
+kokoJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKkQkQkQkQkQsYsPsPsPsYYgYgYgdPYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKJKJKJKko
 kokokoJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFHzHzHzHzzkYgYgYgEwHzHzHzHzqVHzHzzkJKJKJKJKJKJKJKJKJKJKJKJKkokoko
 kokokokokoJKJKJKJKJKJKJKJKJKJKJKJKJKsYOjYgYgYgYgYgYgYgYgYgYgYgOrsYJKJKJKJKJKJKJKJKJKJKJKJKJKkokokokoko
 kokokokokokokokoJKJKJKJKJKJKJKJKJKJKsYYgYgYgYgYgYgYgYgYgYgYgYgYgsYJKJKJKJKJKJKJKJKJKJKJKkokokokokokoko
@@ -627,27 +655,27 @@ oFoFoFoFoFoFoFoFoFoFoFoFoFJKJKJKJKJKWDKqOetFUmyhRrmwRrtCOetFUmKqklJKJKoFoFoFoFoF
 oFoFoFoFoFoFoFoFoFoFoFJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRrRrRrRrRrRrrXJKJKJKJKJKJKJKJKJKoFoFoFoFoFoFoFoFoF
 oFoFoFoFoFJKJKJKJKJKJKJKJKJKJKJKJKJKrXUQRrRrRrRrRrRrRrRrRrRrRrivrXJKJKJKJKJKJKJKJKJKJKJKoFoFoFoFoFoFoF
 oFoFoFJKJKJKJKJKJKJKJKJKJKJKJKWDKqKqlLKqKqKqKqklRrRrRrWDKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKoFoFoF
-oFJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrmwRrRrRrrXRrRrRrrXSASASASASAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+oFJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrmwRrRrRrrXdYdYdYrXSASASASASAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRjRrRrRrtCKqKqKqKqKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRrRrRrRrRrRrRrRrRrRrnOBpBpUOrXJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrRrRrRrRrRrRrRrCfRrRrRrRrRrRrxYGwfFOIOtrXJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXdYdYRrRrRrRrRrRrRrCfRrRrRrRrRrRrxYGwfFOIOtrXJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKWDKqKqKqKqyhRrRrWDKqKqKqKqKqKqKqKqklRrRrWDKqlLKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKrXXMXMXMQtZeRrivrXSASASASASASASASArXRrRrrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKrXXMXMnAQtZeRrivrXSASASASASASASASArXRrRrrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrrXSASASASASASASASArXUQRrrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrtCKqKqKqKqKqKqKqKqyhRrRrtCklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrRrRrRrRrRrmwRrRrRrRrRrRrjsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrRrRrRrRrRrRrRrRrRrRrRrRrjsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrRrRrRrRrRrmwRrRrRrRrvoRrjsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKrXXMXMXMXMXMRrRrRrRrRrRrRrRrRrRrRrRrvoRrjsrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKrXRDycycycXMRrRrWDKqKqKqKqKqKqKqKqKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKrXSaSaSagsZeRrRrrXWDKqKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKtCKqKqKqKqKqKqKqyhrXOIOIOIDPRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXOIOIOIDPRrivrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKrXSaSadigsZeRrRrrXWDKqKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKtCKqKqKqKqKqKqKqyhrXOIOIOIDPvoRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXOIOIOIDPvoivrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKlrKqKqEzklRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXxwxwrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwKwUmklJKJKJKJKJKrXRrRrrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwwXwXrXJKJKJKJKJKrXRrRrtCyhRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKKwRrRrrXJKJKJKJKJKrXUQRrRrRrRrivrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKKwRrivrXJKJKJKJKJKrXRrRrRrRrRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKKwRrRrrXJKJKJKJKJKrXUQBERrRrRrivrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKKwRrivrXJKJKJKJKJKrXRrBERrRrRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwRrRrrXJKJKJKJKJKtCKqKqKqKqKqKqyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwCcCcrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwOIOIrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
@@ -701,17 +729,17 @@ JKJKJKJKJKJKJKJKJKsYxIpliODKRMxIsYJKJKJKJKJKJKJKJKJKJKJKsYVwVwsYJKkokokokosYICIC
 JKJKJKJKJKJKJKJKJKsYbFRRRMRMfmbFsYJKJKJKJKJKJKJKJKJKJKJKsYVwVwsYJKkokokokosYJBOksYJKJKJKJKkokokokokoko
 JKJKJKJKJKJKJKJKJKsYOAbFIgqDbFHQsYJKJKJKJKJKJKJKJKJKJKJKsYVwVwsYJKkokokokosYOkOksYJKJKkokokokokokokoko
 JKJKJKJKJKJKJKJKJKsYbFbFqDqDbFKvsYJKJKJKJKJKJKJKJKJKJKJKsYICQylaFVuzuzuzuzEwYUOkAhkokokokokokokokokoko
-JKJKJKJKJKJKJKJKJKsYbFbFgAqDbFbFsYJKJKJKJKJKJKJKJKJKJKJKsYOkOksYsYyoyoyoyoyoyoyouzkokokokokokokokokoko
+JKJKJKJKJKJKJKJKJKsYbFbFgAqDbFbFsYJKJKJKJKJKJKJKJKJKJKJKsYOkOksYsYyoyoyoyoyoyoVQuzkokokokokokokokokoko
 JKJKJKJKJKJKJKJKJKsYbFululCIulbFsYJKJKJKJKJKJKJKJKJKJKJKsYOkOksYsYyoyoyoyoyoyoyouzkokokokokokokokokoko
 JKJKJKJKJKJKJKJKBFyxHzFVTITIawHzyxFVJKJKJKJKJKJKJKJKJKJKsYOkOksYsYyoyoxoTjTjTjTjuzkokokokokokokokokoko
 JKJKJKJKJKJKJKJKsYkdKxAhOkOkDuYhUrEwHzHzHzHzHzFVJKJKJKJKsYOkOksYsYyoyoTjTjTjTjTjuzkokokokokokokokokoko
-JKJKJKJKJKJKJKJKsYJBOkUnOkOkOkOkOkHcOkvpVwVwVwsYJKJKJKJKsYOkOksYsYyoyoTjTjTjTjTjuzkokokokokokokoJKJKJK
+JKJKJKJKJKJKJKJKsYJBOkUnOkOkOkOkOkHcOkvpVwVwVwsYJKJKJKJKsYzAzAsYsYyoyoTjTjTjTjTjuzkokokokokokokoJKJKJK
 JKJKJKJKJKJKJKJKsYkdKxOcOkOkOkOkOkHcOkgaVwVwVwsYJKJKJKJKsYOkOksYsYyoyoTjTjTjTjTjuzkokokokoJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKlaHzHzInkgOkOkOkhqBFHzHzHzHzHzzkJKJKBFHzzkJBOksYsYyoyoTjTjTjTjTjuzkokoJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKlaHzHzInkgOkOkOkwxEwHzHzFVkQkQkQkQkQsYkVOkOkOksYsYyoyoTjTjTjTjTjuzkoJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKsYFwwMAhOkOkOkOkOkOkOkOksYkQkQkQkQkQsYBZOkOkOksYsYyoyoxoTjTjTjTjuzBFHzHzHzixHzHzHzHzFV
 JKJKJKJKJKJKJKJKsYJBOkfuOkOkOkOkOkOkOkOkEwHzHzHzHzHzyxYUOkOkawyxzkOkOkBFHzHzHzHzHzzkoaDDoafcvrNUxBNUsY
-JKJKJKJKJKJKJKJKsYFwwMOcApwWhqDBCgOcJBOkOkHcOkOkOkOkOkOkOkOkOkOkOkOkPiAhTubuaPOkcpcpOkcpcpOkcpcpOkOksY
+JKJKJKJKJKJKJKJKsYFwwMOcApwWhqDBCgOcJBOkOkHcOkOkOkOkOkOkzAzAOkOkOkOkPiAhTubuaPOkcpcpOkcpcpOkcpcpOkOksY
 JKJKJKJKJKJKJKJKEwHzHzyxHzHzHzHzHzInOkOkOkHcOkOkOkOkOkOcOkOkOkOkOkOkOkGQOkOkOkOkOkOkOkOkOkOkOkOkOkOksY
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKsYOkOkBFHzHzFVOkVwOksYOkOkOkOkOkOkOkGQOkOkOkOkOkOkOkOkcRALRzwBALRzsY
 FEFEJKJKJKJKJKJKJKJKJKJKJKJKJKJKBFzkHcHcsYkQkQsYYdAUYdsYJBOkOkOkOkOkOkOcfcjwEQOkjFjFOkAoUgOWtIBBOWtIsY
@@ -745,17 +773,17 @@ WDKqKqECKqyhFCdFbHpEJRtUtCKqKqEzyhfKUmKqKqKqKqEzKqKqKqEzKqKqklfKfKfKrXJKJKJKJKJK
 rXddNGVxddNGBTiEfKUBUBfKdDQUgdRjfKfKfKfKfKfKqlrXXEdnXErXSASArXKFKFWDyhJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 rXOJMhwHOJMhyPfKfKfKfKfKfKfKfKILfKfKfKfKfKfKfKrXfKOIfKtCKqKqyhfKfKrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 rXfKfKfKfKfKfKfKfKfKfKfKfKfKfKILfKfKfKfKfKfKfKRjfKfKfKfKfKKFfKfKfKlrKqKqKqKqKqKqKqKqEzKqKqKqklJKJKJKJK
-rXfKfKuAuAfKuAuAfKuAuAfKsrqrKgxYKsfKfKfKfKfKfKfKfKfKfKfKfKKFfKfKqlRjZwqIZwfKfKZwqIZwRjxhfKatrXJKJKJKJK
+rXfKfKuAuAfKuAuAfKuAuAfKsrqrKgxYKsfKfKfKfKORORfKfKfKfKfKfKKFfKfKqlRjZwqIZwfKfKZwqIZwRjxhfKatrXJKJKJKJK
 rXnnernnOnnnvnqQOnWDKqKqKqKqKqyhfKfKWDEzOefKfKUmEzKqKqKqKqKqklfKfKfKfKfKfKfKfKfKfKfKYOfKfKMqrXJKJKJKJK
 tCKqKqKqKqKqKqKqKqyhNxUtUtUtUtJbSaSarXrXfKfKfKhRrXSASASASASArXfKfKfKfKfKfKRqRqfKfKfKxYtEfKatrXJKJKJKJK
 JKJKJKJKJKJKJKJKJKoFNxUtUtUtUtUtSaSarXrXfKfKfKAkrXSASASASASAtCKqKqklZwfKRqZnarRqfKZwlrKqKqKqtSJKJKJKJK
 JKJKJKJKJKJKJKoFoFoFNxUtUtUtUtUtSaSarXrXfKqlWDKqyhSASAWDKqKqKqKqKqyhZwfKRqhQoBRqfKZwlrKqKqKqtSJKJKJKJK
 JKJKJKJKJKJKoFoFoFoFNxUtUtUtUtUtSaSarXrXfKfKrXSASASASArXOIOIONgIfKKFfKfKfKRqRqfKfKfKRjrJfKqJrXJKJKJKJK
 JKJKJKJKoFoFoFoFoFoFNxUtUtUtUtUtSaSarXrXfKfKrXSAJKJKSArXOIOIOIgIfKKFfKfKfKfKfKfKfKfKtjfKfKMqrXJKJKJKJK
-JKJKJKoFoFoFoFoFoFoFNxUtUtUtUtUtSaSarXrXfKfKrXSAJKJKSAtCKqKqKqKqKqklBojDBofKfKZwjDZwxYzlfKqJrXJKJKJKJK
+JKJKJKoFoFoFoFoFoFoFNxUtUtUtUtUtSaSarXrXORORrXSAJKJKSAtCKqKqKqKqKqklBojDBofKfKZwjDZwxYzlfKqJrXJKJKJKJK
 oFoFoFoFoFoFoFoFoFoFNxUtUtUtUtJbSaSarXrXfKfKrXSAJKJKSASASASASASASAtCKqKqKqKqKqKqKqKqlLKqKqKqyhJKJKJKJK
 oFoFoFoFoFoFoFoFoFoFNxSaSaSaSaSaSaSarXrXfKfKrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-oFoFoFoFoFoFoFoFoFoFNxSaSaSaSaSaSaSarXrXfKfKrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+oFoFoFoFoFoFoFoFoFoFNxCBSaSaSaSaSaSarXrXfKfKrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 oFoFoFoFoFoFoFoFoFJKxYfKUmklNxNxNxNxtCtSyQxDrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 oFoFoFoFoFoFJKJKJKJKrXfKfKrXoFoFoFoFJKrXOIOIrXSAJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 oFoFoFJKJKJKJKJKJKJKrXfKqlrXoFoFoFoFJKrXOIOIrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
