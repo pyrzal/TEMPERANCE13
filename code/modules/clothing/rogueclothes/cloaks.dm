@@ -1870,6 +1870,8 @@
 	flags_inv = HIDECROTCH|HIDEBOOB
 	var/open_wear = FALSE
 	var/overarmor = TRUE
+
+/obj/item/clothing/cloak/leech/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
 
