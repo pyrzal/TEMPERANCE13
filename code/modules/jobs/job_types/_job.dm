@@ -234,7 +234,7 @@
 		else
 			mob_rank = H.mind.assigned_role
 		GLOB.actors_list[H.mobid] = list("name" = mob_name, "rank" = mob_rank)
-		
+
 	log_admin("[H.key]/([H.real_name]) has joined as [H.mind.assigned_role].")
 
 /client/verb/set_mugshot()
@@ -359,9 +359,6 @@
 	return max(0, minimal_player_age - C.player_age)
 
 /datum/job/proc/config_check()
-	return TRUE
-
-/datum/job/proc/map_check()
 	return TRUE
 
 /datum/outfit/job
