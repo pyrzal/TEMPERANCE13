@@ -408,6 +408,7 @@
 	name = "old gas mask"
 	desc = "A locally-produced gas mask. Comes with a tube, and box."
 	icon_state = "EB_gasmask"
+	flags_inv = HIDEFACE|HIDESNOUT|HIDEFACIALHAIR
 
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask
 	name = "tubed gas mask"
