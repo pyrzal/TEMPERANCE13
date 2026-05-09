@@ -208,7 +208,7 @@
 	icon = 'icons/roguetown/clothing/special/maids.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/maids.dmi'
-	color = "#ffffff"
+	color = null
 
 /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/butler
 	name = "sleek waistcoat"
@@ -219,7 +219,7 @@
 	icon = 'icons/roguetown/clothing/shirts.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/shirts.dmi'
 	sleeved = 'icons/roguetown/clothing/onmob/shirts.dmi'
-	color = "#ffffff"
+	color = null
 
 /obj/item/clothing/suit/roguetown/armor/plate/hauberk
 	name = "plated hauberk"
