@@ -429,18 +429,18 @@
 
 /obj/structure/door/bulkhead
 	name = "metal bulkhead"
-	desc = "A heavy metal door designed for security."
+	desc = "A heavy, automated door."
 	icon_state = "metal"
 	armor = list("blunt" = 20, "slash" = 35, "stab" = 35, "piercing" = 5, "fire" = 60, "acid" = 60)
 	max_integrity = 2500
 	damage_deflection = 20
 	resistance_flags = FIRE_PROOF
 	blade_dulling = DULLING_BASH
-	open_sound = 'sound/foley/doors/metal_op.ogg'
-	close_sound = 'sound/foley/doors/metal_close.ogg'
-	lock_sound = 'sound/foley/lockmetal.ogg'
-	unlock_sound = 'sound/foley/lockmetal.ogg'
-	rattle_sound = 'sound/foley/lockrattlemetal.ogg'
+	locksound = 'sound/foley/doors/warlock.ogg'
+	unlocksound = 'sound/foley/doors/warunlock.ogg'
+	rattlesound = 'sound/foley/doors/warrattle.ogg'
+	openSound = 'sound/foley/doors/metal_open.ogg'
+	closeSound = 'sound/foley/doors/metal_close.ogg'
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
 	repair_cost_first = /obj/item/ingot/iron

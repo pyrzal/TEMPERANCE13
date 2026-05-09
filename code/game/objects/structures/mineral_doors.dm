@@ -1083,8 +1083,8 @@
 	locksound = 'sound/foley/doors/warlock.ogg'
 	unlocksound = 'sound/foley/doors/warunlock.ogg'
 	rattlesound = 'sound/foley/doors/warrattle.ogg'
-	openSound = 'sound/foley/doors/waropen.ogg'
-	closeSound = 'sound/foley/doors/warclose.ogg'
+	openSound = 'sound/foley/doors/metal_open.ogg'
+	closeSound = 'sound/foley/doors/metal_close.ogg'
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	repairable = FALSE
 	keylock = FALSE
