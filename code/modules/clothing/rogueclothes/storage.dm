@@ -666,11 +666,11 @@
 		return
 	playsound(src, pick(radiostatic_sounds), 80, TRUE)
 
-/obj/item/storage/belt/rogue/leather/carabiner
+/obj/item/storage/belt/rogue/leather/carabinerhook
 	name = "carabiner hooks"
 	desc = "Leather-wrapped metal hooks with an actuating hinge, to clip things to other things."
-	icon_state = "carabiner"
-	item_state = "carabiner"
+	icon_state = "carabinerhook"
+	item_state = "carabinerhook"
 	equip_sound = 'sound/blank.ogg'
 	sewrepair = FALSE
 	sellprice = 10
