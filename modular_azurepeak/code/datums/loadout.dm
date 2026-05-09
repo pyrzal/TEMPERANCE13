@@ -423,6 +423,10 @@ GLOBAL_LIST_EMPTY(loadout_items)
     name = "Noble's Chaperon"
     path = /obj/item/clothing/head/roguetown/chaperon/noble
 
+/datum/loadout_item/carabiner
+	name = "Carabiner Belt Hooks"
+	path = /obj/item/storage/belt/rogue/leather/carabiner 
+
 //Donator Section
 //All these items are stored in the donator_fluff.dm in the azure modular folder for simplicity.
 //All should be subtypes of existing weapons/clothes/armor/gear, whatever, to avoid balance issues I guess. Idk, I'm not your boss.
