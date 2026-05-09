@@ -24,14 +24,15 @@
 		return TRUE
 	..()
 
-/obj/item/storage/belt/rogue/MiddleClick(mob/user)
-	overarmor = !overarmor
-	to_chat(user, span_info("I [overarmor ? "wear the belt over my cloak" : "wear the belt under my cloak"]."))
-	if(overarmor)
-		alternate_worn_layer = BELT_LAYER
-	else
-		alternate_worn_layer = UNDER_CLOAK_LAYER
-	user.update_inv_belt()
+// /obj/item/storage/belt/rogue/MiddleClick(mob/user)
+//	overarmor = !overarmor
+//	to_chat(user, span_info("I [overarmor ? "wear the belt over my cloak" : "wear the belt under my cloak"]."))
+//	if(overarmor)
+//		alternate_worn_layer = BELT_LAYER
+//	else
+//		alternate_worn_layer = UNDER_CLOAK_LAYER
+//	user.update_inv_belt()
+// basic framework for a later PR, currently commented out.
 
 /obj/item/storage/belt/rogue/leather
 	name = "belt"
