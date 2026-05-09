@@ -219,9 +219,8 @@ GLOBAL_LIST_INIT(kingsrow_positions, list(
 	"Head Housekeeper",
 	"Manor Servant",
 	"Bulwark",
-	"Provisioner",
-	"Barkeeper",
-	"Towner",
+	"Chamberlan",
+	"Vineyard Keeper",
 	"Mortician",
 ))
 
