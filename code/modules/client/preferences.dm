@@ -178,7 +178,7 @@ GLOBAL_LIST_EMPTY(chosen_names)
 
 	var/flavortext
 	var/flavortext_display
-	
+
 	var/is_legacy = FALSE
 
 	var/ooc_notes
@@ -839,7 +839,7 @@ GLOBAL_LIST_EMPTY(chosen_names)
 
 			HTML += "<tr bgcolor='#000000'><td width='60%' align='right'>"
 			var/rank = job.title
-			var/used_name = "[job.title]"
+			var/used_name = job.display_title || job.title
 			if((pronouns == SHE_HER || pronouns == THEY_THEM_F) && job.f_title)
 				used_name = "[job.f_title]"
 			lastJob = job
@@ -1065,7 +1065,7 @@ Slots: [job.spawn_positions] [job.round_contrib_points ? "RCP: +[job.round_contr
 		if(job_preferences[job.title] == JP_LOW)
 			jpval = null
 		else
-			var/used_name = "[job.title]"
+			var/used_name = job.display_title || job.title
 			if((pronouns == SHE_HER || pronouns == THEY_THEM_F) && job.f_title)
 				used_name = "[job.f_title]"
 			to_chat(user, "<font color='red'>You have too low PQ for [used_name] (Min PQ: [job.min_pq]), you may only set it to low.</font>")
@@ -1737,7 +1737,7 @@ Slots: [job.spawn_positions] [job.round_contrib_points ? "RCP: +[job.round_contr
 							ooc_extra += "<br>"
 							ooc_extra += "<img src='[ooc_extra_link]'/>"
 							info = "an embedded image."
-						else 
+						else
 							switch(extension)
 								if("mp4")
 									ooc_extra = "<br>"
@@ -2400,7 +2400,7 @@ Slots: [job.spawn_positions] [job.round_contrib_points ? "RCP: +[job.round_contr
 	character.flavortext = flavortext
 
 	character.flavortext_display = flavortext_display
-	
+
 	character.ooc_notes = ooc_notes
 
 	character.ooc_notes_display = ooc_notes_display

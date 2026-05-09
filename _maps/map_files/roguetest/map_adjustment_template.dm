@@ -6,11 +6,14 @@
 
 /datum/map_adjustment/template
 	map_file_name = "roguetest.dmm"
-	blacklisted_jobs = list(
-		/datum/job/forestguard,
-		/datum/job/vagrant
-		)
-
-/datum/map_adjustment/template/job_change()
-	. = ..()
-	change_job_position(/datum/job/consort, 2)
+	realm_name = "Roguetest"
+	slot_adjust = list(
+		/datum/job/roguetown/soldato = 42,
+		/datum/job/roguetown/adventurer = 69
+	)
+	title_adjust = list(
+		/datum/job/roguetown/soldato = list(display_title = "Crungler", f_title = "Boingler")
+	)
+	tutorial_adjust = list(
+		/datum/job/roguetown/soldato = "It's so fucking over dude you have no idea"
+	)
