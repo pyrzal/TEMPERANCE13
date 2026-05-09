@@ -593,7 +593,7 @@
 
 /obj/item/storage/backpack/rogue/satchel/chestrig
 	name = "chest rig"
-	desc = "A WAR machine produced piece of clothing designed specifically to hold machine gun strip clips."
+	desc = "A WAR MACHINE produced piece of clothing designed specifically to hold machine gun strip clips."
 	icon_state = "chestrig"
 	item_state = "chestrig"
 	component_type = /datum/component/storage/concrete/grid/hmg
@@ -655,4 +655,14 @@
 	if(QDELETED(src)) //crazy error
 		return
 	playsound(src, pick(radiostatic_sounds), 80, TRUE)
+
+/obj/item/storage/belt/rogue/leather/carabiner
+	name = "carabiner hooks"
+	desc = "Leather-wrapped metal hooks with an actuating hinge, to clip things to other things."
+	icon_state = "carabiner"
+	item_state = "carabiner"
+	equip_sound = 'sound/blank.ogg'
+	sewrepair = FALSE
+	sellprice = 10
+	resistance_flags = FIRE_PROOF
 
