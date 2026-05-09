@@ -19,7 +19,9 @@
 	)
 	tutorial_adjust = list(
 		/datum/job/roguetown/soldato = "BLU Team has acted against you ONCE AGAIN!!! The baby eating monsters they hire are ontollogically evil. Feel no guilt when you extinguish their light...",
-		/datum/job/roguetown/armsman = "RED Team has acted against you ONCE AGAIN!!! The baby eating monsters they hire are ontollogically evil. Feel no guilt when you extinguish their light..."
+		/datum/job/roguetown/armsman = "RED Team has acted against you ONCE AGAIN!!! The baby eating monsters they hire are ontollogically evil. Feel no guilt when you extinguish their light...",
+		/datum/job/roguetown/kaspafisto = "Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.",
+		/datum/job/roguetown/blackguard = "You've breached their defenses before... You've killed their colleagues before... you'll do it again."
 	)
 	blacklist = list(
 		/datum/job/roguetown/adventurer,
