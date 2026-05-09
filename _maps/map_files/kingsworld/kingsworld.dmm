@@ -1238,6 +1238,14 @@
 	pixel_x = -9
 	},
 /obj/machinery/light/rogue/wallfire/candle/blue,
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = -8;
+	pixel_y = -10
+	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "bjt" = (
@@ -1595,6 +1603,26 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/caves)
+"bAR" = (
+/obj/structure/rack/rogue/shelf/biggest,
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap{
+	pixel_x = 8;
+	pixel_y = -5
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap{
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask{
+	pixel_x = -8;
+	pixel_y = -5
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "bBB" = (
 /obj/structure/closet/crate/drawer/filing/random,
 /turf/open/floor/rogue/hexstone,
@@ -2131,6 +2159,14 @@
 	pixel_x = -9
 	},
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = -8;
+	pixel_y = -10
+	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "ckY" = (
@@ -2328,13 +2364,13 @@
 	pixel_x = -8;
 	pixel_y = 10
 	},
-/obj/item/clothing/mask/rogue/gasmask/perserdunmask{
-	pixel_x = 7;
-	pixel_y = -5
-	},
-/obj/item/clothing/mask/rogue/gasmask/perserdunmask{
-	pixel_x = 7;
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap{
+	pixel_x = 8;
 	pixel_y = 10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap{
+	pixel_x = 8;
+	pixel_y = -5
 	},
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask{
 	pixel_x = -8;
@@ -4041,6 +4077,40 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/direbear,
 /turf/open/floor/rogue/shroud,
 /area/rogue/under/cave/warmachine)
+"ewQ" = (
+/obj/structure/closet/crate/roguecloset/metal,
+/obj/item/clothing/cloak/leech{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/clothing/head/roguetown/helmet/leather/leech{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/clothing/cloak/perserduntrenchcoat{
+	pixel_x = 5
+	},
+/obj/item/clothing/cloak/perserduntrenchcoat{
+	pixel_x = -8
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = -8;
+	pixel_y = -10
+	},
+/obj/item/clothing/head/roguetown/helmet/leather/leech{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/item/clothing/cloak/leech{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "exm" = (
 /turf/closed/wall/mineral/rogue/perserdun/end/west,
 /area/rogue/outdoors/perserdun)
@@ -4716,6 +4786,40 @@
 	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cave)
+"ffM" = (
+/obj/structure/closet/crate/roguecloset/metal,
+/obj/item/clothing/cloak/perserduntrenchcoat{
+	pixel_x = -8
+	},
+/obj/item/clothing/cloak/perserduntrenchcoat{
+	pixel_x = 5
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = -8;
+	pixel_y = -10
+	},
+/obj/item/clothing/head/roguetown/helmet/leather/leech{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/clothing/head/roguetown/helmet/leather/leech{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/clothing/cloak/leech{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/clothing/cloak/leech{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "fhs" = (
 /obj/structure/fluff/railing/sandbag{
 	dir = 4
@@ -8017,13 +8121,13 @@
 	pixel_x = -8;
 	pixel_y = 10
 	},
-/obj/item/clothing/mask/rogue/gasmask/perserdunmask{
-	pixel_x = 7;
-	pixel_y = -5
-	},
-/obj/item/clothing/mask/rogue/gasmask/perserdunmask{
-	pixel_x = 7;
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap{
+	pixel_x = 8;
 	pixel_y = 10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/strap{
+	pixel_x = 8;
+	pixel_y = -5
 	},
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask{
 	pixel_x = -8;
@@ -21206,6 +21310,14 @@
 /obj/item/storage/belt/rogue/leather/black{
 	pixel_y = -8;
 	pixel_x = -9
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = 8;
+	pixel_y = -10
+	},
+/obj/item/clothing/mask/rogue/gasmask/perserdunmask/cloth{
+	pixel_x = -8;
+	pixel_y = -10
 	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
@@ -159402,10 +159514,10 @@ kjN
 kjN
 kjN
 kyT
-sIJ
-tPP
-tPP
-tMA
+kyT
+ewQ
+ffM
+ulU
 wJr
 ygk
 kyT
@@ -159704,10 +159816,10 @@ vlQ
 kjN
 qQx
 kyT
-kyT
-aOn
-aOn
-kyT
+sIJ
+tPP
+tPP
+hUj
 mkd
 hRw
 wot
@@ -161806,7 +161918,7 @@ iWR
 fRM
 cAv
 fRM
-iWR
+bAR
 fRM
 kyT
 xVu
