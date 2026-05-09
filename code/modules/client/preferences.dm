@@ -231,8 +231,6 @@ GLOBAL_LIST_EMPTY(chosen_names)
 		to_chat(user, "<font color='red'>Classes reset.</font>")
 	random_character(gender, FALSE, FALSE)
 	accessory = "Nothing"
-	if(istype(pref_species, /datum/species/elf))
-		charflaw = new /datum/charflaw/addiction/heroin()
 
 	customizer_entries = list()
 	validate_customizer_entries()
@@ -381,10 +379,7 @@ GLOBAL_LIST_EMPTY(chosen_names)
 			dat += "<b>Virtue:</b> <a href='?_src_=prefs;preference=virtue;task=input'>[virtue]</a><BR>"
 			if(statpack.name == "Virtuous")
 				dat += "<b>Second Virtue:</b> <a href='?_src_=prefs;preference=virtuetwo;task=input'>[virtuetwo]</a><BR>"
-			if(!istype(pref_species, /datum/species/elf))
-				dat += "<b>Vice:</b> <a href='?_src_=prefs;preference=charflaw;task=input'>[charflaw]</a><BR>"
-			else
-				dat += "<b>Lifepath:</b> Addict(Heroin)<BR>"
+			dat += "<b>Vice:</b> <a href='?_src_=prefs;preference=charflaw;task=input'>[charflaw]</a><BR>"
 			var/datum/faith/selected_faith = GLOB.faithlist[selected_patron?.associated_faith]
 			dat += "<b>Faith:</b> <a href='?_src_=prefs;preference=faith;task=input'>[selected_faith?.name || "FUCK!"]</a><BR>"
 			dat += "<b>Patron:</b> <a href='?_src_=prefs;preference=patron;task=input'>[selected_patron?.name || "FUCK!"]</a><BR>"
@@ -1875,14 +1870,23 @@ Slots: [job.spawn_positions] [job.round_contrib_points ? "RCP: +[job.round_contr
 
 				if("charflaw")
 					var/list/coom = GLOB.character_flaws.Copy()
-					var/result = input(user, "Select a flaw", "Roguetown") as null|anything in coom
-					if(result)
-						result = coom[result]
-						var/datum/charflaw/C = new result()
-						charflaw = C
-						if(charflaw.desc)
-							to_chat(user, "<span class='info'>[charflaw.desc]</span>")
-
+					var/list/elf_flaw = GLOB.elf_flaws.Copy()
+					if(!istype(pref_species, /datum/species/elf))
+						var/result = input(user, "Select a flaw", "Roguetown") as null|anything in coom
+						if(result)
+							result = coom[result]
+							var/datum/charflaw/C = new result()
+							charflaw = C
+							if(charflaw.desc)
+								to_chat(user, "<span class='info'>[charflaw.desc]</span>")
+					else 
+						var/result = input(user, "Select a flaw", "Roguetown") as null|anything in elf_flaw
+						if(result)
+							result = elf_flaw[result]
+							var/datum/charflaw/C = new result()
+							charflaw = C
+							if(charflaw.desc)
+								to_chat(user, "<span class='info'>[charflaw.desc]</span>")
 				if("body_size")
 					var/new_body_size = input(user, "Choose your desired sprite size:\n([BODY_SIZE_MIN*100]%-[BODY_SIZE_MAX*100]%), Warning: May make your character look distorted", "Character Preference", features["body_size"]*100) as num|null
 					if(new_body_size)
