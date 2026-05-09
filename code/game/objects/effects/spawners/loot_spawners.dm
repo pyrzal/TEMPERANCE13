@@ -428,16 +428,16 @@
 	icon_state = "highgun"
 	lootcount = 1
 	loot = list(
-		/obj/item/gun/ballistic/revolver/judge = 3,
-		/obj/item/gun/ballistic/revolver/sawedoff = 5,
-		/obj/item/gun/ballistic/revolver/pace = 5,
-		/obj/item/gun/ballistic/revolver/webley = 5,
+
 		/obj/item/gun/ballistic/rifle/repeater/risvocarb = 3,
 		/obj/item/gun/ballistic/rifle/repeater/mpcolt = 3,
 		/obj/item/gun/ballistic/rifle/repeater/lebel = 1,
 		/obj/item/gun/ballistic/rifle/repeater/fury = 1,
 		/obj/item/gun/ballistic/rifle/repeater/leverleg = 2,
 		/obj/item/gun/ballistic/rifle/repeater/mondragon = 1,
+		/obj/item/gun/ballistic/revolver/judge = 3,
+		/obj/item/gun/ballistic/rifle/repeater/artyluger = 1,
+		/obj/item/gun/ballistic/rifle/repeater/luger = 1,
 	)
 
 /obj/effect/spawner/lootdrop/normalguns
@@ -445,10 +445,14 @@
 	icon_state = "normgun"
 	lootcount = 3
 	loot = list(
-		/obj/item/gun/ballistic/rifle/repeater/springfield = 1,
-		/obj/item/gun/ballistic/rifle/repeater/enfield = 1,
-		/obj/item/gun/ballistic/revolver/doublebarrel = 1,
-		/obj/item/gun/ballistic/revolver/mercy = 1,
+		/obj/item/gun/ballistic/rifle/repeater/springfield = 5,
+		/obj/item/gun/ballistic/rifle/repeater/enfield = 5,
+		/obj/item/gun/ballistic/revolver/doublebarrel = 5,
+		/obj/item/gun/ballistic/revolver/mercy = 3,
+		/obj/item/gun/ballistic/revolver/sawedoff = 1,
+		/obj/item/gun/ballistic/revolver/pace = 1,
+		/obj/item/gun/ballistic/revolver/webley = 1,
+		/obj/item/gun/ballistic/rifle/repeater/infiltrator = 1,
 	)
 
 /obj/effect/spawner/lootdrop/hightierammo
