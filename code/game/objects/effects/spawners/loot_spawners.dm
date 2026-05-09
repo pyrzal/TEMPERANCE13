@@ -434,7 +434,7 @@
 		/obj/item/gun/ballistic/revolver/webley = 5,
 		/obj/item/gun/ballistic/rifle/repeater/risvocarb = 3,
 		/obj/item/gun/ballistic/rifle/repeater/mpcolt = 3,
-		/obj/item/gun/ballistic/rifle/repeater/artyluger = 3,
+		/obj/item/gun/ballistic/rifle/repeater/lebel = 1,
 		/obj/item/gun/ballistic/rifle/repeater/fury = 1,
 		/obj/item/gun/ballistic/rifle/repeater/leverleg = 2,
 		/obj/item/gun/ballistic/rifle/repeater/mondragon = 1,
@@ -447,7 +447,6 @@
 	loot = list(
 		/obj/item/gun/ballistic/rifle/repeater/springfield = 1,
 		/obj/item/gun/ballistic/rifle/repeater/enfield = 1,
-		/obj/item/gun/ballistic/rifle/repeater/lebel = 1,
 		/obj/item/gun/ballistic/revolver/doublebarrel = 1,
 		/obj/item/gun/ballistic/revolver/mercy = 1,
 	)
@@ -518,8 +517,9 @@
 	lootcount = 1
 	loot = list(
 		/obj/item/gun/ballistic/rifle/repeater/leveraction = 5,
-		/obj/item/gun/ballistic/rifle/repeater/commandant = 5,
-		/obj/item/gun/ballistic/rifle/repeater/broomhandle = 5,
+		/obj/item/gun/ballistic/rifle/reaper = 3,
+		/obj/item/gun/ballistic/shotgun/eternal = 1,
+
 	)
 
 /obj/effect/spawner/lootdrop/normalgunsoutlet
@@ -529,7 +529,6 @@
 	loot = list(
 		/obj/item/gun/ballistic/revolver/snub = 1,
 		/obj/item/gun/ballistic/rifle/repeater/offiseroluger = 1,
-		/obj/item/gun/ballistic/rifle/repeater/infiltrator = 1,
 		/obj/item/gun/ballistic/shotgun/levershotgun = 1,
 		/obj/item/gun/ballistic/rifle/repeater/jackal = 1,
 		/obj/item/gun/ballistic/shotgun/risvon = 1,
@@ -542,8 +541,8 @@
 	lootcount = 3
 	loot = list(
 		/obj/item/ammo_box/handfuls/leveraction = 1,
-		/obj/item/ammo_box/clip/broomhandle = 1,
-		/obj/item/ammo_box/magazine/luger = 1,
+		/obj/item/ammo_box/clip/reaper = 1,
+		/obj/item/ammo_box/handfuls/shotgun = 1,
 	)
 
 /obj/effect/spawner/lootdrop/ammooutlet
