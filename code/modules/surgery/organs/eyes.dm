@@ -80,6 +80,22 @@
 	owner.update_sight()
 	if(M.has_dna() && ishuman(M))
 		M.dna.species.handle_body(M) //updates eye icon
+	// No Undead eyes
+	if(istype(src, /obj/item/organ/eyes/night_vision/zombie))
+		if(!(M.mob_biotypes & MOB_UNDEAD))
+			M.become_blind(EYE_DAMAGE)
+			M.set_blurriness(100)
+	// No Goblin eyes
+	if(istype(src, /obj/item/organ/eyes/night_vision/wild_goblin))
+		if(!istype(M, /mob/living/carbon/human/species/goblin))
+			M.become_blind(EYE_DAMAGE)
+			M.set_blurriness(100)
+	// Some Goblins have nightmare eyes? Making sure to remove them too
+	if(istype(src, /obj/item/organ/eyes/night_vision/nightmare))
+		if(!istype(M, /mob/living/carbon/human/species/goblin))
+			M.become_blind(EYE_DAMAGE)
+			M.set_blurriness(100)
+	M.update_sight()
 
 /obj/item/organ/eyes/Remove(mob/living/carbon/M, special = 0)
 	. = ..()
