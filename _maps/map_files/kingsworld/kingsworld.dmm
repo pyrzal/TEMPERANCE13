@@ -1064,6 +1064,17 @@
 	},
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
+"aVH" = (
+/obj/structure/bed/rogue/xbed,
+/obj/structure/bed/rogue/xbed{
+	pixel_y = 8
+	},
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/indoors/risvonbase)
 "aVQ" = (
 /obj/effect/decal/cobbleedge{
 	pixel_y = 25;
@@ -1118,14 +1129,18 @@
 /turf/open/floor/rogue/grime,
 /area/rogue/under/cave/warmachine)
 "aYe" = (
-/obj/structure/bed/rogue,
 /obj/structure/bed/rogue{
-	pixel_y = 12
+	dir = 8
 	},
-/obj/effect/landmark/start/armsmanlate,
-/obj/effect/landmark/start/armsman,
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10;
+	layer = 2.7;
+	pixel_x = -4
+	},
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "aYf" = (
 /obj/item/reagent_containers/glass/bowl{
 	pixel_y = 10
@@ -2084,9 +2099,8 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter/town/sargoth)
 "bLj" = (
-/obj/machinery/light/rogue/oven,
-/turf/closed/wall/mineral/rogue/wooddark/vertical,
-/area/rogue/indoors/shelter/town/sargoth)
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/indoors/perserdunbase)
 "bLp" = (
 /obj/structure/flora/roguetree/pine{
 	icon_state = "pine4-snow"
@@ -2633,13 +2647,6 @@
 	},
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/risvonbase)
-"clN" = (
-/obj/structure/mineral_door/wood{
-	name = "CADRE A";
-	lockid = "risvontag"
-	},
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "cmh" = (
 /obj/structure/table/wood/long_table/north_east,
 /obj/item/candle/candlestick/gold/lit{
@@ -2827,6 +2834,7 @@
 "cxo" = (
 /obj/machinery/light/rogue/hearth,
 /obj/item/reagent_containers/glass/bucket/pot/teapot,
+/obj/machinery/light/rogue/oven/east,
 /turf/open/floor/rogue/tile/brick,
 /area/rogue/indoors/shelter/town/sargoth)
 "cxS" = (
@@ -3168,9 +3176,9 @@
 	},
 /area/rogue/indoors/risvonbase)
 "cKG" = (
-/obj/structure/closet/crate/roguecloset/dark{
-	pixel_x = -7
-	},
+/obj/structure/bed/rogue,
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "cKY" = (
@@ -3632,14 +3640,16 @@
 /turf/open/floor/rogue/brown,
 /area/rogue/outdoors)
 "deq" = (
-/obj/structure/bed/rogue,
+/obj/structure/bed/rogue{
+	dir = 8
+	},
 /obj/structure/closet/crate/drawer/random{
 	pixel_y = 10;
 	layer = 2.7;
-	pixel_x = 4
+	pixel_x = -4
 	},
-/obj/structure/fluff/walldeco/ubk{
-	pixel_x = 32
+/obj/structure/fluff/walldeco/leibware{
+	pixel_x = -32
 	},
 /obj/effect/landmark/start/soldato,
 /obj/effect/landmark/start/soldatolate,
@@ -4529,22 +4539,6 @@
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
-"dRq" = (
-/obj/structure/bed/rogue{
-	dir = 8
-	},
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 10;
-	layer = 2.7;
-	pixel_x = -4
-	},
-/obj/structure/fluff/walldeco/leibware{
-	pixel_x = -32
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "dRu" = (
 /obj/structure/fluff/walldeco/kingofnil{
 	pixel_x = 32
@@ -5326,6 +5320,17 @@
 /obj/effect/decal/cleanable/dirt/grime/grime2,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"eDi" = (
+/obj/structure/bed/rogue,
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10;
+	layer = 2.7;
+	pixel_x = 4
+	},
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "eDK" = (
 /turf/open/lava/acid,
 /area/rogue/outdoors)
@@ -5408,6 +5413,13 @@
 /obj/item/flowercrown/rosa,
 /turf/open/floor/rogue/blocks/platform,
 /area/rogue/outdoors)
+"eGE" = (
+/obj/structure/mineral_door/wood{
+	name = "SOLDATO BARRACKS";
+	lockid = "risvontag"
+	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "eGH" = (
 /obj/structure/fluff/walldeco/vent/vent3{
 	pixel_y = 32
@@ -5492,10 +5504,6 @@
 	dir = 4
 	},
 /area/rogue/outdoors/caves)
-"eLf" = (
-/obj/structure/table/wood/long_table/right,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "eLg" = (
 /obj/structure/glowshroom,
 /obj/structure/vine,
@@ -6028,7 +6036,7 @@
 /obj/structure/bed/rogue,
 /obj/effect/landmark/start/armsmanlate,
 /obj/effect/landmark/start/armsman,
-/obj/machinery/light/rogue/wallfire/candle/blue/r,
+/obj/machinery/light/rogue/wallfire/candle/blue,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "fni" = (
@@ -6192,8 +6200,13 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
-"ftD" = (
-/turf/open/floor/rogue/dirt/road,
+"fuc" = (
+/obj/structure/fluff/walldeco/xavo{
+	pixel_y = 32
+	},
+/obj/structure/table/wood/long_table,
+/obj/structure/table/wood/long_table/right,
+/turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "fug" = (
 /obj/structure/fluff/walldeco/weird{
@@ -7625,30 +7638,6 @@
 	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/risvon)
-"gLY" = (
-/obj/structure/bed/rogue{
-	dir = 8
-	},
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 10;
-	layer = 2.7;
-	pixel_x = -4
-	},
-/obj/machinery/light/rogue/wallfire/candle/l,
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
-"gMj" = (
-/obj/structure/bed/rogue,
-/obj/effect/landmark/start/armsmanlate,
-/obj/effect/landmark/start/armsman,
-/obj/machinery/light/rogue/wallfire/candle/blue/r,
-/obj/structure/fluff/walldeco/xavo{
-	pixel_y = 32
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
 "gMk" = (
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /obj/structure/fluff/railing/sandbag{
@@ -8628,17 +8617,6 @@
 /obj/structure/curtain/magenta,
 /turf/closed/wall/mineral/rogue/wooddark,
 /area/rogue/indoors/shelter/town)
-"hIb" = (
-/obj/structure/bed/rogue,
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 10;
-	layer = 2.7;
-	pixel_x = 4
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "hIQ" = (
 /turf/closed/wall/mineral/rogue/scary/end/west,
 /area/rogue/under/cave/umamusume)
@@ -8955,13 +8933,6 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"hXd" = (
-/obj/structure/mineral_door/wood/violet{
-	lockid = "perserdun";
-	name = "BUNKS 1"
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
 "hXo" = (
 /obj/structure/hotspring/border/fourteen,
 /turf/open/floor/rogue/grasscold,
@@ -9290,6 +9261,13 @@
 /obj/structure/trap/shock,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town/sargoth)
+"ioC" = (
+/obj/structure/mineral_door/wood/violet{
+	lockid = "perserdun";
+	name = "BUNKS 1"
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "ioH" = (
 /obj/structure/table/wood/perserdunsmall/woodtable,
 /obj/item/flashlight/flare/torch/lantern{
@@ -9472,20 +9450,6 @@
 /obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town/sargoth)
-"iwJ" = (
-/obj/structure/bed/rogue,
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 10;
-	layer = 2.7;
-	pixel_x = 4
-	},
-/obj/structure/fluff/walldeco/happy{
-	pixel_x = 32
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "iwM" = (
 /obj/structure/table/wood/perserdunsmall/smallmetal2,
 /obj/item/storage/belt/rogue/surgery_bag/full,
@@ -9497,15 +9461,6 @@
 	},
 /obj/structure/chair/wood/rogue/chair3{
 	dir = 8
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
-"iwO" = (
-/obj/structure/closet/crate/roguecloset/dark{
-	pixel_x = -7
-	},
-/obj/structure/fluff/walldeco/rush{
-	pixel_y = 32
 	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
@@ -10203,10 +10158,6 @@
 	pixel_x = -18
 	},
 /turf/open/floor/carpet/royalblack,
-/area/rogue/indoors/risvonbase)
-"jhw" = (
-/obj/structure/table/wood/long_table/mid/alt,
-/turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "jhC" = (
 /obj/structure/fluff/walldeco/vent/vent3{
@@ -10934,6 +10885,10 @@
 /mob/living/simple_animal/hostile/rogue/robot/gunner/boss,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/perserdun)
+"jLk" = (
+/obj/structure/table/wood/long_table/mid/alt,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "jLl" = (
 /obj/machinery/light/rogue/wallfire/candle/floorcandle{
 	pixel_y = -4;
@@ -11179,6 +11134,9 @@
 /mob/living/carbon/human/species/human/northern/deserters,
 /turf/open/floor/rogue/grassyel,
 /area/rogue/outdoors/beach/forest/south)
+"jVU" = (
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue/indoors/risvonbase)
 "jWn" = (
 /obj/machinery/light/rogue/wallfire/candle/weak,
 /obj/structure/table/wood/perserdunsmall/woodtablefine,
@@ -11608,15 +11566,6 @@
 /obj/machinery/light/rogue/torchholder,
 /turf/closed/wall/mineral/rogue/wooddark/vertical,
 /area/rogue/indoors/shelter/town/sargoth)
-"ktv" = (
-/obj/structure/closet/crate/roguecloset/dark{
-	pixel_x = -7
-	},
-/obj/structure/fluff/walldeco/sad{
-	pixel_y = 32
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
 "ktR" = (
 /obj/structure/hotspring/border/five,
 /turf/open/floor/rogue/grasscold,
@@ -12111,11 +12060,13 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/perserdun)
 "kSt" = (
+/obj/structure/bed/rogue,
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
 /obj/structure/fluff/walldeco/xavo{
 	pixel_y = 32
 	},
-/obj/structure/table/wood/long_table,
-/obj/structure/table/wood/long_table/right,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "kTn" = (
@@ -12428,12 +12379,10 @@
 /turf/open/floor/rogue/twig/platform,
 /area/rogue/outdoors/perserdun)
 "lgN" = (
-/obj/structure/closet/crate/roguecloset/dark{
-	pixel_x = -7
-	},
-/obj/machinery/light/rogue/wallfire/candle/blue,
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
+/obj/structure/table/wood/long_table,
+/obj/item/natural/feather,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "lhd" = (
 /obj/effect/decal/cobbleedge{
 	pixel_y = 25;
@@ -13818,6 +13767,20 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
+"myJ" = (
+/obj/structure/bed/rogue{
+	dir = 8
+	},
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10;
+	layer = 2.7;
+	pixel_x = -4
+	},
+/obj/machinery/light/rogue/wallfire/candle/l,
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "myK" = (
 /turf/open/transparent/openspace,
 /area/rogue/outdoors)
@@ -14132,12 +14095,10 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors)
 "mMK" = (
-/obj/structure/mineral_door/wood/violet{
-	lockid = "perserdun";
-	name = "BUNKS 2"
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
+/obj/structure/bars/tough,
+/obj/structure/curtain/black,
+/turf/open/floor/rogue/brown,
+/area/rogue/indoors/shelter/town)
 "mNi" = (
 /obj/structure/table/wood/longreif{
 	dir = 4
@@ -14528,13 +14489,6 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/exposed/risvonbase)
-"ncF" = (
-/obj/structure/bed/rogue,
-/obj/effect/landmark/start/armsmanlate,
-/obj/effect/landmark/start/armsman,
-/obj/machinery/light/rogue/wallfire/candle/blue,
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
 "ncI" = (
 /obj/structure/table/wood/longreif{
 	dir = 4
@@ -15396,6 +15350,13 @@
 /obj/structure/closet/crate/chest/neu_iron,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
+"nOI" = (
+/obj/structure/mineral_door/wood{
+	name = "CADRE A";
+	lockid = "risvontag"
+	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "nOL" = (
 /obj/structure/flora/roguetree/stump/burnt,
 /turf/open/floor/rogue/dirt,
@@ -15433,13 +15394,6 @@
 /obj/structure/table/wood/metal3,
 /turf/open/floor/rogue/perdun,
 /area/rogue/outdoors/perserdun)
-"nQx" = (
-/obj/structure/mineral_door/wood{
-	name = "CADRE B";
-	lockid = "risvontag"
-	},
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "nRg" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	icon_state = "bloodpaw1"
@@ -15609,17 +15563,6 @@
 "nZW" = (
 /turf/closed/wall/mineral/rogue/perserdun/long/east_west,
 /area/rogue/outdoors/beach/forest/south)
-"oak" = (
-/obj/structure/bed/rogue/xbed,
-/obj/structure/bed/rogue/xbed{
-	pixel_y = 8
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
-/obj/effect/landmark/start/soldatolate,
-/turf/open/floor/rogue/ruinedwood,
-/area/rogue/indoors/risvonbase)
 "oal" = (
 /obj/structure/fluff/railing/border/west{
 	dir = 9
@@ -15668,13 +15611,6 @@
 /obj/item/reagent_containers/glass/bottle/waterskin,
 /obj/item/reagent_containers/glass/bottle/waterskin,
 /turf/open/floor/rogue/tile,
-/area/rogue/indoors/perserdunbase)
-"obX" = (
-/obj/structure/mineral_door/wood/violet{
-	lockid = "perserdun";
-	name = "ARMSMAN BUNKS"
-	},
-/turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "ocg" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -15763,6 +15699,20 @@
 /obj/structure/table/wood/long_table/mid/alt,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"ofM" = (
+/obj/structure/bed/rogue,
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10;
+	layer = 2.7;
+	pixel_x = 4
+	},
+/obj/structure/fluff/walldeco/happy{
+	pixel_x = 32
+	},
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "ofY" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -16052,6 +16002,13 @@
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
+"ooI" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_x = -7
+	},
+/obj/machinery/light/rogue/wallfire/candle/blue,
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "opz" = (
 /obj/structure/mineral_door/wood{
 	locked = 1;
@@ -16916,9 +16873,6 @@
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
-"oVn" = (
-/turf/open/floor/rogue/ruinedwood,
-/area/rogue/indoors/risvonbase)
 "oVB" = (
 /obj/structure/fluff/railing/border,
 /obj/effect/decal/cleanable/dirt/grime/grime2,
@@ -16995,19 +16949,10 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/shelter/town)
 "paE" = (
-/obj/structure/bed/rogue{
-	dir = 8
+/obj/structure/mineral_door/wood{
+	name = "CADRE B";
+	lockid = "risvontag"
 	},
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 10;
-	layer = 2.7;
-	pixel_x = -4
-	},
-/obj/structure/fluff/walldeco/ubk{
-	pixel_x = -32
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "paJ" = (
@@ -18411,8 +18356,21 @@
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/beach/forest/south)
 "qpO" = (
-/turf/closed/wall/mineral/rogue/risvon/long,
-/area/rogue/outdoors/risvon)
+/obj/structure/bed/rogue{
+	dir = 8
+	},
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10;
+	layer = 2.7;
+	pixel_x = -4
+	},
+/obj/structure/fluff/walldeco/ubk{
+	pixel_x = -32
+	},
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "qpP" = (
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/rogue/twig/platform,
@@ -18671,11 +18629,6 @@
 	},
 /turf/open/floor/rogue/dirt/ambush,
 /area/rogue/outdoors/beach/forest/south)
-"qCw" = (
-/obj/structure/table/wood/long_table,
-/obj/item/natural/feather,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "qCy" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor4-old"
@@ -19002,6 +18955,13 @@
 /obj/structure/closet/crate/roguecloset,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"qTJ" = (
+/obj/structure/mineral_door/wood/violet{
+	lockid = "perserdun";
+	name = "ARMSMAN BUNKS"
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "qUu" = (
 /obj/structure/closet/crate/chest/neu_iron,
 /obj/item/rogueweapon/stoneaxe/woodcut,
@@ -19637,6 +19597,13 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors)
+"rAR" = (
+/obj/structure/mineral_door/wood/violet{
+	lockid = "perserdun";
+	name = "BUNKS 2"
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "rBg" = (
 /obj/structure/table/wood/map,
 /obj/effect/decal/carpet/square{
@@ -19695,16 +19662,7 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/outdoors/perserdun)
 "rCv" = (
-/obj/structure/bed/rogue{
-	dir = 8
-	},
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 10;
-	layer = 2.7;
-	pixel_x = -4
-	},
-/obj/effect/landmark/start/soldato,
-/obj/effect/landmark/start/soldatolate,
+/obj/machinery/gear_painter_nocolorwheel/risvon,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "rCD" = (
@@ -20764,11 +20722,8 @@
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/beach/forest/south)
 "sEY" = (
-/obj/structure/bed/rogue,
-/obj/effect/landmark/start/armsmanlate,
-/obj/effect/landmark/start/armsman,
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
+/turf/closed/wall/mineral/rogue/risvon/long,
+/area/rogue/outdoors/risvon)
 "sFO" = (
 /turf/closed/wall/mineral/rogue/miscroof/middle/dir8,
 /area/rogue/outdoors/perserdun)
@@ -21046,10 +21001,6 @@
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
-"sSr" = (
-/obj/machinery/gear_painter_nocolorwheel/risvon,
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "sSv" = (
 /obj/structure/table/wood/perserdunsmall,
 /obj/item/rogueweapon/huntingknife/chefknife{
@@ -21372,12 +21323,11 @@
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/rtfield/eora)
 "tfc" = (
-/obj/structure/mineral_door/wood{
-	name = "SOLDATO BARRACKS";
-	lockid = "risvontag"
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_x = -7
 	},
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "tfp" = (
 /obj/structure/rack/rogue,
 /obj/item/rogueweapon/sickle,
@@ -21764,6 +21714,12 @@
 /obj/structure/soil,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/risvon)
+"txf" = (
+/obj/item/clothing/suit/roguetown/shirt/dress/royal{
+	desc = "An elaborate ball gown. The name 'Zera' is woven into the back; it's probably a gift."
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "txs" = (
 /obj/structure/fluff/railing/sandbag{
 	dir = 4
@@ -22119,10 +22075,9 @@
 	},
 /area/rogue/outdoors/exposed/risvonbase)
 "tMe" = (
-/obj/structure/bars/tough,
-/obj/structure/curtain/black,
-/turf/open/floor/rogue/brown,
-/area/rogue/indoors/shelter/town)
+/obj/structure/table/wood/long_table/right,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "tMl" = (
 /obj/effect/decal/carpet{
 	dir = 8;
@@ -24072,13 +24027,11 @@
 /area/rogue/outdoors/risvon)
 "vzt" = (
 /obj/structure/bed/rogue,
-/obj/effect/landmark/start/armsman,
-/obj/effect/landmark/start/armsmanlate,
-/obj/effect/landmark/start/armsman,
-/obj/effect/landmark/start/armsmanlate,
-/obj/structure/fluff/walldeco/xavo{
-	pixel_y = 32
+/obj/structure/bed/rogue{
+	pixel_y = 12
 	},
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "vzN" = (
@@ -24388,6 +24341,17 @@
 "vQn" = (
 /turf/open/floor/rogue/plate,
 /area/rogue/outdoors/indoors/persunbaseoutlook)
+"vQB" = (
+/obj/structure/bed/rogue,
+/obj/effect/landmark/start/armsman,
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
+/obj/effect/landmark/start/armsmanlate,
+/obj/structure/fluff/walldeco/xavo{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "vQC" = (
 /obj/structure/chair/wood/rogue/metal,
 /obj/structure/fluff/walldeco/bigpainting/lake,
@@ -24915,16 +24879,19 @@
 /obj/item/kitchen/rollingpin,
 /turf/open/floor/rogue/tile/brick,
 /area/rogue/indoors/shelter/town/sargoth)
+"wpY" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_x = -7
+	},
+/obj/structure/fluff/walldeco/sad{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "wqa" = (
 /obj/structure/fluff/wallclock,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
-"wqk" = (
-/obj/item/clothing/suit/roguetown/shirt/dress/royal{
-	desc = "An elaborate ball gown. The name 'Zera' is woven into the back; it's probably a gift."
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
 "wqr" = (
 /obj/structure/globe,
 /turf/open/floor/rogue/ruinedwood/spiral,
@@ -25595,6 +25562,13 @@
 	dir = 8
 	},
 /area/rogue/indoors/risvonbasebar)
+"wYE" = (
+/obj/structure/bed/rogue,
+/obj/effect/landmark/start/armsmanlate,
+/obj/effect/landmark/start/armsman,
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "wYS" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/rogue/naturalstone,
@@ -26520,6 +26494,20 @@
 "xTE" = (
 /turf/open/floor/rogue/rooftop/east,
 /area/rogue/outdoors/risvon)
+"xTQ" = (
+/obj/structure/bed/rogue,
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10;
+	layer = 2.7;
+	pixel_x = 4
+	},
+/obj/structure/fluff/walldeco/ubk{
+	pixel_x = 32
+	},
+/obj/effect/landmark/start/soldato,
+/obj/effect/landmark/start/soldatolate,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "xUj" = (
 /turf/closed/wall/mineral/rogue/scary/end,
 /area/rogue/under/cave/umamusume)
@@ -26808,6 +26796,15 @@
 "yeL" = (
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
+"yeO" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_x = -7
+	},
+/obj/structure/fluff/walldeco/rush{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "yfb" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/structure/vine,
@@ -79455,7 +79452,7 @@ aNY
 wLo
 tbT
 tbT
-tMe
+mMK
 tIc
 vbM
 vbM
@@ -185324,7 +185321,7 @@ ihl
 ihl
 ihl
 aDh
-ftD
+bLj
 vOB
 oyp
 gnt
@@ -207270,7 +207267,7 @@ qSc
 imq
 imq
 ihl
-bLj
+xfQ
 cxo
 fBs
 wDT
@@ -320361,7 +320358,7 @@ tMA
 tPP
 tPP
 wJr
-obX
+qTJ
 hnT
 tPP
 hUj
@@ -320962,7 +320959,7 @@ dGW
 osX
 xfP
 kyT
-kSt
+fuc
 oAG
 oAG
 wRd
@@ -321265,11 +321262,11 @@ dGW
 rGQ
 sIJ
 tPP
-hXd
+ioC
 tPP
 tMA
 tPP
-mMK
+rAR
 qCn
 tMA
 hUj
@@ -321868,15 +321865,15 @@ tPP
 tPP
 tPP
 hUj
-vzt
+vQB
 oAG
-sEY
+cKG
 kyT
-vzt
+vQB
 oAG
-sEY
+cKG
 kyT
-wqk
+txf
 aOn
 aOn
 aOn
@@ -322170,13 +322167,13 @@ dMy
 dMy
 dMy
 kyT
-lgN
+ooI
 oAG
-cKG
+tfc
 kyT
-lgN
+ooI
 oAG
-cKG
+tfc
 sIJ
 tPP
 tPP
@@ -322472,13 +322469,13 @@ dMy
 dMy
 dMy
 kyT
-sEY
+cKG
 oAG
-sEY
+cKG
 kyT
-sEY
+cKG
 oAG
-aYe
+vzt
 kyT
 dMy
 dMy
@@ -322774,13 +322771,13 @@ dMy
 dMy
 dMy
 kyT
-iwO
+yeO
 oAG
-cKG
+tfc
 kyT
-ktv
+wpY
 oAG
-cKG
+tfc
 kyT
 dMy
 dMy
@@ -323076,13 +323073,13 @@ dMy
 dMy
 dMy
 kyT
-ncF
+fmZ
 oAG
-sEY
+cKG
 kyT
-ncF
+fmZ
 oAG
-sEY
+cKG
 kyT
 dMy
 dMy
@@ -323378,13 +323375,13 @@ dMy
 dMy
 dMy
 kyT
-cKG
+tfc
 oAG
-cKG
+tfc
 kyT
-cKG
+tfc
 oAG
-cKG
+tfc
 kyT
 dMy
 dMy
@@ -323680,13 +323677,13 @@ dMy
 dMy
 dMy
 kyT
-gMj
+kSt
 oAG
-fmZ
+wYE
 kyT
-gMj
+kSt
 oAG
-fmZ
+wYE
 kyT
 dMy
 dMy
@@ -347107,7 +347104,7 @@ hyS
 qZW
 hyS
 hyS
-tfc
+eGE
 hyS
 hyS
 hyS
@@ -347695,22 +347692,22 @@ dnP
 dnP
 dnP
 dnP
-qpO
-qpO
-qpO
-qpO
-qpO
-qpO
-qpO
-qpO
+sEY
+sEY
+sEY
+sEY
+sEY
+sEY
+sEY
+sEY
 sUh
 hfV
 iJC
 hXp
 sWE
 sUh
-oVn
-oak
+jVU
+aVH
 sUh
 lbC
 dnz
@@ -348616,9 +348613,9 @@ sUh
 sWE
 hyS
 sUh
-paE
-gLY
-rCv
+qpO
+myJ
+aYe
 sUh
 upZ
 upZ
@@ -348917,7 +348914,7 @@ aBH
 sUh
 hyS
 hyS
-clN
+nOI
 hyS
 hyS
 hyS
@@ -349218,11 +349215,11 @@ aBH
 aBH
 sUh
 hyS
-qCw
+lgN
 sUh
-iwJ
+ofM
 jqe
-hIb
+eDi
 sUh
 upZ
 upZ
@@ -349520,7 +349517,7 @@ aBH
 aBH
 sUh
 ufM
-jhw
+jLk
 cwK
 uLE
 uLE
@@ -349822,11 +349819,11 @@ dFI
 dFI
 sUh
 sWE
-eLf
+tMe
 sUh
-rCv
-gLY
-dRq
+aYe
+myJ
+deq
 sUh
 upZ
 upZ
@@ -350125,7 +350122,7 @@ dFI
 sUh
 hyS
 hyS
-nQx
+paE
 hyS
 hyS
 hyS
@@ -350426,11 +350423,11 @@ dFI
 upZ
 sUh
 qZW
-sSr
+rCv
 sUh
-deq
+xTQ
 jqe
-hIb
+eDi
 sUh
 upZ
 upZ
