@@ -1903,6 +1903,7 @@
 #include "code\modules\mob\living\carbon\human\npc\skeleton\skeleton.dm"
 #include "code\modules\mob\living\carbon\human\npc\skeleton\skeleton_outfits.dm"
 #include "code\modules\mob\living\carbon\human\npc\temperance13\bandits.dm"
+#include "code\modules\mob\living\carbon\human\npc\temperance13\deserters.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\anthromorph.dm"
 #include "code\modules\mob\living\carbon\human\species_types\furry\demihuman.dm"
 #include "code\modules\mob\living\carbon\human\species_types\roguetown\roguetown_species.dm"
