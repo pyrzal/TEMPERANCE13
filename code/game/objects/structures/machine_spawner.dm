@@ -64,7 +64,7 @@
 			/obj/effect/spawner/lootdrop/machine/pistol,
 			/obj/effect/spawner/lootdrop/machine/explosives,
 			/obj/effect/spawner/lootdrop/medicines,
-			/obj/effect/spawner/lootdrop/normalgunsoutlet)
+			/obj/effect/spawner/lootdrop/machine/levershotgun)
 	else 
 		new_type = pick(
 			/obj/effect/spawner/lootdrop/machine/reaper,
