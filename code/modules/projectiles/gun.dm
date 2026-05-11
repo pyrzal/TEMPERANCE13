@@ -1,6 +1,31 @@
 
 #define DUALWIELD_PENALTY_EXTRA_MULTIPLIER 1.4
 
+
+// This determines the inherent inaccuracy of guns at 0 charge
+#define GUN_MAX_INACCURACY_DEG 40
+
+// Final get_chargetime() = max(<floor>, computed) * GUN_AIM_TIME_MULT * <per-weapon mult>
+// Lower numbers = faster aim.
+// the floor determines the absolute minimum it can go to, good for balancing high skill/perception
+// so u can tweak these numbers as you wish in order to achieve whatever vision u desire
+
+#define GUN_AIM_TIME_MULT 0.2
+#define GUN_AIM_FLOOR_RIFLE     0.5
+#define GUN_AIM_FLOOR_PISTOL    0.5
+#define GUN_AIM_FLOOR_REVOLVER  0.1
+#define GUN_AIM_FLOOR_SHOTGUN   3
+
+#define GUN_AIM_TIME_MULT_RIFLE     0.66
+#define GUN_AIM_TIME_MULT_PISTOL    1.25
+#define GUN_AIM_TIME_MULT_REVOLVER  0.1
+#define GUN_AIM_TIME_MULT_SHOTGUN   1
+
+// How much weapon skill reduces aim time. 0 = skill irrelevant, 1 = current, 2 = double effect.
+#define GUN_AIM_SKILL_INFLUENCE 0
+// How much perception reduces aim time. 0 = perception irrelevant, 1 = current, 2 = double effect.
+#define GUN_AIM_PER_INFLUENCE   0
+
 /obj/item/gun
 	name = "gun"
 	desc = ""
@@ -149,13 +174,21 @@
 	return
 
 
+/obj/item/gun/proc/get_effective_spread(mob/living/user)
+	var/charge_penalty = 0
+	if(user?.client)
+		var/prog = clamp(user.client.chargedprog, 0, 100)
+		charge_penalty = ((100 - prog) / 100) * GUN_MAX_INACCURACY_DEG
+	return max(0, spread + charge_penalty)
+
 /obj/item/gun/proc/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
 	add_fingerprint(user)
 
 	var/sprd = 0
 	var/randomized_gun_spread = 0
-	if(spread)
-		randomized_gun_spread =	rand(0,spread)
+	var/eff_spread = get_effective_spread(user)
+	if(eff_spread)
+		randomized_gun_spread = rand(0, eff_spread)
 	var/randomized_bonus_spread = rand(0, bonus_spread)
 
 	if(chambered)
