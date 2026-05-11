@@ -75,6 +75,80 @@
 	revert_cast()
 	return FALSE
 
+/obj/effect/proc_holder/spell/invoked/fleshmend
+	name = "Fleshmend"
+	desc = "Mold flesh and blood like clay to mend deep injuries. The process is agonizing for the recipient."
+	overlay_state = "abyssal_strength3"
+	releasedrain = 150
+	chargedrain = 1
+	chargetime = 75
+	range = 1
+	warnie = "sydwarning"
+	movement_interrupt = TRUE
+	no_early_release = TRUE
+	sound = 'sound/gore/flesh_eat_01.ogg'
+	invocation = "MEND!"
+	invocation_type = "shout"
+	chargedloop = /datum/looping_sound/invokeblood
+	associated_skill = /datum/skill/magic/blood
+	antimagic_allowed = FALSE
+	recharge_time = 60 SECONDS
+
+/obj/effect/proc_holder/spell/invoked/fleshmend/cast(list/targets, mob/living/user)
+	. = ..()
+	if(!isliving(targets[1]))
+		revert_cast()
+		return FALSE
+	var/mob/living/target = targets[1]
+
+	var/multiplier = 1
+	for(var/obj/effect/decal/cleanable/blood/B in oview(5, target))
+		multiplier += 0.1
+	multiplier = min(multiplier, 1.5)
+	if(multiplier > 1)
+		to_chat(user, span_notice("The pooled blood nearby answers my call, blood manipulation is easier in these conditions."))
+
+	var/brute_heal = 75 * multiplier
+	var/whp_heal = 75 * multiplier
+
+	if(ishuman(target))
+		var/mob/living/carbon/human/H = target
+		var/no_embeds = TRUE
+		var/list/embeds = H.get_embedded_objects()
+		if(length(embeds))
+			for(var/object in embeds)
+				if(!istype(object, /obj/item/natural/worms/leech))
+					no_embeds = FALSE
+					break
+		if(!no_embeds)
+			H.visible_message(span_warning("[H]'s wounds tear and rip around the embedded objects as the working goes wrong!"), \
+								span_userdanger("Agonizing pain shoots through my body as flesh tries to knit around the embedded objects!"))
+			H.adjustBruteLoss(20)
+			playsound(H, 'sound/combat/dismemberment/dismem (2).ogg', 100)
+			H.emote("agony")
+			return TRUE
+
+	target.adjustBruteLoss(-brute_heal, 0)
+	target.heal_wounds(whp_heal)
+	target.update_damage_overlays()
+
+	var/self_msg
+	if(!HAS_TRAIT(target, TRAIT_NOPAINSTUN))
+		self_msg = span_userdanger("My flesh is sculpted back into place, the agony is unbearable!")
+	else
+		self_msg = span_userdanger("My flesh is sculpted back into place, but the pain is nothing to me.")
+	target.visible_message(span_info("Torn flesh swirls inside [target], knitting itself together as if shaped by unseen hands!"), self_msg)
+
+	if(!HAS_TRAIT(target, TRAIT_NOPAINSTUN))
+		to_chat(user, span_notice("I weave [target]'s flesh whole, ignoring their cries."))
+		target.emote("painscream")
+		target.Knockdown(10)
+		shake_camera(target, 2, 2)
+	else
+		to_chat(user, span_notice("I weave [target]'s flesh whole, and they bear the pain admirably."))
+
+	return TRUE
+
 /obj/effect/proc_holder/spell/invoked/blood_link
 	name = "Blood Transfer"
 	desc = "Transfers the blood of yourself to a target. Ratio of transfer scales with blood skill. Can be used to refuel Piercing Blood."
