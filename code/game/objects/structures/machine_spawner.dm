@@ -84,10 +84,10 @@
 /obj/structure/machine/spawner/process()
 	checkdelay()
 	timer++
-	if(timer == 20)//1 minute
+	if(timer == 60)//1 minute
 		active = TRUE
 		update_effect()
-	if(timer >= 30) //3 minutes
+	if(timer >= 180) //3 minutes
 		active = FALSE
 		update_effect()
 		if(count <= 20)
