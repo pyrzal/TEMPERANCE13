@@ -165,3 +165,10 @@
 		/obj/item/gun/ballistic/rifle/repeater/patience = 1,
 		/obj/item/ammo_box/boxes/amr = 2
 	)
+
+/obj/effect/spawner/lootdrop/machine/levershotgun
+	loot = list(
+		/obj/item/gun/ballistic/shotgun/levershotgun = 1,
+	/obj/item/ammo_box/handfuls/shotgun = 2,
+	/obj/item/ammo_box/handfuls/shotgun/buckshot = 2,
+	)
