@@ -137,6 +137,23 @@
 			if(statpanel("Status"))
 				stat("Confessions sent: [GLOB.confessors.len]")
 
+	// BEGIN GUN DEBUG (delete this block + modular_temperance/code/modules/projectiles/gun_debug.dm when done)
+	if(client && client.holder && check_rights(R_DEBUG, 0) && statpanel("GUN DEBUG"))
+		var/obj/item/gun/G = get_active_held_item()
+		if(istype(G))
+			stat(null, "gun: [G.name]")
+			stat(null, "base spread: [G.spread]")
+			stat(null, "base recoil: [G.recoil]")
+			stat(null, "charging: [client.charging]")
+			stat(null, "progress: [client.progress] / [client.goal]")
+			stat(null, "chargedprog: [client.chargedprog]%")
+			stat(null, "current_recoil: [current_recoil]")
+			stat(null, "last_recoil_tick: [last_recoil_tick] (world.time = [world.time])")
+			stat(null, "effective spread: [G.get_effective_spread(src)]")
+		else
+			stat(null, "Hold a gun to see debug values.")
+	// END GUN DEBUG
+
 	return //RTchange
 
 /mob/living/carbon/human/show_inv(mob/user)

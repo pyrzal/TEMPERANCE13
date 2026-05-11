@@ -14,6 +14,7 @@
 	tac_reloads = FALSE
 	var/spin_delay = 10
 	var/recent_spin = 0
+	spread = 0
 	bolt_wording = "primer"
 	dry_fire_sound = 'sound/combat/ranged/revolver_dryfire.ogg'
 	slot_flags = ITEM_SLOT_HIP
@@ -44,17 +45,18 @@
 
 /datum/intent/shoot/revolver
 	chargedrain = 0
-	no_early_release = TRUE
+	no_early_release = FALSE
 
 /datum/intent/shoot/revolver/get_chargetime()
-	if(!mastermob || !chargetime)
+	if(mastermob && chargetime)
 		var/newtime = 0
-		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/revolvers) * (4)))
+		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/revolvers) * 4 * GUN_AIM_SKILL_INFLUENCE))
 		if(strength_check == TRUE)
 			newtime = ((newtime + 10) - (mastermob.STASTR / 2))
-		else
-			newtime = newtime 
-		newtime = ((newtime + 20) - (mastermob.STAPER))
+		newtime = ((newtime + 20) - (mastermob.STAPER * GUN_AIM_PER_INFLUENCE))
+		return max(GUN_AIM_FLOOR_REVOLVER, newtime) * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_REVOLVER
+	else
+		return chargetime * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_REVOLVER
 
 /datum/intent/arc/revolver
 	chargetime = 1
@@ -95,7 +97,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/revolver
 	force = 10
-	spread = 4
+	spread = 0
 	icon_state = "revolver"
 	item_state = "revolver"
 	slowdown = 0.15
@@ -113,7 +115,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/revolver
 	force = 10
-	spread = 6
+	spread = 0
 	icon_state = "pace"
 	item_state = "pace"
 	slowdown = 0.15
@@ -130,7 +132,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/revolver
 	force = 10
-	spread = 6
+	spread = 0
 	icon_state = "webley"
 	item_state = "webley"
 	dry_fire_sound = 'sound/combat/ranged/revhammer.ogg'
@@ -148,7 +150,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/snubby
 	force = 9 // haha tiny gun bad
-	spread = 8 // with what barrel yo?
+	spread = 0 // with what barrel yo?
 	icon_state = "snubnose"
 	item_state = "snubnose"
 	dry_fire_sound = 'sound/combat/ranged/revhammer.ogg'
@@ -168,7 +170,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/risvon
 	force = 30
-	spread = 0.5
+	spread = 0
 	icon_state = "dshotgun"
 	item_state = "dshotgun"
 	slowdown = 0.15
@@ -188,7 +190,7 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/sawedoff
 	force = 20
 	throwforce = 40
-	spread = 0.8 // the fuck you think you're gonna hit with that barrel?
+	spread = 0 // the fuck you think you're gonna hit with that barrel?
 	icon_state = "singlebarrel"
 	item_state = "singlebarrel"
 	slowdown = 0.15
@@ -207,7 +209,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/judge
 	force = 30 //fat stock
-	spread = 2 // cut in half cuz much longer barrel
+	spread = 0 // cut in half cuz much longer barrel
 	icon = 'icons/roguetown/weapons/64guns.dmi'
 	icon_state = "revolvingrifle"
 	item_state = "revolvingrifle"
@@ -229,7 +231,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/mercy
 	force = 10
-	spread = 6
+	spread = 0
 	icon_state = "mercy"
 	item_state = "mercy"
 	slowdown = 0.15
