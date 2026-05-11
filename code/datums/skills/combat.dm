@@ -128,9 +128,10 @@
 	name = "Rifles"
 	desc = "Influences how fast you can aim a rifle."
 	dreams = list(
-	"...the rifle is foreign. He tells you to pull the bolt back...",
-	"...you lock the bolt forward, and aim towards the next soldier. You don't feel right...",
-	"...you load in another round. When will the nightmare end?"
+	"...the rifle is foreign. He tells you to pull the bolt back, then forward, and aim towards the next soldier. You don't feel right as you load in another round. When will the nightmare end?",
+	"...there's too much grease along the bolt. The metal is unfinished along the barrel. That coal-black furniture is still malleable. You hold the half-made machine infant in your hands, and as you pull its trigger, it begins to cry...",
+	"...he's looking up at you. His helmet is tattered, he's been on this front as long as you have. You cant remember the color of his eyes, just the sadness in them, and the picture you found in his coat pocket. You wonder how long it took for the rain to wash away the printed family...",
+	"...why didn't it fire? You loaded the round. You pulled the bolt back. You pushed the bolt fowards. You pulled the trigger. The world is so vibrant, in the muzzleflash. There's a rosebush, still alive, by your side. You wonder how it managed to survive the artillery bombardment..."
 	)
 	expert_name = "Rifleman"
 
@@ -138,9 +139,10 @@
 	name = "Revolvers"
 	desc = "Influences how fast you can aim a revolver."
 	dreams = list(
-	"...a complex machine, made by another machine...",
-	"...you fuck around with the cylinder. Click...",
-	"Bang."
+	"...you fuck around with the cylinder, before raising the barrel to yourself. There was a bet, a prize, a reward. none of it matters as you pull the trigger. Click",
+	"...you watch the woman across the table spin the cylinder, before pulling the trigger on herself. Bang.",
+	"...you look at the front of the revolver as he raises it to your forehead. A shame you can see all six chambers are empty...",
+	"...it feels like an eternity, making eye contact with your enemy. Revolver on their hip. Revolver on yours. The clock strikes twelve, the bell tolls as the sun watches expectantly. A single gunshot rings out to match the clocks toll, and the sand drinks deep new moisture..."
 	)
 	expert_name = "Gunslinger"
 
@@ -148,9 +150,10 @@
 	name = "Pistols"
 	desc = "Influences how fast you can aim a pistol."
 	dreams = list(
-	"...There's rumors of a magazine-fed, completely automatic pistol.",
-	"...Held in one hand, with a strong caliber.",
-	"..People call it 'HOPE'."
+	"...you remember the rumors of a magazine-fed, completely automatic pistol. Held in one hand, with a strong caliber... Holding it in your hand, you remember its name... HOPE.",
+	"...you hold the pistols end at your husbands chin, holding them close to your chest. They're watching you, everyone who wants to see you bleed. None of it matters as you dance to the opera played by the radio. Dancing, dancing, dancing...",
+	"...a complex machine, made by another machine. The first one creates its child, the child creates its tools, its tools create the weapon...",
+	"...Hes never used a pistol before. You watch him rack the slide after every shot, wasting countless rounds as you raise your own to match his fire. You wonder how much more ammo you would have after the triggerpull, if he'd only known a little more..."
 	)
 	expert_name = "Gunman"
 
@@ -158,9 +161,10 @@
 	name = "Shotguns"
 	desc = "Influences how fast you can aim a shotgun."
 	dreams = list(
-	"...Pointman.",
-	"...Scattering buckshot.",
-	"..Blast."
+	"...it's not its own thing anymore. Walking between the thicket it becomes just another part of your body. A rustle in the leaves, you point, blink, and the problem's not there anymore...",
+	"...it's hailing now, little chunks of ice falling from the barrel and outwards towards the world. A note plays as each pellet hits their target, you close your eyes, ready for the symphony to crest, but the final note never plays...",
+	"...Bang. She's everywhere now. Every part of that thing that once was her mind. She was smiling before you pulled the trigger. Didn't she know what was going to happen? Why was she smiling..?",
+	"...her recipe for béchamel sauce existed in the intricate way those chunks of grey matter had been assembled, just like love and fear and despair and joy. Everything that made us humans, spilled all over carpet and parquetry, and no technology that anyone could ever create would put it back together again.",
 	)
 	expert_name = "Shotgunner"
 

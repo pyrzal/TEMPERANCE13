@@ -1,6 +1,6 @@
 
 /obj/structure/machine/spawner
-	name = "MACHINE"
+	name = "FURNACE"
 	desc = "An orifice of the local WAR machine. If I wait patiently, something might happen."
 	icon = 'icons/obj/structures/bigmachine.dmi'
 	max_integrity = 999999
@@ -13,6 +13,7 @@
 	var/datum/looping_sound/machineloop/soundloop
 	var/list/turfsy = list()
 	var/list/blockers = list()
+	var/count = 0
 
 /obj/structure/machine/spawner/delay
 	delay = TRUE
@@ -61,7 +62,9 @@
 			/obj/effect/spawner/lootdrop/machine/ammo,
 			/obj/effect/spawner/lootdrop/machine/leverrifle,
 			/obj/effect/spawner/lootdrop/machine/pistol,
-			/obj/effect/spawner/lootdrop/machine/explosives)
+			/obj/effect/spawner/lootdrop/machine/explosives,
+			/obj/effect/spawner/lootdrop/medicines,
+			/obj/effect/spawner/lootdrop/machine/levershotgun)
 	else 
 		new_type = pick(
 			/obj/effect/spawner/lootdrop/machine/reaper,
@@ -81,13 +84,18 @@
 /obj/structure/machine/spawner/process()
 	checkdelay()
 	timer++
-	if(timer == 780)//13 minutes
+	if(timer == 60)//1 minute
 		active = TRUE
 		update_effect()
-	if(timer >= 900) //15 minutes
+	if(timer >= 180) //3 minutes
 		active = FALSE
 		update_effect()
-		spawnitem()
+		if(count <= 20)
+			spawnitem()
+			count += 1
+		else
+			visible_message("The FURNACE seems to be empty. Better luck next time.")
+			STOP_PROCESSING(SSprocessing, src)
 
 /obj/effect/spawner/lootdrop/machine
 	name = "machine spawner"
@@ -156,4 +164,11 @@
 	loot = list(
 		/obj/item/gun/ballistic/rifle/repeater/patience = 1,
 		/obj/item/ammo_box/boxes/amr = 2
+	)
+
+/obj/effect/spawner/lootdrop/machine/levershotgun
+	loot = list(
+		/obj/item/gun/ballistic/shotgun/levershotgun = 1,
+	/obj/item/ammo_box/handfuls/shotgun = 2,
+	/obj/item/ammo_box/handfuls/shotgun/buckshot = 2,
 	)

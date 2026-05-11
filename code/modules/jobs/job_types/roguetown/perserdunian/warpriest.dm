@@ -87,6 +87,7 @@
 	if(H.mind)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/diagnose/blood)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/blood_heal)
+		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/fleshmend)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/touch/bloodneedle)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/blood_link)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/projectile/piercing_blood)
