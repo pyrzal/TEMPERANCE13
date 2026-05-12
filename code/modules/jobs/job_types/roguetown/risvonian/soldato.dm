@@ -51,12 +51,11 @@
 	wrists = /obj/item/scomstone
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
 	id = /obj/item/roguekey/risvon
-	backl = /obj/item/gun/ballistic/rifle/repeater/pistol
+	backl = /obj/item/rogueweapon/stoneaxe/woodcut/risvon
 	backr = /obj/item/storage/backpack/rogue/backpack/risvon
 	backpack_contents = list(
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
 		/obj/item/grenade/gas/smoke = 1,
-		/obj/item/rogueweapon/stoneaxe/woodcut/risvon,
 		/obj/item/rope,
 		/obj/item/gun/ballistic/rifle/repeater/pistol,
 	)
