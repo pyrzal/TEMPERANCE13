@@ -50,9 +50,9 @@
 	wrists = /obj/item/scomstone/garrison
 	id = /obj/item/roguekey/perserdun
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
-	backr = /obj/item/storage/backpack/rogue/backpack/perserdun
+	backr = /obj/item/gun/ballistic/rifle/repeater/rattlesnake
 	backpack_contents = list(
-		/obj/item/ammo_box/handfuls/leveraction = 6,
+		/obj/item/ammo_box/handfuls/rattlesnake = 6,
 		/obj/item/storage/belt/rogue/pouch/coins/mid,
 		/obj/item/grenade/gas/poison,
 		/obj/item/grenade/gas/smoke,
