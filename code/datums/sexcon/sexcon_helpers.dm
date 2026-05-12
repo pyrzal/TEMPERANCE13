@@ -189,7 +189,7 @@
 		return
 	if(!can_reproduce_with(wife))
 		return
-	if(wife.is_pregnant || wife.mpreg)
+	if(wife.mpreg)
 		return
 	var/obj/item/organ/vagina/vag = wife.getorganslot(ORGAN_SLOT_VAGINA)
 	if(vag)
