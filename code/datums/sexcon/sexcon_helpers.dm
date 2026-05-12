@@ -176,14 +176,9 @@
 /mob/living/carbon/human/proc/can_reproduce_with(mob/living/carbon/human/partner)
 	var/my_demihuman = istype(dna.species, /datum/species/demihuman)
 	var/their_demihuman = istype(partner.dna.species, /datum/species/demihuman)
-	var/my_xiaoren = istype(dna.species, /datum/species/anthromorph)
-	var/their_xiaoren = istype(partner.dna.species, /datum/species/anthromorph)
 	// Demihumans ONLY reproduce with other demihumans
 	if(my_demihuman || their_demihuman)
 		return (my_demihuman && their_demihuman)
-	// Xiaoren ONLY reproduce with other Xiaoren
-	if(my_xiaoren || their_xiaoren)
-		return (my_xiaoren && their_xiaoren)
 	return TRUE
 	
 /mob/living/carbon/human/proc/try_impregnate(mob/living/carbon/human/wife)
