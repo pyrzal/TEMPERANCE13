@@ -99,23 +99,18 @@
 
 /datum/intent/shoot/rifle
 	chargedrain = 0
-	no_early_release = TRUE
+	no_early_release = FALSE
 
-/datum/intent/shoot/rifle/get_chargetime() 
+/datum/intent/shoot/rifle/get_chargetime()
 	if(mastermob && chargetime)
 		var/newtime = 0
-		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/rifles) * (2.3)))
+		newtime = ((newtime + 10) - (mastermob.get_skill_level(/datum/skill/combat/rifles) * 2.3 * GUN_AIM_SKILL_INFLUENCE))
 		if(strength_check == TRUE)
 			newtime = ((newtime + 10) - (mastermob.STASTR / 2))
-		else
-			newtime = newtime 
-		newtime = ((newtime + 20) - (mastermob.STAPER))
-		if(newtime > 1)
-			return newtime 
-		else
-			return 1 
+		newtime = ((newtime + 20) - (mastermob.STAPER * GUN_AIM_PER_INFLUENCE))
+		return max(GUN_AIM_FLOOR_RIFLE, newtime) * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_RIFLE
 	else
-		return chargetime 
+		return chargetime * GUN_AIM_TIME_MULT * GUN_AIM_TIME_MULT_RIFLE
 
 /datum/intent/arc/rifle
 	chargetime = 1
@@ -200,7 +195,7 @@
 
 /obj/item/gun/ballistic/rifle/repeater/leverleg
 	name = "'Mare' Baye VII"
-	desc = "A genuine lever action, produced by a WAR MACHINE's outlet, cut down and let in a shelf for who knows how long. Chambered in .44."
+	desc = "A genuine lever action, produced by a WAR MACHINE's outlet, cut down. Chambered in .44."
 	icon_state = "sawn-leverchester"
 	item_state = "sawn-leverchester"
 	w_class = WEIGHT_CLASS_SMALL
@@ -216,7 +211,7 @@
 
 /obj/item/gun/ballistic/rifle/repeater/rattlesnake
 	name = "BRH 'Rattlesnake'"
-	desc = "A one-shot, breech-loaded rifle gifted by one of Dictate's few allies. Comes with a cloth, tucked in the RIGHT SIDE of the stock. Chambered in .577 Blackout."
+	desc = "A one-shot, breech-loaded rifle gifted by one of the Empire's few allies. Comes with a cloth, tucked in the RIGHT SIDE of the stock. Chambered in .577 Blackout."
 	icon = 'icons/roguetown/weapons/64guns.dmi'
 	icon_state = "rattlesnake"
 	item_state = "rattlesnake"
