@@ -88,11 +88,12 @@
 /obj/item/clothing/head/roguetown/helmet/leather/grandmaster
 	name = "master's cap"
 	desc = "A handcrafted cap, following the fashion style produced by the LOVE MACHINE. Has a metal plate on the front."
+	body_parts_covered = HEAD
 	icon_state = "grandhat"
 	item_state = "grandhat"
 	experimental_inhand = FALSE
 	experimental_onhip = FALSE
-	flags_inv = HIDE_HEADTOP
+	flags_inv = null
 
 /obj/item/clothing/head/roguetown/helmet/leather/envoy
 	name = "envoy's cap"
