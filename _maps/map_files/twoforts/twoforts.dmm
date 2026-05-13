@@ -242,7 +242,6 @@
 "xn" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
 "xo" = (/obj/structure/stairs/stone/d{dir = 8},/turf/open/floor/rogue/church,/area/rogue/outdoors/exposed/perserdunbase)
 "xv" = (/obj/structure/fluff/pillow/blue{dir = 8},/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
-"xw" = (/obj/structure/stairs{dir = 1},/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
 "xB" = (/obj/structure/rack/rogue/shelf/biggest,/obj/item/storage/belt/rogue/pouch/ammobag{pixel_x = 7; pixel_y = 11},/obj/item/storage/belt/rogue/pouch/ammobag{pixel_x = -7; pixel_y = 11},/obj/item/storage/belt/rogue/pouch/ammobag{pixel_y = -7},/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/rogue/warquad,/area/rogue/indoors/perserdunbase)
 "xD" = (/obj/structure/stairs/d{dir = 1},/turf/open/transparent/openspace,/area/rogue/indoors/risvonbase)
 "xH" = (/obj/effect/turf_decal/arrows{name = "INTELLIGENCE"; dir = 1},/turf/open/floor/rogue/tile/brick,/area/rogue/indoors/risvonbase)
@@ -764,7 +763,7 @@ JKJKJKJKJKJKJKJKJKJKrXSaSayFgsZeRrRrrXWDKqKqKqKqKqKqklJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKtCKqKqKqKqKqKqKqyhrXOIOIOIDPqvRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXOIOIOIDPqvivrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKlrKqKqEzklRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
-JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXxwxwrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
+JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXwXwXrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKrXRrRrrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwKwUmklJKJKJKJKJKrXRrRrrXrXRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
 JKJKJKJKJKJKJKJKJKJKKwwXwXrXJKJKJKJKJKrXRrRrtCyhRrRrrXJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJKJK
