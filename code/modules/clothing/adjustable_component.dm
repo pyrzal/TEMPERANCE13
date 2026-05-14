@@ -4,12 +4,16 @@
 		Note: The component assumes the item's default state (sprite & flags wise) is "ON". IE visor closed, hood on, coif on, mask on etc.
 		Make sure to adjust your inv flags & body coverage accordingly.
 */
+#define UPD_HEAD (1 << 0)
+#define UPD_MASK (1 << 1)
+#define UPD_NECK (1 << 2)
+
 /datum/component/adjustable_clothing
 	///Body coverage zones (For armor) it should have when open. body_coverage_dynamic will take these.
 	var/flags_open
 	///flags_inv the object will have if toggled open.
 	var/flags_inv_open
-	///flags_cover the object will have if toggled open. This is NOT armor. This is for covering your mouth for eating / face for identity, etc.
+	///flags_cover the object will have if toggled open. This is NOT armor. This is for covering your mouth for eating / face for identity, etc. 
 	var/flags_cover_open
 	///Dynamic variable that keeps track of any missing coverage zones and applies them to either applicable state. Do not change this.
 	var/flags_removed
@@ -34,29 +38,21 @@
 	toggle_sound = arg_sound
 	fov_open = arg_fov
 	update_flags = arg_update_flags
-
+	
 /datum/component/adjustable_clothing/proc/on_attack_right(mob/user)
-	var/obj/item/clothing/clothing_parent = parent
-	var/mob/living/carbon/human/human_wearer
-	if(ishuman(clothing_parent.loc))
-		human_wearer = clothing_parent.loc
-	else if(istype(clothing_parent.loc, /obj/item/clothing/head))
-		var/obj/item/clothing/head/hat = clothing_parent.loc
-		if(ishuman(hat.loc))
-			human_wearer = hat.loc
-	if(!human_wearer)
+	var/obj/item/clothing/C = parent
+	if(!ishuman(C.loc))
 		return
-	if(clothing_parent.adjustable != CAN_CADJUST)
-		return
+	var/mob/living/carbon/human/H = C.loc
 	if(toggled_open)	//We're open, so we'll close
-		toggle_closed(clothing_parent)
+		toggle_closed(C)
 	else
-		toggle_open(clothing_parent)
+		toggle_open(C)
 	if(toggle_sound)
-		playsound(get_turf(clothing_parent), toggle_sound, 50, TRUE, -1)
-	clothing_parent.update_icon()
-	update_inv(human_wearer)
-	human_wearer.update_fov_angles()
+		playsound(C, toggle_sound, 50, TRUE, -1)
+	C.update_icon()
+	update_inv(H)
+	H.update_fov_angles()
 
 //We force it closed to make sure we can't equip an opened item if one IS on the ground somehow.
 /datum/component/adjustable_clothing/proc/on_equip(datum/source, mob/user, slot)
