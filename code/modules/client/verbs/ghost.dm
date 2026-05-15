@@ -21,7 +21,7 @@ GLOBAL_LIST_INIT(ghost_verbs, list(
 	set name = "Join the Fallen"
 	set category = "Spirit"
 
-	switch(alert("Become Maggot Food?",,"Yes","No"))
+	switch(alert("Do you want to move on?",,"Yes","No"))
 		if("Yes")
 			if(istype(mob, /mob/living/carbon/spirit))
 				return
