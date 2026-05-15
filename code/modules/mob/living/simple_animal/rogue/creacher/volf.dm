@@ -3,7 +3,7 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf
 	icon = 'icons/roguetown/mob/monster/vol.dmi'
 	name = "wolf"
-	desc = "A snarling beast of mangy fur and yellowed teeth. Wolves are known to attack hapless travelers in the deep forests when prey is scarce."
+	desc = "A snarling beast of mangy fur and yellowed teeth. Wolves are known to attack aggresively as the war has made prey scarce."
 	icon_state = "vv"
 	icon_living = "vv"
 	icon_dead = "vvd"
