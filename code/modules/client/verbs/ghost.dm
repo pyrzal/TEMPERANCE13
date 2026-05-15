@@ -18,7 +18,7 @@ GLOBAL_LIST_INIT(ghost_verbs, list(
 		mob.ghost_down()
 
 /client/proc/descend()
-	set name = "Join the Fallen"
+	set name = "Descend with the Fallen"
 	set category = "Spirit"
 
 	switch(alert("Do you want to move on?",,"Yes","No"))
