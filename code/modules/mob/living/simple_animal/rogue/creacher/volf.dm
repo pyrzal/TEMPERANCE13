@@ -36,8 +36,8 @@
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
 	health = WOLF_HEALTH
 	maxHealth = WOLF_HEALTH
-	melee_damage_lower = 24
-	melee_damage_upper = 34
+	melee_damage_lower = 22
+	melee_damage_upper = 32
 	vision_range = 7
 	aggro_vision_range = 9
 	environment_smash = ENVIRONMENT_SMASH_NONE
