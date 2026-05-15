@@ -82,7 +82,7 @@
 			if(src.chomp_roll > C.STACON)
 				C.Knockdown(20)
 				C.visible_message(span_danger("\The [src] chomps \the [C]'s legs, knocking them down!"))
-				span_danger("\The [src] tugs me to the ground! I'm winded!")
+				to_chat(C, span_danger("\The [src] tugs you to the ground! You're winded!"))
 				C.adjustOxyLoss(10) //less punishing than zfall bc simplemob
 				C.emote("gasp")
 			else
