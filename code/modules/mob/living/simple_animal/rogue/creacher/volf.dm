@@ -79,7 +79,7 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/wolf/AttackingTarget() //7+1d6 vs con to knock ppl down
 	. = ..()
 
-	if(. && prob(8) && iscarbon(target))
+	if(. && prob(8) && iscarbon(target))    //8% probability every attack for it to roll the knock down
 		var/mob/living/carbon/C = target
 		if(world.time >= chomp_cd + 120 SECONDS) //they can do it Once basically
 			src.chomp_roll = STASTR + (rand(0,6))
@@ -95,7 +95,7 @@
 
 /obj/effect/decal/remains/wolf
 	name = "remains"
-	desc = "Whether by starvation, disease, inter-pack conflict, or an unlucky kick from a saiga, this volf has died."
+	desc = "Whether by starvation, disease, inter-pack conflict, or an unlucky kick from a saiga, this wolf has died."
 	gender = PLURAL
 	icon_state = "bones"
 	icon = 'icons/roguetown/mob/monster/vol.dmi'
