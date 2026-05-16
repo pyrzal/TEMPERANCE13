@@ -33,7 +33,7 @@
 		to_chat(src, span_warning("There is nobody nearby to play games with!"))
 		return
 
-	// Partner selection (SAFE INPUT VERSION)
+	// Partner selection
 	var/mob/living/carbon/human/partner = input(
 		src,
 		"Choose a game partner:",
@@ -43,7 +43,7 @@
 	if(!partner)
 		return
 
-	// Game selection (FIXED FROM ALERT -> INPUT)
+	// Game selection
 	var/choose_game = input(
 		src,
 		"Choose a game to play with [partner]?",
