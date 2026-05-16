@@ -135,36 +135,56 @@
 	if(!hand_games_check(player1, player2))
 		return
 
-	to_chat(player1, span_notice("Asking [player2] if they want to play Arm Wrestling!"))
+	to_chat(player1, span_notice("Asking [player2] if they want to arm wrestle!"))
 
 	var/playgame = alert(player2,
-		"[player1] wants to play Arm Wrestling.",
+		"[player1] wants to arm wrestle.",
 		"Arm Wrestling",
 		"Play",
 		"Refuse"
 	)
 
 	if(!playgame || playgame == "Refuse")
-		to_chat(player1, span_warning("[player2] declines the game."))
+		to_chat(player1, span_warning("[player2] refuses the match."))
 		return
 
-	player1.visible_message(span_notice("[player1] challenges [player2] to Arm Wrestling!"))
+	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
-	var/score1 = player1.get_stat(STAT_STRENGTH)
-	var/score2 = player2.get_stat(STAT_STRENGTH)
+	var/p1_strength = player1.get_stat(STAT_STRENGTH)
+	var/p2_strength = player2.get_stat(STAT_STRENGTH)
 
-	var/competition = pick(score1;player1, score2;player2)
+	// stamina-based duel loop
+	var/rounds = 6
 
-	if(!do_after(player1, 5 SECONDS, target = player2))
-		player1.visible_message(span_notice("The match was cancelled!"))
-		return
-	if(!hand_games_check(player1, player2))
-		return
+	for(var/i = 1 to rounds)
 
-	if(competition == player1)
-		player1.visible_message(span_notice("[player1] overpowers [player2]!"))
-	else
+		if(!hand_games_check(player1, player2))
+			return
+
+		// stamina drain scaling
+		var/damage_to_p2 = max(1, p1_strength - p2_strength)
+		var/damage_to_p1 = max(1, p2_strength - p1_strength)
+
+		// apply stamina pressure
+		player2.stamina_add(damage_to_p2)
+		player1.stamina_add(damage_to_p1)
+
+		// feedback
+		if(prob(40))
+			player1.visible_message(span_warning("Muscles strain as the struggle continues!"))
+
+		sleep(2 SECONDS)
+
+	// determine winner by stamina (or fallback stat if needed)
+	var/p1_stam = player1.getStaminaLoss()
+	var/p2_stam = player2.getStaminaLoss()
+
+	if(p1_stam < p2_stam)
+		player1.visible_message(span_notice("[player1] forces [player2]'s arm down through sheer endurance!"))
+	else if(p2_stam < p1_stam)
 		player1.visible_message(span_notice("[player2] overpowers [player1]!"))
+	else
+		player1.visible_message(span_notice("The arm wrestling match ends in a stalemate!"))
 
 
 //////////// Slap Hands /////////////////
