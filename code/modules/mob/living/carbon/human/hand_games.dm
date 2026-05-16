@@ -161,9 +161,6 @@
 		if(get_dist(player1, player2) > 1)
 			player1.visible_message(span_warning("You are too far apart!"))
 			return
-		// re-check after channel
-		if(!hand_games_check(player1, player2))
-			return
 
 		// --- CORE MECHANIC ---
 		var/p1_str = player1.get_stat(STAT_STRENGTH)
@@ -177,28 +174,31 @@
 		player1.stamina_add(damage_to_p1)
 		// If a strength tie, then it will do 11 stamina for both every loop
 
-
-		// ----- WIN CONDITIONS -----
-		var/p1_exhausted = player1.stamina >= player1.max_stamina
+		var/p1_exhausted = player1.stamina >= player1.max_stamina	//var for when stamina damage goes above max stam
 		var/p2_exhausted = player2.stamina >= player2.max_stamina
-		// both collapse = draw
+
+		// --- EARLY EXIT FIX ---
 		if(p1_exhausted && p2_exhausted)
-			player1.Knockdown(15)
-			player2.Knockdown(15)
-			player1.visible_message(span_notice("Both competitors collapse from exhaustion, no one wins!"))
-			return
-		// player1 loses
+			winner = null
+			break
+
 		if(p1_exhausted)
-			player1.Knockdown(20)
-			player1.visible_message(span_notice("[player2] slams [player1]'s arm down in victory!"))
-			return
-		// player2 loses
+			winner = player2
+			break
+
 		if(p2_exhausted)
-			player2.Knockdown(20)
-			player1.visible_message(span_notice("[player1] slams [player2]'s arm down in victory!"))
-			return
-	// no exhaustion before round limit
-	player1.visible_message(span_notice("The arm wrestling match ends in a stalemate!"))
+			winner = player1
+			break
+
+	// --- RESULT RESOLUTION (ONLY ONCE) ---
+	if(winner == player1)
+		player2.Knockdown(20)
+		player1.visible_message(span_notice("[player1] slams [player2]'s arm down in victory!"))
+	else if(winner == player2)
+		player1.Knockdown(20)
+		player1.visible_message(span_notice("[player2] slams [player1]'s arm down in victory!"))
+	else
+		player1.visible_message(span_notice("The arm wrestling match ends in a stalemate!"))
 
 
 //////////// Slap Hands /////////////////
@@ -274,6 +274,7 @@
 
 	player1.visible_message(span_notice("[player1] challenges [player2] to a thumb duel!"))
 
+	// ---- ACTION PHASE ----
 	if(!do_after(player1, 2 SECONDS, target = player2))
 		player1.visible_message(span_notice("The duel was cancelled!"))
 		return
@@ -281,11 +282,11 @@
 	if(!hand_games_check(player1, player2))
 		return
 
-	// --- FORTUNE SYSTEM ---
+	// --- FORTUNE STAT EACH PLAYER ---
 	var/p1_fortune = player1.get_stat(STAT_FORTUNE)
 	var/p2_fortune = player2.get_stat(STAT_FORTUNE)
 
-	var/chance = 50
+	var/chance = 50	//base probability
 
 	// +5% per point above 10 fortune
 	if(p1_fortune > 10)		// if the fortune stat is greater than 10
@@ -295,7 +296,7 @@
 		chance -= (p2_fortune - 10) * 5
 
 	// clamp so it doesn't break balance
-	chance = CLAMP(chance, 5, 95)
+	chance = CLAMP(chance, 10, 90)
 
 	// roll
 	if(prob(chance))
