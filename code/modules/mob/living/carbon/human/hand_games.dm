@@ -206,6 +206,7 @@
 /mob/living/carbon/human/proc/game_slaphands(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
+
 	to_chat(player1, span_notice("Asking [player2] if they want to play Slap Hands!"))
 
 	var/playgame = alert(player2,
@@ -221,18 +222,32 @@
 
 	player1.visible_message(span_notice("[player1] challenges [player2] to Slap Hands!"))
 
+	// --- STAT CALCULATION ---
 	var/score1 = player1.get_stat(STAT_SPEED) + player1.get_stat(STAT_PERCEPTION)
 	var/score2 = player2.get_stat(STAT_SPEED) + player2.get_stat(STAT_PERCEPTION)
-	var/competition = pick(score1;player1, score2;player2)
 
+	var/total = score1 + score2
+
+	// safety fallback (prevents divide-by-zero)
+	if(total <= 0)
+		total = 1
+
+	var/p1_chance = (score1 / total) * 100	//weighted average difference
+
+	var/winner = player1
+	if(!prob(p1_chance))		//probability here, for refrence it should only really make a small additional percent chance to win
+		winner = player2
+
+
+	// --- ACTION PHASE ---
 	if(!do_after(player1, 2 SECONDS, target = player2))
-		player1.visible_message(span_notice("The match was cancelled!"))
 		return
+
 	if(!hand_games_check(player1, player2))
 		return
-	playsound(player1, 'sound/foley/slap.ogg', 30, 1)
-
-	if(competition == player1)
+	playsound(player1, 'sound/foley/slap.ogg', 30, 1)	//slap sound
+	// --- RESULTS ---
+	if(winner == player1)
 		player1.visible_message(span_notice("[player1] slaps first!"))
 	else
 		player1.visible_message(span_notice("[player2] slaps first!"))
