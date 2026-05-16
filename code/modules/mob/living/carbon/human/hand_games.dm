@@ -8,7 +8,6 @@
 	// Cannot play while dead/unconscious
 	if(stat)
 		return
-
 	// Must have at least one hand
 	if(!hand_bodyparts.len)
 		to_chat(src, span_warning("You have no hands to play games with!"))
@@ -32,7 +31,6 @@
 	if(!nearby.len)
 		to_chat(src, span_warning("There is nobody nearby to play games with!"))
 		return
-
 	// Partner selection
 	var/mob/living/carbon/human/partner = input(
 		src,
@@ -85,7 +83,6 @@
 /mob/living/carbon/human/proc/game_rps(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
 	to_chat(player1, span_notice("Asking [player2] if they want to play Stone, Parchment, Bayonet!"))
 
 	var/playgame = alert(player2,
@@ -134,7 +131,6 @@
 /mob/living/carbon/human/proc/game_armwrestle(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
 	to_chat(player1, span_notice("You challenge [player2] to arm wrestling!"))
 
 	var/accept = alert(player2,
@@ -210,7 +206,6 @@
 /mob/living/carbon/human/proc/game_slaphands(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
 	to_chat(player1, span_notice("Asking [player2] if they want to play Slap Hands!"))
 
 	var/playgame = alert(player2,
@@ -228,7 +223,6 @@
 
 	var/score1 = player1.get_stat(STAT_SPEED) + player1.get_stat(STAT_PERCEPTION)
 	var/score2 = player2.get_stat(STAT_SPEED) + player2.get_stat(STAT_PERCEPTION)
-
 	var/competition = pick(score1;player1, score2;player2)
 
 	if(!do_after(player1, 2 SECONDS, target = player2))
@@ -236,7 +230,6 @@
 		return
 	if(!hand_games_check(player1, player2))
 		return
-
 	playsound(player1, 'sound/foley/slap.ogg', 30, 1)
 
 	if(competition == player1)
@@ -259,7 +252,6 @@
 		"Play",
 		"Refuse"
 	)
-
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
 		return
