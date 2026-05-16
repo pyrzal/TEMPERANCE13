@@ -150,23 +150,21 @@
 
 	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
-	var/rounds = 999 // safety cap so infinite loops don't exist
+	var/rounds = 14
 
 	for(var/i = 1 to rounds)
 
 		// MUST remain valid each round
 		if(!hand_games_check(player1, player2))
 			return
-
-		// stop if someone is exhausted
-		if(player1.getStaminaLoss() >= 100 || player2.getStaminaLoss() >= 100)
-			break
-
 		// channel / struggle moment
-		if(!do_after(player1, 2 SECONDS, target = player2))
+		if(!do_after(player1, 1 SECONDS, target = player2))
 			player1.visible_message(span_notice("The arm wrestling match is interrupted!"))
 			return
-
+		// Range check to make sure
+		if(get_dist(player1, player2) > 1)
+			player1.visible_message(span_warning("You are too far apart!"))
+			return
 		// re-check after channel
 		if(!hand_games_check(player1, player2))
 			return
@@ -175,38 +173,36 @@
 		var/p1_str = player1.get_stat(STAT_STRENGTH)
 		var/p2_str = player2.get_stat(STAT_STRENGTH)
 
-		var/str_diff = abs(p1_str - p2_str)
+		// strength based stamina damage here plus base drain
+		var/damage_to_p2 = 10 + max(1, p1_str - p2_str)
+		var/damage_to_p1 = 10 + max(1, p2_str - p1_str)
 
-		// base drain ensures progress even if equal strength
-		var/base_drain = 2
+		player2.stamina_add(damage_to_p2)
+		player1.stamina_add(damage_to_p1)
+		// If a strength tie, then it will do 11 stamina for both every loop
 
-		// stronger player inflicts more stamina damage
-		if(p1_str > p2_str)
-			player2.stamina_add(base_drain + str_diff)
-			player1.stamina_add(max(1, base_drain - 1))
-		else if(p2_str > p1_str)
-			player1.stamina_add(base_drain + str_diff)
-			player2.stamina_add(max(1, base_drain - 1))
-		else
-			// equal strength = mutual fatigue
-			player1.stamina_add(base_drain)
-			player2.stamina_add(base_drain)
 
-		// feedback
-		if(prob(35))
-			player1.visible_message(span_warning("Their arms tremble under strain..."))
-
-	// --- WIN CONDITIONS ---
-
-	var/p1_stam = player1.getStaminaLoss()
-	var/p2_stam = player2.getStaminaLoss()
-
-	if(p1_stam > p2_stam)
-		player1.visible_message(span_notice("[player2] wins the arm wrestling match!"))
-	else if(p2_stam > p1_stam)
-		player1.visible_message(span_notice("[player1] wins the arm wrestling match!"))
-	else
-		player1.visible_message(span_notice("The match ends in a stalemate!"))
+		// ----- WIN CONDITIONS -----
+		var/p1_exhausted = player1.stamina >= player1.max_stamina
+		var/p2_exhausted = player2.stamina >= player2.max_stamina
+		// both collapse = draw
+		if(p1_exhausted && p2_exhausted)
+			player1.Knockdown(15)
+			player2.Knockdown(15)
+			player1.visible_message(span_notice("Both competitors collapse from exhaustion, no one wins!"))
+			return
+		// player1 loses
+		if(p1_exhausted)
+			player1.Knockdown(20)
+			player1.visible_message(span_notice("[player2] slams [player1]'s arm down in victory!"))
+			return
+		// player2 loses
+		if(p2_exhausted)
+			player2.Knockdown(20)
+			player1.visible_message(span_notice("[player1] slams [player2]'s arm down in victory!"))
+			return
+	// no exhaustion before round limit
+	player1.visible_message(span_notice("The arm wrestling match ends in a stalemate!"))
 
 
 //////////// Slap Hands /////////////////
@@ -235,7 +231,7 @@
 
 	var/competition = pick(score1;player1, score2;player2)
 
-	if(!do_after(player1, 3 SECONDS, target = player2))
+	if(!do_after(player1, 2 SECONDS, target = player2))
 		player1.visible_message(span_notice("The match was cancelled!"))
 		return
 	if(!hand_games_check(player1, player2))
