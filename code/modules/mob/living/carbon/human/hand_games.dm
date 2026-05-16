@@ -252,16 +252,38 @@
 		"Play",
 		"Refuse"
 	)
+
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
 		return
+
 	player1.visible_message(span_notice("[player1] challenges [player2] to a thumb duel!"))
+
 	if(!do_after(player1, 5 SECONDS, target = player2))
 		player1.visible_message(span_notice("The duel was cancelled!"))
 		return
+
 	if(!hand_games_check(player1, player2))
 		return
-	if(prob(50))
+
+	// --- FORTUNE SYSTEM ---
+	var/p1_fortune = player1.get_stat(STAT_FORTUNE)
+	var/p2_fortune = player2.get_stat(STAT_FORTUNE)
+
+	var/chance = 50
+
+	// +5% per point above 10 fortune
+	if(p1_fortune > 10)
+		chance += (p1_fortune - 10) * 5
+
+	if(p2_fortune > 10)
+		chance -= (p2_fortune - 10) * 5
+
+	// clamp so it doesn't break balance
+	chance = CLAMP(chance, 5, 95)
+
+	// roll
+	if(prob(chance))
 		player1.visible_message(span_notice("[player1] wins the thumb duel!"))
 	else
 		player1.visible_message(span_notice("[player2] wins the thumb duel!"))
