@@ -259,7 +259,7 @@
 
 	player1.visible_message(span_notice("[player1] challenges [player2] to a thumb duel!"))
 
-	if(!do_after(player1, 5 SECONDS, target = player2))
+	if(!do_after(player1, 2 SECONDS, target = player2))
 		player1.visible_message(span_notice("The duel was cancelled!"))
 		return
 
@@ -273,10 +273,10 @@
 	var/chance = 50
 
 	// +5% per point above 10 fortune
-	if(p1_fortune > 10)
-		chance += (p1_fortune - 10) * 5
+	if(p1_fortune > 10)		// if the fortune stat is greater than 10
+		chance += (p1_fortune - 10) * 5		// gives 5% bonus
 
-	if(p2_fortune > 10)
+	if(p2_fortune > 10)		//same for player two
 		chance -= (p2_fortune - 10) * 5
 
 	// clamp so it doesn't break balance
