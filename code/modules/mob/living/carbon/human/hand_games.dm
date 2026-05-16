@@ -135,56 +135,78 @@
 	if(!hand_games_check(player1, player2))
 		return
 
-	to_chat(player1, span_notice("Asking [player2] if they want to arm wrestle!"))
+	to_chat(player1, span_notice("You challenge [player2] to arm wrestling!"))
 
-	var/playgame = alert(player2,
-		"[player1] wants to arm wrestle.",
+	var/accept = alert(player2,
+		"[player1] challenges you to an arm wrestling match.",
 		"Arm Wrestling",
-		"Play",
+		"Accept",
 		"Refuse"
 	)
 
-	if(!playgame || playgame == "Refuse")
+	if(!accept || accept == "Refuse")
 		to_chat(player1, span_warning("[player2] refuses the match."))
 		return
 
 	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
-	var/p1_strength = player1.get_stat(STAT_STRENGTH)
-	var/p2_strength = player2.get_stat(STAT_STRENGTH)
-
-	// stamina-based duel loop
-	var/rounds = 6
+	var/rounds = 999 // safety cap so infinite loops don't exist
 
 	for(var/i = 1 to rounds)
 
+		// MUST remain valid each round
 		if(!hand_games_check(player1, player2))
 			return
 
-		// stamina drain scaling
-		var/damage_to_p2 = max(1, p1_strength - p2_strength)
-		var/damage_to_p1 = max(1, p2_strength - p1_strength)
+		// stop if someone is exhausted
+		if(player1.getStaminaLoss() >= 100 || player2.getStaminaLoss() >= 100)
+			break
 
-		// apply stamina pressure
-		player2.stamina_add(damage_to_p2)
-		player1.stamina_add(damage_to_p1)
+		// channel / struggle moment
+		if(!do_after(player1, 2 SECONDS, target = player2))
+			player1.visible_message(span_notice("The arm wrestling match is interrupted!"))
+			return
+
+		// re-check after channel
+		if(!hand_games_check(player1, player2))
+			return
+
+		// --- CORE MECHANIC ---
+		var/p1_str = player1.get_stat(STAT_STRENGTH)
+		var/p2_str = player2.get_stat(STAT_STRENGTH)
+
+		var/str_diff = abs(p1_str - p2_str)
+
+		// base drain ensures progress even if equal strength
+		var/base_drain = 2
+
+		// stronger player inflicts more stamina damage
+		if(p1_str > p2_str)
+			player2.stamina_add(base_drain + str_diff)
+			player1.stamina_add(max(1, base_drain - 1))
+		else if(p2_str > p1_str)
+			player1.stamina_add(base_drain + str_diff)
+			player2.stamina_add(max(1, base_drain - 1))
+		else
+			// equal strength = mutual fatigue
+			player1.stamina_add(base_drain)
+			player2.stamina_add(base_drain)
 
 		// feedback
-		if(prob(40))
-			player1.visible_message(span_warning("Muscles strain as the struggle continues!"))
+		if(prob(35))
+			player1.visible_message(span_warning("Their arms tremble under strain..."))
 
-		sleep(2 SECONDS)
+	// --- WIN CONDITIONS ---
 
-	// determine winner by stamina (or fallback stat if needed)
 	var/p1_stam = player1.getStaminaLoss()
 	var/p2_stam = player2.getStaminaLoss()
 
-	if(p1_stam < p2_stam)
-		player1.visible_message(span_notice("[player1] forces [player2]'s arm down through sheer endurance!"))
-	else if(p2_stam < p1_stam)
-		player1.visible_message(span_notice("[player2] overpowers [player1]!"))
+	if(p1_stam > p2_stam)
+		player1.visible_message(span_notice("[player2] wins the arm wrestling match!"))
+	else if(p2_stam > p1_stam)
+		player1.visible_message(span_notice("[player1] wins the arm wrestling match!"))
 	else
-		player1.visible_message(span_notice("The arm wrestling match ends in a stalemate!"))
+		player1.visible_message(span_notice("The match ends in a stalemate!"))
 
 
 //////////// Slap Hands /////////////////
