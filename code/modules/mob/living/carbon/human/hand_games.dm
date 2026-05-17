@@ -147,8 +147,8 @@
 	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
 	// --- CORE MECHANIC ---
-	var/p1_str = player1.get_stat(STAT_STRENGTH)
-	var/p2_str = player2.get_stat(STAT_STRENGTH)
+	var/p1_str = player1.STASTR
+	var/p2_str = player2.STASTR
 	var/winner = 0
 	var/rounds = 14
 
@@ -225,8 +225,8 @@
 	player1.visible_message(span_notice("[player1] challenges [player2] to Slap Hands!"))
 
 	// --- STAT CALCULATION ---
-	var/score1 = player1.get_stat(STAT_SPEED) + player1.get_stat(STAT_PERCEPTION)
-	var/score2 = player2.get_stat(STAT_SPEED) + player2.get_stat(STAT_PERCEPTION)
+	var/score1 = player1.STASPD + player1.STAPER
+	var/score2 = player2.STASPD + player2.STAPER
 
 	var/total = score1 + score2
 
@@ -286,8 +286,8 @@
 		return
 
 	// --- FORTUNE STAT EACH PLAYER ---
-	var/p1_fortune = player1.get_stat(STAT_FORTUNE)
-	var/p2_fortune = player2.get_stat(STAT_FORTUNE)
+	var/p1_fortune = player1.STALUC
+	var/p2_fortune = player2.STALUC
 
 	var/chance = 50	//base probability
 
