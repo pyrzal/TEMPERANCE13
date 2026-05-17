@@ -83,7 +83,6 @@
 /mob/living/carbon/human/proc/game_rps(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-	to_chat(player1, span_notice("Asking [player2] if they want to play Stone, Parchment, Bayonet!"))
 
 	var/playgame = alert(player2,
 		"[player1] wants to play Stone, Parchment, Bayonet.",
@@ -131,7 +130,6 @@
 /mob/living/carbon/human/proc/game_armwrestle(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-	to_chat(player1, span_notice("You challenge [player2] to arm wrestling!"))
 
 	var/accept = alert(player2,
 		"[player1] challenges you to an arm wrestling match.",
@@ -232,8 +230,6 @@
 	if(!hand_games_check(player1, player2))
 		return
 
-	to_chat(player1, span_notice("Asking [player2] if they want to play Slap Hands!"))
-
 	var/playgame = alert(player2,
 		"[player1] wants to play Slap Hands.",
 		"Slap Hands",
@@ -284,8 +280,6 @@
 /mob/living/carbon/human/proc/game_thumbwars(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
-	to_chat(player1, span_notice("Asking [player2] if they want to play Thumb Duels!"))
 
 	var/playgame = alert(player2,
 		"[player1] wants to play Thumb Duels.",
