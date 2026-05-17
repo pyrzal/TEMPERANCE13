@@ -195,30 +195,15 @@
 		to_chat(src, span_warning("There is nobody nearby to play games with!"))
 		return
 	// Partner selection
-	var/mob/living/carbon/human/partner = input(
-		src,
-		"Choose a game partner:",
-		"Hand Games"
-	) as null|anything in nearby
+	var/mob/living/carbon/human/partner = input(src, "Choose a game partner:", "Hand Games") as null|anything in nearby
 
 	if(!partner)
 		return
 
 	// Game selection
-	var/choose_game = input(
-		src,
-		"Choose a game to play with [partner]?",
-		"Hand Games"
-	) as null|anything in list(
-		"Stone, Parchment, Bayonet",
-		"Arm Wrestling",
-		"Slap Hands",
-		"Thumb Duels"
-	)
-
+	var/choose_game = input(src, "Choose a game to play with [partner]?", "Hand Games") as null|anything in list("Stone, Parchment, Bayonet", "Arm Wrestling", "Slap Hands", "Thumb Duels")
 	if(!choose_game)
 		return
-
 	if(choose_game == "Stone, Parchment, Bayonet")
 		game_rps(src, partner)
 	else if(choose_game == "Arm Wrestling")
@@ -246,13 +231,7 @@
 /mob/living/carbon/human/proc/game_rps(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
-	var/playgame = alert(player2,
-		"[player1] wants to play Stone, Parchment, Bayonet.",
-		"Stone, Parchment, Bayonet",
-		"Play",
-		"Refuse"
-	)
+	var/playgame = alert(player2, "[player1] wants to play Stone, Parchment, Bayonet.", "Stone, Parchment, Bayonet", "Play", "Refuse")
 
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
@@ -279,7 +258,6 @@
 	if(choice1 == choice2)
 		player1.visible_message(span_notice("It's a draw!"))
 		return
-
 	if((choice1 == "Stone" && choice2 == "Bayonet") || \
 	   (choice1 == "Bayonet" && choice2 == "Parchment") || \
 	   (choice1 == "Parchment" && choice2 == "Stone"))
@@ -293,28 +271,18 @@
 /mob/living/carbon/human/proc/game_armwrestle(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
-	var/accept = alert(player2,
-		"[player1] challenges you to an arm wrestling match. TEST YOUR MIGHT.",
-		"Arm Wrestling",
-		"Accept",
-		"Refuse"
-	)
-
+	var/accept = alert(player2, "[player1] challenges you to an arm wrestling match. TEST YOUR MIGHT.", "Arm Wrestling", "Accept", "Refuse")
 	if(!accept || accept == "Refuse")
 		to_chat(player1, span_warning("[player2] refuses the match."))
 		return
-
 	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
 	// --- TABLE CHECK ---
 	var/near_table = FALSE
-
 	for(var/obj/structure/table/T in range(player1, 1))
 		if(player2 in range(T, 1))
 			near_table = TRUE
 			break
-
 	if(!near_table)
 		player1.visible_message(span_warning("You both need to be beside the same table to arm wrestle!"))
 		return
@@ -326,7 +294,6 @@
 	var/rounds = 14
 
 	for(var/i = 1 to rounds)
-
 		// MUST remain valid each round
 		if(!hand_games_check(player1, player2))
 			return
@@ -338,14 +305,13 @@
 		if(get_dist(player1, player2) > 1)
 			player1.visible_message(span_warning("You are too far apart!"))
 			return
-
 		var/still_near_table = FALSE
+
 		// BOTH PLAYERS MUST BE BESIDE A TABLE DURING ACTION PHASE LOOP 
 		for(var/obj/structure/table/T in range(player1, 1))
 			if(player2 in range(T, 1))
 				still_near_table = TRUE
 				break
-
 		if(!still_near_table)
 			player1.visible_message(span_warning("The arm wrestling match breaks apart as they leave the table!"))
 			return
@@ -393,23 +359,16 @@
 	if(!hand_games_check(player1, player2))
 		return
 
-	var/playgame = alert(player2,
-		"[player1] wants to play Slap Hands. QUICKEST TO THE DRAW.",
-		"Slap Hands",
-		"Play",
-		"Refuse"
-	)
+	var/playgame = alert(player2, "[player1] wants to play Slap Hands. QUICKEST TO THE DRAW.", "Slap Hands", "Play", "Refuse")
 
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
 		return
 
 	player1.visible_message(span_notice("[player1] challenges [player2] to Slap Hands!"))
-
 	// --- STAT CALCULATION ---
 	var/score1 = player1.STASPD + player1.STAPER
 	var/score2 = player2.STASPD + player2.STAPER
-
 	var/total = score1 + score2
 
 	// safety fallback (prevents divide-by-zero)
@@ -417,20 +376,18 @@
 		total = 1
 
 	var/p1_chance = (score1 / total) * 100	//weighted probability system
-
 	var/winner_slap = player1
 	if(!prob(p1_chance))		//probability here, for refrence it should only really make a small additional percent chance to win
 		winner_slap = player2
-
 
 	// --- ACTION PHASE ---
 	if(!do_after(player1, 2 SECONDS, target = player2))
 		player1.visible_message(span_notice("The match was cancelled!"))
 		return
-
 	if(!hand_games_check(player1, player2))
 		return
 	playsound(player1, 'sound/foley/slap.ogg', 30, 1)	//slap sound
+
 	// --- RESULTS ---
 	if(winner_slap == player1)
 		player1.visible_message(span_notice("[player1] manages to slap [player2]'s hand before they can react!"))
@@ -443,32 +400,23 @@
 /mob/living/carbon/human/proc/game_thumbwars(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
 	if(!hand_games_check(player1, player2))
 		return
-
-	var/playgame = alert(player2,
-		"[player1] wants to play Thumb Duels. ONE, TWO, THREE, FOUR...",
-		"Thumb Duels",
-		"Play",
-		"Refuse"
-	)
+	var/playgame = alert(player2, "[player1] wants to play Thumb Duels. ONE, TWO, THREE, FOUR...", "Thumb Duels", "Play", "Refuse")
 
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
 		return
-
 	player1.visible_message(span_notice("[player1] challenges [player2] to a thumb duel!"))
 
 	// ---- ACTION PHASE ----
 	if(!do_after(player1, 2 SECONDS, target = player2))
 		player1.visible_message(span_notice("The duel was cancelled!"))
 		return
-
 	if(!hand_games_check(player1, player2))
 		return
 
 	// --- FORTUNE STAT EACH PLAYER ---
 	var/p1_fortune = player1.STALUC
 	var/p2_fortune = player2.STALUC
-
 	var/chance = 50	//base probability
 
 	// +2% per point above 10 fortune
