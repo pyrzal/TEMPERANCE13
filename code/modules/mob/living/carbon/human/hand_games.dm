@@ -178,6 +178,17 @@
 			player1.visible_message(span_warning("You are too far apart!"))
 			return
 
+		var/still_near_table = FALSE
+		// BOTH PLAYERS MUST BE BESIDE A TABLE DURING ACTION PHASE LOOP 
+		for(var/obj/structure/table/T in range(player1, 1))
+			if(player2 in range(T, 1))
+				still_near_table = TRUE
+				break
+
+		if(!still_near_table)
+			player1.visible_message(span_warning("The arm wrestling match breaks apart as they leave the table!"))
+			return
+
 		// strength based stamina damage here plus base drain
 		var/damage_to_p2 = 10 + max(1, p1_str - p2_str)
 		var/damage_to_p1 = 10 + max(1, p2_str - p1_str)
