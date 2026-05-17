@@ -392,7 +392,7 @@
 	if(winner_slap == player1)
 		player1.visible_message(span_notice("[player1] manages to slap [player2]'s hand before they can react!"))
 	else
-		player2.visible_message(span_notice("[player2] manages to slap [player1]'s hand before they can react!"))
+		player1.visible_message(span_notice("[player2] manages to slap [player1]'s hand before they can react!"))
 
 
 //////////// Thumb Duels /////////////////
