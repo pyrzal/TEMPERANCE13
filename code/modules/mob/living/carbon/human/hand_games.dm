@@ -132,7 +132,7 @@
 		return
 
 	var/accept = alert(player2,
-		"[player1] challenges you to an arm wrestling match.",
+		"[player1] challenges you to an arm wrestling match. TEST YOUR MIGHT.",
 		"Arm Wrestling",
 		"Accept",
 		"Refuse"
@@ -231,7 +231,7 @@
 		return
 
 	var/playgame = alert(player2,
-		"[player1] wants to play Slap Hands.",
+		"[player1] wants to play Slap Hands. QUICKEST TO THE DRAW.",
 		"Slap Hands",
 		"Play",
 		"Refuse"
@@ -270,9 +270,9 @@
 	playsound(player1, 'sound/foley/slap.ogg', 30, 1)	//slap sound
 	// --- RESULTS ---
 	if(winner_slap == player1)
-		player1.visible_message(span_notice("[player1] slaps first!"))
+		player1.visible_message(span_notice("[player1] manages to slap [player2]'s hand before they can react!"))
 	else
-		player1.visible_message(span_notice("[player2] slaps first!"))
+		player2.visible_message(span_notice("[player2] manages to slap [player1]'s hand before they can react!"))
 
 
 //////////// Thumb Duels /////////////////
@@ -282,7 +282,7 @@
 		return
 
 	var/playgame = alert(player2,
-		"[player1] wants to play Thumb Duels.",
+		"[player1] wants to play Thumb Duels. ONE, TWO, THREE, FOUR...",
 		"Thumb Duels",
 		"Play",
 		"Refuse"
@@ -308,18 +308,15 @@
 
 	var/chance = 50	//base probability
 
-	// +5% per point above 10 fortune
+	// +2% per point above 10 fortune
 	if(p1_fortune > 10)		// if the fortune stat is greater than 10
-		chance += (p1_fortune - 10) * 5		// gives 5% bonus
+		chance += (p1_fortune - 10) * 2		// gives 2% bonus
 
 	if(p2_fortune > 10)		//same for player two
-		chance -= (p2_fortune - 10) * 5
-
-	// clamp so it doesn't break balance
-	chance = CLAMP(chance, 10, 90)
+		chance -= (p2_fortune - 10) * 2
 
 	// roll
 	if(prob(chance))
-		player1.visible_message(span_notice("[player1] wins the thumb duel!"))
+		player1.visible_message(span_notice("After a gruelling battle, [player1] eventually manages to subdue the thumb of [player2]!"))
 	else
-		player1.visible_message(span_notice("[player2] wins the thumb duel!"))
+		player2.visible_message(span_notice("After a gruelling battle, [player2] eventually manages to subdue the thumb of [player1]!"))
