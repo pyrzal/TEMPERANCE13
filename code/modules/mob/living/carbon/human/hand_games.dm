@@ -146,6 +146,18 @@
 
 	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
+	// --- TABLE CHECK ---
+	var/near_table = FALSE
+
+	for(var/obj/structure/table/T in range(player1, 1))
+		if(player2 in range(T, 1))
+			near_table = TRUE
+			break
+
+	if(!near_table)
+		player1.visible_message(span_warning("You both need to be beside the same table to arm wrestle!"))
+		return
+
 	// --- CORE MECHANIC ---
 	var/p1_str = player1.STASTR
 	var/p2_str = player2.STASTR
