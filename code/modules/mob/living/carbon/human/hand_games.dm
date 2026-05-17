@@ -149,7 +149,7 @@
 	// --- CORE MECHANIC ---
 	var/p1_str = player1.get_stat(STAT_STRENGTH)
 	var/p2_str = player2.get_stat(STAT_STRENGTH)
-
+	var/winner = 0
 	var/rounds = 14
 
 	for(var/i = 1 to rounds)
@@ -178,14 +178,13 @@
 		var/p2_exhausted = player2.stamina >= player2.max_stamina
 
 		// --- EARLY LOOP EXIT FIX ---
-		var/winner = 0
 		if(p1_exhausted && p2_exhausted)	// both same time exhausted
 			winner = 3
 			break
-		if(p1_exhausted)	//player 1 wins
+		else if(p1_exhausted)	//player 1 wins
 			winner = 2
 			break
-		if(p2_exhausted)	//player 2 wins
+		else if(p2_exhausted)	//player 2 wins
 			winner = 1
 			break
 
