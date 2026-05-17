@@ -181,10 +181,10 @@
 		if(p1_exhausted && p2_exhausted)	// both same time exhausted
 			winner = 3
 			break
-		else if(p1_exhausted)	//player 1 wins
+		else if(p1_exhausted)	//player 2 wins
 			winner = 2
 			break
-		else if(p2_exhausted)	//player 2 wins
+		else if(p2_exhausted)	//player 1 wins
 			winner = 1
 			break
 
