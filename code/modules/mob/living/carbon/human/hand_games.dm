@@ -146,6 +146,10 @@
 
 	player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
+	// --- CORE MECHANIC ---
+	var/p1_str = player1.get_stat(STAT_STRENGTH)
+	var/p2_str = player2.get_stat(STAT_STRENGTH)
+
 	var/rounds = 14
 
 	for(var/i = 1 to rounds)
@@ -162,10 +166,6 @@
 			player1.visible_message(span_warning("You are too far apart!"))
 			return
 
-		// --- CORE MECHANIC ---
-		var/p1_str = player1.get_stat(STAT_STRENGTH)
-		var/p2_str = player2.get_stat(STAT_STRENGTH)
-
 		// strength based stamina damage here plus base drain
 		var/damage_to_p2 = 10 + max(1, p1_str - p2_str)
 		var/damage_to_p1 = 10 + max(1, p2_str - p1_str)
@@ -177,26 +177,29 @@
 		var/p1_exhausted = player1.stamina >= player1.max_stamina	//var for when stamina damage goes above max stam
 		var/p2_exhausted = player2.stamina >= player2.max_stamina
 
-		// --- EARLY EXIT FIX ---
-		if(p1_exhausted && p2_exhausted)
-			winner = null
+		// --- EARLY LOOP EXIT FIX ---
+		var/winner = 0
+		if(p1_exhausted && p2_exhausted)	// both same time exhausted
+			winner = 3
 			break
-
-		if(p1_exhausted)
-			winner = player2
+		if(p1_exhausted)	//player 1 wins
+			winner = 2
 			break
-
-		if(p2_exhausted)
-			winner = player1
+		if(p2_exhausted)	//player 2 wins
+			winner = 1
 			break
 
 	// --- RESULT RESOLUTION (ONLY ONCE) ---
-	if(winner == player1)
+	if(winner == 1)
 		player2.Knockdown(20)
 		player1.visible_message(span_notice("[player1] slams [player2]'s arm down in victory!"))
-	else if(winner == player2)
+	else if(winner == 2)
 		player1.Knockdown(20)
 		player1.visible_message(span_notice("[player2] slams [player1]'s arm down in victory!"))
+	else if(winner == 3)
+		player1.Knockdown(20)
+		player2.Knockdown(20)
+		player1.visible_message(span_notice("Both competitors collapse from exhaustion!"))
 	else
 		player1.visible_message(span_notice("The arm wrestling match ends in a stalemate!"))
 
