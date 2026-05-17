@@ -235,22 +235,23 @@
 	if(total <= 0)
 		total = 1
 
-	var/p1_chance = (score1 / total) * 100	//weighted average difference
+	var/p1_chance = (score1 / total) * 100	//weighted probability system
 
-	var/winner = player1
+	var/winner_slap = player1
 	if(!prob(p1_chance))		//probability here, for refrence it should only really make a small additional percent chance to win
-		winner = player2
+		winner_slap = player2
 
 
 	// --- ACTION PHASE ---
 	if(!do_after(player1, 2 SECONDS, target = player2))
+		player1.visible_message(span_notice("The match was cancelled!"))
 		return
 
 	if(!hand_games_check(player1, player2))
 		return
 	playsound(player1, 'sound/foley/slap.ogg', 30, 1)	//slap sound
 	// --- RESULTS ---
-	if(winner == player1)
+	if(winner_slap == player1)
 		player1.visible_message(span_notice("[player1] slaps first!"))
 	else
 		player1.visible_message(span_notice("[player2] slaps first!"))
