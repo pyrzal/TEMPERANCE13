@@ -177,12 +177,20 @@
 
 	var/list/nearby = list()
 	for(var/mob/living/carbon/human/H in range(src, 1))
-		if(H.stat || H == src || !H.hand_bodyparts.len)
+		if(H.stat)
+			continue
+		if(H == src)
+			continue
+		if(!H.hand_bodyparts.len)
 			continue
 		nearby |= H
 	for(var/obj/structure/table/T in range(src, 1))
 		for(var/mob/living/carbon/human/H in range(T, 1))
-			if(H.stat || H == src || !H.hand_bodyparts.len)
+			if(H.stat)
+				continue
+			if(H == src)
+				continue
+			if(!H.hand_bodyparts.len)
 				continue
 			nearby |= H
 
@@ -191,7 +199,7 @@
 		return
 
 	var/mob/living/carbon/human/partner = input(src, "Choose a game partner:", "Hand Games") as null|anything in nearby
-	if(!partner)
+	if(!partner || !(partner in nearby))
 		return
 
 	var/choose_game = input(src, "Choose a game to play with [partner]?", "Hand Games") as null|anything in list("Stone, Parchment, Bayonet", "Arm Wrestling", "Slap Hands", "Thumb Duels", "I Rescind")
@@ -214,14 +222,14 @@
 
 //////////// Safety check shared by all games /////////////////
 
-/mob/living/carbon/human/proc/hand_games_check(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
+/mob/living/carbon/human/proc/hand_games_check(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2, var/max_range = 2)
 	if(!istype(player1) || !istype(player2))
 		return FALSE
 	if(player1.stat || player2.stat)		//status check
 		return FALSE
-	if(!(player2 in range(player1, 2)))		//range check, makes sure they are within two tiles for cross table arm wrestling
+	if(get_dist(player1, player2) > max_range)		//range check, makes sure they are within two tiles for cross table arm wrestling
 		return FALSE
-	if(!player1.hand_bodyparts.len || !player2.hand_bodyparts.len)	//fringe case if you lose both arms during a hand game
+	if(!player1.hand_bodyparts?.len || !player2.hand_bodyparts?.len)	//incase someone has their arms blown off in a hand game
 		return FALSE
 	return TRUE
 
@@ -229,7 +237,7 @@
 //////////// Stone, Parchment, Bayonet /////////////////
 
 /mob/living/carbon/human/proc/game_rps(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
-	if(!hand_games_check(player1, player2))
+	if(!hand_games_check(player1, player2, 2))
 		return
 	var/playgame = alert(player2, "[player1] wants to play Stone, Parchment, Bayonet.", "Stone, Parchment, Bayonet", "Play", "Refuse")
 	if(!playgame || playgame == "Refuse")
@@ -242,14 +250,14 @@
 		if(choice1 == "Cancel")
 			player1.visible_message(span_notice("[player1] chickens out!"))
 			return
-		if(!hand_games_check(player1, player2))
+		if(!hand_games_check(player1, player2, 2))
 			return
 		to_chat(player1, span_warning("[player2] is deciding."))
 		var/choice2 = input(player2, "Choose your attack!", "Stone, Parchment, Bayonet") as null|anything in list("Stone", "Parchment", "Bayonet", "Cancel")
 		if(choice2 == "Cancel")
 			player2.visible_message(span_notice("[player2] chickens out!"))
 			return
-		if(!hand_games_check(player1, player2))
+		if(!hand_games_check(player1, player2, 2))
 			return
 		if(choice1 == choice2)
 			player1.visible_message(span_notice("[player1] and [player2] both choose [choice1], it's a draw!"))
@@ -260,14 +268,14 @@
 //////////// Arm Wrestling /////////////////
 
 /mob/living/carbon/human/proc/game_armwrestle(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
-	if(!hand_games_check(player1, player2))
+	if(!hand_games_check(player1, player2, 2))
 		return
 	var/accept = alert(player2, "[player1] challenges you to an arm wrestling match. TEST YOUR MIGHT.", "Arm Wrestling", "Accept", "Refuse")
 	if(!accept || accept == "Refuse")
 		to_chat(player1, span_warning("[player2] refuses the match."))
 		return
 	else
-		if(!hand_games_check(player1,player2))
+		if(!hand_games_check(player1,player2, 2))
 			return
 		player1.visible_message(span_notice("[player1] locks arms with [player2]!"))
 
@@ -279,24 +287,18 @@
 	for(var/i = 1 to rounds)
 
 		// MUST remain valid each round
-		if(!hand_games_check(player1, player2))
+		if(!hand_games_check(player1, player2, 2))
 			return
 		// channel / struggle moment
 		if(!do_after(player1, 1 SECONDS, target = player2))
 			player1.visible_message(span_notice("The arm wrestling match is interrupted!"))
 			return
-		// Range check to make sure
-		if(get_dist(player1, player2) > 2)
-			player1.visible_message(span_warning("You are too far apart!"))
-			return
-
 		var/still_near_table = FALSE
 		// both players must be next to a table 
 		for(var/obj/structure/table/T in range(player1, 1))
 			if(player2 in range(T, 1))
 				still_near_table = TRUE
 				break
-
 		if(!still_near_table)
 			player1.visible_message(span_warning("The arm wrestling match breaks apart as they leave the table!"))
 			return
@@ -341,22 +343,20 @@
 //////////// Slap Hands /////////////////
 
 /mob/living/carbon/human/proc/game_slaphands(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
-	if(!hand_games_check(player1, player2))
+	if(!hand_games_check(player1, player2, 1))
 		return
 	var/playgame = alert(player2, "[player1] wants to play Slap Hands. QUICKEST TO THE DRAW.", "Slap Hands", "Play", "Refuse")
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
 		return
 	else
-		if(!hand_games_check(player1,player2))
-			return
 		player1.visible_message(span_notice("[player1] challenges [player2] to Slap Hands!"))
 		// --- STAT CALCULATION ---
 		var/speed1 = player1.STASPD
 		var/speed2 = player2.STASPD
 		var/per1 = player1.STAPER
 		var/per2 = player2.STAPER
-		if(!hand_games_check(player1,player2))
+		if(!hand_games_check(player1,player2, 1))
 			return
 
 		var/score1 = (speed1 + per1)
@@ -365,8 +365,8 @@
 		var/competition = pick(score1;player1, score2;player2)
 		if(!do_after(player1, 3 SECONDS, target = player2))
 			player2.visible_message(span_notice("The players cancelled their competition!"))
-			return FALSE
-		if(!hand_games_check(player1,player2))
+			return
+		if(!hand_games_check(player1,player2, 1))
 			return
 		playsound(player1, 'sound/foley/slap.ogg', 30, 1)
 		if(competition == player1)
@@ -378,20 +378,18 @@
 //////////// Thumb Duels /////////////////
 
 /mob/living/carbon/human/proc/game_thumbwars(var/mob/living/carbon/human/player1, var/mob/living/carbon/human/player2)
-	if(!hand_games_check(player1, player2))
+	if(!hand_games_check(player1, player2, 1))
 		return
 	var/playgame = alert(player2, "[player1] wants to play Thumb Duels. ONE, TWO, THREE, FOUR...", "Thumb Duels", "Play", "Refuse")
 	if(!playgame || playgame == "Refuse")
 		to_chat(player1, span_warning("[player2] declines the game."))
 		return
 	else
-		if(!hand_games_check(player1,player2))
-			return
 		player1.visible_message(span_notice("[player1] challenges [player2] to a thumb duel!"))
 		if(!do_after(player1, 5 SECONDS, target = player2))
 			player1.visible_message(span_notice("The duel was cancelled!"))
-			return FALSE
-		if(!hand_games_check(player1, player2))
+			return
+		if(!hand_games_check(player1, player2, 1))
 			return
 		// --- FORTUNE STAT EACH PLAYER ---
 		var/p1_fortune = player1.STALUC
@@ -405,6 +403,7 @@
 		if(p2_fortune > 10)		//same for player two
 			chance -= (p2_fortune - 10) * 2
 
+		chance = CLAMP(chance, 10, 90)
 		// roll
 		if(prob(chance))
 			player1.visible_message(span_notice("After a gruelling battle, [player1] eventually manages to subdue the thumb of [player2]!"))
