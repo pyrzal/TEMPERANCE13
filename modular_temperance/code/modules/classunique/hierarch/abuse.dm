@@ -8,9 +8,6 @@
 	chargedrain = 0
 	chargetime = 0
 	releasedrain = 5
-	miracle = TRUE
-	devotion_cost = 5
-	chargedloop = /datum/looping_sound/blood
 	associated_skill = /datum/skill/combat/unarmed
 	hand_path = /obj/item/melee/touch_attack/abuse
 
@@ -24,36 +21,40 @@
 	icon_state = "grabbing_greyscale"
 	color = "#582222"
 	var/right_click = FALSE
+	var/punch = list('sound/combat/hits/punch/punch_hard (1).ogg','sound/combat/hits/punch/punch_hard (2).ogg','sound/combat/hits/punch/punch_hard (3).ogg')
 
-/obj/item/melee/touch_attack/orison/attack_self()
+
+/obj/item/melee/touch_attack/abuse/attack_self()
 	qdel(src)
 
-/obj/item/melee/touch_attack/orison/afterattack(atom/target, mob/living/carbon/human/user, proximity)
-	var/fatigue_used
-	switch (user.used_intent.type) //add in a strike & call to the dispenser here
-		if (/datum/intent/use)
-			fatigue_used = abuse(target, user)
-			if (fatigue_used)
-				qdel(src)
+/obj/item/melee/touch_attack/abuse/afterattack(atom/target, mob/living/carbon/human/user, proximity)
+	switch (user.used_intent.type)
+		if(/datum/intent/use)
+			abuse(target, user)
+			qdel(src)
 
-/obj/item/melee/touch_attack/orison/proc/abuse(atom/thing, mob/living/carbon/human/user)
-	if (!thing.Adjacent(user))
+/obj/item/melee/touch_attack/abuse/proc/abuse(atom/thing, mob/living/carbon/human/user)
+	var/mob/living/carbon/human/living_thing = thing
+	var/damage = 30
+
+	if(!thing.Adjacent(user))
 		to_chat(user, span_info("I need to be next to [thing] to attack them."))
 		return
 
-	if (isliving(thing))
-
-		if (thing != user)
-			user.visible_message(span_notice("[user] reaches gently towards [thing], beads of light glimmering at [user.p_their()] fingertips..."), span_notice("Blessed [user.patron.name], I ask but for a light to guide the way..."))
-		else
-			to_chat(user, span_info("Why would I hit myself?"))
-		return
-
-		if (do_after(user, 1, target = thing))
-			var/mob/living/living_thing = thing
-			//arcane strike & global ref
-
-
+	if(thing != user)
+		user.visible_message(span_notice("[user] begins to raise their hands towards [thing]."))
 	else
-		to_chat(user, span_notice("Only living creatures can bear the blessing of [user.patron.name]'s light."))
+		to_chat(user, span_info("Why would I hit myself?"))
 		return
+
+	if(isliving(thing))
+		if(living_thing.job in GLOB.kingsrow_positions)
+			user.do_attack_animation(living_thing, ATTACK_EFFECT_PUNCH, item_animation_override = ATTACK_ANIMATION_BONK)
+			living_thing.adjustBruteLoss(damage)
+			living_thing.emote("pain", forced = TRUE)
+			user.visible_message(span_danger("[user] strikes [thing] with their fist."))
+			playsound(thing, pick(punch), 80, TRUE, soundping = TRUE)
+			for(var/obj/structure/dispenser/D in GLOB.dispensers)
+				D.activate()
+		else
+			to_chat(user, span_info("[thing] does not belong to me."))

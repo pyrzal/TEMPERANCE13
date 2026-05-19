@@ -872,20 +872,3 @@
 
 /turf/closed/wall/mineral/rogue/scary/end/north
 	dir = 1
-
-/turf/closed/wall/mineral/rogue/pipe
-	name = "metal wall"
-	desc = "Solid steel made into an impenetrable obstacle."
-	icon = 'icons/turf/pipewall.dmi'
-	icon_state = "iron_box"
-	smooth = SMOOTH_MORE
-	blade_dulling = DULLING_BASH
-	max_integrity = 10000
-	sheet_type = null
-	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
-	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
-	canSmoothWith = list(/turf/closed/wall/mineral/rogue/pipe, /obj/structure/door/secret)
-	above_floor = /turf/open/floor/rogue/concrete
-	baseturfs = list(/turf/open/floor/rogue/concrete)
-	climbdiff = 4
-	damage_deflection = 20

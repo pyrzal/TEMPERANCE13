@@ -12,7 +12,7 @@
 	tutorial = "You are the current Lord/Lady of Estate for the manor known as King's Row. \
 				Once an adopted, low-born mutt of the former owner - you've clawed their way into control as means of revenge. \
 				Your main goal is to maintain your authority. You have kept the Displaced Heir alive in order to satiate your desire for vengeance. \
-				Most of the servants within the manor despises them for their low birth and degrading of the manor's status as a noble home."
+				Most of the servants within the manor despises you for your low birth and degradation of the manor's noble status."
 
 	outfit = /datum/outfit/job/roguetown/hierarch
 	display_order = JDO_HIERARCH
@@ -53,6 +53,8 @@
 	H.change_stat("endurance", 1)
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 2)
+	if(H.mind)
+		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/touch/abuse)
 	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 
 	if(should_wear_masc_clothes(H))
@@ -64,5 +66,3 @@
 		shirt = /obj/item/clothing/suit/roguetown/shirt/hierarchess
 		pants = /obj/item/clothing/under/roguetown/heavy_leather_pants
 		gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
-//to do: add spell that does a globalref to spawn in guns at the machine when they abuse the displaced and/or someone from the manor
-//also - maybe a nuke

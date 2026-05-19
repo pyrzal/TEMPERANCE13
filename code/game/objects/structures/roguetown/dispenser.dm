@@ -1,3 +1,9 @@
+/////////////////////////////
+// ! MAPPERS READ BELOW COMMENT ! //
+// false opacity and spawn location is INTENTIONAl
+// proper implementation has you place the dispenser down and then PIXEL SHIFT it to appear as if it's attached to a wall
+/////////////////////////////
+
 GLOBAL_LIST_EMPTY(dispensers)
 
 /obj/structure/dispenser
@@ -19,46 +25,22 @@ GLOBAL_LIST_EMPTY(dispensers)
 	var/list/turfsy = list()
 	var/list/blockers = list()
 	var/count = 0
-	var/laughs = list('sound/foley/dispenser/laugh1.ogg', 'sound/foley/dispenser/laugh2.ogg', 'sound/foley/dispenser/laugh3.ogg')
+	var/laughs = list('sound/foley/dispenserlaugh/laugh1.ogg', 'sound/foley/dispenserlaugh/laugh2.ogg', 'sound/foley/dispenserlaugh/laugh3.ogg', 'sound/foley/dispenserlaugh/laugh4.ogg')
 
-/obj/lblock
-	name = ""
-	desc = ""
-	icon = null
-	density = TRUE
-	mouse_opacity = 0
-	opacity = TRUE
-	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/structure/dispenser/Initialize()
-	soundloop = new(src, FALSE)
 	. = ..()
-	var/turf/T = src.loc
-	turfsy += T
-	T = get_step(T, EAST)
-	turfsy += T
-	T = get_step(T, NORTH)
-	turfsy += T
-	T = get_step(T, WEST)
-	turfsy += T
-	for(var/turf/blocker_tile in turfsy)
-		var/G = new /obj/lblock(blocker_tile) 
-		blockers += G
 	GLOB.dispensers += src
 
-/obj/structure/dispenser/Destroy()
-	for(var/A in blockers)
-		qdel(A)
-	GLOB.dispensers -= src
-	..()
-
 /obj/structure/dispenser/proc/activate()
+	message_admins("dispenser activate time")
 	if(active)
 		return
 
 	active = TRUE
 	playsound(src, pick(laughs), 100)
 
+	var/obj/new_type
 	if(prob(90))
 		new_type = pick(
 			/obj/effect/spawner/lootdrop/machine/rifleammo,
@@ -73,4 +55,5 @@ GLOBAL_LIST_EMPTY(dispensers)
 			/obj/effect/spawner/lootdrop/machine/reaper,
 			/obj/effect/spawner/lootdrop/machine/eternal,
 			/obj/effect/spawner/lootdrop/machine/patience)
-	new new_type(get_step(src, SOUTH))
+	new new_type(get_turf(src))
+	active = FALSE
