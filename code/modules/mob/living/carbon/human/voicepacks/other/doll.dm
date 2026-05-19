@@ -2,13 +2,11 @@
 	var/used
 	switch(soundin)
 		if("firescream")
-			used = pick('sound/vo/moth/moth_scream.ogg')
-		if("pain")
-			used = list('sound/vo/male/elf/pain (1).ogg','sound/vo/male/elf/pain (2).ogg','sound/vo/male/elf/pain (3).ogg')
+			used = pick('sound/vo/doll/broke_2.ogg')
 		if("painscream")
-			used = pick('sound/vo/moth/moth_scream.ogg')
+			used = pick('sound/vo/doll/broke_1.ogg','sound/vo/doll/broke_2.ogg','sound/vo/doll/broke_3.ogg')
 		if("scream")
-			used = pick('sound/vo/moth/moth_scream.ogg')
+			used = pick('sound/vo/doll/broke_1.ogg','sound/vo/doll/broke_2.ogg','sound/vo/doll/broke_3.ogg')
 
 	if(!used) //we haven't found a racial specific sound so use generic
 		used = ..(soundin)
@@ -18,13 +16,11 @@
 	var/used
 	switch(soundin)
 		if("firescream")
-			used = pick('sound/vo/moth/moth_scream.ogg')
-		if("pain")
-			used = pick('sound/vo/female/elf/pain (1).ogg','sound/vo/female/elf/pain (2).ogg','sound/vo/female/elf/pain (3).ogg','sound/vo/female/elf/pain (4).ogg')
+			used = pick('sound/vo/doll/broke_2.ogg')
 		if("painscream")
-			used = pick('sound/vo/moth/moth_scream.ogg')
+			used = pick('sound/vo/doll/broke_1.ogg','sound/vo/doll/broke_2.ogg','sound/vo/doll/broke_3.ogg')
 		if("scream")
-			used = pick('sound/vo/moth/moth_scream.ogg')
+			used = pick('sound/vo/doll/broke_1.ogg','sound/vo/doll/broke_2.ogg','sound/vo/doll/broke_3.ogg')
 
 	if(!used) //we haven't found a racial specific sound so use generic
 		used = ..(soundin)
