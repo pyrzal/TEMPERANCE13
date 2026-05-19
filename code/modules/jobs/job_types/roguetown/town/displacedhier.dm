@@ -27,7 +27,7 @@
 	shoes = /obj/item/clothing/shoes/roguetown/boots/nobleboot
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/rogueweapon/sword/sabre/dec/displacedhier
-	beltr = /obj/item/storage/keyring/royal //change this in a bit
+	beltr = /obj/item/storage/keyring/heir
 	id = /obj/item/clothing/ring/gold
 	backl = /obj/item/storage/backpack/rogue/satchel
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/heavy/coat/displaced
