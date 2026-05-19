@@ -195,7 +195,7 @@
 
 /obj/item/gun/ballistic/rifle/repeater/leverleg
 	name = "'Mare' Baye VII"
-	desc = "A genuine lever action, produced by a WAR MACHINE's outlet, cut down and let in a shelf for who knows how long. Chambered in .44."
+	desc = "A genuine lever action, produced by a WAR MACHINE's outlet, cut down. Chambered in .44."
 	icon_state = "sawn-leverchester"
 	item_state = "sawn-leverchester"
 	w_class = WEIGHT_CLASS_SMALL
@@ -211,7 +211,7 @@
 
 /obj/item/gun/ballistic/rifle/repeater/rattlesnake
 	name = "BRH 'Rattlesnake'"
-	desc = "A one-shot, breech-loaded rifle gifted by one of Dictate's few allies. Comes with a cloth, tucked in the RIGHT SIDE of the stock. Chambered in .577 Blackout."
+	desc = "A one-shot, breech-loaded rifle gifted by one of the Empire's few allies. Comes with a cloth, tucked in the RIGHT SIDE of the stock. Chambered in .577 Blackout."
 	icon = 'icons/roguetown/weapons/64guns.dmi'
 	icon_state = "rattlesnake"
 	item_state = "rattlesnake"
