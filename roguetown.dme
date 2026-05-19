@@ -1074,6 +1074,7 @@
 #include "code\game\objects\structures\decorations\stone_path.dm"
 #include "code\game\objects\structures\roguetown\barbedwire.dm"
 #include "code\game\objects\structures\roguetown\bell.dm"
+#include "code\game\objects\structures\roguetown\dispenser.dm"
 #include "code\game\objects\structures\roguetown\gate.dm"
 #include "code\game\objects\structures\roguetown\handcart.dm"
 #include "code\game\objects\structures\roguetown\loot.dm"

@@ -51,17 +51,9 @@
 
 		if (do_after(user, 1, target = thing))
 			var/mob/living/living_thing = thing
-			var/light_power = clamp(4 + (holy_skill - 3), 4, 7)
-			set_light_on()
+			//arcane strike & global ref
 
-			if (living_thing.has_status_effect(/datum/status_effect/light_buff))
-				user.visible_message(span_notice("The holy light emanating from [living_thing] becomes brighter!"), span_notice("I feed further devotion into [living_thing]'s blessing of light."))
-			else
-				user.visible_message(span_notice("A gentle illumination suddenly blossoms into being around [living_thing]!"), span_notice("I grant [living_thing] a blessing of light."))
 
-			living_thing.apply_status_effect(/datum/status_effect/light_buff, light_power)
-
-			return light_devotion
 	else
 		to_chat(user, span_notice("Only living creatures can bear the blessing of [user.patron.name]'s light."))
 		return
