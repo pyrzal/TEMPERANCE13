@@ -33,7 +33,6 @@ GLOBAL_LIST_EMPTY(dispensers)
 	GLOB.dispensers += src
 
 /obj/structure/dispenser/proc/activate()
-	message_admins("dispenser activate time")
 	if(active)
 		return
 
