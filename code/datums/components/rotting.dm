@@ -46,7 +46,7 @@
 */
 /datum/component/rot/corpse/process()
 	var/mob/living/carbon/C = parent
-	if(C.client)
+	if(C.key)
 		return
 	var/time_elapsed = last_process ? (world.time - last_process)/10 : 1
 	..()
