@@ -518,6 +518,8 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 	if(!client)
 		log_game("[key_name(src)] AM failed due to disconnect.")
 		return
+	if(mind?.current)
+		mind.current.client = null
 
 	var/mob/dead/new_player/M = new /mob/dead/new_player()
 	if(!client)
