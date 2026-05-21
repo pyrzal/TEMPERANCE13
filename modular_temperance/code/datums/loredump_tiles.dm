@@ -82,3 +82,15 @@ Very handy, eh?
 /obj/effect/loretile/umamusume
 	name = "Umamusume Lore Tile"
 	lore = /datum/loreblurb/umamusume
+
+/obj/effect/loretile/code4
+	name = "Code 4 Lore Tile"
+	lore = /datum/loreblurb/code4
+
+/obj/effect/loretile/code5
+	name = "Code 5 Lore Tile"
+	lore = /datum/loreblurb/code5
+
+/obj/effect/loretile/code6
+	name = "Code 6 Lore Tile"
+	lore = /datum/loreblurb/code6

@@ -144,3 +144,18 @@ Just because it'd get a LITTLE annoying if you kept seeing this over and over. H
 	52 41 212 41 61 41 51 41 Racecourse. \n\
 	Though, it looks like this is a left-handed track. Weird."
 	sound = 'sound/loredump/lore_sting6.ogg'
+
+/datum/loreblurb/code4 
+	title = "!"
+	description = "213 16 34 312 15 52 16 52 131 16 52 131"
+	sound = 'sound/loredump/lore_sting7.ogg'
+
+/datum/loreblurb/code5
+	title = "!"
+	description = "123 15 15 213 16 52 131"
+	sound = 'sound/loredump/lore_sting7.ogg'
+
+/datum/loreblurb/code6
+	title = "!"
+	description = "26 15 231 213 16 43 41 312 16 52 131"
+	sound = 'sound/loredump/lore_sting8.ogg'

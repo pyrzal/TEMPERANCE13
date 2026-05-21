@@ -1054,6 +1054,7 @@
 	icon_state = "metal"
 	openSound = 'sound/foley/doors/metal_open.ogg'
 	closeSound = 'sound/foley/doors/metal_close.ogg'
+	opacity = TRUE
 
 /obj/structure/mineral_door/wood/wardoor
 	name = "strange door"
