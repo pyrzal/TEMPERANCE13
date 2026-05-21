@@ -409,6 +409,7 @@
 			player1.visible_message(span_notice("After a gruelling battle, [player1] eventually manages to subdue the thumb of [player2]!"))
 		else
 			player2.visible_message(span_notice("After a gruelling battle, [player2] eventually manages to subdue the thumb of [player1]!"))
+
 /datum/emote/living/carbon/human/click
 	key = "click"
 	key_third_person = "clicks"
