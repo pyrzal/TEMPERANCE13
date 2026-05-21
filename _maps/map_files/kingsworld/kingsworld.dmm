@@ -2144,6 +2144,13 @@
 "bRo" = (
 /turf/open/transparent/openspace,
 /area/rogue/indoors/risvonbase)
+"bRz" = (
+/obj/structure/roguemachine/mail{
+	name = "REQUEST FOR ENTRY";
+	desc = "Send a letter to the Hierarch."
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/outdoors/town)
 "bRB" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -2917,6 +2924,10 @@
 /obj/structure/table/wood/perserdunsmall/smallmetal2,
 /obj/item/reagent_containers/glass/bottle/alchemical/heroin,
 /turf/open/floor/rogue/herringbone,
+/area/rogue/indoors/shelter/town)
+"cHM" = (
+/obj/structure/handcart,
+/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "cIe" = (
 /turf/closed/wall/mineral/rogue/scary/horizontal,
@@ -3824,6 +3835,13 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"dta" = (
+/obj/structure/fluff/railing/corner,
+/obj/structure/roguemachine/mail{
+	mailtag = "KING'S ROW (HIERARCH)"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "dtX" = (
 /obj/structure/roguewindow/openclose{
 	dir = 1
@@ -8350,6 +8368,13 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "hMs" = (
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/natural/feather,
+/obj/item/natural/feather,
+/obj/structure/table/wood/poor,
 /obj/machinery/light/rogue/wallfire/candle/weak,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/outdoors/town)
@@ -11878,6 +11903,9 @@
 /area/rogue/outdoors/beach/forest/south)
 "ljy" = (
 /obj/structure/chair/bench/couchablack,
+/obj/structure/roguemachine/mail{
+	mailtag = "KING'S ROW (GENERAL)"
+	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "ljJ" = (
@@ -16995,6 +17023,10 @@
 /obj/effect/spawner/lootdrop/t13armor,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"qdt" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/town)
 "qdv" = (
 /obj/structure/flora/newtree,
 /obj/structure/flora/newtree,
@@ -18764,6 +18796,15 @@
 	dir = 1
 	},
 /area/rogue/indoors/perserdunbase)
+"rPr" = (
+/obj/structure/roguemachine/mail/l{
+	mailtag = "PERSERDUN - PUBLIC USE"
+	},
+/turf/open/floor/rogue/metal{
+	icon_state = "plating2";
+	dir = 1
+	},
+/area/rogue/indoors/perserdunbase)
 "rQc" = (
 /obj/structure/fluff/railing/corner{
 	dir = 6
@@ -19021,7 +19062,8 @@
 /area/rogue/indoors/perserdunbase)
 "sbO" = (
 /obj/structure/mineral_door/wood/fancywood{
-	lockid = "manor"
+	lockid = "manor";
+	locked = 1
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/shelter/town)
@@ -19618,7 +19660,6 @@
 /area/rogue/outdoors/risvon)
 "sHT" = (
 /obj/structure/fluff/railing/border/east,
-/obj/structure/handcart,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "sIo" = (
@@ -20281,6 +20322,13 @@
 /obj/machinery/light/rogue/wallfire/candle,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/rogue/indoors/perserdunbase)
+"tjC" = (
+/obj/structure/mineral_door/wood/fancy{
+	lockid = "physician";
+	locked = 1
+	},
+/turf/open/floor/rogue/med,
+/area/rogue/indoors/shelter/town)
 "tjO" = (
 /obj/structure/table/wood/long_table/mid,
 /obj/item/candle/candlestick/gold/lit{
@@ -21643,7 +21691,9 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/beach/forest/south)
 "utP" = (
-/obj/structure/roguemachine/mail/r,
+/obj/structure/roguemachine/mail/r{
+	mailtag = "PERSERDUN - GRANDMASTER"
+	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/perserdunbase)
 "utU" = (
@@ -24195,7 +24245,8 @@
 /area/rogue/outdoors/beach/forest/south)
 "wYs" = (
 /obj/structure/mineral_door/perserdoor/bulkhead{
-	lockid = "royal"
+	lockid = "royal";
+	locked = 1
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
@@ -221226,7 +221277,7 @@ igY
 igY
 xeA
 tIc
-kvV
+bRz
 kvV
 kvV
 kvV
@@ -221543,7 +221594,7 @@ fyg
 fyg
 fyg
 fyg
-fyg
+qdt
 fyg
 mze
 ury
@@ -222126,7 +222177,7 @@ icM
 tYx
 tYx
 icM
-oTj
+dta
 asu
 asu
 asu
@@ -227271,7 +227322,7 @@ ndr
 qQB
 asu
 asu
-bgr
+cHM
 tIc
 bac
 bac
@@ -232724,7 +232775,7 @@ fAF
 fAF
 fAF
 oKn
-leS
+tjC
 fAF
 fAF
 tIc
@@ -316856,7 +316907,7 @@ rwF
 rwF
 mNU
 rwF
-rwF
+rPr
 rwF
 mNU
 rwF
