@@ -758,6 +758,26 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	jobspawn_override = list("Towner")
 	delete_after_roundstart = FALSE
 
+/obj/effect/landmark/start/maid
+	name = "Manor Servant"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/maidlate
+	name = "Manor Servant"
+	icon_state = "arrow"
+	jobspawn_override = list("Manor Servant")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/headhouse
+	name = "Head Housekeeper"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/headhouselate
+	name = "Head Housekeeper"
+	icon_state = "arrow"
+	jobspawn_override = list("Head Housekeeper")
+	delete_after_roundstart = FALSE
+
 //Shocktroop spawns
 
 /obj/effect/landmark/start/flamsoldato
