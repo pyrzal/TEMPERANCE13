@@ -39,7 +39,7 @@
 /datum/outfit/job/roguetown/grandmaster/pre_equip(mob/living/carbon/human/H)
 	H.verbs += /mob/living/carbon/human/proc/grandmaster_raid
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/lord
-	shoes = /obj/item/clothing/shoes/roguetown/boots
+	shoes = /obj/item/clothing/shoes/roguetown/boots/leather/reinforced
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/grandmaster
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
 	head = /obj/item/clothing/head/roguetown/helmet/leather/grandmaster
