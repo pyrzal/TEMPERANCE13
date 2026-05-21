@@ -445,7 +445,7 @@ GLOBAL_LIST_EMPTY(round_join_times)
 #define COLTSHOT list('sound/combat/ranged/colt_fire.ogg', 'sound/combat/ranged/colt_fire2.ogg', 'sound/combat/ranged/colt_fire3.ogg')
 #define HMGGENERICSHOT list('sound/combat/ranged/hmg_fire.ogg') //add more when we have them
 #define HMGM2SHOT list('sound/combat/ranged/m2hb.ogg')
-#define LEVERSHOT list('sound/combat/ranged/leveractionfire1.ogg', 'sound/combat/ranged/leveractionfire2.ogg', 'sound/combat/ranged/leveractionfire3.ogg', 'sound/combat/ranged/leveractionfire4.ogg')
+#define LEVERSHOT list('sound/combat/ranged/leveractionfire.ogg', 'sound/combat/ranged/leveractionfire2.ogg', 'sound/combat/ranged/leveractionfire3.ogg', 'sound/combat/ranged/leveractionfire4.ogg')
 #define AUTOSGSHOT list('sound/combat/ranged/autosgfire.ogg', 'sound/combat/ranged/autosg2fire.ogg')
 #define FLARESHOT list('sound/combat/ranged/flaregunfire.ogg') //unused for now
 #define GRENADESHOT list('sound/combat/ranged/40mm_fire.ogg')
