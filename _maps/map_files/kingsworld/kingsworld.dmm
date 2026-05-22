@@ -2,7 +2,7 @@
 "abt" = (
 /obj/structure/mineral_door/wood/wardoor,
 /obj/effect/loretile/code4,
-/turf/open/floor/rogue/warmetal,
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "aby" = (
 /obj/item/roguegem/diamond,
@@ -668,10 +668,6 @@
 "aBH" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue/outdoors/risvon)
-"aBY" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/town)
 "aCg" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /turf/open/floor/rogue/church,
@@ -1954,6 +1950,11 @@
 /obj/machinery/light/rogue/wallfire/candle/blue/l,
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/perserdunbase)
+"bJk" = (
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/effect/decal/cleanable/dirt/grime/grime2,
+/turf/open/floor/rogue/warmetal,
+/area/rogue/under/cave/warmachine)
 "bJt" = (
 /obj/structure/flora/roguetree/stump/burnt{
 	pixel_x = -35;
@@ -4411,6 +4412,25 @@
 "edq" = (
 /turf/closed/wall/mineral/rogue/scary/end/east,
 /area/rogue)
+"edW" = (
+/obj/structure/closet/crate/roguecloset/lord{
+	pixel_x = 10
+	},
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup/golden,
+/turf/open/floor/rogue/blocks,
+/area/rogue/indoors/shelter/town)
 "eeh" = (
 /obj/structure/closet/crate/drawer{
 	keylock = 1;
@@ -7309,6 +7329,15 @@
 	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
+"gMv" = (
+/obj/structure/roguemachine/mail/l{
+	mailtag = "PERSERDUN - PUBLIC USE"
+	},
+/turf/open/floor/rogue/metal{
+	icon_state = "plating2";
+	dir = 1
+	},
+/area/rogue/indoors/perserdunbase)
 "gMB" = (
 /obj/structure/flora/roguegrass/herb/random,
 /turf/open/floor/rogue/grassred,
@@ -9628,10 +9657,6 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/perserdunbase)
-"jai" = (
-/obj/structure/handcart,
-/turf/open/floor/rogue/concrete,
-/area/rogue/indoors/shelter/town)
 "jak" = (
 /turf/closed/wall/mineral/rogue/risvon/tshape/dir4,
 /area/rogue/indoors/risvonbase)
@@ -10408,13 +10433,6 @@
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/water/cleanshallow,
 /area/rogue/outdoors/beach/forest/south)
-"jOm" = (
-/obj/structure/fluff/railing/corner,
-/obj/structure/roguemachine/mail{
-	mailtag = "KING'S ROW (HIERARCH)"
-	},
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/town)
 "jOx" = (
 /obj/structure/fluff/walldeco/pray{
 	pixel_y = 31
@@ -11316,6 +11334,9 @@
 	pixel_y = 10
 	},
 /obj/structure/table/wood/longreif,
+/obj/item/storage/belt/rogue/pouch/coins/rich,
+/obj/item/storage/belt/rogue/pouch/coins/rich,
+/obj/item/storage/belt/rogue/pouch/coins/rich,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "kDW" = (
@@ -13310,6 +13331,11 @@
 	},
 /turf/open/floor/rogue/tile/bath,
 /area/rogue/indoors/risvonbase)
+"mFI" = (
+/obj/structure/closet/crate/roguecloset/dark,
+/obj/item/storage/belt/rogue/pouch/ammobag,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "mGm" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/rogue/metal/barograte/open,
@@ -14249,13 +14275,6 @@
 /mob/living/simple_animal/hostile/rogue/skeleton/guard/xbow,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
-"nyF" = (
-/obj/structure/roguemachine/mail{
-	name = "REQUEST FOR ENTRY";
-	desc = "Send a letter to the Hierarch."
-	},
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/outdoors/town)
 "nzc" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
@@ -14361,6 +14380,7 @@
 /area/rogue/outdoors/caves)
 "nDT" = (
 /obj/structure/mineral_door/wood/wardoor,
+/obj/effect/decal/cleanable/dirt/grime/grime2,
 /turf/closed/wall/mineral/rogue/scary,
 /area/rogue/under/cave/warmachine)
 "nEL" = (
@@ -14705,6 +14725,13 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/indoors/cave)
+"nYI" = (
+/obj/structure/fluff/railing/corner,
+/obj/structure/roguemachine/mail{
+	mailtag = "KING'S ROW (HIERARCH)"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "nYZ" = (
 /obj/structure/fluff/railing/sandbag{
 	layer = 2.92
@@ -14862,6 +14889,10 @@
 "ohr" = (
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/under/cave/warmachine)
+"ohx" = (
+/obj/structure/handcart,
+/turf/open/floor/rogue/concrete,
+/area/rogue/indoors/shelter/town)
 "ohO" = (
 /obj/effect/spawner/lootdrop/ammooutlet,
 /obj/effect/spawner/lootdrop/ammooutlet,
@@ -19072,6 +19103,42 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town/sargoth)
+"sco" = (
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/fork/tin,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/item/kitchen/spoon/iron,
+/obj/structure/closet/crate/chest/old_crate,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "scx" = (
 /turf/closed/wall/mineral/rogue/risvon/outercorner/dir4,
 /area/rogue/indoors/risvonbase)
@@ -21402,6 +21469,13 @@
 /obj/effect/decal/cleanable/debris/stony,
 /turf/open/floor/rogue/brown,
 /area/rogue/outdoors)
+"uhk" = (
+/obj/structure/roguemachine/mail{
+	name = "REQUEST FOR ENTRY";
+	desc = "Send a letter to the Hierarch."
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/outdoors/town)
 "uhu" = (
 /obj/structure/table/wood/perserdunsmall/smallmetal,
 /obj/item/gun/ballistic/revolver/pace,
@@ -21839,7 +21913,24 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "uEm" = (
-/obj/item/folding_table_stored,
+/obj/structure/closet/crate/chest/old_crate,
+/obj/item/cooking/platter/gold,
+/obj/item/cooking/platter/silver,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
+/obj/item/cooking/platter/pewter,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/shelter/town)
 "uEu" = (
@@ -22252,13 +22343,6 @@
 "uXp" = (
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/shelter/town)
-"uXs" = (
-/obj/structure/mineral_door/wood/fancy{
-	lockid = "physician";
-	locked = 1
-	},
-/turf/open/floor/rogue/med,
-/area/rogue/indoors/shelter/town)
 "uXD" = (
 /obj/structure/fluff/railing/border/north{
 	dir = 4
@@ -22406,6 +22490,10 @@
 	},
 /turf/open/floor/rogue/woodturned,
 /area/rogue/outdoors/caves)
+"vff" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/town)
 "vft" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /turf/open/floor/rogue/dirt/road,
@@ -24358,14 +24446,12 @@
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/shelter/town)
 "xeA" = (
-/obj/structure/roguemachine/mail/l{
-	mailtag = "PERSERDUN - PUBLIC USE"
+/obj/structure/mineral_door/wood/fancy{
+	lockid = "physician";
+	locked = 1
 	},
-/turf/open/floor/rogue/metal{
-	icon_state = "plating2";
-	dir = 1
-	},
-/area/rogue/indoors/perserdunbase)
+/turf/open/floor/rogue/med,
+/area/rogue/indoors/shelter/town)
 "xeK" = (
 /obj/structure/flora/rogueflora/nettles{
 	pixel_y = 2;
@@ -65724,7 +65810,7 @@ vbM
 vbM
 oxM
 iOl
-fPr
+pMF
 oxM
 iOl
 vbM
@@ -66026,7 +66112,7 @@ vbM
 vbM
 fXf
 aYN
-oya
+oli
 aYN
 fXf
 vbM
@@ -66934,8 +67020,8 @@ hdl
 aYN
 oya
 oya
-fPr
-aYN
+pMF
+hpg
 aYN
 hpg
 hpg
@@ -74477,7 +74563,7 @@ vbM
 vbM
 vbM
 hdl
-mqk
+bJk
 fXf
 vbM
 hdl
@@ -215225,7 +215311,7 @@ lvH
 ipA
 ipA
 ipA
-rtq
+sco
 tIc
 bac
 bac
@@ -216433,7 +216519,7 @@ olX
 fbg
 fbg
 fbg
-ipA
+rtq
 tIc
 oFq
 wIC
@@ -217035,7 +217121,7 @@ aZn
 tIc
 oWc
 rDv
-rDv
+edW
 kDW
 xOJ
 tIc
@@ -221271,7 +221357,7 @@ igY
 igY
 igY
 tIc
-nyF
+uhk
 kvV
 kvV
 kvV
@@ -221588,7 +221674,7 @@ fyg
 fyg
 fyg
 fyg
-aBY
+vff
 fyg
 mze
 ury
@@ -222171,7 +222257,7 @@ icM
 tYx
 tYx
 icM
-jOm
+nYI
 asu
 asu
 asu
@@ -227316,7 +227402,7 @@ ndr
 qQB
 asu
 asu
-jai
+ohx
 tIc
 bac
 bac
@@ -232769,7 +232855,7 @@ fAF
 fAF
 fAF
 oKn
-uXs
+xeA
 fAF
 fAF
 tIc
@@ -316901,7 +316987,7 @@ rwF
 rwF
 mNU
 rwF
-xeA
+gMv
 rwF
 mNU
 rwF
@@ -366225,7 +366311,7 @@ tIc
 ueh
 xuu
 sZF
-oNU
+mFI
 tIc
 asu
 asu
