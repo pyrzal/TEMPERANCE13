@@ -3373,10 +3373,6 @@
 	},
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/risvonbase)
-"dbz" = (
-/obj/machinery/light/rogue/wallfire/candle/weak/r,
-/turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
 "dcd" = (
 /turf/closed/wall/mineral/rogue/perserdun/tshape,
 /area/rogue/outdoors/perserdun)
@@ -7823,6 +7819,10 @@
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/rogue/grassred,
 /area/rogue/outdoors/town)
+"hnP" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "hnT" = (
 /turf/closed/wall/mineral/rogue/perserdun/end,
 /area/rogue/indoors/perserdunbase)
@@ -9094,6 +9094,13 @@
 "ixy" = (
 /obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/hexstone,
+/area/rogue/indoors/shelter/town)
+"ixz" = (
+/obj/structure/fluff/railing/border/east,
+/obj/structure/fluff/railing/border/west,
+/obj/structure/roguewindow/harem3,
+/obj/structure/curtain/brown,
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "ixF" = (
 /obj/structure/stairs{
@@ -10567,6 +10574,10 @@
 "jUE" = (
 /turf/open/floor/rogue/shroud,
 /area/rogue/under/cave/warmachine)
+"jUN" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "jVb" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/effect/spawner/lootdrop/general_loot_mid/x3,
@@ -14384,12 +14395,8 @@
 /turf/open/water/swamp/deep,
 /area/rogue/outdoors/caves)
 "nDT" = (
-/obj/structure/fluff/railing/border/east,
-/obj/structure/fluff/railing/border/west,
-/obj/structure/roguewindow/harem3,
-/obj/structure/curtain/brown,
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/town)
+/turf/open/floor/rogue/warmetal,
+/area/rogue/outdoors/town)
 "nEL" = (
 /obj/structure/flora/roguetree/stump/log,
 /turf/open/water/cleanshallow,
@@ -15005,10 +15012,6 @@
 /obj/structure/curtain/black,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
-"olH" = (
-/obj/machinery/light/rogue/wallfire/candle/weak/l,
-/turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
 "olX" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/reagent_containers/food/snacks/butter,
@@ -23130,9 +23133,6 @@
 	},
 /turf/open/floor/rogue/snow,
 /area/rogue/outdoors/beach/forest/south)
-"vNP" = (
-/turf/open/floor/rogue/warmetal,
-/area/rogue/outdoors/town)
 "vOb" = (
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /obj/effect/decal/cleanable/dirt/grime/grime4,
@@ -214145,7 +214145,7 @@ xYR
 xYR
 tIc
 odT
-olH
+hnP
 eBC
 uyM
 atD
@@ -215655,7 +215655,7 @@ oBJ
 oBJ
 tIc
 gNr
-dbz
+jUN
 lQt
 krX
 jDg
@@ -233139,7 +233139,7 @@ ury
 ury
 ury
 ury
-vNP
+nDT
 ury
 ury
 ury
@@ -370852,17 +370852,17 @@ wzK
 wzK
 icM
 tYx
-nDT
+ixz
 tYx
-nDT
+ixz
 tYx
-nDT
+ixz
 tYx
-nDT
+ixz
 tYx
 hiH
 tYx
-nDT
+ixz
 icM
 tYx
 xVN
@@ -373872,17 +373872,17 @@ wzK
 wzK
 icM
 tYx
-nDT
+ixz
 tYx
-nDT
+ixz
 tYx
-nDT
+ixz
 tYx
-nDT
+ixz
 tYx
 hiH
 tYx
-nDT
+ixz
 icM
 tYx
 xVN
