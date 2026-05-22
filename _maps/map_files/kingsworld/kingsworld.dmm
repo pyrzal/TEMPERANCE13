@@ -9641,10 +9641,6 @@
 "iYm" = (
 /turf/open/floor/rogue/church,
 /area/rogue/outdoors/beach/forest/south)
-"iYM" = (
-/obj/machinery/light/rogue/wallfire/candle/weak/r,
-/turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
 "iZn" = (
 /obj/structure/mineral_door/wood/wardoor,
 /turf/open/floor/rogue/warmetal,
@@ -12652,13 +12648,6 @@
 /obj/effect/spawner/roguemap/stump,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/beach/forest/south)
-"lWU" = (
-/obj/structure/fluff/railing/border/east,
-/obj/structure/fluff/railing/border/west,
-/obj/structure/roguewindow/harem3,
-/obj/structure/curtain/brown,
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/town)
 "lXC" = (
 /obj/effect/spawner/roguemap/stump,
 /turf/open/floor/rogue/dirt,
@@ -14391,10 +14380,12 @@
 /turf/open/water/swamp/deep,
 /area/rogue/outdoors/caves)
 "nDT" = (
-/obj/structure/mineral_door/wood/wardoor,
-/obj/effect/decal/cleanable/dirt/grime/grime2,
-/turf/closed/wall/mineral/rogue/scary,
-/area/rogue/under/cave/warmachine)
+/obj/structure/fluff/railing/border/east,
+/obj/structure/fluff/railing/border/west,
+/obj/structure/roguewindow/harem3,
+/obj/structure/curtain/brown,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "nEL" = (
 /obj/structure/flora/roguetree/stump/log,
 /turf/open/water/cleanshallow,
@@ -15104,10 +15095,6 @@
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
-"ooJ" = (
-/obj/machinery/light/rogue/wallfire/candle/weak/l,
-/turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
 "opz" = (
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /obj/structure/spider/stickyweb/solo,
@@ -15998,6 +15985,10 @@
 /obj/item/reagent_containers/food/snacks/grown/rogue/rosa_petals_dried,
 /turf/open/water/bath,
 /area/rogue/outdoors/beach/forest/south)
+"oYp" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "oYx" = (
 /obj/structure/bars,
 /turf/open/floor/rogue/perdun,
@@ -20427,6 +20418,10 @@
 "tkS" = (
 /turf/open/water/bloody,
 /area/rogue/outdoors)
+"tle" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "tlN" = (
 /mob/living/carbon/human/species/human/northern/bandit,
 /obj/structure/fluff/railing/fence{
@@ -74279,7 +74274,7 @@ vbM
 vbM
 dYB
 fXf
-nDT
+pMF
 oxM
 iOl
 hdl
@@ -214147,7 +214142,7 @@ xYR
 xYR
 tIc
 odT
-ooJ
+oYp
 eBC
 uyM
 atD
@@ -215657,7 +215652,7 @@ oBJ
 oBJ
 tIc
 gNr
-iYM
+tle
 lQt
 krX
 jDg
@@ -370854,17 +370849,17 @@ wzK
 wzK
 icM
 tYx
-lWU
+nDT
 tYx
-lWU
+nDT
 tYx
-lWU
+nDT
 tYx
-lWU
+nDT
 tYx
 hiH
 tYx
-lWU
+nDT
 icM
 tYx
 xVN
@@ -373874,17 +373869,17 @@ wzK
 wzK
 icM
 tYx
-lWU
+nDT
 tYx
-lWU
+nDT
 tYx
-lWU
+nDT
 tYx
-lWU
+nDT
 tYx
 hiH
 tYx
-lWU
+nDT
 icM
 tYx
 xVN
