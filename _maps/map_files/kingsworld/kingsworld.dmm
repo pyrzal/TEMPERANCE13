@@ -3373,6 +3373,10 @@
 	},
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/risvonbase)
+"dbz" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "dcd" = (
 /turf/closed/wall/mineral/rogue/perserdun/tshape,
 /area/rogue/outdoors/perserdun)
@@ -15001,6 +15005,10 @@
 /obj/structure/curtain/black,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
+"olH" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "olX" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/reagent_containers/food/snacks/butter,
@@ -15985,10 +15993,6 @@
 /obj/item/reagent_containers/food/snacks/grown/rogue/rosa_petals_dried,
 /turf/open/water/bath,
 /area/rogue/outdoors/beach/forest/south)
-"oYp" = (
-/obj/machinery/light/rogue/wallfire/candle/weak/l,
-/turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
 "oYx" = (
 /obj/structure/bars,
 /turf/open/floor/rogue/perdun,
@@ -20418,10 +20422,6 @@
 "tkS" = (
 /turf/open/water/bloody,
 /area/rogue/outdoors)
-"tle" = (
-/obj/machinery/light/rogue/wallfire/candle/weak/r,
-/turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
 "tlN" = (
 /mob/living/carbon/human/species/human/northern/bandit,
 /obj/structure/fluff/railing/fence{
@@ -23130,6 +23130,9 @@
 	},
 /turf/open/floor/rogue/snow,
 /area/rogue/outdoors/beach/forest/south)
+"vNP" = (
+/turf/open/floor/rogue/warmetal,
+/area/rogue/outdoors/town)
 "vOb" = (
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /obj/effect/decal/cleanable/dirt/grime/grime4,
@@ -214142,7 +214145,7 @@ xYR
 xYR
 tIc
 odT
-oYp
+olH
 eBC
 uyM
 atD
@@ -215652,7 +215655,7 @@ oBJ
 oBJ
 tIc
 gNr
-tle
+dbz
 lQt
 krX
 jDg
@@ -233136,7 +233139,7 @@ ury
 ury
 ury
 ury
-ury
+vNP
 ury
 ury
 ury
