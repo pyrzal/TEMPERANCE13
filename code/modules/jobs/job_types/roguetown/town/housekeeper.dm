@@ -6,6 +6,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	allowed_sexes = list(MALE, FEMALE)
+	allowed_races = RACES_TEMPERANCE_NONCOMBATANT
 	selection_color = JCOLOR_KINGSROW
 
 	tutorial = "You are the Head Housekeeper, the most trusted servant of the King's Row Estate. \

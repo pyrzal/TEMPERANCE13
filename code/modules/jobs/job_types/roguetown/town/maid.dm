@@ -6,6 +6,7 @@
 	total_positions = 3
 	spawn_positions = 3
 	allowed_sexes = list(MALE, FEMALE)
+	allowed_races = RACES_TEMPERANCE_NONCOMBATANT
 	selection_color = JCOLOR_KINGSROW
 
 	tutorial = "You are a butler or maid of the King's Row estate. \
