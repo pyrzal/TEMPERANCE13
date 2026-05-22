@@ -147,7 +147,7 @@ Just because it'd get a LITTLE annoying if you kept seeing this over and over. H
 
 /datum/loreblurb/code4 
 	title = "!"
-	description = "213 16 34 312 15 52 16 52 131 16 52 131"
+	description = "213 16 34 312 15 52 16 52 131"
 	sound = 'sound/loredump/lore_sting7.ogg'
 
 /datum/loreblurb/code5
