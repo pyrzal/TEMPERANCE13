@@ -554,5 +554,16 @@
 	icon_state = "vent3"
 
 /obj/structure/fluff/walldeco/rivbattleflag
+	name = "flag"
 	desc = "The unit insignia of the Fourth Forward Battalion in King's Row. A grinning maw of steel stares back at you."
 	icon_state = "rivbattleflag"
+
+/obj/structure/fluff/walldeco/portrait
+	name = "headless portrait"
+	desc = "Look not at the time that is spent, and focus on the painting. The face of my master, who had to go through so much."
+	icon_state = "portrait"
+
+/obj/structure/fluff/walldeco/saturn
+	name = "hunger"
+	desc = "Of his own son."
+	icon_state = "saturn"

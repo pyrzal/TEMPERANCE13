@@ -5634,10 +5634,11 @@
 /turf/closed/wall/mineral/rogue/wooddark,
 /area/rogue/outdoors/beach/forest/south)
 "fhs" = (
-/obj/structure/fluff/walldeco/painting{
+/obj/structure/fluff/walldeco/chains,
+/obj/structure/fluff/walldeco/portrait{
+	pixel_y = 0;
 	pixel_x = -32
 	},
-/obj/structure/fluff/walldeco/chains,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "fhX" = (
@@ -13063,8 +13064,11 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors/perserdunbase)
 "mqL" = (
-/obj/structure/fluff/walldeco/painting,
-/turf/closed/wall/mineral/rogue/kingsrow/horizontal,
+/obj/structure/table/wood/long_table/mid/alt,
+/obj/structure/fluff/walldeco/portrait{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/carpet/lord/center,
 /area/rogue/indoors/shelter/town)
 "mqN" = (
 /obj/structure/fluff/railing/wood/north{
@@ -20058,7 +20062,7 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "sWK" = (
-/obj/structure/fluff/walldeco/sad{
+/obj/structure/fluff/walldeco/saturn{
 	pixel_y = -32
 	},
 /turf/open/floor/rogue/carpet,
@@ -372360,8 +372364,8 @@ wzK
 wzK
 wzK
 wzK
+tIc
 mqL
-bmD
 igY
 igY
 xMw
