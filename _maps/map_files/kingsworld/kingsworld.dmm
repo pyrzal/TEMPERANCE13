@@ -4413,9 +4413,6 @@
 /turf/closed/wall/mineral/rogue/scary/end/east,
 /area/rogue)
 "edW" = (
-/obj/structure/closet/crate/roguecloset/lord{
-	pixel_x = 10
-	},
 /obj/item/reagent_containers/glass/cup,
 /obj/item/reagent_containers/glass/cup,
 /obj/item/reagent_containers/glass/cup,
@@ -4429,6 +4426,9 @@
 /obj/item/reagent_containers/glass/cup,
 /obj/item/reagent_containers/glass/cup,
 /obj/item/reagent_containers/glass/cup/golden,
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_x = 11
+	},
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/shelter/town)
 "eeh" = (
@@ -7446,6 +7446,7 @@
 /area/rogue/under/cave/warmachine)
 "gSP" = (
 /obj/structure/stairs/stone/d,
+/obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "gTx" = (
@@ -9640,6 +9641,10 @@
 "iYm" = (
 /turf/open/floor/rogue/church,
 /area/rogue/outdoors/beach/forest/south)
+"iYM" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "iZn" = (
 /obj/structure/mineral_door/wood/wardoor,
 /turf/open/floor/rogue/warmetal,
@@ -12647,6 +12652,13 @@
 /obj/effect/spawner/roguemap/stump,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/beach/forest/south)
+"lWU" = (
+/obj/structure/fluff/railing/border/east,
+/obj/structure/fluff/railing/border/west,
+/obj/structure/roguewindow/harem3,
+/obj/structure/curtain/brown,
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "lXC" = (
 /obj/effect/spawner/roguemap/stump,
 /turf/open/floor/rogue/dirt,
@@ -15092,6 +15104,10 @@
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
+"ooJ" = (
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
+/turf/open/floor/rogue/cobble,
+/area/rogue/indoors/shelter/town)
 "opz" = (
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /obj/structure/spider/stickyweb/solo,
@@ -19392,6 +19408,7 @@
 /obj/item/seeds/potato,
 /obj/item/seeds/potato,
 /obj/item/seeds/potato,
+/obj/machinery/light/rogue/wallfire/candle/weak/l,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter/town)
 "snB" = (
@@ -23138,6 +23155,7 @@
 /obj/item/seeds/poppy,
 /obj/item/seeds/sunflower,
 /obj/item/seeds/sunflower,
+/obj/machinery/light/rogue/wallfire/candle/weak/r,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter/town)
 "vOJ" = (
@@ -214129,7 +214147,7 @@ xYR
 xYR
 tIc
 odT
-ipA
+ooJ
 eBC
 uyM
 atD
@@ -215639,7 +215657,7 @@ oBJ
 oBJ
 tIc
 gNr
-ipA
+iYM
 lQt
 krX
 jDg
@@ -370836,17 +370854,17 @@ wzK
 wzK
 icM
 tYx
-xVN
+lWU
 tYx
-xVN
+lWU
 tYx
-xVN
+lWU
 tYx
-xVN
+lWU
 tYx
 hiH
 tYx
-xVN
+lWU
 icM
 tYx
 xVN
@@ -373856,17 +373874,17 @@ wzK
 wzK
 icM
 tYx
-xVN
+lWU
 tYx
-xVN
+lWU
 tYx
-xVN
+lWU
 tYx
-xVN
+lWU
 tYx
 hiH
 tYx
-xVN
+lWU
 icM
 tYx
 xVN
