@@ -739,13 +739,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/displaced
-	name = "Displaced Heir"
+	name = "Displaced Inheritor"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/displacedlate
-	name = "Displaced Heir"
+	name = "Displaced Inheritor"
 	icon_state = "arrow"
-	jobspawn_override = list("Displaced Heir")
+	jobspawn_override = list("Displaced Inheritor")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/villager
