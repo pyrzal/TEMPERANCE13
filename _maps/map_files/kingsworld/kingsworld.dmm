@@ -15945,6 +15945,8 @@
 /obj/item/reagent_containers/glass/bucket/pot/teapot/fancy{
 	pixel_y = 44
 	},
+/obj/item/storage/belt/rogue/pouch/coins/rich,
+/obj/item/storage/belt/rogue/pouch/coins/rich,
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/shelter/town)
 "oWD" = (
