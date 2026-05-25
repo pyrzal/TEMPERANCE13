@@ -1139,8 +1139,9 @@
 /turf/open/floor/rogue/plate,
 /area/rogue/outdoors/perserdun)
 "aZn" = (
-/turf/open/floor/rogue/dirt,
-/area/rogue/indoors/shelter/town)
+/obj/structure/fluff/railing/wood/north,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "aZr" = (
 /obj/structure/bars/grille,
 /obj/structure/closet/crate/roguecloset/metal/metal2{
@@ -1557,6 +1558,12 @@
 /mob/living/simple_animal/hostile/rogue/skeleton/bow,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
+"bss" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/chicken{
+	gender = "male"
+	},
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "bsu" = (
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/risvon)
@@ -2685,6 +2692,13 @@
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"ctZ" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/mineral_door/swing_door,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "cug" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "floor4-old"
@@ -4450,6 +4464,13 @@
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"eeV" = (
+/obj/structure/table/wood/long_table/mid/alt,
+/obj/structure/fluff/walldeco/portrait{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/carpet/lord/center,
+/area/rogue/indoors/shelter/town)
 "egh" = (
 /obj/structure/bars/passage/shutter{
 	redstone_id = "umaend"
@@ -10438,6 +10459,9 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/risvon)
+"jNx" = (
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "jNz" = (
 /obj/effect/loretile/outpostjulius,
 /turf/open/floor/rogue/metal/barograte/open,
@@ -11976,6 +12000,10 @@
 /obj/effect/spawner/lootdrop/ancient_equipment_spawner,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/shelter/town/sargoth)
+"llq" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/swine/hog/tame,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "llF" = (
 /obj/structure/fluff/railing/border/west,
 /turf/open/floor/rogue/carpet/lord/left,
@@ -13064,12 +13092,10 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors/perserdunbase)
 "mqL" = (
-/obj/structure/table/wood/long_table/mid/alt,
-/obj/structure/fluff/walldeco/portrait{
-	pixel_y = 32
-	},
-/turf/open/floor/rogue/carpet/lord/center,
-/area/rogue/indoors/shelter/town)
+/obj/structure/fluff/railing/wood/west,
+/obj/structure/mineral_door/swing_door,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "mqN" = (
 /obj/structure/fluff/railing/wood/north{
 	dir = 4;
@@ -13402,6 +13428,13 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/outdoors)
+"mKm" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/chicken{
+	gender = "male"
+	},
+/obj/structure/fluff/nest,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "mKr" = (
 /obj/structure/mineral_door/wood/violet{
 	name = "GENERAL QUARTERS";
@@ -13951,6 +13984,10 @@
 	},
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
+"nhC" = (
+/obj/structure/fluff/nest,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "nhP" = (
 /obj/item/millstone{
 	pixel_y = 8;
@@ -14785,6 +14822,12 @@
 "obi" = (
 /turf/open/water/river/flow/west,
 /area/rogue/indoors/cave)
+"obr" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "obD" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/rogue/grime,
@@ -17517,6 +17560,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/exposed/risvonbase)
+"quC" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/goatmale/tame,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "qvb" = (
 /obj/structure/bed/rogue/xbed,
 /turf/open/floor/rogue/twig/platform,
@@ -18312,6 +18359,10 @@
 	},
 /turf/open/floor/rogue/warquad,
 /area/rogue/under/cave/warmachine)
+"rlS" = (
+/obj/machinery/light/rogue/firebowl/stump,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/town)
 "rmf" = (
 /obj/structure/rack/rogue/shelf/biggest,
 /obj/item/reagent_containers/glass/cup/wooden,
@@ -19598,6 +19649,10 @@
 /obj/effect/loretile/outpostjulius,
 /turf/open/floor/rogue/metal/barograte/open,
 /area/rogue/indoors/perserdunbase)
+"szn" = (
+/obj/structure/fluff/railing/wood/west,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "szG" = (
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/rogue/dirt/road,
@@ -21346,6 +21401,14 @@
 /obj/structure/flora/roguetree/pine,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/beach/forest/south)
+"udE" = (
+/obj/item/paper{
+	desc = "ANIMALS - SOUTH";
+	anchored = 1
+	},
+/obj/structure/rack/rogue,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "udL" = (
 /obj/structure/table/wood/poor,
 /obj/item/gun/ballistic/rifle/repeater/lebel,
@@ -24210,6 +24273,10 @@
 /obj/machinery/light/rogue/wallfire/candle/blue/r,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
+"wRG" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/goat/tame,
+/turf/open/floor/rogue/hay,
+/area/rogue)
 "wSc" = (
 /obj/structure/fluff/railing/wood/north{
 	dir = 8;
@@ -214723,7 +214790,7 @@ caP
 mze
 bac
 bac
-aZn
+ury
 icM
 tYx
 tYx
@@ -215025,7 +215092,7 @@ ury
 mze
 kzz
 bac
-aZn
+ury
 tIc
 erc
 rDv
@@ -215327,7 +215394,7 @@ ury
 mze
 bac
 bac
-aZn
+ury
 tIc
 lvH
 ipA
@@ -215629,7 +215696,7 @@ ury
 mze
 bac
 bac
-aZn
+ury
 tIc
 vbR
 fbg
@@ -215931,7 +215998,7 @@ ury
 mze
 bac
 bac
-aZn
+ury
 tIc
 dQV
 fbg
@@ -216233,7 +216300,7 @@ mze
 mze
 bac
 bac
-aZn
+ury
 tIc
 xSd
 fbg
@@ -216535,7 +216602,7 @@ mze
 bac
 dho
 bac
-aZn
+ury
 tIc
 olX
 fbg
@@ -216837,7 +216904,7 @@ mze
 bac
 bac
 bac
-aZn
+ury
 tIc
 mla
 ipA
@@ -217139,7 +217206,7 @@ kzz
 bac
 bac
 hJK
-aZn
+ury
 tIc
 oWc
 rDv
@@ -217441,7 +217508,7 @@ kzz
 bac
 bac
 bac
-aZn
+ury
 icM
 tYx
 tYx
@@ -217743,8 +217810,8 @@ bac
 rdB
 bac
 bac
-aZn
-aZn
+ury
+ury
 icM
 qjV
 fmS
@@ -218045,8 +218112,8 @@ bac
 bac
 bac
 bac
-aZn
-aZn
+ury
+ury
 tIc
 laB
 qjV
@@ -218347,8 +218414,8 @@ kzz
 bac
 bac
 bac
-aZn
-aZn
+ury
+ury
 tIc
 hfN
 qjV
@@ -218649,8 +218716,8 @@ bac
 bac
 hJK
 bac
-aZn
-aZn
+ury
+ury
 tIc
 eZD
 qjV
@@ -218951,8 +219018,8 @@ bac
 bac
 bac
 bac
-aZn
-aZn
+ury
+ury
 icM
 qjV
 vld
@@ -219907,9 +219974,9 @@ ury
 ury
 vbM
 vbM
-vbM
-vbM
-vbM
+llq
+jNx
+jNx
 vbM
 vbM
 vbM
@@ -220207,12 +220274,12 @@ caP
 ury
 ury
 ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+aZn
+llq
+jNx
+jNx
+jNx
 vbM
 vbM
 "}
@@ -220504,17 +220571,17 @@ mze
 mze
 mze
 mze
+rlS
 ury
 ury
 ury
 ury
-ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+aZn
+jNx
+jNx
+jNx
+jNx
 vbM
 vbM
 "}
@@ -220805,18 +220872,18 @@ mze
 rSv
 mze
 mze
-mze
+udE
 ury
 ury
 caP
-ury
-ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+mze
+mze
+aZn
+jNx
+jNx
+wRG
+quC
 vbM
 vbM
 "}
@@ -221109,16 +221176,16 @@ mze
 mze
 mze
 mze
-ury
-ury
-ury
-ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+mze
+mze
+mze
+mze
+ctZ
+obr
+obr
+obr
+obr
 vbM
 vbM
 "}
@@ -221411,16 +221478,16 @@ mze
 mze
 lhd
 mze
-ury
-ury
-ury
-ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+mze
+mze
+mze
+mze
+mqL
+szn
+szn
+szn
+szn
 vbM
 vbM
 "}
@@ -221716,13 +221783,13 @@ mze
 ury
 caP
 ury
-ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+mze
+aZn
+jNx
+jNx
+jNx
+jNx
 vbM
 vbM
 "}
@@ -222019,12 +222086,12 @@ ury
 ury
 ury
 ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+aZn
+jNx
+jNx
+jNx
+jNx
 vbM
 vbM
 "}
@@ -222321,12 +222388,12 @@ ury
 ury
 ury
 ury
-ury
-vbM
-vbM
-vbM
-vbM
-vbM
+mze
+aZn
+jNx
+nhC
+mKm
+jNx
 vbM
 vbM
 "}
@@ -222625,9 +222692,9 @@ ury
 ury
 vbM
 vbM
-vbM
-vbM
-vbM
+jNx
+bss
+bss
 vbM
 vbM
 vbM
@@ -372367,7 +372434,7 @@ wzK
 wzK
 wzK
 tIc
-mqL
+eeV
 igY
 igY
 xMw
