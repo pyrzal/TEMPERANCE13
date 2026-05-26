@@ -13979,10 +13979,6 @@
 	},
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
-"nhC" = (
-/obj/structure/fluff/nest,
-/turf/open/floor/rogue/hay,
-/area/rogue)
 "nhP" = (
 /obj/item/millstone{
 	pixel_y = 8;
@@ -222388,7 +222384,7 @@ ury
 mze
 aZn
 jNx
-nhC
+jNx
 mKm
 jNx
 vbM
