@@ -126,7 +126,7 @@
 
 /obj/effect/particle_effect/smoke/bad/smoke_mob(mob/living/carbon/M)
 	if(..())
-		if(!istype(M.wear_mask, /obj/item/clothing/mask/rogue/gasmask))
+		if(!istype(M.wear_mask, /obj/item/clothing/mask/rogue/gasmask) && !HAS_TRAIT(M, TRAIT_NOBREATH))
 			M.drop_all_held_items()
 			M.adjustOxyLoss(1)
 			M.emote("cough")
@@ -148,7 +148,7 @@
 
 /obj/effect/particle_effect/smoke/poison_gas/smoke_mob(mob/living/carbon/M)
 	if(..())
-		if(!istype(M.wear_mask, /obj/item/clothing/mask/rogue/gasmask))
+		if(!istype(M.wear_mask, /obj/item/clothing/mask/rogue/gasmask) && !HAS_TRAIT(M, TRAIT_NOBREATH))
 			M.adjustToxLoss(20, 0)
 			M.adjustFireLoss(20, 0)
 			M.emote("firescream")
