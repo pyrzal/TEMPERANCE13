@@ -75,6 +75,8 @@ jobs:
           bash tools/ci/install_byond.sh
 
       - name: Compile BYOND project
+        env:
+          PATH: ${{ env.HOME }}/BYOND/byond/bin:${{ env.PATH }}
         run: |
           ls -h $HOME/
           source $HOME/BYOND/byond/bin/byondsetup
