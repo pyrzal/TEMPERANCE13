@@ -9,10 +9,10 @@
 	allowed_sexes = list(MALE, FEMALE)
 	selection_color = JCOLOR_KINGSROW
 
-	tutorial = "You're the leading force of modernity in Kingsrow. \
-				Originally some Council Member, or a Hand - you decided to take power from your Master with the new stash of arms given. \
-				Your main goal is to remain an independent state, or at least have some form of sovereignty as you sell away your land. \
-				You should also prioritize your people before the foreign factions. They generally appreciate the work you put in."
+	tutorial = "You are the current Lord/Lady of Estate for the manor known as King's Row. \
+				Once an adopted, low-born mutt of the former owner - you've clawed their way into control as means of revenge. \
+				Your main goal is to maintain your authority. You have kept the Displaced Heir alive in order to satiate your desire for vengeance. \
+				Most of the servants within the manor despises you for your low birth and degradation of the manor's noble status."
 
 	outfit = /datum/outfit/job/roguetown/hierarch
 	display_order = JDO_HIERARCH
@@ -47,12 +47,14 @@
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 4, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/pistols, 6, TRUE) //does nothing cause pistols don't have aim time but it just makes them feel cooler
+	H.adjust_skillrank(/datum/skill/combat/pistols, 4, TRUE)
 	H.change_stat("intelligence", 2)
 	H.change_stat("constitution", 1)
 	H.change_stat("endurance", 1)
 	H.change_stat("perception", 2)
 	H.change_stat("speed", 2)
+	if(H.mind)
+		H.mind.AddSpell(new /obj/effect/proc_holder/spell/targeted/touch/abuse)
 	ADD_TRAIT(H, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
 
 	if(should_wear_masc_clothes(H))

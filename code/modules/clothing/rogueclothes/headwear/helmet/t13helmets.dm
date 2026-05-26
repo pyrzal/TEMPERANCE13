@@ -136,3 +136,12 @@
 	sewrepair = TRUE
 	blocksound = SOFTHIT
 	max_integrity = ARMOR_INT_HELMET_LEATHER
+
+/obj/item/clothing/head/roguetown/maid
+	name = "maid headdress"
+	desc = "Servant's mark."
+	icon_state = "maidhead"
+	item_state = "maidhead"
+	icon = 'icons/roguetown/clothing/special/maids.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/maids.dmi'

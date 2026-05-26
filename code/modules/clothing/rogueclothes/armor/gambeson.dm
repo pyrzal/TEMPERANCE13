@@ -149,6 +149,13 @@
 			pic2.color = get_altdetail_color()
 		add_overlay(pic2)
 
+/obj/item/clothing/suit/roguetown/armor/gambeson/heavy/freifechter/housekeeper
+	name = "hardened waistcoat"
+	desc = "Warm yourself by this hearth should you feel the chill in your bones. It is the only place in this manor where you may feel any degree of warmth."
+	body_parts_covered = COVERAGE_FULL
+	detail_color = "#333333"
+	altdetail_color = "#7e7e7e"
+
 /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/chargah
 	name = "steppesman chargah robe"
 	desc = "A light yet thick robe padded with fine silks and cloth, acting as a mix of traditional gambeson and imported silks of the east. Popular among Aavnr steppesmen."

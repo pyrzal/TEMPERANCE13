@@ -765,7 +765,7 @@
 	icon_state = "decsaber"
 	sheathe_icon = "decsaber"
 	sellprice = 140
-
+	
 //Unique church sword - slightly better than regular sabre due to falx chop.
 /obj/item/rogueweapon/sword/sabre/nockhopesh
 	name = "moonlight khopesh"
@@ -1393,3 +1393,8 @@
 	possible_item_intents = list(/datum/intent/sword/cut/sabre, /datum/intent/sword/thrust, /datum/intent/axe/chop, /datum/intent/sword/peel)
 	minstr = 5
 	wdefense = 4
+
+/obj/item/rogueweapon/sword/sabre/dec/displacedhier
+	name = "heirloom sabre"
+	desc = "Let this blade find its way into his black heart."
+	color = "#888888"

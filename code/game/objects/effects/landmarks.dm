@@ -80,7 +80,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/adventurerlate
 	name = "Adventurerlate"
 	icon_state = "arrow"
-	jobspawn_override = list("Skeleton", "Pilgrim", "Adventurer", "Foreigner")
+	jobspawn_override = list("Skeleton", "Pioneer", "Adventurer", "Foreigner")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/banditlate
@@ -373,13 +373,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/barkeeper
-	name = "Barkeeper"
+	name = "Vineyard Keeper"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/barkeeperlate
-	name = "Barkeeper"
+	name = "Vineyard Keeper"
 	icon_state = "arrow"
-	jobspawn_override = list("Innkeeper")
+	jobspawn_override = list("Vineyard Keeper")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/adventurer
@@ -719,13 +719,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/provisioner
-	name = "Provisioner"
+	name = "Chamberlain"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/provisionerlate
-	name = "Provisioner"
+	name = "Chamberlain"
 	icon_state = "arrow"
-	jobspawn_override = list("Provisioner")
+	jobspawn_override = list("Chamberlain")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/mortician
@@ -738,6 +738,16 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	jobspawn_override = list("Mortician")
 	delete_after_roundstart = FALSE
 
+/obj/effect/landmark/start/displaced
+	name = "Displaced Inheritor"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/displacedlate
+	name = "Displaced Inheritor"
+	icon_state = "arrow"
+	jobspawn_override = list("Displaced Inheritor")
+	delete_after_roundstart = FALSE
+
 /obj/effect/landmark/start/villager
 	name = "Towner"
 	icon_state = "arrow"
@@ -746,6 +756,26 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Townerlate"
 	icon_state = "arrow"
 	jobspawn_override = list("Towner")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/maid
+	name = "Manor Servant"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/maidlate
+	name = "Manor Servant"
+	icon_state = "arrow"
+	jobspawn_override = list("Manor Servant")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/headhouse
+	name = "Head Housekeeper"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/headhouselate
+	name = "Head Housekeeper"
+	icon_state = "arrow"
+	jobspawn_override = list("Head Housekeeper")
 	delete_after_roundstart = FALSE
 
 //Shocktroop spawns

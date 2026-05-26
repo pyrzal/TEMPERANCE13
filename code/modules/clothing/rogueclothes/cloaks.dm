@@ -1847,6 +1847,30 @@
 		for(var/obj/item/I in things)
 			STR.remove_from_storage(I, get_turf(src))
 
+/obj/item/clothing/cloak/apron/waist/maid
+	name = "maid apron"
+	desc = "Nice and simple."
+	body_parts_covered = null
+	icon_state = "maidapron"
+	item_state = "maidapron"
+	icon = 'icons/roguetown/clothing/special/maids.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/maids.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/maids.dmi'
+
+/obj/item/clothing/cloak/apron/waist/fancymaid
+	name = "frilly apron"
+	desc = "The frilly apron of a housemaster. It has pockets to store small things."
+	detail_color = "_detail"
+	detail_color = CLOTHING_DARK_GREY
+	slot_flags = ITEM_SLOT_BACK_R|ITEM_SLOT_CLOAK
+	icon_state = "maidapronfancy"
+	item_state = "maidapronfancy"
+	boobed = FALSE
+	grid_width = 64
+	grid_height = 64
+	icon = 'icons/roguetown/clothing/special/housekeeper.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/housekeeper.dmi'
+
 /obj/item/clothing/cloak/risofficer
 	name = "risvonian officer's trenchcoat"
 	desc = "A green-brown trench coat with a scarlet mantle, worn by those who have achieved a rank of merit in the Dictate's armed forces. A mantle of volf-fur protects from wind and grants the wearer a sense of <i>gravitas.</i>"

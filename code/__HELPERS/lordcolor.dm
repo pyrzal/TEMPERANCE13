@@ -42,8 +42,8 @@ GLOBAL_VAR(lordsecondary)
 		GLOB.lordcolor -= T
 
 /proc/lord_color_default()
-	GLOB.lordprimary = "#007fff" //AZURE
-	GLOB.lordsecondary = "#ffffff" //WHITE
+	GLOB.lordprimary = "#3b1407"
+	GLOB.lordsecondary = "#c1995e" //wuthering heights!!
 	for(var/obj/O in GLOB.lordcolor)
 		O.lordcolor(GLOB.lordprimary,GLOB.lordsecondary)
 	for(var/turf/T in GLOB.lordcolor)

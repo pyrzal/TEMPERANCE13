@@ -188,7 +188,7 @@
 	spread = 0.5
 	slamfire = TRUE
 	pump_sound = 'sound/combat/ranged/leveractioncock.ogg'
-	fire_sound = LEVERCHESTERSHOT
+	fire_sound = LEVERSHOT
 	load_sound = 'sound/combat/ranged/leveractioninsert.ogg'
 	recoil = 0.15
 	sellprice = 42
@@ -204,7 +204,7 @@
 	spread = 0.5
 	slamfire = TRUE
 	pump_sound = 'sound/combat/ranged/leveractioncock.ogg'
-	fire_sound = LEVERCHESTERSHOT
+	fire_sound = LEVERSHOT
 	load_sound = 'sound/combat/ranged/leveractioninsert.ogg'
 	recoil = 0.15
 	sellprice = 26

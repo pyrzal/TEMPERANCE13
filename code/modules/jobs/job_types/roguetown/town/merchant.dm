@@ -1,13 +1,14 @@
 /datum/job/roguetown/provisioner
-	title = "Provisioner"
+	title = "Chamberlain"
 	flag = PROVISIONER
 	department_flag = KINGSROW
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
 	allowed_races = RACES_TEMPERANCE_NONCOMBATANT
-	tutorial = "Money, money, money! Fuck, it's so good! Even better, with this War Machine - and those filthy fuckin' foreigners. Scam some idiots, make cash. Grab your Explorers and make bank."
-
+	tutorial = "You are the one who has handled the finances and trade of MACHINE goods for the estate. \
+				They *might* hold resentment towards the current Hierarch, yet are still forced to continue their work. \
+				Due to your easy access to MACHINE products, you are a highly valued ally."
 
 	outfit = /datum/outfit/job/roguetown/provisioner
 	display_order = JDO_PROVISIONER

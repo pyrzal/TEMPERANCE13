@@ -311,8 +311,8 @@
 	icon_state = "facon" */
 
 /obj/item/rogueweapon/huntingknife/idagger/dtace
-	name = "'De Tace'"
-	desc = "The right hand of the right hand, this narrow length of steel serves as a quick solution to petty greviences."
+	name = "stiletto"
+	desc = "Painless mercy."
 	icon_state = "stiletto"
 	sheathe_icon = "stiletto"
 	force = 25

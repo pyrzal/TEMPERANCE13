@@ -40,6 +40,7 @@
 	var/locksound = 'sound/foley/doors/woodlock.ogg'
 	var/unlocksound = 'sound/foley/doors/woodlock.ogg'
 	var/rattlesound = 'sound/foley/doors/lockrattle.ogg'
+	var/knocksound = 'sound/foley/doors/knocking.ogg'
 	var/masterkey = TRUE //if masterkey can open this regardless
 	var/kickthresh = 15
 	var/swing_closed = TRUE
@@ -254,7 +255,7 @@
 				return
 		if(world.time >= last_bump+20)
 			last_bump = world.time
-			playsound(src, 'sound/foley/doors/knocking.ogg', 100)
+			playsound(src, knocksound, 100)
 			user.visible_message(span_warning("[user] knocks on [src]."), \
 				span_notice("I knock on [src]."))
 		return
@@ -1019,36 +1020,6 @@
 /obj/structure/mineral_door/wood/bath/courtesan
 	resident_advclass = list(/datum/advclass/nightmaiden/concubine, /datum/advclass/nightmaiden/courtesan)
 
-
-
-/obj/structure/mineral_door/perserdoor
-	name = "reinforced door"
-	desc = "A funny door that lets you see through the other side. Pretty strong."
-	icon_state = "perdoor"
-	openSound = 'sound/foley/doors/waropen.ogg'
-	closeSound = 'sound/foley/doors/warclose.ogg'
-	resistance_flags = null
-	max_integrity = 2000
-	damage_deflection = 15
-	layer = ABOVE_MOB_LAYER
-	keylock = TRUE
-	icon = 'icons/roguetown/misc/doors.dmi'
-	blade_dulling = DULLING_BASH
-	opacity = FALSE
-	windowed = TRUE
-	locksound = 'sound/foley/doors/warlock.ogg'
-	unlocksound = 'sound/foley/doors/warunlock.ogg'
-	rattlesound = 'sound/foley/doors/warrattle.ogg'
-	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
-	ridethrough = TRUE
-	swing_closed = FALSE
-	lock_strength = 150
-	repairable = TRUE
-	repair_cost_first = /obj/item/ingot/iron
-	repair_cost_second = /obj/item/ingot/iron
-	repair_skill = /datum/skill/craft/blacksmithing
-	
-
 /obj/structure/mineral_door/perserdoor
 	name = "reinforced door"
 	desc = "A funny door that lets you see through the other side. Pretty strong."
@@ -1066,6 +1037,7 @@
 	locksound = 'sound/foley/doors/warlock.ogg'
 	unlocksound = 'sound/foley/doors/warunlock.ogg'
 	rattlesound = 'sound/foley/doors/warrattle.ogg'
+	knocksound = 'sound/foley/doors/warknock.ogg'
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	ridethrough = TRUE
 	swing_closed = FALSE
@@ -1076,6 +1048,14 @@
 	repair_skill = /datum/skill/craft/blacksmithing
 	lockid = "perserdun"
 
+/obj/structure/mineral_door/perserdoor/bulkhead
+	name = "metal bulkhead"
+	desc = "A funny, automated hunk of metal."
+	icon_state = "metal"
+	openSound = 'sound/foley/doors/metal_open.ogg'
+	closeSound = 'sound/foley/doors/metal_close.ogg'
+	opacity = TRUE
+
 /obj/structure/mineral_door/wood/wardoor
 	name = "strange door"
 	desc = "A door with strange markings on it."
@@ -1083,8 +1063,9 @@
 	locksound = 'sound/foley/doors/warlock.ogg'
 	unlocksound = 'sound/foley/doors/warunlock.ogg'
 	rattlesound = 'sound/foley/doors/warrattle.ogg'
-	openSound = 'sound/foley/doors/waropen.ogg'
-	closeSound = 'sound/foley/doors/warclose.ogg'
+	openSound = 'sound/foley/doors/metal_open.ogg'
+	closeSound = 'sound/foley/doors/metal_close.ogg'
+	knocksound = 'sound/foley/doors/warknock.ogg'
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	repairable = FALSE
 	keylock = FALSE
@@ -1109,3 +1090,4 @@
 	repair_cost_second = /obj/item/grown/log/tree/small	
 	repair_skill = /datum/skill/craft/carpentry
 	smashable = TRUE
+	over_state = "fancyopen"

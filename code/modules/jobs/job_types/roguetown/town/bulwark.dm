@@ -1,9 +1,7 @@
-// note for mappers: please put in the trench shotgun & reaper rifle in this guy's armory
-// ^^^^^^^^
 /datum/job/roguetown/bulwark
 	title = "Bulwark"
 	flag = BULWARK
-	department_flag = RISVON
+	department_flag = KINGSROW
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
@@ -13,10 +11,10 @@
 	advclass_cat_rolls = list(CTAG_BULWARK = 20)
 
 
-	tutorial = "You're one of the Hierarch's most trusted underlings. \
-				You have exclusive access to one of the many high-tier weapons the Hierarch has stockpiled. \
-				The main goal is to keep the Hierarch and the town alive. People treat you like a sheriff. \
-				Contrary to your namesake, you aren't invincible. Your main strength comes from your guns." 
+	tutorial = "You are one of the Hierarch's loyal subjects. \
+				You may range from loyal friends who've assisted the Hierarch's rise to power, to handsomely paid Kalarian Mercenaries. \
+				Your main goal is to keep the Hierarch alive. \
+				Your loyalty is *expected* to be absolute and incorruptible." 
 
 	outfit = /datum/outfit/job/roguetown/bulwark
 	display_order = JDO_BULWARK
