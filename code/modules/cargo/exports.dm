@@ -38,7 +38,8 @@ Credit dupes that require a lot of manual work shouldn't be removed, unless they
 
 /atom/movable/proc/get_real_price()
 	var/total_sellprice = 0
-	if(length(src.contents)) // this overrides the objects base price but 90% of usecases will not see someone trying to sell a full satchel.
+	if(length(src.contents))
+		total_sellprice = sellprice
 		for(var/obj/item/I in src.contents) // runs a loop on anytihng that's got contents under our current inv system
 			if(I) // runs the get_real_price recurisvely. please dont runtime.
 				total_sellprice += I.get_real_price()
