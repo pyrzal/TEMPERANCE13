@@ -14107,6 +14107,8 @@
 /obj/item/bedsheet/rogue/wool{
 	dir = 8
 	},
+/obj/effect/landmark/start/barkeeper,
+/obj/effect/landmark/start/barkeeperlate,
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter/town)
 "nnu" = (
