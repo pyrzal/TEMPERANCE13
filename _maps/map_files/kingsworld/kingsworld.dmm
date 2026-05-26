@@ -1558,12 +1558,6 @@
 /mob/living/simple_animal/hostile/rogue/skeleton/bow,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
-"bss" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/chicken{
-	gender = "male"
-	},
-/turf/open/floor/rogue/hay,
-/area/rogue)
 "bsu" = (
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/risvon)
@@ -222696,8 +222690,8 @@ ury
 vbM
 vbM
 jNx
-bss
-bss
+mKm
+mKm
 vbM
 vbM
 vbM
