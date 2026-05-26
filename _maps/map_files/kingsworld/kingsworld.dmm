@@ -8398,7 +8398,6 @@
 	pixel_y = 0;
 	dir = 8
 	},
-/obj/effect/landmark/start/hierarch,
 /obj/machinery/light/rogue/wallfire/candle/r,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
@@ -11965,6 +11964,8 @@
 /obj/structure/roguemachine/mail{
 	mailtag = "KING'S ROW (GENERAL)"
 	},
+/obj/effect/landmark/start/hierarch,
+/obj/effect/landmark/start/hierarchlate,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "ljJ" = (
@@ -365184,7 +365185,7 @@ xYR
 wzK
 wzK
 wzK
-cMB
+wzK
 icM
 tYx
 tYx
