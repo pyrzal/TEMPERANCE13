@@ -75,11 +75,10 @@ jobs:
           bash tools/ci/install_byond.sh
 
       - name: Compile BYOND project
-        env:
-          PATH: ${{ env.HOME }}/BYOND/byond/bin:${{ env.PATH }}
         run: |
-          ls -h $HOME/
+          export PATH="${HOME}/BYOND/byond/bin:${PATH}"
           source $HOME/BYOND/byond/bin/byondsetup
+          ls -h $HOME/
           tools/build/build.sh
 
       - name: Check for errors
