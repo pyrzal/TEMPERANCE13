@@ -211,7 +211,7 @@
 
 /obj/item/gun/ballistic/rifle/repeater/rattlesnake
 	name = "BRH 'Rattlesnake'"
-	desc = "A one-shot, breech-loaded rifle gifted by one of the Empire's few allies. Comes with a cloth, tucked in the RIGHT SIDE of the stock. Chambered in .577 Blackout."
+	desc = "A one-shot, breech-loaded rifle. Comes with a cloth, tucked in the RIGHT SIDE of the stock. Chambered in .577 Blackout."
 	icon = 'icons/roguetown/weapons/64guns.dmi'
 	icon_state = "rattlesnake"
 	item_state = "rattlesnake"
