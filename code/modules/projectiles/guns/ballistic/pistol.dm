@@ -123,6 +123,8 @@
 	semi_auto = TRUE
 	slot_flags = ITEM_SLOT_BACK
 	sellprice = 160
+	burst = 3
+
 
 /obj/item/gun/ballistic/rifle/repeater/fury
 	name = "XOZ 'Fury'"
