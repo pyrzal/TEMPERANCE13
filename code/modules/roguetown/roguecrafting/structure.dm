@@ -246,6 +246,7 @@
 /obj/item/chair/stool/bar/rogue/crafted
 	sellprice = 6
 
+/*
 /datum/crafting_recipe/roguetown/structure/anvil
 	name = "anvil"
 	result = /obj/machinery/anvil
@@ -302,6 +303,8 @@
 	verbage_simple = "build"
 	verbage = "builds"
 	craftsound = null
+
+*/
 
 /datum/crafting_recipe/roguetown/structure/sharpwheel
 	name = "sharpening wheel"
