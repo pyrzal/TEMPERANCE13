@@ -176,6 +176,8 @@
 	/datum/species/demihuman,\
 	/datum/species/tieberian,\
 	/datum/species/anthromorph,\
+	/datum/species/human/halfelf,\
+	/datum/species/construct/metal/porcelain,\
 )
 
 #define RACES_RESPECTED \
