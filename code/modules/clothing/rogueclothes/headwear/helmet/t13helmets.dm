@@ -83,6 +83,21 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head.dmi'
 	flags_inv = HIDE_HEADTOP
 
+/obj/item/clothing/head/roguetown/helmet/kettle/iron/magiisto
+	name = "risvonian mage helmet"
+	desc = "Traditional wizard garb had to adapt when the MACHINES appeared. A chainmail veil and kettle helm underneath did well enough to last."
+	flags_inv = HIDEFACE|HIDESNOUT
+	flags_cover = HEADCOVERSEYES
+	body_parts_covered = HEAD|EARS|NOSE|EYES
+	block2add = FOV_BEHIND
+	icon_state = "magiisto"
+	smeltresult = /obj/item/ingot/iron
+	max_integrity = ARMOR_INT_HELMET_IRON
+	worn_x_dimension = 64
+	worn_y_dimension = 64
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
+	bloody_icon = 'icons/effects/blood64.dmi'
+
 // light helmets
 
 /obj/item/clothing/head/roguetown/helmet/leather/grandmaster
