@@ -1147,8 +1147,7 @@
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
 	},
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
-/obj/effect/spawner/lootdrop/valuable_candle_spawner,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "aZS" = (
@@ -1190,15 +1189,6 @@
 /obj/machinery/light/rogue/wallfire/candle/r,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
-"bdU" = (
-/obj/structure/bars/grille,
-/obj/structure/closet/crate/roguecloset/metal/metal2{
-	plane = -5
-	},
-/obj/effect/spawner/lootdrop/medicines,
-/obj/effect/spawner/lootdrop/general_loot_hi,
-/turf/open/floor/rogue/redlight,
-/area/rogue/under/cave/warmachine)
 "bek" = (
 /obj/structure/flora/roguetree/evil{
 	name = "strange tree";
@@ -1406,8 +1396,11 @@
 "bka" = (
 /obj/structure/rack/rogue,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/weapons,
-/obj/effect/spawner/lootdrop/general_loot_mid/x3,
-/obj/effect/spawner/lootdrop/general_loot_hi,
+/obj/effect/spawner/lootdrop/normalguns,
+/obj/effect/spawner/lootdrop/normalguns,
+/obj/effect/spawner/lootdrop/hightierammo,
+/obj/effect/spawner/lootdrop/hightierammo,
+/obj/effect/spawner/lootdrop/ammo,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors)
 "bkC" = (
@@ -1491,8 +1484,9 @@
 /area/rogue/under/cave/warmachine)
 "bnF" = (
 /obj/structure/closet/crate/roguecloset/metal/metal2,
+/obj/effect/spawner/lootdrop/ammooutlet,
+/obj/effect/spawner/lootdrop/ammooutlet,
 /obj/effect/spawner/lootdrop/medicines,
-/obj/effect/spawner/lootdrop/general_loot_hi,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "bou" = (
@@ -2706,16 +2700,6 @@
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /turf/open/floor/rogue/dirt/ambush,
 /area/rogue/outdoors/beach/forest/south)
-"cuG" = (
-/obj/structure/closet/crate/roguecloset/metal{
-	pixel_x = -7
-	},
-/obj/structure/closet/crate/roguecloset/metal{
-	pixel_x = 11
-	},
-/obj/effect/spawner/lootdrop/valuable_tableware_spawner,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "cvr" = (
 /obj/structure/glowshroom,
 /turf/open/water/swamp,
@@ -3999,8 +3983,8 @@
 /area/rogue/outdoors/exposed/risvonbase)
 "dCR" = (
 /obj/structure/closet/crate/chest/neu,
+/obj/effect/spawner/lootdrop/normalguns,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/tools,
-/obj/effect/spawner/lootdrop/general_loot_mid,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/beach/forest/south)
 "dDr" = (
@@ -4401,8 +4385,8 @@
 	pixel_x = -18;
 	pixel_y = -4
 	},
+/obj/effect/spawner/lootdrop/normalguns,
 /obj/effect/spawner/lootdrop/ammo,
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/perserdun)
 "eaj" = (
@@ -6015,7 +5999,7 @@
 /obj/item/rope/chain,
 /obj/item/rope/chain,
 /obj/item/clothing/mask/rogue/gasmask/perserdunmask,
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
+/obj/effect/spawner/lootdrop/normalguns,
 /turf/open/floor/rogue/ruinedwood/herringbone,
 /area/rogue/indoors/shelter/town/sargoth)
 "fBW" = (
@@ -6470,11 +6454,11 @@
 /area/rogue/indoors/cave)
 "fWF" = (
 /obj/structure/bars/grille,
+/obj/effect/spawner/lootdrop/hightierammooutlet,
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
 	},
 /obj/effect/spawner/lootdrop/medicines,
-/obj/item/roguecoin/silver/pile,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "fWK" = (
@@ -6491,7 +6475,7 @@
 /area/rogue/outdoors/risvon)
 "fXa" = (
 /obj/structure/closet/crate/drawer/filing/random,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
@@ -7746,8 +7730,9 @@
 /area/rogue/indoors/risvonbase)
 "hhM" = (
 /obj/structure/closet/crate/chest/crate,
+/obj/effect/spawner/lootdrop/normalguns,
+/obj/effect/spawner/lootdrop/normalguns,
 /obj/effect/spawner/lootdrop/ammo,
-/obj/effect/spawner/lootdrop/general_loot_hi,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
 "hiH" = (
@@ -7772,11 +7757,11 @@
 /area/rogue/outdoors/perserdun)
 "hjs" = (
 /obj/structure/table/wood/longreif,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /obj/structure/fluff/walldeco/traumacon{
 	pixel_y = 25;
 	light_outer_range = 1
 	},
-/obj/effect/spawner/lootdrop/cheap_candle_spawner,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "hjx" = (
@@ -7861,7 +7846,7 @@
 /obj/structure/table/wood/longreif{
 	dir = 4
 	},
-/obj/effect/spawner/lootdrop/peasant_weapon_spawner,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "hog" = (
@@ -8008,14 +7993,7 @@
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors)
 "htU" = (
-/obj/structure/bars/grille,
-/obj/effect/spawner/lootdrop/hightierammooutlet,
-/obj/structure/closet/crate/roguecloset/metal/metal2{
-	plane = -5
-	},
-/obj/item/roguecoin/gold/virtuepile,
-/obj/effect/spawner/lootdrop/cheap_clutter_spawner,
-/turf/open/floor/rogue/warmetal,
+/turf/closed/mineral/random/rogue,
 /area/rogue/under/cave/warmachine)
 "htV" = (
 /obj/structure/flora/roguetree/burnt{
@@ -8578,8 +8556,7 @@
 /area/rogue/under/cave/warmachine)
 "hUB" = (
 /obj/structure/closet/crate/roguecloset/metal,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/misc,
-/obj/effect/spawner/lootdrop/general_loot_hi,
+/obj/effect/spawner/lootdrop/hightierammooutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "hUC" = (
@@ -8627,11 +8604,11 @@
 /area/rogue/outdoors)
 "hWn" = (
 /obj/structure/bars/grille,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
 	},
-/obj/item/roguecoin/gold/pile,
-/obj/item/roguecoin/gold/pile,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "hWA" = (
@@ -9156,10 +9133,10 @@
 /area/rogue/under/cave/warmachine)
 "iyu" = (
 /obj/structure/table/wood/longreif,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /obj/structure/fluff/walldeco/shreds{
 	pixel_y = 32
 	},
-/obj/effect/spawner/lootdrop/roguetown/dungeon/food,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "iyI" = (
@@ -9416,7 +9393,7 @@
 	plane = -5
 	},
 /obj/structure/bars/grille,
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "iKC" = (
@@ -10985,8 +10962,8 @@
 /area/rogue/indoors/risvonbase)
 "kks" = (
 /obj/structure/closet/crate/chest/neu,
+/obj/effect/spawner/lootdrop/normalguns,
 /obj/effect/spawner/lootdrop/medium_armor_spawner,
-/obj/effect/spawner/lootdrop/general_loot_mid,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/beach/forest/south)
 "kkK" = (
@@ -11618,15 +11595,6 @@
 /obj/structure/fluff/railing/sandbag,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/beach/forest/south)
-"kSp" = (
-/obj/structure/bars/grille,
-/obj/structure/closet/crate/roguecloset/metal/metal2{
-	plane = -5
-	},
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
-/obj/effect/spawner/lootdrop/general_loot_hi,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "kSt" = (
 /turf/closed/wall/mineral/rogue/risvon/long,
 /area/rogue/outdoors/risvon)
@@ -11714,10 +11682,10 @@
 /area/rogue/outdoors/perserdun)
 "kXg" = (
 /obj/structure/table/wood/perserdunsmall/smallmetal2,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /obj/structure/fluff/walldeco/spoiler{
 	pixel_x = -28
 	},
-/obj/item/roguecoin/gold/virtuepile,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/umamusume)
 "kXL" = (
@@ -12326,8 +12294,7 @@
 /area/rogue/indoors/shelter/town)
 "lzC" = (
 /obj/structure/rack/rogue,
-/obj/effect/spawner/lootdrop/general_loot_hi,
-/obj/effect/spawner/lootdrop/hightierammo,
+/obj/effect/spawner/lootdrop/hightierguns,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors)
 "lAw" = (
@@ -12586,7 +12553,7 @@
 /obj/structure/table/wood/longreif{
 	dir = 4
 	},
-/obj/item/roguecoin/gold/virtuepile,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "lPk" = (
@@ -12927,8 +12894,8 @@
 /area/rogue/outdoors)
 "mgc" = (
 /obj/structure/closet/crate/roguecloset/metal,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/clothing,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/clothing,
+/obj/effect/spawner/lootdrop/ammooutlet,
+/obj/effect/spawner/lootdrop/ammooutlet,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "mgf" = (
@@ -13566,9 +13533,8 @@
 /area/rogue/under/cave)
 "mOX" = (
 /obj/structure/rack/rogue,
-/obj/effect/spawner/lootdrop/general_loot_mid/x3,
-/obj/effect/spawner/lootdrop/general_loot_hi,
-/obj/item/roguecoin/gold/virtuepile,
+/obj/effect/spawner/lootdrop/hightierguns,
+/obj/effect/spawner/lootdrop/hightierguns,
 /turf/open/floor/rogue/perdun,
 /area/rogue/outdoors/beach/forest/south)
 "mPb" = (
@@ -13621,6 +13587,7 @@
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
 	},
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /obj/item/roguecoin/silver/pile,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
@@ -13660,8 +13627,10 @@
 /area/rogue/outdoors/perserdun)
 "mTH" = (
 /obj/structure/rack/rogue,
-/obj/effect/spawner/lootdrop/general_loot_hi/x3,
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/normalguns,
+/obj/effect/spawner/lootdrop/normalguns,
+/obj/effect/spawner/lootdrop/normalguns,
+/obj/effect/spawner/lootdrop/hightierguns,
 /turf/open/floor/rogue/perdun,
 /area/rogue/outdoors/beach/forest/south)
 "mTI" = (
@@ -13747,11 +13716,6 @@
 /obj/item/reagent_containers/food/snacks/rogue/meat/fatty/roast,
 /turf/open/floor/rogue/woodturned,
 /area/rogue/outdoors/beach/forest/south)
-"mYO" = (
-/obj/structure/rack/rogue,
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "mZo" = (
 /obj/effect/decal/cleanable/dirt/grime/grime3,
 /obj/structure/mineral_door/wood/wardoor,
@@ -13955,8 +13919,7 @@
 	pixel_y = 6
 	},
 /obj/effect/spawner/lootdrop/light_armor_spawner,
-/obj/effect/spawner/lootdrop/general_loot_hi,
-/obj/effect/spawner/lootdrop/general_loot_hi,
+/obj/effect/spawner/lootdrop/hightierguns,
 /turf/open/floor/rogue/perdun,
 /area/rogue/outdoors/beach/forest/south)
 "nhh" = (
@@ -13977,13 +13940,6 @@
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
-"nhi" = (
-/obj/structure/table/wood/longreif{
-	dir = 2
-	},
-/obj/effect/spawner/lootdrop/cheap_candle_spawner,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "nhq" = (
 /obj/structure/fluff/walldeco/rush,
 /turf/closed/wall/mineral/rogue/perserdun/long,
@@ -14344,11 +14300,11 @@
 	plane = -5
 	},
 /obj/structure/bars/grille,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /obj/structure/fluff/walldeco/spoiler3{
 	pixel_y = 32
 	},
-/obj/effect/spawner/lootdrop/general_loot_hi/x3,
-/obj/item/roguecoin/silver/pile,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "nwC" = (
@@ -14409,7 +14365,6 @@
 	layer = 5;
 	dir = 2
 	},
-/obj/effect/spawner/lootdrop/light_armor_spawner,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "nBd" = (
@@ -14619,7 +14574,7 @@
 /obj/structure/closet/crate/roguecloset/metal{
 	pixel_x = 11
 	},
-/obj/effect/spawner/lootdrop/general_loot_hi,
+/obj/item/gun/ballistic/rifle/repeater/jackal,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "nOL" = (
@@ -14629,7 +14584,7 @@
 "nOT" = (
 /obj/structure/spider/stickyweb/mirespider,
 /mob/living/simple_animal/hostile/retaliate/rogue/mirespider,
-/obj/item/roguecoin/silver/pile,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "nPD" = (
@@ -14996,7 +14951,6 @@
 /obj/effect/spawner/lootdrop/ammooutlet,
 /obj/effect/spawner/lootdrop/ammooutlet,
 /obj/structure/closet/crate/roguecloset/dark,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/clothing,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "ohP" = (
@@ -15206,6 +15160,7 @@
 	pixel_x = 4;
 	pixel_y = 14
 	},
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "oqe" = (
@@ -15659,7 +15614,7 @@
 /obj/structure/table/wood/longreif{
 	dir = 2
 	},
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "oIr" = (
@@ -16069,7 +16024,6 @@
 /obj/structure/fluff/walldeco/vent/vent3{
 	pixel_y = 30
 	},
-/obj/effect/spawner/lootdrop/general_loot_hi,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "oXf" = (
@@ -16234,7 +16188,7 @@
 /area/rogue/indoors/perserdunbase)
 "pfa" = (
 /mob/living/carbon/human/species/human/northern/deserters,
-/obj/item/gun/ballistic/rifle/repeater/perserdun,
+/obj/effect/spawner/lootdrop/normalguns,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/perserdun)
 "pfr" = (
@@ -16342,16 +16296,6 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors)
-"pmE" = (
-/obj/structure/bars/grille,
-/obj/effect/spawner/lootdrop/hightierammooutlet,
-/obj/structure/closet/crate/roguecloset/metal/metal2{
-	plane = -5
-	},
-/obj/item/roguecoin/silver/pile,
-/obj/effect/spawner/lootdrop/cheap_tableware_spawner,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "pmU" = (
 /obj/machinery/light/rogue/firebowl/standing{
 	pixel_y = 0;
@@ -16407,7 +16351,7 @@
 /area/rogue/under/cave/warmachine)
 "poG" = (
 /obj/structure/rack/rogue,
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "poH" = (
@@ -16576,7 +16520,7 @@
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors/caves)
 "pwz" = (
-/obj/item/roguecoin/silver/pile,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "pwT" = (
@@ -16885,15 +16829,6 @@
 "pMF" = (
 /obj/structure/mineral_door/wood/wardoor,
 /obj/effect/decal/cleanable/dirt/grime/grime2,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
-"pMH" = (
-/obj/structure/bars/grille,
-/obj/structure/closet/crate/roguecloset/metal/metal2{
-	plane = -5
-	},
-/obj/effect/spawner/lootdrop/general_loot_hi,
-/obj/effect/spawner/lootdrop/valuable_tableware_spawner,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "pMO" = (
@@ -17578,8 +17513,8 @@
 	plane = -5
 	},
 /obj/structure/bars/grille,
-/obj/item/roguecoin/silver/pile,
-/obj/effect/spawner/lootdrop/general_loot_hi/x3,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "qtr" = (
@@ -18027,10 +17962,6 @@
 "qSc" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue/outdoors/caves)
-"qSr" = (
-/obj/effect/spawner/lootdrop/valuable_candle_spawner,
-/turf/open/floor/rogue/grasscold,
-/area/rogue/outdoors/beach/forest/south)
 "qSs" = (
 /obj/structure/table/wood/large_table/north_east,
 /obj/effect/spawner/lootdrop/valuable_tableware_spawner,
@@ -19643,8 +19574,8 @@
 /area/rogue/indoors/shelter/town)
 "svo" = (
 /mob/living/carbon/human/species/human/northern/deserters,
+/obj/effect/spawner/lootdrop/normalguns,
 /obj/effect/spawner/lootdrop/cheap_clutter_spawner,
-/obj/item/gun/ballistic/rifle/repeater/pistol,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/perserdun)
 "svx" = (
@@ -19735,7 +19666,7 @@
 /area/rogue/indoors/shelter/town/sargoth)
 "sAS" = (
 /obj/structure/table/wood/poor,
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/normalguns,
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/beach/forest/south)
 "sAY" = (
@@ -21624,7 +21555,7 @@
 /area/rogue/outdoors/town)
 "uhu" = (
 /obj/structure/table/wood/perserdunsmall/smallmetal,
-/obj/effect/spawner/lootdrop/valuable_candle_spawner,
+/obj/item/gun/ballistic/revolver/pace,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "uhA" = (
@@ -22091,7 +22022,7 @@
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
 	},
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "uFM" = (
@@ -22329,9 +22260,9 @@
 /area/rogue/outdoors)
 "uOd" = (
 /obj/structure/closet/crate/chest/crate,
+/obj/effect/spawner/lootdrop/normalguns,
 /obj/effect/spawner/lootdrop/ammo,
 /obj/effect/spawner/lootdrop/ammo,
-/obj/effect/spawner/lootdrop/general_loot_hi,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
 "uOk" = (
@@ -22401,11 +22332,6 @@
 /obj/structure/mineral_door/wood/fancy,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
-"uSk" = (
-/obj/structure/closet/crate/roguecloset/metal,
-/obj/item/roguecoin/gold/virtuepile,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
 "uTj" = (
 /obj/structure/flora/roguegrass/bush,
 /turf/open/floor/rogue/dirt,
@@ -22433,13 +22359,8 @@
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/outdoors/beach/forest/south)
 "uTT" = (
-/obj/structure/closet/crate/roguecloset/metal{
-	pixel_x = -7
-	},
-/obj/structure/closet/crate/roguecloset/metal{
-	pixel_x = 11
-	},
-/obj/effect/spawner/lootdrop/cheap_clutter_spawner,
+/obj/structure/spider/stickyweb/mirespider,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "uUm" = (
@@ -22557,7 +22478,7 @@
 /obj/effect/decal/cleanable/debris/woody,
 /obj/structure/table/wood/poor,
 /obj/effect/spawner/lootdrop/ammo,
-/obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/effect/spawner/lootdrop/ammo,
 /turf/open/floor/rogue/perdun,
 /area/rogue/outdoors/beach/forest/south)
 "vdd" = (
@@ -23824,7 +23745,7 @@
 /obj/structure/closet/crate/roguecloset/metal{
 	pixel_x = 11
 	},
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "wpb" = (
@@ -23984,12 +23905,9 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/perserdunbase)
 "wwP" = (
-/obj/structure/bars/grille,
-/obj/structure/closet/crate/roguecloset/metal/metal2{
-	plane = -5
-	},
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
-/turf/open/floor/rogue/redlight,
+/obj/structure/table/wood/longreif,
+/obj/effect/spawner/lootdrop/normalgunsoutlet,
+/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/under/cave/warmachine)
 "wwT" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/saiga,
@@ -25190,7 +25108,7 @@
 	plane = -5
 	},
 /obj/structure/bars/grille,
-/obj/effect/spawner/lootdrop/t13armor,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "xFS" = (
@@ -25279,11 +25197,8 @@
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "xKJ" = (
-/obj/structure/spider/stickyweb/mirespider,
-/mob/living/simple_animal/hostile/retaliate/rogue/mirespider,
-/obj/effect/spawner/lootdrop/valuable_clutter_spawner,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/indoors/perserdunbase)
 "xKV" = (
 /turf/closed/wall/mineral/rogue/scary/end/north,
 /area/rogue/under/cave/umamusume)
@@ -25350,7 +25265,7 @@
 /obj/structure/table/wood/longreif{
 	dir = 4
 	},
-/obj/item/roguecoin/silver/pile,
+/obj/effect/spawner/lootdrop/hightiergunsoutlet,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "xNC" = (
@@ -25655,13 +25570,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/rogue/warmetal,
-/area/rogue/under/cave/warmachine)
-"ycB" = (
-/obj/structure/table/wood/longreif{
-	dir = 1
-	},
-/obj/effect/spawner/lootdrop/general_loot_mid,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "ydc" = (
@@ -60165,7 +60073,7 @@ vbM
 hdl
 tcP
 mSh
-ezw
+uEV
 mSh
 tcP
 hdl
@@ -61100,9 +61008,9 @@ vbM
 vbM
 vbM
 hdl
-bdU
+fWF
 aYN
-wwP
+uEV
 aYN
 uEV
 aYN
@@ -66815,7 +66723,7 @@ iep
 aYN
 aYN
 hFc
-woJ
+vRd
 dYB
 oxM
 aYb
@@ -67112,12 +67020,12 @@ vbM
 vbM
 vbM
 hdl
-uTT
+woJ
 hFc
 aYN
 aYN
 hFc
-uTT
+woJ
 mbR
 iPF
 lTa
@@ -67716,7 +67624,7 @@ vbM
 vbM
 vbM
 dYB
-eWc
+woJ
 hFc
 mRj
 ryH
@@ -69533,7 +69441,7 @@ tcM
 mbR
 aYN
 aYN
-nhi
+buQ
 bUW
 vki
 aYN
@@ -69837,7 +69745,7 @@ pwT
 xUS
 bLG
 sPS
-ycB
+bLG
 wWm
 wWm
 fPr
@@ -70755,7 +70663,7 @@ dYB
 vyG
 poG
 dwx
-mYO
+poG
 dwx
 aYN
 vDJ
@@ -88381,7 +88289,7 @@ fXf
 uKo
 aYN
 aYN
-pMH
+pnK
 shd
 fXf
 vbM
@@ -88985,7 +88893,7 @@ dYB
 ltB
 aYN
 aYN
-kSp
+pnK
 uKo
 dYB
 vbM
@@ -131710,7 +131618,7 @@ mbR
 lSY
 tgv
 tgv
-hiU
+wwP
 tgv
 hdl
 vbM
@@ -136257,10 +136165,10 @@ vbM
 hdl
 ozp
 aYN
-uSk
-gSN
 hUB
 gSN
+hUB
+hUB
 hdl
 vbM
 vbM
@@ -156471,7 +156379,7 @@ vbM
 vbM
 vbM
 hdl
-htU
+pnK
 aYN
 aYN
 aYN
@@ -156773,7 +156681,7 @@ vbM
 vbM
 vbM
 dYB
-pmE
+pnK
 aYN
 jVD
 aYN
@@ -184241,7 +184149,7 @@ ihl
 ihl
 ihl
 aDh
-aDh
+xKJ
 vTK
 caS
 gnt
@@ -193917,7 +193825,7 @@ aYN
 vun
 aYN
 hdl
-cuG
+woJ
 mqk
 hFc
 vBb
@@ -194522,7 +194430,7 @@ aYN
 vun
 hdl
 eOp
-aYN
+htU
 ctT
 mqk
 uzn
@@ -198441,7 +198349,7 @@ imq
 imq
 qSc
 hdl
-xKJ
+ixV
 kUV
 aYN
 aYN
@@ -198743,7 +198651,7 @@ imq
 imq
 qSc
 dYB
-nkS
+uTT
 nkS
 att
 aYN
@@ -263422,7 +263330,7 @@ uiF
 uiF
 uiF
 uiF
-qSr
+uiF
 uiF
 uiF
 uiF
