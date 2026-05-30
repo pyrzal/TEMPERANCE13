@@ -43,7 +43,6 @@
 	pants = /obj/item/clothing/under/roguetown/heavy_leather_pants
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
-	beltr = /obj/item/storage/belt/rogue/surgery_bag/full
 	head = /obj/item/clothing/head/roguetown/helmet/leather/envoy
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask/envoy
 	wrists = /obj/item/scomstone/garrison
