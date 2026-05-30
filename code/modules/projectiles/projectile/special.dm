@@ -150,7 +150,7 @@
 	icon = 'icons/roguetown/items/lighting.dmi'
 	icon_state = "fgunlow"
 	desc = "A burning flare! Looks bright. Far too hot to touch while it's burning."
-	light_outer_range = 8
+	light_outer_range = 14
 	on = TRUE
 	slot_flags = ITEM_SLOT_HIP
 	obj_flags = CAN_BE_HIT
@@ -178,9 +178,9 @@
 /obj/item/flashlight/flare/flaregun/high
 	name = "illumination flare"
 	desc = "An illumination flare is in the air overhead."
-	light_power = 40
+	light_power = 60
 	light_inner_range = null
-	light_outer_range = 40
+	light_outer_range = 60
 //	light_falloff_curve = 0.2
 	icon_state = "fgunhigh"
 	extinguishable = FALSE
