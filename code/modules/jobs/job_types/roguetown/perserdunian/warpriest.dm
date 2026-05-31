@@ -96,3 +96,8 @@
 	ADD_TRAIT(H, TRAIT_RABCHOSEN, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_RITUALIST, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_GRAVEROBBER, TRAIT_GENERIC) // felt fitting but can be removed at request
+
+	if(should_wear_masc_clothes(H))
+		cloak = /obj/item/clothing/cloak/half/bishopcloak
+	else if(should_wear_femme_clothes(H))
+		cloak = /obj/item/clothing/cloak/battlenun

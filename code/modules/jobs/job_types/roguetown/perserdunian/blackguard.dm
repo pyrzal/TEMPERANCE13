@@ -66,7 +66,7 @@
 		)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 5, TRUE) 
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/unarmed, 3, TRUE) //Same tier as Veteranos
+	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE) //Same tier as Veteranos
 	H.adjust_skillrank(/datum/skill/combat/maces, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/revolvers, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/knives, 4, TRUE)
@@ -76,7 +76,6 @@
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/misc/sneaking, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/tracking, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/traps, 4, TRUE)
 	H.change_stat("strength", 1)
