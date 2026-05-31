@@ -920,9 +920,9 @@
 
 /obj/item/rogueweapon/huntingknife/combat/blackguard 
 	force = 25 
-	name = "\"L'Saigneur\""
-	desc = "A lovingly-customized imperial messer that barely fits into a conventional dagger sheath - the prized possession of the Blackguard. It lacks a proper tip for stabbing - yet the serrated edge makes it a formidable, if not sadistic tool for rending flesh. \
-	The cast-iron spikes along the handle prevent an opponent from disarming it, and makes for a vile means of inflicting blunt force trauma."
+	name = "fervor"
+	name = "fervor"
+	desc = "A modified imperial messer, sawed down and cut to size. The handguard's been modified to come with some nasty looking spikes, kinda like a knuckle duster."
 	possible_item_intents = list(/datum/intent/dagger/cut/heavy, /datum/intent/dagger/cut/rend, /datum/intent/dagger/sucker_punch/wallop, /datum/intent/dagger/thrust/combat)
 	icon_state = "blackguardknife"
 	sheathe_icon = "combatknife"
