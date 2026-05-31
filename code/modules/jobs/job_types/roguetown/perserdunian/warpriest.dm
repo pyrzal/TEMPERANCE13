@@ -47,7 +47,6 @@
 	beltr = /obj/item/flashlight/flare/torch/lantern
 	armor = /obj/item/clothing/suit/roguetown/shirt/robe/warpriest
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
-	head = /obj/item/clothing/head/roguetown/inqhat
 	// neck = /obj/item/clothing/neck/roguetown/psicross/astrata	i'm hoping we get a religious symbol for rab at some point
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	wrists = /obj/item/scomstone/garrison
