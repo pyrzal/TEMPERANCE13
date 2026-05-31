@@ -66,6 +66,7 @@
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 5, TRUE) 
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/maces, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/revolvers, 4, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/knives, 3, TRUE)
