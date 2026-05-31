@@ -1396,7 +1396,7 @@
 	slot_flags = ITEM_SLOT_CLOAK
 
 /obj/item/clothing/cloak/battlenun
-	name = "nun vestments"
+	name = "bishop's vestments"
 	desc = "Chaste, righteous, merciless to the wicked."
 	color = null
 	icon_state = "battlenun"
@@ -1982,7 +1982,7 @@
 	user.update_inv_armor()
 
 /obj/item/clothing/cloak/half/bishopcloak
-	name = "stalker cloak"
+	name = "bishop's vestibule"
 	desc = "A heavy leather cloak held together by a gilded pin, depicting a bloody needle in front of a silver tree. The sign of a faithful servant of RAB."
 	icon_state = "bishopcloak"
 	color = null
