@@ -2023,10 +2023,6 @@
 "bLe" = (
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter/town/sargoth)
-"bLg" = (
-/obj/effect/loretile/kingsrow,
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/town)
 "bLp" = (
 /obj/structure/flora/roguetree/pine{
 	icon_state = "pine4-snow"
@@ -2697,6 +2693,10 @@
 "cvK" = (
 /turf/open/floor/rogue/twig/platform,
 /area/rogue/outdoors/perserdun)
+"cvV" = (
+/obj/effect/loretile/kingsrow,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/town)
 "cwc" = (
 /turf/open/water/river/flow/east,
 /area/rogue/outdoors/beach/forest/south)
@@ -3199,10 +3199,6 @@
 "cUJ" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue/under/cave)
-"cUQ" = (
-/obj/effect/loretile/kingsrow,
-/turf/open/floor/rogue/dirt/road,
-/area/rogue/outdoors/town)
 "cVn" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/goat/tame,
 /turf/open/floor/rogue/hay,
@@ -3322,6 +3318,10 @@
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
+"cZS" = (
+/obj/effect/loretile/kingsrow,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/town)
 "cZU" = (
 /obj/structure/barbedwire,
 /obj/structure/barbedwire,
@@ -5651,10 +5651,6 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
-"flP" = (
-/obj/effect/loretile/kingsrow,
-/turf/open/floor/rogue/grassred,
-/area/rogue/outdoors/town)
 "flS" = (
 /obj/structure/bed/rogue,
 /obj/structure/closet/crate/drawer/random{
@@ -5903,6 +5899,10 @@
 /obj/structure/table/wood/map/five,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
+"fyR" = (
+/obj/effect/loretile/kingsrow,
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/town)
 "fzg" = (
 /obj/structure/closet/crate/roguecloset/inn/south,
 /obj/effect/spawner/lootdrop/general_loot_mid/x3,
@@ -8977,6 +8977,10 @@
 /obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town/sargoth)
+"iwB" = (
+/obj/effect/loretile/kingsrow,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "iwM" = (
 /obj/structure/table/wood/perserdunsmall/smallmetal2,
 /obj/item/storage/belt/rogue/surgery_bag/full,
@@ -10455,6 +10459,10 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
+"jSA" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/town)
 "jTa" = (
 /obj/item/rogueweapon/hammer/iron{
 	pixel_y = 9;
@@ -14797,14 +14805,6 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter/town)
-"ofA" = (
-/obj/effect/loretile/kingsrow,
-/turf/open/floor/rogue/cobble,
-/area/rogue/outdoors/town)
-"ofP" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/town)
 "ofY" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -15067,10 +15067,6 @@
 	},
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/cave)
-"oos" = (
-/obj/effect/loretile/kingsrow,
-/turf/open/floor/rogue/dirt,
-/area/rogue/outdoors/town)
 "ooz" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/rogue/cobble,
@@ -21992,6 +21988,10 @@
 "uBR" = (
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/caves)
+"uCz" = (
+/obj/effect/loretile/kingsrow,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/town)
 "uDg" = (
 /obj/item/folding_table_stored{
 	name = "small cradle";
@@ -243153,14 +243153,14 @@ pAs
 eJZ
 xHm
 czF
-flP
-flP
-flP
-flP
-cUQ
-bLg
-bLg
-bLg
+uCz
+uCz
+uCz
+uCz
+iwB
+cvV
+cvV
+cvV
 uWG
 mqL
 mqL
@@ -244962,7 +244962,7 @@ kvV
 kvV
 hVP
 fOc
-flP
+uCz
 bac
 fqK
 fqK
@@ -245591,7 +245591,7 @@ fSA
 ury
 ury
 ury
-oos
+cZS
 ury
 ury
 ury
@@ -245893,7 +245893,7 @@ fyg
 fyg
 ury
 ury
-oos
+cZS
 ury
 ury
 ury
@@ -246176,7 +246176,7 @@ fyg
 fyg
 fyg
 fyg
-ofP
+jSA
 fyg
 fyg
 fyg
@@ -246195,7 +246195,7 @@ fyg
 fyg
 fyg
 fyg
-bLg
+cvV
 fyg
 fyg
 fyg
@@ -246497,7 +246497,7 @@ fyg
 fyg
 ury
 fyg
-bLg
+cvV
 fyg
 fyg
 fyg
@@ -246799,7 +246799,7 @@ fyg
 ury
 ury
 ury
-bLg
+cvV
 fyg
 fyg
 fyg
@@ -247101,7 +247101,7 @@ ury
 ury
 ury
 ury
-oos
+cZS
 fyg
 fyg
 fyg
@@ -247378,7 +247378,7 @@ kvV
 kvV
 hVP
 fOc
-flP
+uCz
 bac
 fqK
 fqK
@@ -247403,7 +247403,7 @@ ury
 ury
 ury
 ury
-oos
+cZS
 ury
 fyg
 fyg
@@ -247694,7 +247694,7 @@ ury
 fyg
 fyg
 fyg
-ury
+mze
 ury
 kxU
 uWG
@@ -247705,7 +247705,7 @@ tEr
 mqL
 nqj
 uWG
-ofA
+fyR
 ury
 fyg
 fyg
@@ -247993,10 +247993,10 @@ mze
 ury
 ury
 ury
-ury
+mze
 fyg
 fyg
-ury
+mze
 fyg
 jPi
 qJf
@@ -248294,8 +248294,8 @@ mze
 mze
 mze
 ury
-ury
-ury
+mze
+mze
 fyg
 fyg
 fyg
@@ -248595,10 +248595,10 @@ bac
 pTN
 mze
 mze
-ury
-ury
-ury
-ury
+mze
+mze
+fyg
+fyg
 fyg
 fyg
 fyg
@@ -248898,10 +248898,10 @@ bqj
 dpY
 mze
 mze
-ury
-ury
-ury
-ury
+fyg
+fyg
+fyg
+mze
 fyg
 fyg
 uWG
@@ -249199,12 +249199,12 @@ bac
 oDx
 mze
 mze
-ury
-ury
-ury
-ury
-ury
-ury
+fyg
+fyg
+fyg
+fyg
+mze
+mze
 ury
 tEr
 nqj
@@ -249501,11 +249501,11 @@ bac
 bac
 mze
 mze
-ury
-ury
-ury
-ury
-ury
+fyg
+fyg
+fyg
+mze
+mze
 ury
 ury
 czF
@@ -249800,13 +249800,13 @@ czF
 bac
 bac
 bac
-bac
 mze
-ury
 mze
-ury
-ury
-ury
+fyg
+fyg
+fyg
+mze
+mze
 ury
 ury
 ury
@@ -250100,14 +250100,14 @@ gdH
 sDn
 czF
 bac
-bac
-bac
-bac
+hJK
 mze
-ury
-ury
-ury
-ury
+mze
+fyg
+fyg
+fyg
+fyg
+mze
 uWG
 mqL
 mqL
@@ -250402,13 +250402,13 @@ mqL
 mqL
 uWG
 bac
-hJK
-bac
-bac
 mze
-ury
-ury
-ury
+mze
+fyg
+fyg
+fyg
+fyg
+mze
 ury
 czF
 qJq
@@ -250703,14 +250703,14 @@ kvV
 erg
 rzD
 czF
-bac
-bac
-bac
-bac
 mze
-ury
-ury
-ury
+mze
+mze
+fyg
+fyg
+fyg
+mze
+mze
 ury
 czF
 hhf
@@ -251005,15 +251005,15 @@ kvV
 kvV
 lhd
 czF
-bac
-bac
-bac
-bac
+fyg
+mze
+fyg
+fyg
+fyg
+mze
 mze
 ury
 ury
-ury
-fyg
 czF
 tTs
 qWA
@@ -251307,14 +251307,14 @@ kvV
 kvV
 kvV
 gdV
-bac
-bac
-bac
-bac
+fyg
+fyg
+fyg
+fyg
+fyg
 mze
 ury
 ury
-mze
 mze
 czF
 bKE
@@ -251609,13 +251609,13 @@ kvV
 kvV
 kvV
 wxt
-bac
-bac
-bac
+fyg
+fyg
+fyg
+fyg
 mze
 mze
 ury
-mze
 pTN
 mze
 uWG
@@ -251911,9 +251911,9 @@ kvV
 kvV
 kvV
 dhT
-bac
-bac
-bac
+fyg
+fyg
+mze
 mze
 mze
 ury
@@ -252213,9 +252213,9 @@ kvV
 kvV
 ohx
 czF
-bac
-bac
-bac
+fyg
+mze
+mze
 mze
 ury
 ury
@@ -252515,8 +252515,8 @@ esq
 bPF
 ljJ
 czF
-bac
-bac
+mze
+mze
 mze
 ury
 ury
@@ -252817,15 +252817,15 @@ mqL
 mqL
 mqL
 uWG
-flP
-flP
-cUQ
-oos
-oos
-oos
-oos
-oos
-oos
+uCz
+uCz
+iwB
+cZS
+cZS
+cZS
+cZS
+cZS
+cZS
 uWG
 mqL
 mqL
