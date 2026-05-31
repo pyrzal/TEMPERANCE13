@@ -1980,3 +1980,10 @@
 		alternate_worn_layer = UNDER_ARMOR_LAYER
 	user.update_inv_cloak()
 	user.update_inv_armor()
+
+/obj/item/clothing/cloak/half/bishopcloak
+	name = "stalker cloak"
+	desc = "A heavy leather cloak held together by a gilded pin, depicting a bloody needle in front of a silver tree. The sign of a faithful servant of RAB."
+	icon_state = "bishopcloak"
+	color = null
+	allowed_race = NON_DWARVEN_RACE_TYPES
