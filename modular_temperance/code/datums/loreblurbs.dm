@@ -132,7 +132,7 @@ Just because it'd get a LITTLE annoying if you kept seeing this over and over. H
 
 /datum/loreblurb/factory
 	title = "The Factory"
-	description = "Occasional, startling bangs ring throughout the metal tomb. It's oppressive - you feel like you could die at any moment, here.\n\
+	description = "Occasional, startling bangs ring throughout the metal tomb. It's oppressive - you feel like you could die at any moment in here.\n\
 	You feel on edge. Hopefully you're not alone. It's caked in rust, dirt, and grime - filth covers both the boots and the gloves. \n\
 	There's a faint smell of oil, gunpowder, and iron in the air."
 	sound = 'sound/loredump/lore_sting6.ogg'
@@ -159,3 +159,9 @@ Just because it'd get a LITTLE annoying if you kept seeing this over and over. H
 	title = "!"
 	description = "26 15 231 213 16 43 41 312 16 52 131"
 	sound = 'sound/loredump/lore_sting8.ogg'
+
+/datum/loreblurb/kingsrow
+	title = "BELOVED KING'S ROW"
+	description = "When the Imperials first arrived, this estate was completely levelled by the shelling - manor and all included. \n\
+	It's only been a month or two - yet most of the estate's been entirely rebuilt despite any real worksmen nor materials, though the exterior's been replaced with cold metal. \n\
+	Strangely enough, they say that the basement's been completely replaced and one of the main bedrooms went missing in the manor."
