@@ -4,7 +4,7 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_CONSCRIPT
 	outfit = /datum/outfit/job/roguetown/adventurer/mage
-	category_tags = list(CTAG_DISABLED)
+	category_tags = list(CTAG_ADVENTURER, CTAG_COURTAGENT)
 	traits_applied = list(TRAIT_OUTLANDER)
 	classes = list("Sorcerer" = "You are a learned mage and a scholar, having spent your life studying the arcane and its ways.")
 
