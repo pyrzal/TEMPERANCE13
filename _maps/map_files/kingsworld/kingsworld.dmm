@@ -22968,6 +22968,7 @@
 	pixel_y = 1;
 	pixel_x = 32
 	},
+/obj/machinery/light/rogue/cauldron,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "vvG" = (
@@ -23467,6 +23468,10 @@
 "vWy" = (
 /obj/structure/table/vtable,
 /obj/item/cooking/pan,
+/obj/item/millstone{
+	pixel_y = 8;
+	pixel_x = 15
+	},
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
 "vXb" = (
@@ -24675,6 +24680,10 @@
 /obj/effect/spawner/lootdrop/cheap_clutter_spawner,
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/risvon)
+"xkB" = (
+/obj/structure/fluff/alch,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "xkJ" = (
 /obj/structure/flora/roguetree/stump/burnt{
 	pixel_x = -43;
@@ -330554,7 +330563,7 @@ aBH
 sUh
 pQD
 ihx
-ihx
+xkB
 vvB
 rHc
 ajg
