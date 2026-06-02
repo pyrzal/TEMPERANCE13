@@ -921,8 +921,7 @@
 /obj/item/rogueweapon/huntingknife/combat/blackguard 
 	force = 25 
 	name = "fervor"
-	name = "fervor"
-	desc = "A modified imperial messer, sawed down and cut to size. The handguard's been modified to come with some nasty looking spikes."
+	desc = "A modified imperial messer, sawed down and cut to size. The handguard's spikes have been worn down into blunted knobs."
 	possible_item_intents = list(/datum/intent/dagger/cut/heavy, /datum/intent/dagger/cut/rend, /datum/intent/dagger/sucker_punch/wallop, /datum/intent/dagger/thrust/combat)
 	icon_state = "blackguardknife"
 	sheathe_icon = "combatknife"
