@@ -747,12 +747,6 @@
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/rogue/dirt,
 /area/rogue/outdoors/beach/forest/south)
-"aHs" = (
-/obj/structure/machine/spawner/delay{
-	pixel_x = -1
-	},
-/turf/open/floor/rogue/wardouble,
-/area/rogue/under/cave/warmachine)
 "aHH" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/spawner/lootdrop/general_loot_mid,
@@ -265188,7 +265182,7 @@ rWq
 aYN
 aYN
 shf
-aHs
+xhz
 aYN
 aYN
 rWq
