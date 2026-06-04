@@ -482,7 +482,7 @@
 
 
 /obj/item/rogueweapon/mace/cudgel/blackguard
-	name = "accusation"
+	name = "Accusation"
 	desc = "An enhanced, sleek cudgel for clandestine operations. Can be thrown in a pinch."
 	force = 25
 	icon_state = "blackguardcudgel"

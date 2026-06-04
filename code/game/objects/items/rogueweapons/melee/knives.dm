@@ -920,7 +920,7 @@
 
 /obj/item/rogueweapon/huntingknife/combat/blackguard 
 	force = 25 
-	name = "avowal"
+	name = "Avowal"
 	desc = "A modified imperial messer, sawed down and cut to size. The handguard's spikes have been worn down into blunted knobs."
 	possible_item_intents = list(/datum/intent/dagger/cut/heavy, /datum/intent/dagger/cut/rend, /datum/intent/dagger/sucker_punch/wallop, /datum/intent/dagger/thrust/combat)
 	icon_state = "blackguardknife"
