@@ -527,5 +527,7 @@
 	item_chair = null
 
 /obj/structure/chair/bench/cavethrone
+	name = "black throne"
+	desc = "You, who could never understand our thirst..."
 	icon_state = "cave_throne"
 	item_chair = null

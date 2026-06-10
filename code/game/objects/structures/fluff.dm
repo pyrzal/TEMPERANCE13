@@ -857,6 +857,10 @@
 /obj/structure/fluff/statue/aasimar
 	icon_state = "aasimar"
 
+/obj/structure/fluff/statue/rack
+	name = "rack"
+	icon_state = "rack"
+
 /obj/structure/fluff/statue/gargoyle/candles
 	icon_state = "gargoyle_candles"
 
@@ -1414,3 +1418,10 @@
 	stake.forceMove(drop_location())
 	stake = null
 	qdel(src)
+
+
+/obj/structure/fluff/statue/stag
+	name = "pale stag"
+	desc = "Drained of blood."
+	icon_state = "white_stag"
+	icon = 'icons/roguetown/misc/tallandwide.dmi'
