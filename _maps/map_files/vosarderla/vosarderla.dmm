@@ -1,9 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 4;
+	pixel_y = -14
+	},
+/obj/structure/table/wood/large_table/north_east,
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "aI" = (
 /obj/effect/decal/cobbleedge{
 	dir = 1;
 	icon_state = "borderfall";
 	color = "#808080"
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"aZ" = (
+/obj/structure/table/wood/longreif{
+	dir = 1
+	},
+/obj/effect/decal/carpet/kover_darkred{
+	pixel_y = -10
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
@@ -14,6 +31,14 @@
 	},
 /obj/structure/fluff/walldeco/pedestal{
 	pixel_y = 4
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"br" = (
+/obj/structure/table/wood/large_table/middle_west,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 16
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
@@ -32,6 +57,14 @@
 /obj/machinery/light/rogue/torchholder/l,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"dB" = (
+/obj/structure/table/wood/large_table/middle_west,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 13
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "dO" = (
 /obj/structure/fluff/walldeco/vosarderla{
 	pixel_y = 31
@@ -39,22 +72,17 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue)
 "es" = (
-/obj/structure/vine{
-	icon_state = "bloodl2";
-	name = "veins"
-	},
-/obj/structure/fluff/walldeco/vosarderla{
-	pixel_y = 31
-	},
-/obj/structure/fluff/walldeco/hardblood/orb{
-	layer = 4.21;
-	pixel_y = 10
+/obj/structure/table/wood/large_table/middle_west,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 13;
+	pixel_x = -2
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
 "eR" = (
-/obj/effect/decal/carpet/kover_darkred,
-/turf/open/floor/rogue/cobblerock,
+/obj/structure/table/wood/large_table/middle_east,
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "fh" = (
 /obj/structure/vampire/bloodpool{
@@ -72,9 +100,36 @@
 	},
 /turf/open/floor/rogue/vcarpet/north,
 /area/rogue)
+"gx" = (
+/obj/structure/chair/stool/rogue{
+	color = "#808080"
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"gL" = (
+/obj/structure/table/wood/large_table/middle_east,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 16
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "gZ" = (
 /obj/machinery/light/rogue/torchholder/l,
 /turf/open/floor/rogue/herringbone,
+/area/rogue)
+"if" = (
+/obj/structure/fluff/walldeco/wallshield{
+	pixel_x = 32
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"iF" = (
+/obj/structure/vine{
+	icon_state = "bloodl3";
+	name = "veins"
+	},
+/turf/open/water/bloody,
 /area/rogue)
 "jo" = (
 /obj/structure/curtain/red,
@@ -96,14 +151,51 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"jM" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/obj/structure/fluff/railing/border/west{
+	color = "#808080"
+	},
+/obj/structure/fluff/walldeco/xavo{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "kn" = (
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"kR" = (
+/obj/structure/table/wood/large_table/north_west,
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "lg" = (
 /turf/closed/wall/mineral/rogue/stonebrick,
 /area/rogue)
 "lD" = (
 /turf/open/floor/rogue/vcarpet/north,
+/area/rogue)
+"lR" = (
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 1;
+	pixel_y = 10;
+	pixel_x = 18
+	},
+/obj/structure/fluff/pillow/red{
+	dir = 8;
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"mN" = (
+/obj/effect/decal/carpet/kover_darkred{
+	layer = 2.9
+	},
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "oh" = (
 /obj/structure/vine{
@@ -115,6 +207,21 @@
 "oz" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue)
+"oQ" = (
+/obj/structure/table/wood/large_table/north_east,
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"pB" = (
+/obj/structure/table/wood/large_table/middle_west,
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"pV" = (
+/obj/structure/vine{
+	icon_state = "bloodl2";
+	name = "veins"
+	},
+/turf/open/water/bloody,
+/area/rogue)
 "qa" = (
 /obj/structure/vine{
 	icon_state = "bloodl2";
@@ -122,6 +229,20 @@
 	},
 /obj/machinery/light/rogue/torchholder/r,
 /turf/open/floor/rogue/herringbone,
+/area/rogue)
+"qM" = (
+/obj/structure/vine{
+	icon_state = "bloodl3";
+	name = "veins"
+	},
+/obj/structure/fluff/walldeco/hardblood/orb{
+	pixel_y = -11;
+	pixel_x = -11
+	},
+/obj/structure/fluff/walldeco/vosarderla{
+	pixel_y = 31
+	},
+/turf/open/water/bloody,
 /area/rogue)
 "rh" = (
 /obj/structure/vine{
@@ -134,7 +255,7 @@
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
 "rA" = (
-/obj/structure/roguemachine/mail,
+/obj/structure/mineral_door/wood/fancy,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
 "rF" = (
@@ -148,6 +269,55 @@
 	},
 /turf/open/floor/rogue/vcarpet,
 /area/rogue)
+"sv" = (
+/obj/structure/fluff/walldeco/grandmaster{
+	pixel_y = 32
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"sM" = (
+/obj/structure/table/wood/longreif{
+	dir = 2
+	},
+/obj/effect/decal/carpet/kover_darkred{
+	layer = 2.9
+	},
+/obj/structure/fluff/walldeco/hardblood/open{
+	pixel_y = 19;
+	pixel_x = 6;
+	layer = 4.1
+	},
+/obj/structure/fluff/walldeco/hardblood/open{
+	pixel_y = 9;
+	layer = 4.4
+	},
+/obj/structure/fluff/walldeco/hardblood/open{
+	pixel_y = 15;
+	pixel_x = -3;
+	layer = 4.3
+	},
+/obj/structure/fluff/walldeco/hardblood/open{
+	pixel_y = 12;
+	layer = 4.3;
+	pixel_x = 6
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"tk" = (
+/obj/structure/vine{
+	icon_state = "bloodl2";
+	name = "veins"
+	},
+/obj/structure/fluff/walldeco/vosarderla{
+	pixel_y = 31
+	},
+/turf/open/water/bloody,
+/area/rogue)
 "tI" = (
 /obj/structure/gate{
 	gid = "vampiremanor"
@@ -157,6 +327,30 @@
 "tP" = (
 /obj/structure/mineral_door/wood/red,
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"tV" = (
+/obj/structure/fluff/walldeco/hardblood/orb{
+	layer = 4.21;
+	pixel_y = 10
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"uA" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_x = -15
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"uP" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/obj/structure/fluff/walldeco/vosarderla{
+	pixel_y = 31
+	},
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "wu" = (
 /obj/structure/fluff/railing/corner/north_east{
@@ -183,6 +377,35 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"yg" = (
+/obj/structure/winch{
+	dir = 1;
+	gid = "vampiremanor"
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/obj/structure/fluff/railing/border/east{
+	color = "#808080"
+	},
+/obj/structure/fluff/walldeco/xavo{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"ym" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/obj/structure/fluff/walldeco/leibware{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "yE" = (
 /obj/structure/vine{
 	icon_state = "bloodl2";
@@ -197,6 +420,17 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"zG" = (
+/obj/structure/fluff/walldeco/xavo{
+	pixel_y = 32
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "AA" = (
 /obj/structure/vine{
 	icon_state = "bloodl3";
@@ -204,22 +438,33 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
-"AO" = (
-/obj/structure/fluff/walldeco/vosarderla{
-	pixel_y = 31
-	},
-/obj/structure/vine{
-	icon_state = "bloodl3";
-	name = "veins"
-	},
-/obj/structure/fluff/walldeco/hardblood/orb{
-	pixel_y = -11;
-	pixel_x = -11
+"AG" = (
+/obj/structure/fluff/statue/rack{
+	color = "#808080"
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"AH" = (
+/obj/structure/table/wood/perserdunsmall,
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"AM" = (
+/obj/structure/table/wood/large_table/south_east,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 19
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"AO" = (
+/turf/open/floor/rogue/grassred,
+/area/rogue)
 "Bd" = (
 /turf/open/floor/rogue/vcarpet,
+/area/rogue)
+"CC" = (
+/obj/structure/roguemachine/mail,
+/turf/open/water/bloody,
 /area/rogue)
 "Dm" = (
 /obj/structure/stairs/stone/old{
@@ -248,6 +493,16 @@
 	},
 /turf/open/floor/rogue/vcarpet,
 /area/rogue)
+"FI" = (
+/obj/structure/fluff/walldeco/vosarderla{
+	pixel_y = 31
+	},
+/obj/structure/vine{
+	icon_state = "bloodl2";
+	name = "veins"
+	},
+/turf/open/water/bloody,
+/area/rogue)
 "FR" = (
 /obj/structure/stairs/stone/old{
 	dir = 1
@@ -263,8 +518,30 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"GE" = (
+/obj/structure/table/wood/large_table/south_east,
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"GR" = (
+/obj/structure/table/wood/longreif{
+	dir = 4
+	},
+/obj/effect/decal/carpet/kover_darkred{
+	layer = 2.9
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "HU" = (
 /turf/closed,
+/area/rogue)
+"IC" = (
+/obj/structure/table/wood/large_table/south_west,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 19;
+	pixel_x = -2
+	},
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "IO" = (
 /obj/structure/fluff/walldeco/hardblood/orb{
@@ -273,18 +550,27 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"Jo" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_y = 12
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "JV" = (
-/obj/structure/winch{
-	dir = 1;
-	gid = "vampiremanor"
+/obj/structure/chair/wood/rogue/generic2{
+	dir = 4
 	},
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall";
-	color = "#808080"
-	},
-/obj/structure/fluff/railing/border/east{
-	color = "#808080"
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"JW" = (
+/obj/structure/mineral_door/wood/fancy,
+/turf/open/floor/rogue/vcarpet,
+/area/rogue)
+"Lc" = (
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 9;
+	pixel_x = 4
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
@@ -302,6 +588,17 @@
 /obj/machinery/light/rogue/torchholder/r,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"NB" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/obj/structure/fluff/walldeco/grandmaster{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "Oj" = (
 /obj/structure/fluff/walldeco/hardblood/open{
 	pixel_y = 17;
@@ -312,14 +609,37 @@
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"Ok" = (
+/obj/structure/chair/bench/comfychair{
+	dir = 8
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "OG" = (
 /turf/open/floor/rogue/cobblerock,
+/area/rogue)
+"OS" = (
+/obj/structure/table/wood/large_table/middle_west,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 16;
+	pixel_x = -2
+	},
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "PZ" = (
 /obj/structure/stairs/stone/old{
 	dir = 1
 	},
 /turf/open/floor/rogue/vcarpet,
+/area/rogue)
+"Qf" = (
+/obj/structure/vine{
+	icon_state = "bloodl2";
+	name = "veins"
+	},
+/obj/machinery/light/rogue/torchholder/r,
+/turf/open/water/bloody,
 /area/rogue)
 "Qh" = (
 /obj/structure/roguewindow/haremblood{
@@ -332,13 +652,10 @@
 /turf/closed,
 /area/rogue)
 "Qj" = (
-/obj/structure/fluff/walldeco/vosarderla{
-	pixel_y = 31
+/obj/structure/chair/wood/rogue/generic2{
+	dir = 2
 	},
-/obj/structure/vine{
-	icon_state = "bloodl2";
-	name = "veins"
-	},
+/obj/machinery/light/rogue/torchholder/c,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
 "QH" = (
@@ -358,14 +675,69 @@
 	dir = 1
 	},
 /area/rogue)
+"Rw" = (
+/obj/structure/fluff/pillow/red{
+	dir = 2;
+	pixel_x = 5;
+	pixel_y = -22
+	},
+/obj/structure/fluff/pillow/red{
+	dir = 1;
+	pixel_x = -13;
+	pixel_y = -16
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"RS" = (
+/obj/structure/fluff/walldeco/stone{
+	color = "#808080";
+	pixel_x = -31
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "Sf" = (
 /obj/structure/fluff/railing/corner/north_east{
 	color = "#808080"
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"SZ" = (
+/obj/structure/table/wood/large_table/south_west,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 19
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"TE" = (
+/obj/structure/closet/crate/drawer/random{
+	pixel_x = -10;
+	pixel_y = 5
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"TO" = (
+/obj/structure/bed/rogue/inn/double{
+	dir = 8
+	},
+/obj/item/bedsheet/rogue/fabric_double{
+	dir = 8
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "TT" = (
 /turf/open/water/bloody,
+/area/rogue)
+"Un" = (
+/obj/structure/fluff/walldeco/leibware{
+	pixel_y = 32
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	icon_state = "borderfall";
+	color = "#808080"
+	},
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "Uo" = (
 /turf/closed/wall/mineral/rogue/decostone/mossy/red/end{
@@ -377,6 +749,20 @@
 	pixel_y = 32
 	},
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"UQ" = (
+/obj/structure/vine{
+	icon_state = "bloodl2";
+	name = "veins"
+	},
+/obj/structure/fluff/walldeco/hardblood/orb{
+	layer = 4.21;
+	pixel_y = 10
+	},
+/obj/structure/fluff/walldeco/vosarderla{
+	pixel_y = 31
+	},
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "Xi" = (
 /obj/structure/roguewindow/haremblood{
@@ -392,6 +778,18 @@
 /obj/structure/chair/bench/cavethrone,
 /turf/open/floor/rogue/vcarpet,
 /area/rogue)
+"Ye" = (
+/obj/machinery/light/rogue/torchholder/r,
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
+"Yn" = (
+/obj/structure/table/wood/large_table/middle_east,
+/obj/effect/decal/carpet/kover_darkred{
+	dir = 8;
+	pixel_y = 13
+	},
+/turf/open/floor/rogue/herringbone,
+/area/rogue)
 "YK" = (
 /obj/structure/stairs/stone/old{
 	dir = 1
@@ -400,6 +798,10 @@
 	color = "#808080"
 	},
 /turf/open/floor/rogue/vcarpet,
+/area/rogue)
+"YP" = (
+/obj/item/chair/rogue/generic2,
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 "YR" = (
 /turf/open/floor/rogue/herringbone,
@@ -410,8 +812,8 @@
 	icon_state = "borderfall";
 	color = "#808080"
 	},
-/obj/structure/fluff/railing/border/west{
-	color = "#808080"
+/obj/machinery/light/rogue/torchholder{
+	pixel_y = 32
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
@@ -425,6 +827,12 @@
 	color = "#808080"
 	},
 /turf/open/floor/rogue/vcarpet/north,
+/area/rogue)
+"ZS" = (
+/obj/structure/chair/wood/rogue/generic2{
+	dir = 8
+	},
+/turf/open/floor/rogue/herringbone,
 /area/rogue)
 
 (1,1,1) = {"
@@ -70581,7 +70989,7 @@ HU
 HU
 HU
 HU
-Gj
+HU
 HU
 HU
 HU
@@ -70808,12 +71216,12 @@ HU
 HU
 HU
 HU
-lg
-QH
-Dm
-lD
-lD
-lD
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -71035,12 +71443,12 @@ HU
 HU
 HU
 HU
-lg
-jE
-FR
-Bd
-Bd
-Bd
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -71262,12 +71670,12 @@ HU
 HU
 HU
 HU
-lg
-UC
-kn
-Bd
-Bd
-Bd
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -71489,12 +71897,12 @@ HU
 HU
 HU
 HU
-lg
-UC
-tP
-lD
-lD
-lD
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -71716,12 +72124,12 @@ HU
 HU
 HU
 HU
-lg
-jz
-OG
-OG
-OG
-TT
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -71943,12 +72351,12 @@ oz
 HU
 HU
 HU
-lg
-dO
-OG
-eR
-OG
-QY
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -72170,12 +72578,12 @@ oz
 HU
 HU
 HU
-lg
-xf
-OG
-OG
-OG
-jo
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -72397,12 +72805,12 @@ oz
 HU
 HU
 HU
-lg
-xK
-OG
-fh
-rF
-Ex
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -72624,12 +73032,12 @@ oz
 HU
 HU
 HU
-lg
-Oj
-YR
-YR
-jv
-Uo
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -72851,12 +73259,12 @@ oz
 HU
 HU
 HU
-lg
-bc
-YR
-YR
-wD
-Rg
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -73535,7 +73943,7 @@ HU
 HU
 HU
 HU
-gk
+HU
 HU
 HU
 HU
@@ -74206,10 +74614,10 @@ HU
 (101,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -74433,10 +74841,10 @@ HU
 (102,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -74660,32 +75068,32 @@ HU
 (103,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-En
-En
-En
-En
-En
-En
-YR
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -74887,32 +75295,32 @@ HU
 (104,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-En
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -75114,32 +75522,32 @@ HU
 (105,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-En
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -75341,32 +75749,32 @@ HU
 (106,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-rF
-lg
-lg
-rF
-YR
-rF
-lg
-lg
-lg
-lg
-lg
-lg
-lg
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -75568,32 +75976,32 @@ HU
 (107,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -75795,32 +76203,32 @@ HU
 (108,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-rA
-YR
-YR
-yE
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -76022,32 +76430,32 @@ HU
 (109,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-IO
-oh
-oh
-YR
-yE
-YR
-YR
-yE
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -76249,32 +76657,32 @@ HU
 (110,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-rF
-Dx
-oh
-Gj
-rh
-yE
-Gj
-es
-yE
-Gj
-rh
-YR
-YR
-rF
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -76476,32 +76884,32 @@ HU
 (111,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-YR
-cV
-YR
-YR
-gZ
-YR
-YR
-gZ
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -76703,32 +77111,32 @@ HU
 (112,1,2) = {"
 oz
 oz
-oz
 HU
 HU
 HU
-lg
-ZK
-lD
-gk
-lD
-gk
-lD
-gk
-lD
-lD
-lD
-lD
-cq
-lg
-JV
-Sf
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -76930,32 +77338,32 @@ HU
 (113,1,2) = {"
 oz
 oz
-oz
 HU
-Qh
-Qh
-Xi
-rG
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-tI
-YK
-LC
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -77157,32 +77565,32 @@ HU
 (114,1,2) = {"
 oz
 oz
-oz
 HU
-Qh
-Qh
-Xi
-rG
-Xm
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-PZ
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -77384,32 +77792,32 @@ HU
 (115,1,2) = {"
 oz
 oz
-oz
 HU
-Qh
-Qh
-Xi
-rG
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
-Fz
-wu
-Bd
-Bd
-Bd
-Bd
-Bd
-Bd
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -77611,32 +78019,32 @@ HU
 (116,1,2) = {"
 oz
 oz
-oz
 HU
 HU
 HU
-lg
-ZK
-lD
-gk
-lD
-gk
-lD
-gk
-lD
-lD
-lD
-lD
-lD
-lg
-Zm
-Gy
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -77838,32 +78246,32 @@ HU
 (117,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-YR
-qa
-AA
-yE
-qa
-AA
-YR
-LH
-AA
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -78065,32 +78473,32 @@ HU
 (118,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-rF
-Dx
-yE
-Gj
-Qj
-yE
-Gj
-AO
-AA
-Gj
-Dx
-YR
-YR
-rF
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -78292,32 +78700,32 @@ HU
 (119,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-zs
-yE
-yE
-AA
-AA
-YR
-AA
-AA
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -78519,32 +78927,32 @@ HU
 (120,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -78746,32 +79154,32 @@ HU
 (121,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-lg
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -78973,32 +79381,32 @@ HU
 (122,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-rF
-lg
-lg
-rF
-YR
-rF
-lg
-lg
-lg
-lg
-lg
-lg
-lg
-lg
-aI
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -79200,32 +79608,32 @@ HU
 (123,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-En
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -79427,32 +79835,32 @@ HU
 (124,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-En
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-YR
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -79654,32 +80062,32 @@ HU
 (125,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
-rF
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
-En
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -79881,10 +80289,10 @@ HU
 (126,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -80108,10 +80516,10 @@ HU
 (127,1,2) = {"
 oz
 oz
-oz
-oz
-oz
-oz
+HU
+HU
+HU
+HU
 HU
 HU
 HU
@@ -91097,7 +91505,7 @@ HU
 HU
 HU
 HU
-HU
+Gj
 HU
 HU
 HU
@@ -91324,12 +91732,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+QH
+Dm
+lD
+lD
+lD
 HU
 HU
 HU
@@ -91551,12 +91959,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+jE
+FR
+Bd
+Bd
+Bd
 HU
 HU
 HU
@@ -91778,12 +92186,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+UC
+kn
+Bd
+Bd
+Bd
 HU
 HU
 HU
@@ -92005,12 +92413,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+UC
+tP
+lD
+lD
+lD
 HU
 HU
 HU
@@ -92232,12 +92640,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+jz
+OG
+OG
+OG
+TT
 HU
 HU
 HU
@@ -92459,12 +92867,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+dO
+OG
+mN
+OG
+QY
 HU
 HU
 HU
@@ -92686,12 +93094,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+xf
+OG
+OG
+OG
+jo
 HU
 HU
 HU
@@ -92913,12 +93321,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+xK
+OG
+fh
+rF
+Ex
 HU
 HU
 HU
@@ -93140,12 +93548,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+Oj
+YR
+YR
+jv
+Uo
 HU
 HU
 HU
@@ -93367,12 +93775,12 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+bc
+YR
+YR
+wD
+Rg
 HU
 HU
 HU
@@ -94051,7 +94459,7 @@ HU
 HU
 HU
 HU
-HU
+gk
 HU
 HU
 HU
@@ -94493,13 +94901,13 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+En
+En
+En
+En
+En
+En
+En
 HU
 HU
 HU
@@ -94719,14 +95127,14 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+En
+TE
+TO
+uA
+aa
+GE
+En
 HU
 HU
 HU
@@ -94945,15 +95353,15 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+En
+YR
+YR
+YR
+YR
+ZS
+En
 HU
 HU
 HU
@@ -95171,16 +95579,16 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+En
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -95397,17 +95805,17 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+En
+Ok
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -95623,38 +96031,38 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+rF
+lg
+lg
+rF
+rA
+rF
+lg
+lg
+lg
+lg
+lg
+lg
+lg
+rF
+En
+En
+rA
+En
+En
+En
+En
+En
+En
+En
+En
+En
+En
+En
+En
 HU
 HU
 HU
@@ -95849,39 +96257,39 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+lg
+TT
+TT
+YR
+YR
+YR
+YR
+YR
+TT
+TT
+TT
+YR
+YR
+lg
+aI
+RS
+YR
+RS
+YR
+En
+sv
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -96075,40 +96483,40 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+lg
+CC
+YR
+YR
+yE
+YR
+YR
+YR
+YR
+YR
+TT
+TT
+YR
+lg
+uP
+YR
+YR
+YR
+YR
+En
+Zm
+JV
+YR
+JV
+YP
+JV
+JV
+YR
+En
 HU
 HU
 HU
@@ -96302,40 +96710,40 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+lg
+YR
+IO
+oh
+oh
+YR
+yE
+YR
+YR
+yE
+YR
+YR
+YR
+lg
+aI
+YR
+YR
+YR
+YR
+En
+zG
+kR
+es
+pB
+OS
+pB
+IC
+YR
+En
 HU
 HU
 HU
@@ -96528,41 +96936,41 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+oz
+rF
+Dx
+oh
+Gj
+tk
+pV
+Gj
+UQ
+yE
+Gj
+rh
+YR
+YR
+rF
+Zm
+YR
+YR
+YR
+YR
+En
+NB
+oQ
+Yn
+eR
+gL
+eR
+AM
+YR
+En
 HU
 HU
 HU
@@ -96755,41 +97163,41 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+oz
+lg
+YR
+YR
+cV
+YR
+YR
+gZ
+YR
+YR
+gZ
+YR
+YR
+YR
+lg
+aI
+YR
+YR
+YR
+YR
+En
+Zm
+YP
+YP
+ZS
+ZS
+YR
+ZS
+YR
+En
 HU
 HU
 HU
@@ -96981,42 +97389,42 @@ HU
 HU
 HU
 HU
+oz
+oz
+oz
+oz
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+ZK
+lD
+gk
+lD
+gk
+lD
+gk
+lD
+lD
+lD
+lD
+cq
+lg
+yg
+Sf
+YR
+YR
+YR
+En
+AG
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -97208,42 +97616,42 @@ HU
 HU
 HU
 HU
+oz
+oz
+oz
+oz
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+Qh
+Qh
+Xi
+rG
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+tI
+YK
+LC
+Bd
+Bd
+Bd
+En
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -97435,42 +97843,42 @@ HU
 HU
 HU
 HU
+oz
+oz
+oz
+oz
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+Qh
+Qh
+Xi
+rG
+Xm
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+PZ
+Bd
+Bd
+Bd
+Bd
+JW
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -97662,42 +98070,42 @@ HU
 HU
 HU
 HU
+oz
+oz
+oz
+oz
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+Qh
+Qh
+Xi
+rG
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Bd
+Fz
+wu
+Bd
+Bd
+Bd
+En
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -97889,42 +98297,42 @@ HU
 HU
 HU
 HU
+oz
+oz
+oz
+oz
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+lg
+ZK
+lD
+gk
+lD
+gk
+lD
+gk
+lD
+lD
+lD
+lD
+lD
+lg
+jM
+Gy
+YR
+YR
+YR
+En
+AG
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -98116,42 +98524,42 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+oz
+oz
+lg
+YR
+YR
+qa
+AA
+pV
+Qf
+iF
+YR
+LH
+AA
+YR
+YR
+lg
+aI
+YR
+YR
+YR
+YR
+En
+Zm
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -98344,41 +98752,41 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+oz
+rF
+Dx
+yE
+Gj
+FI
+pV
+Gj
+qM
+iF
+Gj
+Dx
+YR
+YR
+rF
+Zm
+YR
+YR
+YR
+YR
+En
+ym
+JV
+YR
+YR
+JV
+JV
+YR
+YR
+En
 HU
 HU
 HU
@@ -98572,40 +98980,40 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+lg
+TT
+zs
+yE
+yE
+AA
+AA
+YR
+AA
+AA
+YR
+YR
+TT
+lg
+aI
+YR
+YR
+YR
+YR
+En
+aI
+kR
+dB
+pB
+br
+pB
+SZ
+YR
+En
 HU
 HU
 HU
@@ -98799,40 +99207,40 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+oz
+lg
+TT
+TT
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+TT
+TT
+lg
+uP
+YR
+YR
+YR
+YR
+En
+zG
+oQ
+Yn
+eR
+gL
+eR
+AM
+YR
+En
 HU
 HU
 HU
@@ -99027,39 +99435,39 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+oz
+lg
+YR
+TT
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+TT
+TT
+YR
+lg
+aI
+if
+YR
+if
+YR
+En
+Zm
+ZS
+ZS
+ZS
+YP
+YR
+ZS
+YR
+En
 HU
 HU
 HU
@@ -99255,38 +99663,38 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+oz
+oz
+rF
+lg
+lg
+rF
+rA
+rF
+lg
+lg
+lg
+lg
+lg
+lg
+lg
+rF
+En
+En
+rA
+En
+En
+En
+Un
+YR
+YR
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -99482,38 +99890,38 @@ HU
 HU
 HU
 HU
+oz
+oz
+oz
+En
+YR
+YR
+gZ
+YR
+YR
+YR
+En
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+En
+En
+En
+En
+En
+En
+En
+En
+En
+En
 HU
 HU
 HU
@@ -99710,31 +100118,31 @@ HU
 HU
 HU
 HU
+oz
+oz
+En
+tV
+YR
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
 HU
 HU
 HU
@@ -99937,30 +100345,30 @@ HU
 HU
 HU
 HU
+oz
+oz
+En
+YR
+sM
+gx
+YR
+YR
+YR
+En
 HU
 HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
+AO
 HU
 HU
 HU
@@ -100164,28 +100572,28 @@ HU
 HU
 HU
 HU
+oz
+oz
+En
+Qj
+aZ
+YR
+YR
+YR
+YR
+En
 HU
 HU
 HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+AO
+AO
+AO
+AO
+AO
+AO
 HU
 HU
 HU
@@ -100392,15 +100800,15 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+En
+YR
+GR
+gx
+YR
+YR
+YR
+En
 HU
 HU
 HU
@@ -100619,15 +101027,15 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+En
+YR
+YR
+YR
+YR
+lR
+YR
+En
 HU
 HU
 HU
@@ -100846,15 +101254,15 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+oz
+En
+Jo
+YR
+Ye
+Rw
+Lc
+AH
+En
 HU
 HU
 HU
@@ -101074,14 +101482,14 @@ HU
 HU
 HU
 HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+En
+En
+En
+En
+En
+En
+En
+En
 HU
 HU
 HU
