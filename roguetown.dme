@@ -1637,6 +1637,7 @@
 #include "code\modules\jobs\job_types\roguetown\other\lich_skeleton.dm"
 #include "code\modules\jobs\job_types\roguetown\other\midsomber.dm"
 #include "code\modules\jobs\job_types\roguetown\other\tester.dm"
+#include "code\modules\jobs\job_types\roguetown\other\zombie.dm"
 #include "code\modules\jobs\job_types\roguetown\peasants\bathmaid.dm"
 #include "code\modules\jobs\job_types\roguetown\peasants\beggar.dm"
 #include "code\modules\jobs\job_types\roguetown\peasants\cook.dm"

@@ -235,7 +235,7 @@
 #define TUORO (1<<5)
 #define PAFANTO (1<<6) //heavy weapon technician - melee weapon and machine gun
 #define MULO (1<<7) // heavy weapon ammo bearer - stripped down soldato gear and ammo storage
-#define SERVISTO (1<<8) //support role - can probably shit meds out the wazoo 
+#define SERVISTO (1<<8) //support role - can probably shit meds out the wazoo
 #define CURACISTO (1<<9)
 #define CAMPFOLLOWER (1<<10)
 #define CONSULO (1<<11)
@@ -257,6 +257,7 @@
 
 #define FOREIGNER (1<<0)
 #define PIONEER (1<<2)
+#define ZOMBIE 	(1<<3)
 
 
 #define JCOLOR_NOBLE "#aa83b9"
@@ -320,6 +321,7 @@
 // UNAFFILIATED
 #define JDO_FOREIGNER 4.0
 #define JDO_PIONEER 4.1
+#define JDO_ZOMBIE 4.2
 
 #define PERSERDUN_ROLES \
 	/datum/job/roguetown/grandmaster,\
@@ -361,4 +363,5 @@
 
 #define UNAFFILIATED_ROLES \
 	/datum/job/roguetown/adventurer,\
-	/datum/job/roguetown/pioneer
+	/datum/job/roguetown/pioneer,\
+	/datum/job/roguetown/deadite
