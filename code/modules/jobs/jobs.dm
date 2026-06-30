@@ -227,6 +227,7 @@ GLOBAL_LIST_INIT(kingsrow_positions, list(
 GLOBAL_LIST_INIT(nonaffiliated_positions, list(
 	"Foreigner",
 	"Pioneer",
+	"Deadite",
 ))
 
 GLOBAL_LIST_INIT(job_assignment_order, get_job_assignment_order())
