@@ -29,6 +29,7 @@
 
 /datum/outfit/job/roguetown/zombie/pre_equip(mob/living/carbon/human/H)
 	..()
+	H.adjust_skillrank(/datum/skill/misc/climbing, 6, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/polearms, 2, TRUE)
