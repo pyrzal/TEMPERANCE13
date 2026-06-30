@@ -649,6 +649,12 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue)
+"cM" = (
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/turf/open/floor/rogue/hexstone,
+/area/rogue)
 "cP" = (
 /obj/machinery/light/rogue/oven/south,
 /turf/open/floor/rogue/ruinedwood/spiral,
@@ -1894,6 +1900,12 @@
 /obj/effect/decal/cleanable/debris/woody,
 /turf/open/floor/rogue/herringbone,
 /area/rogue)
+"hP" = (
+/obj/effect/decal/cobbleedge{
+	icon_state = "cobbleedge-sread"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue)
 "hQ" = (
 /obj/structure/table/wood/long_table/right,
 /obj/item/book/rogue/sword{
@@ -2405,6 +2417,13 @@
 "jQ" = (
 /obj/machinery/light/rogue/torchholder/c,
 /turf/open/floor/rogue/cobblerock,
+/area/rogue)
+"jR" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/turf/open/floor/rogue/hexstone,
 /area/rogue)
 "jT" = (
 /obj/effect/decal/cobble/mossy{
@@ -3196,6 +3215,17 @@
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue)
+"nx" = (
+/obj/effect/decal/cobbleedge{
+	dir = 5;
+	pixel_x = -6
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 6;
+	pixel_x = -11
+	},
+/turf/open/floor/rogue/cobble/mossy,
+/area/rogue)
 "nz" = (
 /obj/structure/chair/wood/rogue{
 	dir = 8
@@ -3303,6 +3333,14 @@
 "oc" = (
 /obj/structure/bars/cemetery,
 /turf/open/floor/rogue/cobble/mossy,
+/area/rogue)
+"od" = (
+/obj/effect/decal/cobbleedge{
+	dir = 9;
+	pixel_y = 6;
+	pixel_x = 1
+	},
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "oe" = (
 /obj/structure/flora/roguegrass/herb/rosa,
@@ -4870,6 +4908,18 @@
 "un" = (
 /obj/item/sandbag,
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"uo" = (
+/obj/effect/decal/cobbleedge{
+	pixel_y = -25;
+	dir = 9;
+	layer = 2.9
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	pixel_y = 0
+	},
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "up" = (
 /obj/structure/flora/roguegrass,
@@ -6651,6 +6701,13 @@
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
+"Bo" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1;
+	pixel_y = 0
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue)
 "Bp" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/structure/fluff/railing/fence{
@@ -7642,6 +7699,14 @@
 /obj/item/grown/log/tree/small,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"Fq" = (
+/obj/effect/decal/cobbleedge{
+	dir = 5;
+	pixel_x = -6
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/rogue/cobble/mossy,
+/area/rogue)
 "Fs" = (
 /obj/structure/fluff/railing/corner/south_east,
 /obj/structure/rack/rogue/shelf/big,
@@ -7861,6 +7926,14 @@
 /obj/structure/table/wood/poor,
 /obj/machinery/light/rogue/wallfire/candle/floorcandle/alt,
 /turf/open/floor/rogue/grassyel,
+/area/rogue)
+"Gv" = (
+/obj/structure/flora/roguegrass,
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
 "Gw" = (
 /obj/effect/decal/cobbleedge{
@@ -11122,6 +11195,13 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
+"Uc" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	pixel_y = 1
+	},
+/turf/open/floor/rogue/cobble/mossy,
+/area/rogue)
 "Ud" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
@@ -11257,6 +11337,12 @@
 /area/rogue)
 "UL" = (
 /turf/open/floor/rogue/woodturned/nosmooth,
+/area/rogue)
+"UM" = (
+/obj/effect/decal/cobble/mossy{
+	dir = 9
+	},
+/turf/open/floor/rogue/naturalstone,
 /area/rogue)
 "UQ" = (
 /obj/structure/vine{
@@ -11410,6 +11496,13 @@
 	},
 /obj/structure/flora/roguegrass,
 /turf/open/floor/rogue/dirt/road,
+/area/rogue)
+"Vv" = (
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/obj/structure/flora/roguegrass,
+/turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
 "Vw" = (
 /obj/effect/decal/cobble/mossy{
@@ -11921,6 +12014,17 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"Xt" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/turf/open/floor/rogue/cobble/mossy,
 /area/rogue)
 "Xu" = (
 /obj/effect/decal/cobbleedge{
@@ -85007,14 +85111,14 @@ uV
 rI
 tA
 kn
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-Hw
+av
+nU
+CS
+kn
+kn
+kn
+kn
+OG
 kn
 kn
 kn
@@ -85233,15 +85337,15 @@ CS
 kn
 ok
 sN
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-OG
+kn
+kn
+Uc
+rI
+Vv
+kn
+kn
+SE
+Bo
 JS
 kn
 kn
@@ -85460,15 +85564,15 @@ kn
 kn
 fm
 yq
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+kn
+hP
+kn
+Uc
+kn
+kn
+kn
 OG
+Bo
 kn
 iU
 JP
@@ -85687,15 +85791,15 @@ kn
 kn
 mV
 Ce
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+kn
+hP
+kn
+kn
+kn
+kn
+kn
 OG
+Bo
 kn
 YW
 dM
@@ -85914,15 +86018,15 @@ kn
 kn
 uV
 vh
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-lv
+kn
+UM
+Gv
+nx
+kn
+kn
+kn
+od
+uo
 iO
 hj
 er
@@ -86141,14 +86245,14 @@ kn
 Cr
 wv
 Rn
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+kn
+rI
+rI
+rI
+Fq
+kn
+kn
+kn
 RE
 kn
 kn
@@ -86368,14 +86472,14 @@ kn
 mI
 AT
 Rn
-HU
+kn
 JH
 ee
 Yd
 ee
 JH
-HU
-HU
+kn
+kn
 OM
 kn
 Sb
@@ -86595,14 +86699,14 @@ ZJ
 zF
 tb
 KP
-HU
+kn
 ee
 Db
 hY
 hY
 ee
-HU
-HU
+kn
+kn
 SE
 kn
 kn
@@ -86822,14 +86926,14 @@ qg
 qg
 Au
 fm
-HU
+kn
 ee
 GK
 yF
 RF
 xZ
-HU
-HU
+kn
+kn
 OG
 kn
 kn
@@ -87049,14 +87153,14 @@ kn
 kn
 kn
 kn
-HU
+kn
 JH
 ee
 xY
 ee
 JH
-HU
-HU
+kn
+kn
 OG
 Fb
 NV
@@ -87276,14 +87380,14 @@ kn
 Fm
 Fm
 kn
-HU
-HU
-HU
-HU
-HU
-HU
-HU
-HU
+kn
+kn
+kn
+kn
+kn
+kn
+kn
+kn
 OG
 kn
 XL
@@ -87503,7 +87607,7 @@ fL
 vK
 vK
 kn
-CT
+kn
 kn
 av
 fo
@@ -87730,7 +87834,7 @@ Au
 kn
 yq
 Ii
-CT
+cM
 kn
 av
 sB
@@ -87956,9 +88060,9 @@ CT
 sW
 kn
 eA
-CT
-CT
-uV
+Rn
+jR
+Xt
 rI
 rI
 rI
@@ -88183,8 +88287,8 @@ CT
 Gw
 kn
 Ce
-CT
-CT
+Rn
+kn
 kn
 iN
 fj
@@ -88410,8 +88514,8 @@ CT
 yh
 Ot
 wt
-CT
-CT
+KP
+kn
 PB
 kn
 kn
@@ -88637,11 +88741,11 @@ CT
 kn
 kn
 kn
-CT
-HU
-HU
-HU
-HU
+fm
+kn
+PQ
+kn
+Dn
 JH
 ee
 ee
@@ -88864,11 +88968,11 @@ HU
 kn
 kn
 Es
-HU
-HU
-HU
-HU
-HU
+kn
+mI
+AT
+kn
+vY
 Yd
 kG
 uT
@@ -89080,22 +89184,22 @@ HU
 HU
 HU
 HU
+sx
+ec
 ec
 sx
 ec
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
+ec
+sx
+sx
+ec
+sx
+ec
+ec
+ec
+ec
+ec
+fw
 ee
 Tj
 EY
@@ -89310,19 +89414,19 @@ HU
 ec
 sx
 ec
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 ee
 hY
 Tj
@@ -89536,20 +89640,20 @@ HU
 HU
 ec
 ec
-sx
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 JH
 xY
 Yd
@@ -89761,22 +89865,22 @@ HU
 HU
 HU
 HU
-ec
 sx
 ec
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+ec
 HU
 HU
 HU
@@ -89988,22 +90092,22 @@ HU
 HU
 HU
 HU
-ec
 sx
 ec
-HU
-HU
-HU
-HU
-HU
-CT
-CT
-CT
-HU
-HU
-HU
-HU
-HU
+ec
+sx
+sx
+sx
+sx
+sx
+ec
+ec
+ec
+ec
+ec
+ec
+ec
+fw
 HU
 HU
 HU
@@ -90215,17 +90319,17 @@ HU
 HU
 HU
 HU
+bL
 ec
-sx
 ec
 HU
 HU
 HU
 HU
 HU
-CT
-CT
-CT
+HU
+HU
+HU
 HU
 HU
 HU
@@ -90450,9 +90554,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+HU
+HU
+HU
 HU
 HU
 HU
@@ -90677,9 +90781,9 @@ HU
 HU
 HU
 HU
-CT
-CT
-CT
+HU
+HU
+HU
 HU
 HU
 HU
