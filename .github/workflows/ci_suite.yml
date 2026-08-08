@@ -68,9 +68,15 @@ jobs:
           path: ~/BYOND
           key: ${{ runner.os }}-BYOND-${{ env.BYOND_MAJOR }}-${{ env.BYOND_MINOR }}
       
+      - name: Install 32-bit libcurl
+        # Required by DreamMaker on Linux since BYOND 516.1664
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libcurl4t64:i386
+
       - name: Install BYOND
         run: |
-          sudo apt-get update -qq
           sudo apt-get install -y make gcc unzip
           bash tools/ci/install_byond.sh
 
